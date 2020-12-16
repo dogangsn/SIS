@@ -177,6 +177,18 @@
     <Compile Include="Screens\GMP\Definitions\SalonTanimEdit.Designer.cs">
       <DependentUpon>SalonTanimEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\Operation\OperationAndProducEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Operation\OperationAndProducEdit.Designer.cs">
+      <DependentUpon>OperationAndProducEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Operation\OperationAndProducList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Operation\OperationAndProducList.Designer.cs">
+      <DependentUpon>OperationAndProducList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\Helps.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +243,12 @@
     <EmbeddedResource Include="Screens\GMP\Definitions\SalonTanimEdit.resx">
       <DependentUpon>SalonTanimEdit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducEdit.resx">
+      <DependentUpon>OperationAndProducEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducList.resx">
+      <DependentUpon>OperationAndProducList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\Helps.resx">
       <DependentUpon>Helps.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,7 +269,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Screens\GMP\Operation\" />
     <Folder Include="Screens\GMP\Settings\" />
     <Folder Include="Screens\HTP\" />
   </ItemGroup>
