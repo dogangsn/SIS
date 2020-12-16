@@ -39,6 +39,7 @@ namespace SIS.App
 
             _List_Menus.Add(new Data.Menus(10, "GMP", "Müşteri", "", "-Müşteriler", "Help", "", "Help", "", new int[] { 2 }));
             _List_Menus.Add(new Data.Menus(10, "GMP", "Müşteri", "", "-Randevu Listesi", "Help", "", "Help", "", new int[] { 2 }));
+            _List_Menus.Add(new Data.Menus(10, "GMP", "Müşteri", "", "-Müşteri Hesapları", "Help", "", "Help", "", new int[] { 2 }));
             _List_Menus.Add(new Data.Menus(10, "GMP", "Müşteri", "", "-Taksitler", "Help", "", "Help", "", new int[] { 2 }));
 
 
@@ -52,6 +53,9 @@ namespace SIS.App
             _List_Menus.Add(new Data.Menus(10, "GMP", "Yardımcı İşlemler", "", "-SMS Gönder", "Help", "", "Help", "", new int[] { 2 }));
 
             _List_Menus.Add(new Data.Menus(10, "GMP", "Tanımlar", "", "-İşyeri", "Help", "", "Help", "", new int[] { 2 }));
+
+            _List_Menus.Add(new Data.Menus(10, "GMP", "Yardım", "", "-Yardım", "Help", "", "Help", "", new int[] { 2 }));
+
 
 
 

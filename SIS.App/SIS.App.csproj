@@ -41,8 +41,10 @@
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v20.1" />
     <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.Data.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v20.1.Core" />
@@ -110,6 +112,12 @@
     </Compile>
     <Compile Include="Screens\GMP\Calendar\CalendarForm.Designer.cs">
       <DependentUpon>CalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Customer\CustomerAccountList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Customer\CustomerAccountList.Designer.cs">
+      <DependentUpon>CustomerAccountList.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\GMP\Customer\CustomerEdit.cs">
       <SubType>Form</SubType>
@@ -189,6 +197,30 @@
     <Compile Include="Screens\GMP\Operation\OperationAndProducList.Designer.cs">
       <DependentUpon>OperationAndProducList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingEdit.Designer.cs">
+      <DependentUpon>SaleBuyingEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingList.Designer.cs">
+      <DependentUpon>SaleBuyingList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Tedarik\TedarikEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Tedarik\TedarikEdit.Designer.cs">
+      <DependentUpon>TedarikEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Tedarik\TedarikList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Tedarik\TedarikList.Designer.cs">
+      <DependentUpon>TedarikList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\Helps.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +247,9 @@
     </Compile>
     <EmbeddedResource Include="Screens\GMP\Calendar\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Customer\CustomerAccountList.resx">
+      <DependentUpon>CustomerAccountList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Customer\CustomerEdit.resx">
       <DependentUpon>CustomerEdit.cs</DependentUpon>
@@ -248,6 +283,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducList.resx">
       <DependentUpon>OperationAndProducList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingEdit.resx">
+      <DependentUpon>SaleBuyingEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingList.resx">
+      <DependentUpon>SaleBuyingList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Tedarik\TedarikEdit.resx">
+      <DependentUpon>TedarikEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Tedarik\TedarikList.resx">
+      <DependentUpon>TedarikList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\Helps.resx">
       <DependentUpon>Helps.cs</DependentUpon>
