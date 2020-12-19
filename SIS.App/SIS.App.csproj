@@ -115,6 +115,12 @@
     <Compile Include="Screens\GMP\Calendar\CalendarForm.Designer.cs">
       <DependentUpon>CalendarForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\Contact\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Contact\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\GMP\Customer\CustomerAccountEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -285,6 +291,9 @@
     </Compile>
     <EmbeddedResource Include="Screens\GMP\Calendar\CalendarForm.resx">
       <DependentUpon>CalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Contact\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Customer\CustomerAccountEdit.resx">
       <DependentUpon>CustomerAccountEdit.cs</DependentUpon>
