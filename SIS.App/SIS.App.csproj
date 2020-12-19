@@ -346,6 +346,12 @@
     <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingList.resx">
       <DependentUpon>SaleBuyingList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Settings\KullanıcıSifreDegistir.resx">
+      <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Settings\UsersList.resx">
+      <DependentUpon>UsersList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Tedarik\TedarikEdit.resx">
       <DependentUpon>TedarikEdit.cs</DependentUpon>
     </EmbeddedResource>
