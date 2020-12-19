@@ -12,5 +12,7 @@ namespace SIS.App
 
         public static Screns Hastane = new Screns();
 
+        public static Screns GMP = new Screns();
+
     }
 }

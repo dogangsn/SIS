@@ -157,11 +157,29 @@
     <Compile Include="Screens\GMP\Customer\ReservationList.Designer.cs">
       <DependentUpon>ReservationList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\Customer\TaksitlerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Customer\TaksitlerList.Designer.cs">
+      <DependentUpon>TaksitlerList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\GMP\Definitions\BirimTanimlari.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Screens\GMP\Definitions\BirimTanimlari.Designer.cs">
       <DependentUpon>BirimTanimlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\CompanyEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\CompanyEdit.Designer.cs">
+      <DependentUpon>CompanyEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\CompanyList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\CompanyList.Designer.cs">
+      <DependentUpon>CompanyList.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\GMP\Definitions\GelirTanimlari.cs">
       <SubType>Form</SubType>
@@ -259,6 +277,12 @@
     <Compile Include="Screens\GMP\Settings\KullanıcıSifreDegistir.Designer.cs">
       <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\Settings\Parametreler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Settings\Parametreler.Designer.cs">
+      <DependentUpon>Parametreler.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\GMP\Settings\UsersEdit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -331,8 +355,17 @@
     <EmbeddedResource Include="Screens\GMP\Customer\ReservationList.resx">
       <DependentUpon>ReservationList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Customer\TaksitlerList.resx">
+      <DependentUpon>TaksitlerList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Definitions\BirimTanimlari.resx">
       <DependentUpon>BirimTanimlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Definitions\CompanyEdit.resx">
+      <DependentUpon>CompanyEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Definitions\CompanyList.resx">
+      <DependentUpon>CompanyList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.resx">
       <DependentUpon>KasaHesabiTanimEdit.cs</DependentUpon>
@@ -376,6 +409,9 @@
     <EmbeddedResource Include="Screens\GMP\Settings\KullanıcıSifreDegistir.resx">
       <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Settings\Parametreler.resx">
+      <DependentUpon>Parametreler.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Settings\UsersEdit.resx">
       <DependentUpon>UsersEdit.cs</DependentUpon>
     </EmbeddedResource>
@@ -408,7 +444,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Screens\HTP\" />
+    <Folder Include="Screens\HTP\Calendar\" />
+    <Folder Include="Screens\HTP\Contact\" />
+    <Folder Include="Screens\HTP\Definitions\" />
+    <Folder Include="Screens\HTP\Hasta\" />
+    <Folder Include="Screens\HTP\Muhasebe\" />
+    <Folder Include="Screens\HTP\Settings\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SIS.Data\SIS.Data.csproj">

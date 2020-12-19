@@ -1,0 +1,17 @@
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.DataAccess.dll.config
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.DataAccess.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.DataAccess.pdb
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\EntityFramework.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Data.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Entity.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Model.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Data.pdb
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Entity.pdb
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\EntityFramework.xml
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\bin\Debug\SIS.Model.pdb
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.csprojAssemblyReference.cache
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.dll
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.pdb
