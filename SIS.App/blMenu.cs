@@ -26,11 +26,17 @@ namespace SIS.App
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Hasta", "", "-Hasta Listesi", "Hasta Listesi", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Hasta", "", "-Randevu Listesi", "Randevu Listesi", "", "Help", "", new int[] { 1 }));
 
+            _List_Menus.Add(new Data.Menus(10, "Hastane", "Muayene", "", "-Muayene", "Randevu Listesi", "", "Help", "", new int[] { 1 }));
+
+            _List_Menus.Add(new Data.Menus(10, "Hastane", "Vezne", "", "-Kasa", "Kasa", "", "Help", "", new int[] { 1 }));
+            _List_Menus.Add(new Data.Menus(10, "Hastane", "Vezne", "", "-Hesap Hareketleri", "Hesap Hareketleri", "", "Help", "", new int[] { 1 }));
+
+
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Muhasebe", "", "-Kurumlar", "Kurumlar", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Muhasebe", "", "-Hesap Hareketleri", "Hesap Hareketleri", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Muhasebe", "", "-Kasa Hareketleri", "Kasa Hareketleri", "", "Help", "", new int[] { 1 }));
 
-
+            _List_Menus.Add(new Data.Menus(10, "Hastane", "Tanımlar", "", "-Kurumlar", "Kurumlar", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Tanımlar", "", "-Doktor Ve Diğer Personel Tanımları", "Doktor Ve Diğer Personel Tanımları", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Tanımlar", "", "-Poliklinik Tanımları", "Poliklinik Tanımları", "", "Help", "", new int[] { 1 }));
             _List_Menus.Add(new Data.Menus(10, "Hastane", "Tanımlar", "", "-Tetkik ve İşlem Kalemleri Tanımları", "Tetkik ve İşlem Kalemleri Tanımları", "", "Help", "", new int[] { 1 }));
