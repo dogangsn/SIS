@@ -37,6 +37,7 @@
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -44,16 +45,30 @@
             this.img_sic = new DevExpress.Utils.SvgImageCollection(this.components);
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.sic_TabBar = new DevExpress.Utils.SvgImageCollection(this.components);
             this.xtpIslemListesi = new DevExpress.XtraTab.XtraTabPage();
             this.xtpUrunListesi = new DevExpress.XtraTab.XtraTabPage();
             this.xtpSeansPaketler = new DevExpress.XtraTab.XtraTabPage();
-            this.sic_TabBar = new DevExpress.Utils.SvgImageCollection(this.components);
-            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).BeginInit();
+            this.xtpIslemListesi.SuspendLayout();
+            this.xtpUrunListesi.SuspendLayout();
+            this.xtpSeansPaketler.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -139,6 +154,12 @@
             this.barButtonItem6.ImageOptions.ImageIndex = 1;
             this.barButtonItem6.Name = "barButtonItem6";
             // 
+            // barSubItem2
+            // 
+            this.barSubItem2.Caption = "Ek İşlemler";
+            this.barSubItem2.Id = 7;
+            this.barSubItem2.Name = "barSubItem2";
+            // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
@@ -204,8 +225,15 @@
             this.xtpUrunListesi,
             this.xtpSeansPaketler});
             // 
+            // sic_TabBar
+            // 
+            this.sic_TabBar.Add("bo_product", "image://svgimages/business objects/bo_product.svg");
+            this.sic_TabBar.Add("bo_report", "image://svgimages/business objects/bo_report.svg");
+            this.sic_TabBar.Add("printpagerange", "image://svgimages/reports/printpagerange.svg");
+            // 
             // xtpIslemListesi
             // 
+            this.xtpIslemListesi.Controls.Add(this.gridControl1);
             this.xtpIslemListesi.ImageOptions.ImageIndex = 1;
             this.xtpIslemListesi.Name = "xtpIslemListesi";
             this.xtpIslemListesi.Size = new System.Drawing.Size(727, 464);
@@ -213,29 +241,70 @@
             // 
             // xtpUrunListesi
             // 
+            this.xtpUrunListesi.Controls.Add(this.gridControl2);
             this.xtpUrunListesi.ImageOptions.ImageIndex = 0;
             this.xtpUrunListesi.Name = "xtpUrunListesi";
-            this.xtpUrunListesi.Size = new System.Drawing.Size(298, 275);
+            this.xtpUrunListesi.Size = new System.Drawing.Size(727, 464);
             this.xtpUrunListesi.Text = "Ürün Listesi";
             // 
             // xtpSeansPaketler
             // 
+            this.xtpSeansPaketler.Controls.Add(this.gridControl3);
             this.xtpSeansPaketler.ImageOptions.ImageIndex = 2;
             this.xtpSeansPaketler.Name = "xtpSeansPaketler";
-            this.xtpSeansPaketler.Size = new System.Drawing.Size(0, 0);
+            this.xtpSeansPaketler.Size = new System.Drawing.Size(727, 464);
             this.xtpSeansPaketler.Text = "Seans Paketleri";
             // 
-            // sic_TabBar
+            // gridControl1
             // 
-            this.sic_TabBar.Add("bo_product", "image://svgimages/business objects/bo_product.svg");
-            this.sic_TabBar.Add("bo_report", "image://svgimages/business objects/bo_report.svg");
-            this.sic_TabBar.Add("printpagerange", "image://svgimages/reports/printpagerange.svg");
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Location = new System.Drawing.Point(0, 0);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.MenuManager = this.barManager1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(727, 464);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
             // 
-            // barSubItem2
+            // gridView1
             // 
-            this.barSubItem2.Caption = "Ek İşlemler";
-            this.barSubItem2.Id = 7;
-            this.barSubItem2.Name = "barSubItem2";
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            // 
+            // gridControl2
+            // 
+            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl2.Location = new System.Drawing.Point(0, 0);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.MenuManager = this.barManager1;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(727, 464);
+            this.gridControl2.TabIndex = 0;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // gridView2
+            // 
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            // 
+            // gridControl3
+            // 
+            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl3.Location = new System.Drawing.Point(0, 0);
+            this.gridControl3.MainView = this.gridView3;
+            this.gridControl3.MenuManager = this.barManager1;
+            this.gridControl3.Name = "gridControl3";
+            this.gridControl3.Size = new System.Drawing.Size(727, 464);
+            this.gridControl3.TabIndex = 0;
+            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // gridView3
+            // 
+            this.gridView3.GridControl = this.gridControl3;
+            this.gridView3.Name = "gridView3";
             // 
             // OperationAndProducList
             // 
@@ -255,6 +324,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).EndInit();
+            this.xtpIslemListesi.ResumeLayout(false);
+            this.xtpUrunListesi.ResumeLayout(false);
+            this.xtpSeansPaketler.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -282,5 +360,11 @@
         private DevExpress.XtraTab.XtraTabPage xtpUrunListesi;
         private DevExpress.XtraTab.XtraTabPage xtpSeansPaketler;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.GridControl gridControl3;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
     }
 }

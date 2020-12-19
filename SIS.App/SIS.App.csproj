@@ -157,6 +157,12 @@
     <Compile Include="Screens\GMP\Customer\ReservationList.Designer.cs">
       <DependentUpon>ReservationList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screens\GMP\Definitions\BirimTanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\BirimTanimlari.Designer.cs">
+      <DependentUpon>BirimTanimlari.cs</DependentUpon>
+    </Compile>
     <Compile Include="Screens\GMP\Definitions\GelirTanimlari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,6 +180,12 @@
     </Compile>
     <Compile Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.Designer.cs">
       <DependentUpon>KasaHesabiTanimEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\KDVTanimlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Definitions\KDVTanimlari.Designer.cs">
+      <DependentUpon>KDVTanimlari.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\GMP\Definitions\PersonelEdit.cs">
       <SubType>Form</SubType>
@@ -222,6 +234,12 @@
     </Compile>
     <Compile Include="Screens\GMP\Operation\OperationAndProducList.Designer.cs">
       <DependentUpon>OperationAndProducList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GMP\Operation\SeansEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Screens\GMP\Operation\SeansEdit.Designer.cs">
+      <DependentUpon>SeansEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="Screens\GMP\SaleBuying\SaleBuyingEdit.cs">
       <SubType>Form</SubType>
@@ -313,8 +331,14 @@
     <EmbeddedResource Include="Screens\GMP\Customer\ReservationList.resx">
       <DependentUpon>ReservationList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Definitions\BirimTanimlari.resx">
+      <DependentUpon>BirimTanimlari.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.resx">
       <DependentUpon>KasaHesabiTanimEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Definitions\KDVTanimlari.resx">
+      <DependentUpon>KDVTanimlari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Definitions\PersonelEdit.resx">
       <DependentUpon>PersonelEdit.cs</DependentUpon>
@@ -340,6 +364,9 @@
     <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducList.resx">
       <DependentUpon>OperationAndProducList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Operation\SeansEdit.resx">
+      <DependentUpon>SeansEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingEdit.resx">
       <DependentUpon>SaleBuyingEdit.cs</DependentUpon>
     </EmbeddedResource>
@@ -348,6 +375,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Settings\KullanıcıSifreDegistir.resx">
       <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GMP\Settings\UsersEdit.resx">
+      <DependentUpon>UsersEdit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Screens\GMP\Settings\UsersList.resx">
       <DependentUpon>UsersList.cs</DependentUpon>
