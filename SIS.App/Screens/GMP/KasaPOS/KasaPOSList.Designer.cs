@@ -55,6 +55,7 @@ namespace SIS.App.Screens.GMP.KasaPOS
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -154,8 +155,9 @@ namespace SIS.App.Screens.GMP.KasaPOS
             this.barButtonItem6,
             this.barButtonItem7,
             this.barButtonItem8,
-            this.barButtonItem9});
-            this.barManager1.MaxItemId = 10;
+            this.barButtonItem9,
+            this.barButtonItem10});
+            this.barManager1.MaxItemId = 11;
             this.barManager1.StatusBar = this.bar3;
             // 
             // bar3
@@ -168,6 +170,7 @@ namespace SIS.App.Screens.GMP.KasaPOS
             this.bar3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem7, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem8, true),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem10),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem9),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6, true),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1, true),
@@ -280,6 +283,8 @@ namespace SIS.App.Screens.GMP.KasaPOS
             this.img_sic.Add("thankyounote", "image://svgimages/outlook inspired/thankyounote.svg");
             this.img_sic.Add("unlike", "image://svgimages/outlook inspired/unlike.svg");
             this.img_sic.Add("accountingnumberformat", "image://svgimages/spreadsheet/accountingnumberformat.svg");
+            this.img_sic.Add("replace", "image://svgimages/outlook inspired/replace.svg");
+            this.img_sic.Add("arrangegroups", "image://svgimages/snap/arrangegroups.svg");
             // 
             // barButtonItem2
             // 
@@ -300,6 +305,16 @@ namespace SIS.App.Screens.GMP.KasaPOS
             this.barButtonItem5.Caption = "Export";
             this.barButtonItem5.Id = 4;
             this.barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem10
+            // 
+            this.barButtonItem10.Caption = "Virman";
+            this.barButtonItem10.Id = 10;
+            this.barButtonItem10.ImageOptions.ImageIndex = 13;
+            this.barButtonItem10.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
+            this.barButtonItem10.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem10.Name = "barButtonItem10";
+            this.barButtonItem10.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
             // KasaPOSList
             // 
@@ -354,5 +369,6 @@ namespace SIS.App.Screens.GMP.KasaPOS
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem10;
     }
 }
