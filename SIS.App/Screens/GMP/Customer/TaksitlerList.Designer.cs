@@ -1,4 +1,6 @@
-﻿namespace SIS.App.Screens.GMP.Customer
+﻿using DevExpress.XtraLayout;
+
+namespace SIS.App.Screens.GMP.Customer
 {
     partial class TaksitlerList
     {
