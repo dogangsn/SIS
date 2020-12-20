@@ -134,6 +134,13 @@ namespace SIS.App
             Help.Show();
         }
 
+        public void TaksitlerList(Form _MdiForm)
+        {
+            TaksitlerList Help = new TaksitlerList();
+            Help.MdiParent = _MdiForm;
+            Help.Show();
+        }
+
         #endregion
 
         #endregion
