@@ -25,5 +25,29 @@ namespace SIS.App
                 this.Close();
             }
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // FormBase
+            // 
+            this.ClientSize = new System.Drawing.Size(298, 268);
+            this.Name = "FormBase";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormBase_FormClosing);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormBase_KeyDown);
+            this.ResumeLayout(false);
+
+        }
+
+        private void FormBase_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void FormBase_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }

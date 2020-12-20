@@ -69,11 +69,10 @@
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Services\App\StartUp.cs" />
     <Compile Include="Services\Authorization\AuthorizationService.cs" />
+    <Compile Include="Services\GMP\Customers\CustomersService.cs" />
     <Compile Include="Services\Settings\SettingsService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\GMP\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

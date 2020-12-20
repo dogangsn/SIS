@@ -3,6 +3,9 @@ using SIS.App.Screens.GMP.Calendar;
 using SIS.App.Screens.GMP.Customer;
 using SIS.App.Screens.GMP.Definitions;
 using SIS.App.Screens.GMP.Settings;
+using SIS.Data.App;
+using SIS.Model.Models.GMP.Customer;
+using SIS.Service.Services.GMP.Customers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +17,9 @@ namespace SIS.App
 {
     public class Screns
     {
+
+        GetValue _getValue = new GetValue();
+
         public void Help(Form _MdiForm)
         {
             Helps Help = new Helps();
@@ -120,6 +126,27 @@ namespace SIS.App
             Help.MdiParent = _MdiForm;
             Help.Show();
         }
+
+        public void CustomerEdit(SIS.Data.FormOpenType _FormOpenType, int _id)
+        {
+            CustomerEdit _CustomerEdit = new CustomerEdit();
+            _CustomerEdit._FormOpenType = _FormOpenType;
+            if (_FormOpenType == Data.FormOpenType.New)
+            {
+                _CustomerEdit.__dl_Customers = new Model.Models.GMP.Customer.CustomersDTO();
+            }
+            else
+            {
+                _getValue.Id = _id;
+                _CustomerEdit.__dl_Customers = bl._repository.Run<CustomersService, CustomersDTO>(x => x.Get_Customers(_getValue));
+
+            }
+            _CustomerEdit.ShowDialog();
+        }
+
+
+
+
         public void ReservationList(Form _MdiForm)
         {
             ReservationList Help = new ReservationList();
@@ -140,6 +167,11 @@ namespace SIS.App
             Help.MdiParent = _MdiForm;
             Help.Show();
         }
+
+
+
+
+
 
         #endregion
 

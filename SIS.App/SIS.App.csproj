@@ -315,6 +315,9 @@
     </Compile>
     <Compile Include="Screns.cs" />
     <Compile Include="Tools\AppTools.cs" />
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
@@ -433,6 +436,7 @@
     </None>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\SIS.Data.App.AppIdView.datasource" />
+    <None Include="Properties\DataSources\SIS.Model.Models.GMP.Customer.CustomersDTO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

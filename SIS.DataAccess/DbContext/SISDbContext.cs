@@ -1,10 +1,11 @@
-namespace SIS.Entity.Entities
+namespace SIS.DataAccess
 {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using SIS.Data;
+    using SIS.Entity.Entities;
 
     public partial class SISDbContext : DbContext
     {

@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="AppMain.cs" />
     <Compile Include="App\App.cs" />
+    <Compile Include="App\GetValue.cs" />
     <Compile Include="DbConectionModel\ConnectionDTO.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Extensions\ExpressionExtension.cs" />

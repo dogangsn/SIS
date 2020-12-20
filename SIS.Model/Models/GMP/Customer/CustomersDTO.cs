@@ -19,8 +19,8 @@ namespace SIS.Model.Models.GMP.Customer
         public string Konu { get; set; }
         public string Boy { get; set; }
         public string Kilo { get; set; }
-        public bool? IsEvAdresi { get; set; }
-        public bool? IsİsAdresi { get; set; }
+        public bool? IsEvAdresi { get; set; } = false;
+        public bool? IsİsAdresi { get; set; } = false;
         public string EvAdress { get; set; }
         public string EvAdresIlce { get; set; }
         public string EvAdressIl { get; set; }
@@ -33,8 +33,16 @@ namespace SIS.Model.Models.GMP.Customer
         public string IsTel { get; set; }
         public string Eposta { get; set; }
         public string Fax { get; set; }
-        public bool? CebinizeMesajGelsin { get; set; }
+        public bool? CebinizeMesajGelsin { get; set; } = false;
         public byte[] Photo { get; set; }
         public string Remark { get; set; }
+        public string FaturaAdress { get; set; }
+        public string FaturaUnvan { get; set; }
+        public string VergiDairesi { get; set; }
+        public string VergiNo { get; set; }
+        public int? CompanyRecId { get; set; }
+        public bool? IsArsiv { get; set; } = false;
+        public bool? Deleted { get; set; } = false;
+        public string RecordUser { get; set; }
     }
 }

@@ -40,6 +40,14 @@ namespace SIS.Entity.Entities
         public bool? CebinizeMesajGelsin { get; set; }
         public byte[] Photo { get; set; }
         public string Remark { get; set; }
+        public string FaturaAdress { get; set; }
+        public string FaturaUnvan { get; set; }
+        public string VergiDairesi { get; set; }
+        public string VergiNo { get; set; }
+        public int? CompanyRecId { get; set; }
+        public bool? IsArsiv { get; set; }
+        public bool? Deleted { get; set; }
+        public string RecordUser { get; set; }
 
 
     }

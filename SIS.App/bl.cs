@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SIS.Service.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ namespace SIS.App
         public static Screns Hastane = new Screns();
 
         public static Screns GMP = new Screns();
+
+        public static Repository _repository = new Repository();
 
     }
 }

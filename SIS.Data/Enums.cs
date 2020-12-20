@@ -15,4 +15,16 @@ namespace SIS.Data
         HTP = 1,
         GMP = 2,
     }
+
+    public enum FormOpenType
+    {
+        View = -1,
+        New = 0,
+        Copy = 1,
+        Edit = 2,
+        Non = 9
+    }
+
+
+
 }

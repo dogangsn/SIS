@@ -25,6 +25,10 @@ namespace SIS.Data
 
         public static bool NetworkConnected = true;
 
+        public static int CompanyRecId;
+        public static string CompanyName;
+        public static string UserCode;
+
 
     }
 }

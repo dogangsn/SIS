@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using SIS.DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace SIS.Service.Service
             return Mapper.Map<TSource, TDestination>(source, destination);
         }
 
-        public void SetLog<S, T>(S entity, T model, Entity.Entities.SISDbContext db, int RecId)
+        public void SetLog<S, T>(S entity, T model, SISDbContext db, int RecId)
         {
             //string tableName = entity.GetType().CustomAttributes.Count() == 0 ? entity.GetType().BaseType.Name : entity.GetType().Name;
             //var diffirences = new FBLOGDTO();
