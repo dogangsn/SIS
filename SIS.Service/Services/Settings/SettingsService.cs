@@ -1,4 +1,5 @@
 ﻿
+using SIS.DataAccess;
 using SIS.Entity.Entities;
 
 using SIS.Model.Models.GMP.Settings;

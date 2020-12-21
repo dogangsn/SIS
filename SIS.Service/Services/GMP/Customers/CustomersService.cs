@@ -23,7 +23,7 @@ namespace SIS.Service.Services.GMP.Customers
         {
             using (var _db = new SISDbContext())
             {
-                return base.Map<List<SIS.Entity.Entities.Customers>, List<CustomersDTO>>(_db.Customers.Where(x=>x.Deleted == false && x.CompanyRecId == getValue.CompanyId && x.IsArsiv == false).ToList());
+                return base.Map<List<SIS.Entity.Entities.Customers>, List<CustomersDTO>>(_db.Customers.Where(x=>x.Deleted == false /*&& x.CompanyRecId == getValue.CompanyId */&& x.IsArsiv == false).ToList());
             }
         }
 

@@ -54,20 +54,7 @@ namespace SIS.App.Tool
             }
             return donus;
         }
-        public static Form get_OpenForm(string _FormName)
-        {
-            Form _FormHave = null;
-            foreach (Form _Form in Application.OpenForms)
-            {
-                if (_Form.Name == _FormName)
-                {
-                    _FormHave = _Form;
-                }
-            }
 
-            return _FormHave;
-
-        }
 
         #region GridControlDesigner
 

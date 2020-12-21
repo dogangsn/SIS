@@ -94,5 +94,35 @@ namespace SIS.App.Screens.GMP.Customer
         {
             do_refresh();
         }
+
+        #region Arsiv
+        private void bbi_Arsiv_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_InsertArsiv();
+        }
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_refresh();
+        }
+        public void do_InsertArsiv()
+        {
+            try
+            {
+                if (bl.message.get_Question("Seçilen Kayıt Arşive Kaldırılcaktır. Onaylıyor musunuz?"))
+                {
+
+
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+
+
+        } 
+        #endregion
+
+
     }
 }

@@ -170,3 +170,4 @@ D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.pdb
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Customer.TaksitlerList.resources
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Definitions.CompanyEdit.resources
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Settings.Parametreler.resources
+D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.FormBase.resources

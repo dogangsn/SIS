@@ -17,5 +17,7 @@ namespace SIS.App
 
         public static Repository _repository = new Repository();
 
+        public static Message message = new Message();
+
     }
 }

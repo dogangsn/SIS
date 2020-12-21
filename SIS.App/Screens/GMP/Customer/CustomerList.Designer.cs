@@ -37,15 +37,17 @@
             this.bbi_Refresh = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.bbi_Arsiv = new DevExpress.XtraBars.BarButtonItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.img_sic = new DevExpress.Utils.SvgImageCollection(this.components);
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.gc_CustomerList = new DevExpress.XtraGrid.GridControl();
-            this.gcv_CustomerList = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.bs_CustomerList = new System.Windows.Forms.BindingSource(this.components);
+            this.gcv_CustomerList = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.colTCKimlikNo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colAdSoyad = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDogumTarihi = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -53,38 +55,14 @@
             this.colRecordDate = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colMeslek = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCalistigiYer = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colKonu = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colBoy = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colKilo = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsEvAdresi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsİsAdresi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colEvAdress = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colEvAdresIlce = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colEvAdressIl = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsAdres = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsAdresIl = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsAdresIlce = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colEvTel = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colCepTel = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCepTel2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colIsTel = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colEposta = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colFax = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colCebinizeMesajGelsin = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colPhoto = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colRemark = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colFaturaAdress = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colFaturaUnvan = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colVergiDairesi = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.colVergiNo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
-            this.bbi_Arsiv = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gc_CustomerList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcv_CustomerList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_CustomerList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcv_CustomerList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,7 +103,7 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.bbi_Refresh),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6),
-            new DevExpress.XtraBars.LinkPersistInfo(this.bbi_Arsiv)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.bbi_Arsiv, true)});
             this.bar3.OptionsBar.AllowQuickCustomization = false;
             this.bar3.OptionsBar.DrawDragBorder = false;
             this.bar3.OptionsBar.UseWholeRow = true;
@@ -174,6 +152,14 @@
             this.barButtonItem6.Id = 6;
             this.barButtonItem6.ImageOptions.ImageIndex = 1;
             this.barButtonItem6.Name = "barButtonItem6";
+            // 
+            // bbi_Arsiv
+            // 
+            this.bbi_Arsiv.Caption = "Arşiv";
+            this.bbi_Arsiv.Id = 8;
+            this.bbi_Arsiv.ImageOptions.ImageIndex = 7;
+            this.bbi_Arsiv.Name = "bbi_Arsiv";
+            this.bbi_Arsiv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbi_Arsiv_ItemClick);
             // 
             // barDockControlTop
             // 
@@ -225,6 +211,14 @@
             this.barButtonItem5.Id = 4;
             this.barButtonItem5.Name = "barButtonItem5";
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Arşive Kaldır";
+            this.barButtonItem1.Id = 7;
+            this.barButtonItem1.ImageOptions.ImageIndex = 7;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            // 
             // gc_CustomerList
             // 
             this.gc_CustomerList.DataSource = this.bs_CustomerList;
@@ -238,6 +232,10 @@
             this.gc_CustomerList.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gcv_CustomerList});
             // 
+            // bs_CustomerList
+            // 
+            this.bs_CustomerList.DataSource = typeof(SIS.Model.Models.GMP.Customer.CustomersDTO);
+            // 
             // gcv_CustomerList
             // 
             this.gcv_CustomerList.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
@@ -248,39 +246,17 @@
             this.colRecordDate,
             this.colMeslek,
             this.colCalistigiYer,
-            this.colKonu,
-            this.colBoy,
-            this.colKilo,
-            this.colIsEvAdresi,
-            this.colIsİsAdresi,
-            this.colEvAdress,
-            this.colEvAdresIlce,
-            this.colEvAdressIl,
-            this.colIsAdres,
-            this.colIsAdresIl,
-            this.colIsAdresIlce,
-            this.colEvTel,
             this.colCepTel,
-            this.colCepTel2,
-            this.colIsTel,
-            this.colEposta,
-            this.colFax,
-            this.colCebinizeMesajGelsin,
-            this.colPhoto,
-            this.colRemark,
-            this.colFaturaAdress,
-            this.colFaturaUnvan,
-            this.colVergiDairesi,
-            this.colVergiNo});
+            this.colEposta});
             this.gcv_CustomerList.GridControl = this.gc_CustomerList;
             this.gcv_CustomerList.Name = "gcv_CustomerList";
+            this.gcv_CustomerList.OptionsBehavior.Editable = false;
+            this.gcv_CustomerList.OptionsView.ColumnAutoWidth = false;
+            this.gcv_CustomerList.OptionsView.ShowAutoFilterRow = true;
+            this.gcv_CustomerList.OptionsView.ShowFooter = true;
             this.gcv_CustomerList.OptionsView.ShowGroupPanel = false;
             this.gcv_CustomerList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gcv_CustomerList_MouseDown);
             this.gcv_CustomerList.DoubleClick += new System.EventHandler(this.gcv_CustomerList_DoubleClick);
-            // 
-            // bs_CustomerList
-            // 
-            this.bs_CustomerList.DataSource = typeof(SIS.Model.Models.GMP.Customer.CustomersDTO);
             // 
             // colTCKimlikNo
             // 
@@ -331,173 +307,19 @@
             this.colCalistigiYer.Visible = true;
             this.colCalistigiYer.VisibleIndex = 6;
             // 
-            // colKonu
-            // 
-            this.colKonu.FieldName = "Konu";
-            this.colKonu.Name = "colKonu";
-            this.colKonu.Visible = true;
-            this.colKonu.VisibleIndex = 7;
-            // 
-            // colBoy
-            // 
-            this.colBoy.FieldName = "Boy";
-            this.colBoy.Name = "colBoy";
-            this.colBoy.Visible = true;
-            this.colBoy.VisibleIndex = 8;
-            // 
-            // colKilo
-            // 
-            this.colKilo.FieldName = "Kilo";
-            this.colKilo.Name = "colKilo";
-            this.colKilo.Visible = true;
-            this.colKilo.VisibleIndex = 9;
-            // 
-            // colIsEvAdresi
-            // 
-            this.colIsEvAdresi.FieldName = "IsEvAdresi";
-            this.colIsEvAdresi.Name = "colIsEvAdresi";
-            this.colIsEvAdresi.Visible = true;
-            this.colIsEvAdresi.VisibleIndex = 10;
-            // 
-            // colIsİsAdresi
-            // 
-            this.colIsİsAdresi.FieldName = "IsİsAdresi";
-            this.colIsİsAdresi.Name = "colIsİsAdresi";
-            this.colIsİsAdresi.Visible = true;
-            this.colIsİsAdresi.VisibleIndex = 11;
-            // 
-            // colEvAdress
-            // 
-            this.colEvAdress.FieldName = "EvAdress";
-            this.colEvAdress.Name = "colEvAdress";
-            this.colEvAdress.Visible = true;
-            this.colEvAdress.VisibleIndex = 12;
-            // 
-            // colEvAdresIlce
-            // 
-            this.colEvAdresIlce.FieldName = "EvAdresIlce";
-            this.colEvAdresIlce.Name = "colEvAdresIlce";
-            this.colEvAdresIlce.Visible = true;
-            this.colEvAdresIlce.VisibleIndex = 13;
-            // 
-            // colEvAdressIl
-            // 
-            this.colEvAdressIl.FieldName = "EvAdressIl";
-            this.colEvAdressIl.Name = "colEvAdressIl";
-            this.colEvAdressIl.Visible = true;
-            this.colEvAdressIl.VisibleIndex = 14;
-            // 
-            // colIsAdres
-            // 
-            this.colIsAdres.FieldName = "IsAdres";
-            this.colIsAdres.Name = "colIsAdres";
-            this.colIsAdres.Visible = true;
-            this.colIsAdres.VisibleIndex = 15;
-            // 
-            // colIsAdresIl
-            // 
-            this.colIsAdresIl.FieldName = "IsAdresIl";
-            this.colIsAdresIl.Name = "colIsAdresIl";
-            this.colIsAdresIl.Visible = true;
-            this.colIsAdresIl.VisibleIndex = 16;
-            // 
-            // colIsAdresIlce
-            // 
-            this.colIsAdresIlce.FieldName = "IsAdresIlce";
-            this.colIsAdresIlce.Name = "colIsAdresIlce";
-            this.colIsAdresIlce.Visible = true;
-            this.colIsAdresIlce.VisibleIndex = 17;
-            // 
-            // colEvTel
-            // 
-            this.colEvTel.FieldName = "EvTel";
-            this.colEvTel.Name = "colEvTel";
-            this.colEvTel.Visible = true;
-            this.colEvTel.VisibleIndex = 18;
-            // 
             // colCepTel
             // 
             this.colCepTel.FieldName = "CepTel";
             this.colCepTel.Name = "colCepTel";
             this.colCepTel.Visible = true;
-            this.colCepTel.VisibleIndex = 19;
-            // 
-            // colCepTel2
-            // 
-            this.colCepTel2.FieldName = "CepTel2";
-            this.colCepTel2.Name = "colCepTel2";
-            this.colCepTel2.Visible = true;
-            this.colCepTel2.VisibleIndex = 20;
-            // 
-            // colIsTel
-            // 
-            this.colIsTel.FieldName = "IsTel";
-            this.colIsTel.Name = "colIsTel";
-            this.colIsTel.Visible = true;
-            this.colIsTel.VisibleIndex = 21;
+            this.colCepTel.VisibleIndex = 7;
             // 
             // colEposta
             // 
             this.colEposta.FieldName = "Eposta";
             this.colEposta.Name = "colEposta";
             this.colEposta.Visible = true;
-            this.colEposta.VisibleIndex = 22;
-            // 
-            // colFax
-            // 
-            this.colFax.FieldName = "Fax";
-            this.colFax.Name = "colFax";
-            this.colFax.Visible = true;
-            this.colFax.VisibleIndex = 23;
-            // 
-            // colCebinizeMesajGelsin
-            // 
-            this.colCebinizeMesajGelsin.FieldName = "CebinizeMesajGelsin";
-            this.colCebinizeMesajGelsin.Name = "colCebinizeMesajGelsin";
-            this.colCebinizeMesajGelsin.Visible = true;
-            this.colCebinizeMesajGelsin.VisibleIndex = 24;
-            // 
-            // colPhoto
-            // 
-            this.colPhoto.FieldName = "Photo";
-            this.colPhoto.Name = "colPhoto";
-            this.colPhoto.Visible = true;
-            this.colPhoto.VisibleIndex = 25;
-            // 
-            // colRemark
-            // 
-            this.colRemark.FieldName = "Remark";
-            this.colRemark.Name = "colRemark";
-            this.colRemark.Visible = true;
-            this.colRemark.VisibleIndex = 26;
-            // 
-            // colFaturaAdress
-            // 
-            this.colFaturaAdress.FieldName = "FaturaAdress";
-            this.colFaturaAdress.Name = "colFaturaAdress";
-            this.colFaturaAdress.Visible = true;
-            this.colFaturaAdress.VisibleIndex = 27;
-            // 
-            // colFaturaUnvan
-            // 
-            this.colFaturaUnvan.FieldName = "FaturaUnvan";
-            this.colFaturaUnvan.Name = "colFaturaUnvan";
-            this.colFaturaUnvan.Visible = true;
-            this.colFaturaUnvan.VisibleIndex = 28;
-            // 
-            // colVergiDairesi
-            // 
-            this.colVergiDairesi.FieldName = "VergiDairesi";
-            this.colVergiDairesi.Name = "colVergiDairesi";
-            this.colVergiDairesi.Visible = true;
-            this.colVergiDairesi.VisibleIndex = 29;
-            // 
-            // colVergiNo
-            // 
-            this.colVergiNo.FieldName = "VergiNo";
-            this.colVergiNo.Name = "colVergiNo";
-            this.colVergiNo.Visible = true;
-            this.colVergiNo.VisibleIndex = 30;
+            this.colEposta.VisibleIndex = 8;
             // 
             // popupMenu1
             // 
@@ -505,20 +327,6 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem1)});
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
-            // 
-            // barButtonItem1
-            // 
-            this.barButtonItem1.Caption = "Arşive Kaldır";
-            this.barButtonItem1.Id = 7;
-            this.barButtonItem1.ImageOptions.ImageIndex = 7;
-            this.barButtonItem1.Name = "barButtonItem1";
-            // 
-            // bbi_Arsiv
-            // 
-            this.bbi_Arsiv.Caption = "Arşiv";
-            this.bbi_Arsiv.Id = 8;
-            this.bbi_Arsiv.ImageOptions.ImageIndex = 7;
-            this.bbi_Arsiv.Name = "bbi_Arsiv";
             // 
             // CustomerList
             // 
@@ -538,8 +346,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gc_CustomerList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcv_CustomerList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_CustomerList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcv_CustomerList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -572,30 +380,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn colRecordDate;
         private DevExpress.XtraGrid.Columns.GridColumn colMeslek;
         private DevExpress.XtraGrid.Columns.GridColumn colCalistigiYer;
-        private DevExpress.XtraGrid.Columns.GridColumn colKonu;
-        private DevExpress.XtraGrid.Columns.GridColumn colBoy;
-        private DevExpress.XtraGrid.Columns.GridColumn colKilo;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsEvAdresi;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsİsAdresi;
-        private DevExpress.XtraGrid.Columns.GridColumn colEvAdress;
-        private DevExpress.XtraGrid.Columns.GridColumn colEvAdresIlce;
-        private DevExpress.XtraGrid.Columns.GridColumn colEvAdressIl;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsAdres;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsAdresIl;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsAdresIlce;
-        private DevExpress.XtraGrid.Columns.GridColumn colEvTel;
         private DevExpress.XtraGrid.Columns.GridColumn colCepTel;
-        private DevExpress.XtraGrid.Columns.GridColumn colCepTel2;
-        private DevExpress.XtraGrid.Columns.GridColumn colIsTel;
         private DevExpress.XtraGrid.Columns.GridColumn colEposta;
-        private DevExpress.XtraGrid.Columns.GridColumn colFax;
-        private DevExpress.XtraGrid.Columns.GridColumn colCebinizeMesajGelsin;
-        private DevExpress.XtraGrid.Columns.GridColumn colPhoto;
-        private DevExpress.XtraGrid.Columns.GridColumn colRemark;
-        private DevExpress.XtraGrid.Columns.GridColumn colFaturaAdress;
-        private DevExpress.XtraGrid.Columns.GridColumn colFaturaUnvan;
-        private DevExpress.XtraGrid.Columns.GridColumn colVergiDairesi;
-        private DevExpress.XtraGrid.Columns.GridColumn colVergiNo;
         private DevExpress.XtraBars.BarButtonItem bbi_Arsiv;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
         private DevExpress.XtraBars.PopupMenu popupMenu1;

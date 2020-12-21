@@ -107,6 +107,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screens\GMP\Calendar\CalendarForm.cs">
@@ -315,6 +316,7 @@
     </Compile>
     <Compile Include="Screns.cs" />
     <Compile Include="Tools\AppTools.cs" />
+    <Compile Include="Tools\FormTool.cs" />
     <EmbeddedResource Include="FormBase.resx">
       <DependentUpon>FormBase.cs</DependentUpon>
     </EmbeddedResource>
