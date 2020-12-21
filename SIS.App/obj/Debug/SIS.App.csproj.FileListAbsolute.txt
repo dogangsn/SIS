@@ -171,3 +171,17 @@ D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Customer.Taksitle
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Definitions.CompanyEdit.resources
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.Screens.GMP.Settings.Parametreler.resources
 D:\Dogan\Project\SIS\SIS\SIS.App\obj\Debug\SIS.App.FormBase.resources
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.XtraScheduler.v20.1.Extensions.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.XtraSpellChecker.v20.1.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.SpellChecker.v20.1.Core.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.XtraScheduler.v20.1.Extensions.xml
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.XtraSpellChecker.v20.1.xml
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\DevExpress.SpellChecker.v20.1.Core.xml
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\de\DevExpress.XtraScheduler.v20.1.Extensions.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\es\DevExpress.XtraScheduler.v20.1.Extensions.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\ja\DevExpress.XtraScheduler.v20.1.Extensions.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\ru\DevExpress.XtraScheduler.v20.1.Extensions.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\de\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\es\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\ja\DevExpress.XtraSpellChecker.v20.1.resources.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\ru\DevExpress.XtraSpellChecker.v20.1.resources.dll
