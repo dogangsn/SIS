@@ -5,7 +5,9 @@ using SIS.App.Screens.GMP.Definitions;
 using SIS.App.Screens.GMP.Settings;
 using SIS.Data.App;
 using SIS.Model.Models.GMP.Customer;
+using SIS.Model.Models.GMP.Definitions;
 using SIS.Service.Services.GMP.Customers;
+using SIS.Service.Services.GMP.Definitions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -43,6 +45,22 @@ namespace SIS.App
             CompanyList companyList = new CompanyList();
             companyList.MdiParent = _MdiForm;
             companyList.Show();
+        }
+        public void CompanyEdit(SIS.Data.FormOpenType _FormOpenType, int _id)
+        {
+            CompanyEdit _CustomerEdit = new CompanyEdit();
+            _CustomerEdit._FormOpenType = _FormOpenType;
+            if (_FormOpenType == Data.FormOpenType.New)
+            {
+                _CustomerEdit.__company = new Model.Models.GMP.Definitions.CompanyDTO();
+            }
+            else
+            {
+                _getValue.Id = _id;
+                _CustomerEdit.__company = bl._repository.Run<DefinitionsService, CompanyDTO>(x => x.Get_Company(_getValue));
+
+            }
+            _CustomerEdit.ShowDialog();
         }
 
         public void BirimTanimlari(Form _MdiForm)
@@ -84,6 +102,21 @@ namespace SIS.App
             PersonelList companyList = new PersonelList();
             companyList.MdiParent = _MdiForm;
             companyList.Show();
+        }
+        public void PersonelEdit(SIS.Data.FormOpenType _FormOpenType, int _id)
+        {
+            PersonelEdit _PersonelEdit = new PersonelEdit();
+            _PersonelEdit._FormOpenType = _FormOpenType;
+            if (_FormOpenType == Data.FormOpenType.New)
+            {
+                _PersonelEdit._personels = new Model.Models.GMP.Definitions.PersonelsDTO();
+            }
+            else
+            {
+                _getValue.Id = _id;
+                _PersonelEdit._personels = bl._repository.Run<DefinitionsService, PersonelsDTO>(x => x.Get_Personels(_getValue));
+            }
+            _PersonelEdit.ShowDialog();
         }
 
         public void PersonelTaskDefinEdit(Form _MdiForm)

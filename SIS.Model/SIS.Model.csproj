@@ -45,6 +45,8 @@
     <Compile Include="Models\App\FormLayoutsDTO.cs" />
     <Compile Include="Models\App\ProgramsControlsDTO.cs" />
     <Compile Include="Models\GMP\Customer\CustomersDTO.cs" />
+    <Compile Include="Models\GMP\Definitions\CompanyDTO.cs" />
+    <Compile Include="Models\GMP\Definitions\PersonelsDTO.cs" />
     <Compile Include="Models\GMP\Settings\UsersDTO.cs" />
     <Compile Include="Models\Utilities\ActionResponse.cs" />
     <Compile Include="Models\Utilities\SelectIdValue.cs" />

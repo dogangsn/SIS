@@ -2,6 +2,7 @@
 using SIS.Entity.Entities;
 
 using SIS.Model.Models.GMP.Customer;
+using SIS.Model.Models.GMP.Definitions;
 using SIS.Model.Models.GMP.Settings;
 using SIS.Models.Models.App;
 using System;
@@ -26,6 +27,10 @@ namespace SIS.Service.Mapping
             cfg.CreateMap<ProgramsControlsDTO, ProgramsControl>();
             cfg.CreateMap<FormLayouts, FormLayoutsDTO>();
             cfg.CreateMap<FormLayoutsDTO, FormLayouts>();
+            cfg.CreateMap<Company, CompanyDTO>();
+            cfg.CreateMap<CompanyDTO, Company>();
+            cfg.CreateMap<Personels, PersonelsDTO>();
+            cfg.CreateMap<PersonelsDTO, Personels>();
         }
 
 

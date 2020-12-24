@@ -455,6 +455,8 @@
     <None Include="packages.config" />
     <None Include="Properties\DataSources\SIS.Data.App.AppIdView.datasource" />
     <None Include="Properties\DataSources\SIS.Model.Models.GMP.Customer.CustomersDTO.datasource" />
+    <None Include="Properties\DataSources\SIS.Model.Models.GMP.Definitions.CompanyDTO.datasource" />
+    <None Include="Properties\DataSources\SIS.Model.Models.GMP.Definitions.PersonelsDTO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

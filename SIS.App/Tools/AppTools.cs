@@ -20,6 +20,7 @@ using System.Data.SqlClient;
 using SIS.Service.Repository;
 using SIS.Data;
 using SIS.Models.Models.App;
+using DevExpress.XtraSplashScreen;
 
 namespace SIS.App.Tool
 {
@@ -627,6 +628,24 @@ namespace SIS.App.Tool
             registryKey.Close();
         }
         #endregion
+
+
+        //public static void wclose()
+        //{
+        //    if (SplashScreenManager.Default != null)
+        //    {
+
+        //        SplashScreenManager.CloseForm(false);
+        //    }
+        //}
+        //public static void wshow()
+        //{
+        //    if (SplashScreenManager.Default == null)
+        //    {
+        //        SplashScreenManager.ShowForm(typeof(frmWaitForm));
+        //    }
+        //}
+
     }
 
     class ModRegistry

@@ -30,6 +30,8 @@ namespace SIS.DataAccess
         public virtual DbSet<FormLayouts> FormLayouts { get; set; }
         public virtual DbSet<ApplicationServer> ApplicationServer { get; set; }
         public virtual DbSet<ProgramsControl> ProgramsControl { get; set; }
+        public virtual DbSet<Company> Company { get; set; }
+        public virtual DbSet<Personels> Personels { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

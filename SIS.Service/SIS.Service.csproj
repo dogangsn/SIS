@@ -70,6 +70,7 @@
     <Compile Include="Services\App\StartUp.cs" />
     <Compile Include="Services\Authorization\AuthorizationService.cs" />
     <Compile Include="Services\GMP\Customers\CustomersService.cs" />
+    <Compile Include="Services\GMP\Definitions\DefinitionsService.cs" />
     <Compile Include="Services\Settings\SettingsService.cs" />
   </ItemGroup>
   <ItemGroup />
