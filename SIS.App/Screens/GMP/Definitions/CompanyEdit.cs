@@ -38,6 +38,7 @@ namespace SIS.App.Screens.GMP.Definitions
             {
                 try
                 {
+                    bs_Company.EndEdit();
                     if (imgbyte != null)
                     {
                         __company.Logo = imgbyte;

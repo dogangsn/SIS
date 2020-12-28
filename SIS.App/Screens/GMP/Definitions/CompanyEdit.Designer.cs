@@ -43,6 +43,7 @@
             this.tb_Genel = new DevExpress.XtraTab.XtraTabPage();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.txt_companyCode = new DevExpress.XtraEditors.TextEdit();
+            this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
             this.txt_companyName = new DevExpress.XtraEditors.TextEdit();
             this.pcLogo = new DevExpress.XtraEditors.PictureEdit();
             this.btnLogoYukle = new DevExpress.XtraEditors.SimpleButton();
@@ -81,7 +82,6 @@
             this.layoutControlItem14 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem3 = new DevExpress.XtraLayout.EmptySpaceItem();
-            this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -90,6 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_companyCode.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_companyName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLogo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
@@ -127,7 +128,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -267,6 +267,10 @@
             this.txt_companyCode.Size = new System.Drawing.Size(160, 20);
             this.txt_companyCode.StyleController = this.layoutControl1;
             this.txt_companyCode.TabIndex = 4;
+            // 
+            // bs_Company
+            // 
+            this.bs_Company.DataSource = typeof(SIS.Model.Models.GMP.Definitions.CompanyDTO);
             // 
             // txt_companyName
             // 
@@ -645,10 +649,6 @@
             this.emptySpaceItem3.Size = new System.Drawing.Size(416, 136);
             this.emptySpaceItem3.TextSize = new System.Drawing.Size(0, 0);
             // 
-            // bs_Company
-            // 
-            this.bs_Company.DataSource = typeof(SIS.Model.Models.GMP.Definitions.CompanyDTO);
-            // 
             // CompanyEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -671,6 +671,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txt_companyCode.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_companyName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcLogo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
@@ -708,7 +709,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.emptySpaceItem3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
