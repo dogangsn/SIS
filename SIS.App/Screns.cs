@@ -3,6 +3,7 @@ using SIS.App.Screens.GMP.Calendar;
 using SIS.App.Screens.GMP.Customer;
 using SIS.App.Screens.GMP.Definitions;
 using SIS.App.Screens.GMP.Settings;
+using SIS.App.Screens.GMP.Tedarik;
 using SIS.Data.App;
 using SIS.Model.Models.GMP.Customer;
 using SIS.Model.Models.GMP.Definitions;
@@ -38,6 +39,12 @@ namespace SIS.App
             Help.Show();
         }
 
+        public void TedarikList(Form _MdiForm)
+        {
+            TedarikList frm = new TedarikList();
+            frm.MdiParent = _MdiForm;
+            frm.Show();
+        }
 
         #region Definitions
         public void CompanyList(Form _MdiForm)

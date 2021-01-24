@@ -468,6 +468,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Screens\GYM\" />
     <Folder Include="Screens\HTP\Calendar\" />
     <Folder Include="Screens\HTP\Contact\" />
     <Folder Include="Screens\HTP\Definitions\" />
