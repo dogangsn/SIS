@@ -47,12 +47,12 @@
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.sic_TabBar = new DevExpress.Utils.SvgImageCollection(this.components);
             this.xtpIslemListesi = new DevExpress.XtraTab.XtraTabPage();
-            this.xtpUrunListesi = new DevExpress.XtraTab.XtraTabPage();
-            this.xtpSeansPaketler = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.xtpUrunListesi = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.xtpSeansPaketler = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
@@ -61,12 +61,12 @@
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).BeginInit();
             this.xtpIslemListesi.SuspendLayout();
-            this.xtpUrunListesi.SuspendLayout();
-            this.xtpSeansPaketler.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.xtpUrunListesi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            this.xtpSeansPaketler.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
@@ -239,22 +239,6 @@
             this.xtpIslemListesi.Size = new System.Drawing.Size(727, 464);
             this.xtpIslemListesi.Text = "İşlem Listesi";
             // 
-            // xtpUrunListesi
-            // 
-            this.xtpUrunListesi.Controls.Add(this.gridControl2);
-            this.xtpUrunListesi.ImageOptions.ImageIndex = 0;
-            this.xtpUrunListesi.Name = "xtpUrunListesi";
-            this.xtpUrunListesi.Size = new System.Drawing.Size(727, 464);
-            this.xtpUrunListesi.Text = "Ürün Listesi";
-            // 
-            // xtpSeansPaketler
-            // 
-            this.xtpSeansPaketler.Controls.Add(this.gridControl3);
-            this.xtpSeansPaketler.ImageOptions.ImageIndex = 2;
-            this.xtpSeansPaketler.Name = "xtpSeansPaketler";
-            this.xtpSeansPaketler.Size = new System.Drawing.Size(727, 464);
-            this.xtpSeansPaketler.Text = "Seans Paketleri";
-            // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -271,6 +255,15 @@
             // 
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // xtpUrunListesi
+            // 
+            this.xtpUrunListesi.Controls.Add(this.gridControl2);
+            this.xtpUrunListesi.ImageOptions.ImageIndex = 0;
+            this.xtpUrunListesi.Name = "xtpUrunListesi";
+            this.xtpUrunListesi.Size = new System.Drawing.Size(727, 464);
+            this.xtpUrunListesi.Text = "Ürün Listesi";
             // 
             // gridControl2
             // 
@@ -288,6 +281,14 @@
             // 
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
+            // 
+            // xtpSeansPaketler
+            // 
+            this.xtpSeansPaketler.Controls.Add(this.gridControl3);
+            this.xtpSeansPaketler.ImageOptions.ImageIndex = 2;
+            this.xtpSeansPaketler.Name = "xtpSeansPaketler";
+            this.xtpSeansPaketler.Size = new System.Drawing.Size(727, 464);
+            this.xtpSeansPaketler.Text = "Seans Paketleri";
             // 
             // gridControl3
             // 
@@ -325,12 +326,12 @@
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).EndInit();
             this.xtpIslemListesi.ResumeLayout(false);
-            this.xtpUrunListesi.ResumeLayout(false);
-            this.xtpSeansPaketler.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.xtpUrunListesi.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            this.xtpSeansPaketler.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);

@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar3 = new DevExpress.XtraBars.Bar();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.bbi_NewReservation = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
@@ -62,7 +62,7 @@
             this.barManager1.Form = this;
             this.barManager1.Images = this.img_sic;
             this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
-            this.barButtonItem1,
+            this.bbi_NewReservation,
             this.barButtonItem2,
             this.barButtonItem3,
             this.barButtonItem4,
@@ -80,7 +80,7 @@
             this.bar3.DockRow = 0;
             this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
             this.bar3.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.bbi_NewReservation),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem2),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4),
@@ -91,12 +91,13 @@
             this.bar3.OptionsBar.UseWholeRow = true;
             this.bar3.Text = "Status bar";
             // 
-            // barButtonItem1
+            // bbi_NewReservation
             // 
-            this.barButtonItem1.Caption = "Yeni Müşteri";
-            this.barButtonItem1.Id = 0;
-            this.barButtonItem1.ImageOptions.ImageIndex = 0;
-            this.barButtonItem1.Name = "barButtonItem1";
+            this.bbi_NewReservation.Caption = "Yeni Müşteri";
+            this.bbi_NewReservation.Id = 0;
+            this.bbi_NewReservation.ImageOptions.ImageIndex = 0;
+            this.bbi_NewReservation.Name = "bbi_NewReservation";
+            this.bbi_NewReservation.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbi_NewReservation_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -225,7 +226,7 @@
 
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar3;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem bbi_NewReservation;
         private DevExpress.XtraBars.BarButtonItem barButtonItem2;
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;

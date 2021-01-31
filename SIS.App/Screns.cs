@@ -2,6 +2,9 @@
 using SIS.App.Screens.GMP.Calendar;
 using SIS.App.Screens.GMP.Customer;
 using SIS.App.Screens.GMP.Definitions;
+using SIS.App.Screens.GMP.KasaPOS;
+using SIS.App.Screens.GMP.Operation;
+using SIS.App.Screens.GMP.SaleBuying;
 using SIS.App.Screens.GMP.Settings;
 using SIS.App.Screens.GMP.Tedarik;
 using SIS.Data.App;
@@ -208,9 +211,26 @@ namespace SIS.App
             Help.Show();
         }
 
+        public void KasaPOSList(Form _MdiForm)
+        {
+            KasaPOSList frm = new KasaPOSList();
+            frm.MdiParent = _MdiForm;
+            frm.Show();
+        }
 
+        public void SaleBuyingList(Form _MdiForm)
+        {
+            SaleBuyingList frm = new SaleBuyingList();
+            frm.MdiParent = _MdiForm;
+            frm.Show();
+        }
 
-
+        public void OperationAndProducList(Form _MdiForm)
+        {
+            OperationAndProducList frm = new OperationAndProducList();
+            frm.MdiParent = _MdiForm;
+            frm.Show();
+        }
 
 
         #endregion

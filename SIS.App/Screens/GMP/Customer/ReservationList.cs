@@ -17,5 +17,11 @@ namespace SIS.App.Screens.GMP.Customer
         {
             InitializeComponent();
         }
+
+        private void bbi_NewReservation_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            ReservationEdit frm = new ReservationEdit();
+            frm.ShowDialog();
+        }
     }
 }

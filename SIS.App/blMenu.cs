@@ -71,10 +71,10 @@ namespace SIS.App
 
 
             _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Tedarikçiler", "Tedarikçiler", "", "TedarikList", "", new int[] { 2 }));
-            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-İşlem ve Ürün Listesi", "Help", "", "Help", "", new int[] { 2 }));
-            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Alış ve Satış", "Help", "", "Help", "", new int[] { 2 }));
-            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Cari Hesaplar", "Help", "", "Help", "", new int[] { 2 }));
-            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Kasa/POS", "Help", "", "Help", "", new int[] { 2 }));
+            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-İşlem ve Ürün Listesi", "OperationAndProducList", "", "OperationAndProducList", "", new int[] { 2 }));
+            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Alış ve Satış", "SaleBuyingList", "", "SaleBuyingList", "", new int[] { 2 }));
+            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Cari Hesaplar", "CustomerAccountList", "", "CustomerAccountList", "", new int[] { 2 }));
+            _List_Menus.Add(new Data.Menus(10, "GMP", "İşlemler", "", "-Kasa/POS", "KasaPOSList", "", "KasaPOSList", "", new int[] { 2 }));
 
             _List_Menus.Add(new Data.Menus(10, "GMP", "Yardımcı İşlemler", "", "-Mail Gönder", "Help", "", "Help", "", new int[] { 2 }));
             _List_Menus.Add(new Data.Menus(10, "GMP", "Yardımcı İşlemler", "", "-SMS Gönder", "Help", "", "Help", "", new int[] { 2 }));
@@ -92,12 +92,7 @@ namespace SIS.App
             _List_Menus.Add(new Data.Menus(10, "GMP", "Ayarlar", "", "-Parametreler", "Parametreler", "", "Parametreler", "", new int[] { 2 }));
             _List_Menus.Add(new Data.Menus(10, "GMP", "Ayarlar", "", "-Kullanıcı İşlemleri", "Kullanıcı İşlemleri", "", "UsersList", "", new int[] { 2 }));
 
-
-
             _List_Menus.Add(new Data.Menus(10, "GMP", "Yardım", "", "-Yardım", "Help", "", "Help", "", new int[] { 2 }));
-
-
-
 
 
             #endregion
