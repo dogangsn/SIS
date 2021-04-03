@@ -8,3 +8,4 @@ D:\Dogan\Project\SIS\SIS\SIS.Entity\obj\Debug\SIS.Entity.csprojAssemblyReference
 D:\Dogan\Project\SIS\SIS\SIS.Entity\obj\Debug\SIS.Entity.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\SIS.Entity\obj\Debug\SIS.Entity.dll
 D:\Dogan\Project\SIS\SIS\SIS.Entity\obj\Debug\SIS.Entity.pdb
+D:\Dogan\Project\SIS\SIS\SIS.Entity\obj\Debug\SIS.Entity.csproj.CoreCompileInputs.cache

@@ -25,3 +25,4 @@ D:\Dogan\Project\SIS\SIS\SIS.Service\obj\Debug\SIS.Service.csprojAssemblyReferen
 D:\Dogan\Project\SIS\SIS\SIS.Service\obj\Debug\SIS.Service.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\SIS.Service\obj\Debug\SIS.Service.dll
 D:\Dogan\Project\SIS\SIS\SIS.Service\obj\Debug\SIS.Service.pdb
+D:\Dogan\Project\SIS\SIS\SIS.Service\obj\Debug\SIS.Service.csproj.CoreCompileInputs.cache

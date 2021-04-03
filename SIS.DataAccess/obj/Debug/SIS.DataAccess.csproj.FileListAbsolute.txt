@@ -15,3 +15,4 @@ D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.csprojAssemblyR
 D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.dll
 D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.pdb
+D:\Dogan\Project\SIS\SIS\SIS.DataAccess\obj\Debug\SIS.DataAccess.csproj.CoreCompileInputs.cache
