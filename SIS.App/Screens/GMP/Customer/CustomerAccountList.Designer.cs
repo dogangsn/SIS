@@ -401,7 +401,8 @@ namespace SIS.App.Screens.GMP.Customer
             // 
             this.layoutControlItem2.Control = this.lookUpEdit1;
             this.layoutControlItem2.Location = new System.Drawing.Point(0, 0);
-            this.layoutControlItem2.MinSize = new System.Drawing.Size(77, 40);
+            this.layoutControlItem2.MaxSize = new System.Drawing.Size(163, 40);
+            this.layoutControlItem2.MinSize = new System.Drawing.Size(163, 40);
             this.layoutControlItem2.Name = "layoutControlItem2";
             this.layoutControlItem2.Size = new System.Drawing.Size(163, 40);
             this.layoutControlItem2.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
@@ -413,8 +414,11 @@ namespace SIS.App.Screens.GMP.Customer
             // 
             this.layoutControlItem4.Control = this.radioGroup1;
             this.layoutControlItem4.Location = new System.Drawing.Point(0, 40);
+            this.layoutControlItem4.MaxSize = new System.Drawing.Size(163, 93);
+            this.layoutControlItem4.MinSize = new System.Drawing.Size(163, 93);
             this.layoutControlItem4.Name = "layoutControlItem4";
             this.layoutControlItem4.Size = new System.Drawing.Size(163, 93);
+            this.layoutControlItem4.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem4.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem4.TextVisible = false;
             // 
@@ -422,8 +426,11 @@ namespace SIS.App.Screens.GMP.Customer
             // 
             this.layoutControlItem3.Control = this.dateEdit1;
             this.layoutControlItem3.Location = new System.Drawing.Point(0, 133);
+            this.layoutControlItem3.MaxSize = new System.Drawing.Size(163, 40);
+            this.layoutControlItem3.MinSize = new System.Drawing.Size(163, 40);
             this.layoutControlItem3.Name = "layoutControlItem3";
             this.layoutControlItem3.Size = new System.Drawing.Size(163, 40);
+            this.layoutControlItem3.SizeConstraintsType = DevExpress.XtraLayout.SizeConstraintsType.Custom;
             this.layoutControlItem3.Text = "Başlangıç Tarihi";
             this.layoutControlItem3.TextLocation = DevExpress.Utils.Locations.Top;
             this.layoutControlItem3.TextSize = new System.Drawing.Size(73, 13);
