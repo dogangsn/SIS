@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
 using DevExpress.XtraBars.Navigation;
-using SIS.Data;
 using DevExpress.LookAndFeel;
 using System.Configuration;
+using SIS.Data;
+using SIS.Client.Admin;
 
 namespace SIS.App
 {
@@ -61,13 +62,13 @@ namespace SIS.App
         private void set_Menu()
         {
             ac_Menu.Elements.Clear();
-            set_AccordionControl_Menus(ac_Menu, bl.blmenu.get_List_Menus());
+            //set_AccordionControl_Menus(ac_Menu, bl.blmenu.get_List_Menus());
         }
 
         private void set_Menu_GMP()
         {
             ac_Menu.Elements.Clear();
-            set_AccordionControl_Menus(ac_Menu, bl.blmenu.get_List_Menus_GMP());
+            //set_AccordionControl_Menus(ac_Menu, bl.blmenu.get_List_Menus_GMP());
         }
 
         private AccordionControlElement get_add_AccordionControlElement(string _Text, bool _Group)

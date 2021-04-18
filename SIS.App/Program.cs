@@ -5,7 +5,6 @@ using System.Windows.Forms;
 using DevExpress.UserSkins;
 using DevExpress.Skins;
 using DevExpress.LookAndFeel;
-using SIS.Service.Mapping;
 using System.Net.NetworkInformation;
 using SIS.Data;
 
@@ -25,7 +24,7 @@ namespace SIS.App
             Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
             NetworkChange.NetworkAvailabilityChanged += new NetworkAvailabilityChangedEventHandler(NetworkChange_NetworkAvailabilityChanged);
 
-            AutoMapper.Mapper.Initialize(x => Mappings.Configure(x));
+            //AutoMapper.Mapper.Initialize(x => Mappings.Configure(x));
 
             Application.Run(new MainForm());
         }
