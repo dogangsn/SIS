@@ -24,5 +24,10 @@ namespace SIS.Client.blvalue
         public  bool HTPActive;
         public  int AppId;
         public  string AppName;
+
+        public SIS.Entity.Entities.GMP.Users Users_GMP;
+
+
+
     }
 }

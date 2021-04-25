@@ -1,0 +1,5 @@
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\SIS.DataAccess.GMP.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\SIS.DataAccess.GMP.pdb
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.csproj.CoreCompileInputs.cache
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.pdb

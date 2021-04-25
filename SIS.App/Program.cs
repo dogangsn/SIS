@@ -38,18 +38,18 @@ namespace SIS.App
         {
             try
             {
-                AppMain.NetworkConnected = e.IsAvailable;
-                if (e.IsAvailable == false)
-                {
-                    //Application.ThreadException -= new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
-                    DevExpress.XtraEditors.XtraMessageBox.Show("Ağ Bağlantı Hatası :" + Environment.NewLine
-                        + "Programdan çıkabilir yada yarım kalan işleminiz varsa bağlantının düzelmesini bekleyebilirsiniz" + Environment.NewLine
-                        + "Bağlantı sağlandığında ana ekrandaki menü aktif hale gelecektir.");
-                }
-                else
-                {
-                    DevExpress.XtraEditors.XtraMessageBox.Show("Bağlantı Sağlandı");
-                }
+                //Client.blvalue.AppMain.AppValue.NetworkConnected = e.IsAvailable;
+                //if (e.IsAvailable == false)
+                //{
+                //    //Application.ThreadException -= new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
+                //    DevExpress.XtraEditors.XtraMessageBox.Show("Ağ Bağlantı Hatası :" + Environment.NewLine
+                //        + "Programdan çıkabilir yada yarım kalan işleminiz varsa bağlantının düzelmesini bekleyebilirsiniz" + Environment.NewLine
+                //        + "Bağlantı sağlandığında ana ekrandaki menü aktif hale gelecektir.");
+                //}
+                //else
+                //{
+                //    DevExpress.XtraEditors.XtraMessageBox.Show("Bağlantı Sağlandı");
+                //}
             }
             catch (NetworkInformationException ex)
             {

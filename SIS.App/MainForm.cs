@@ -32,27 +32,39 @@ namespace SIS.App
             login loForm = new login();
             loForm.TopMost = true;
             loForm.ShowDialog();
-            if (AppMain.User != null)
+
+
+
+            bool _UserLoginOk;
+            if (true)
+            {
+
+            }
+            else
             {
                 //do_versionControl();
                 //do_barDoldur();
-                UserLookAndFeel.Default.SetSkinStyle(AppMain.User.DefaultTheme, AppMain.User.DefaultTheme2);
-                switch (AppMain.AppId)
+                switch (Client.blvalue.AppMain.AppId)
                 {
                     case 1:
                         set_Menu();
                         break;
                     case 2:
+                        UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
                         set_Menu_GMP();
                         break;
                 }
                 this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            }
+            //if (SIS.Client.blvalue.AppMain.User != null)
+            //{
+               
 
-            }
-            else
-            {
-                Application.ExitThread();
-            }
+            //}
+            //else
+            //{
+            //    Application.ExitThread();
+            //}
 
         }
 
@@ -260,19 +272,19 @@ namespace SIS.App
             {
                 if (IsContainsValue("GMPActive"))
                 {
-                    AppMain.GMPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["GMPActive"]);
+                    Client.blvalue.AppMain.AppValue.GMPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["GMPActive"]);
                 }
                 else
                 {
-                    AppMain.GMPActive = true;
+                    Client.blvalue.AppMain.AppValue.GMPActive = true;
                 }
                 if (IsContainsValue("HTPActive"))
                 {
-                    AppMain.HTPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["HTPActive"]);
+                    Client.blvalue.AppMain.AppValue.HTPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["HTPActive"]);
                 }
                 else
                 {
-                    AppMain.HTPActive = true;
+                    Client.blvalue.AppMain.AppValue.HTPActive = true;
                 }
 
 

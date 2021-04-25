@@ -1,0 +1,5 @@
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\SIS.DataAccess.Admin.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\SIS.DataAccess.Admin.pdb
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.csproj.CoreCompileInputs.cache
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.pdb

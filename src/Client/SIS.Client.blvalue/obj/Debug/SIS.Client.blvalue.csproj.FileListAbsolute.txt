@@ -99,3 +99,5 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blva
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\SIS.Entity.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\SIS.Entity.pdb

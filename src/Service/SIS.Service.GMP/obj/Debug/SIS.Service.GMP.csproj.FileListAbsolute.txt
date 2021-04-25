@@ -1,6 +1,5 @@
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.pdb
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.pdb

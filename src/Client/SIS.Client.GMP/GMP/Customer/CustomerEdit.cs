@@ -34,7 +34,7 @@ namespace SIS.App.Screens.GMP.Customer
             if (_FormOpenType  == Data.FormOpenType.New)
             {
                 __dl_Customers.RecordDate = DateTime.Now;
-                __dl_Customers.RecordUser = AppMain.UserCode;
+                //__dl_Customers.RecordUser = AppMain.UserCode;
             }
             if (_FormOpenType == Data.FormOpenType.Edit)
             {

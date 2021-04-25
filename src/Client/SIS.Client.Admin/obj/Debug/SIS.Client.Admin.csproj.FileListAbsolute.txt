@@ -111,3 +111,5 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\Newtonsoft.Json.x
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\Microsoft.IdentityModel.Logging.xml
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.Properties.Resources.resources
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Entity.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Entity.pdb

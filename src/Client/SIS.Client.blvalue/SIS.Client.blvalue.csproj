@@ -53,6 +53,10 @@
       <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
       <Name>SIS.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Entity\SIS.Entity.csproj">
+      <Project>{258d2b00-e8e1-41cc-bbee-be12b8d07d71}</Project>
+      <Name>SIS.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
