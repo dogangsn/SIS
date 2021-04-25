@@ -11,7 +11,7 @@ namespace SIS.Client.blvalue
     public class AppMain
     {
         public static AppValue AppValue { get; set; }
-
+        public static int AppId { get; set; }
 
 
 

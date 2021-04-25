@@ -19,5 +19,10 @@ namespace SIS.Client.blvalue
         public ConnectionDTO AdminConnectionDTO;
 
         public ConnectionDTO DbAdminConnectionDTO;
+
+        public  bool GMPActive;
+        public  bool HTPActive;
+        public  int AppId;
+        public  string AppName;
     }
 }

@@ -45,31 +45,31 @@ namespace SIS.Client.Admin
         {
             SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
 
-            if (!AppMain.AppValue.RunningLocalAdmin)
+            //if (!AppMain.AppValue.RunningLocalAdmin)
+            //{
+            //    SIS.Data.AppConfigs _AppConfigs = bl.blcAdmin.Run<SIS.Service.Admin.Service.AdminService, SIS.Data.AppConfigs>(r => r.get_AppConfigs());
+            //}
+
+
+            SIS.Data.App.AppIdView _AppIdView = new SIS.Data.App.AppIdView();
+            if (SIS.Client.blvalue.AppMain.AppValue.GMPActive)
             {
-                SIS.Data.AppConfigs _AppConfigs = bl.blcAdmin.Run<SIS.Service.Admin.AdminService, SIS.Data.AppConfigs>(r => r.get_AppConfigs());
+                _AppIdView.Id = (int)Data.AdminAppType.GMP;
+                _AppIdView.App = Data.AdminAppType.GMP.ToString();
+                SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
             }
-
-
-            AppIdView _AppIdView = new AppIdView();
-            if (AppMain.GMPActive)
+            if (SIS.Client.blvalue.AppMain.AppValue.HTPActive)
             {
-                _AppIdView.Id = (int)AdminAppType.GMP;
-                _AppIdView.App = AdminAppType.GMP.ToString();
-                AppMain.List_AppIdView.Add(_AppIdView);
-            }
-            if (AppMain.HTPActive)
-            {
-                _AppIdView = new AppIdView();
+                _AppIdView = new SIS.Data.App.AppIdView();
 
-                _AppIdView.Id = (int)AdminAppType.HTP;
-                _AppIdView.App = AdminAppType.HTP.ToString();
-                AppMain.List_AppIdView.Add(_AppIdView);
+                _AppIdView.Id = (int)Data.AdminAppType.HTP;
+                _AppIdView.App = Data.AdminAppType.HTP.ToString();
+                SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
             }
 
             List<int> _List_ApplicationIds = new List<int>();
-            _List_ApplicationIds.Add(AppMain.AplicationId);
-            bs_AppIdView.DataSource = AppMain.List_AppIdView;
+            _List_ApplicationIds.Add(blvalue.AplicationId);
+            bs_AppIdView.DataSource = SIS.Client.Admin.blvalue.List_AppIdView;
 
 
         }
@@ -138,7 +138,7 @@ namespace SIS.Client.Admin
 
         private void login_Load(object sender, EventArgs e)
         {
-
+            set_DbAdmin_Database();
 
         }
 
@@ -182,23 +182,23 @@ namespace SIS.Client.Admin
         {
 
             if (do_IsNotValid()) return;
-            AppMain.User = new UsersDTO();
-            AppMain.User.password = txt_Password.Text;
-            AppMain.User.username = txt_userCode.EditValue.ToString();
+            //AppMain.User = new UsersDTO();
+            //AppMain.User.password = txt_Password.Text;
+            //AppMain.User.username = txt_userCode.EditValue.ToString();
 
-            var connection = applicationServers.FirstOrDefault(x => x.Id == (int)lc_serverList.EditValue);
-            var config = new ConnectionDTO
-            {
-                Database = "SIS",
-                Server = connection.Server,
-                Password = connection.Password,
-                UserId = connection.UserName
-            };
-            UserAuthDto model = new UserAuthDto
-            {
-                Config = config,
-                User = AppMain.User
-            };
+            //var connection = applicationServers.FirstOrDefault(x => x.Id == (int)lc_serverList.EditValue);
+            //var config = new ConnectionDTO
+            //{
+            //    Database = "SIS",
+            //    Server = connection.Server,
+            //    Password = connection.Password,
+            //    UserId = connection.UserName
+            //};
+            //UserAuthDto model = new UserAuthDto
+            //{
+            //    Config = config,
+            //    User = AppMain.User
+            //};
 
             //var loginResponse = _repository.Run<AuthorizationService, ActionResponse<UsersDTO>>(x => x.LoginControl(model));
             //if (loginResponse.ResponseType != ResponseType.Ok)
@@ -209,17 +209,17 @@ namespace SIS.Client.Admin
             //}
             //AppMain.User = loginResponse.Response;
 
-            switch (AppMain.AplicationId)
-            {
-                case 1:
-                    AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
-                    AppMain.AppName = (string)lc_Application.GetColumnValue("App");
-                    break;
-                case 2:
-                    AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
-                    AppMain.AppName = (string)lc_Application.GetColumnValue("App");
-                    break;
-            }
+            //switch (AppMain.AplicationId)
+            //{
+            //    case 1:
+            //        AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
+            //        AppMain.AppName = (string)lc_Application.GetColumnValue("App");
+            //        break;
+            //    case 2:
+            //        AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
+            //        AppMain.AppName = (string)lc_Application.GetColumnValue("App");
+            //        break;
+            //}
 
             this.Close();
         }

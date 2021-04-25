@@ -63,7 +63,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppMain.cs" />
     <Compile Include="App\App.cs" />
     <Compile Include="App\GetValue.cs" />
     <Compile Include="Enums.cs" />
