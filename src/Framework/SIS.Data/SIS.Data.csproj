@@ -56,12 +56,8 @@
     <Compile Include="App\GetValue.cs" />
     <Compile Include="DbConectionModel\ConnectionDTO.cs" />
     <Compile Include="Enums.cs" />
-    <Compile Include="Extensions\ExpressionExtension.cs" />
-    <Compile Include="Extensions\SecurityExtension.cs" />
-    <Compile Include="Extensions\TypeExtension.cs" />
     <Compile Include="Menus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RouteMap\RouteMapDTO.cs" />
     <Compile Include="Tool\AppTools.cs" />
     <Compile Include="Tool\GMPTools.cs" />
   </ItemGroup>

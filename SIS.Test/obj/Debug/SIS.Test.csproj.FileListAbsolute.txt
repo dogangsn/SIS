@@ -1,0 +1,14 @@
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\SIS.Test.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\SIS.Test.pdb
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csprojAssemblyReference.cache
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csproj.CoreCompileInputs.cache
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.dll
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.pdb
