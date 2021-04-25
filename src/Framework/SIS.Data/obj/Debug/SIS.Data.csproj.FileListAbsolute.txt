@@ -184,3 +184,11 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csproj.CoreCo
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.pdb
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\System.IdentityModel.Tokens.Jwt.xml

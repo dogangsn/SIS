@@ -49,8 +49,6 @@ namespace SIS.Client.Admin
             //{
             //    SIS.Data.AppConfigs _AppConfigs = bl.blcAdmin.Run<SIS.Service.Admin.Service.AdminService, SIS.Data.AppConfigs>(r => r.get_AppConfigs());
             //}
-
-
             SIS.Data.App.AppIdView _AppIdView = new SIS.Data.App.AppIdView();
             if (SIS.Client.blvalue.AppMain.AppValue.GMPActive)
             {
@@ -112,8 +110,7 @@ namespace SIS.Client.Admin
                     SIS.Client.blvalue.AppMain.AppValue.ConAdmin = connection;
                     SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
                     _GetValue.ConStr = SIS.Client.blvalue.AppMain.AppValue.ConAdmin;
-                    var result = bl.blcAdmin.Run<Service.Admin.Service.AdminService, SIS.Data.ReturnProcess>(r => r.UpdateSqlDatabase(_GetValue));
-
+                    //var result = bl.blcAdmin.Run<Service.Admin.Service.AdminService, SIS.Data.ReturnProcess>(r => r.UpdateSqlDatabase(_GetValue));
                 }
                 else
                 {
@@ -139,7 +136,6 @@ namespace SIS.Client.Admin
         private void login_Load(object sender, EventArgs e)
         {
             set_DbAdmin_Database();
-
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -182,45 +178,7 @@ namespace SIS.Client.Admin
         {
 
             if (do_IsNotValid()) return;
-            //AppMain.User = new UsersDTO();
-            //AppMain.User.password = txt_Password.Text;
-            //AppMain.User.username = txt_userCode.EditValue.ToString();
-
-            //var connection = applicationServers.FirstOrDefault(x => x.Id == (int)lc_serverList.EditValue);
-            //var config = new ConnectionDTO
-            //{
-            //    Database = "SIS",
-            //    Server = connection.Server,
-            //    Password = connection.Password,
-            //    UserId = connection.UserName
-            //};
-            //UserAuthDto model = new UserAuthDto
-            //{
-            //    Config = config,
-            //    User = AppMain.User
-            //};
-
-            //var loginResponse = _repository.Run<AuthorizationService, ActionResponse<UsersDTO>>(x => x.LoginControl(model));
-            //if (loginResponse.ResponseType != ResponseType.Ok)
-            //{
-            //    DevExpress.XtraEditors.XtraMessageBox.Show(loginResponse.Message, "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    txt_Password.Focus();
-            //    return;
-            //}
-            //AppMain.User = loginResponse.Response;
-
-            //switch (AppMain.AplicationId)
-            //{
-            //    case 1:
-            //        AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
-            //        AppMain.AppName = (string)lc_Application.GetColumnValue("App");
-            //        break;
-            //    case 2:
-            //        AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
-            //        AppMain.AppName = (string)lc_Application.GetColumnValue("App");
-            //        break;
-            //}
-
+ 
             this.Close();
         }
 

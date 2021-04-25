@@ -91,3 +91,11 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\obj\Debug\SIS.Client.HTP.cspr
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\obj\Debug\SIS.Client.HTP.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\obj\Debug\SIS.Client.HTP.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\obj\Debug\SIS.Client.HTP.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.HTP\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml

@@ -252,6 +252,22 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Tokens/6.10.2.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.10.2.0",
+            "fileVersion": "6.10.2.20415"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.10.2.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.10.2.0",
+            "fileVersion": "6.10.2.20415"
+          }
+        }
+      },
       "DevExpress.XtraEditors.v20.2/20.2.5.0": {
         "runtime": {
           "DevExpress.XtraEditors.v20.2.dll": {
@@ -367,6 +383,22 @@
           "DevExpress.Data.Desktop.v20.2.dll": {
             "assemblyVersion": "20.2.5.0",
             "fileVersion": "20.2.5.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.10.2.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.10.2.0",
+            "fileVersion": "6.10.2.20415"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.10.2.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.10.2.0",
+            "fileVersion": "6.10.2.20415"
           }
         }
       },
@@ -564,6 +596,16 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.IdentityModel.Tokens/6.10.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/6.10.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DevExpress.XtraEditors.v20.2/20.2.5.0": {
       "type": "reference",
       "serviceable": false,
@@ -590,6 +632,16 @@
       "sha512": ""
     },
     "DevExpress.Data.Desktop.v20.2/20.2.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/6.10.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.10.2.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

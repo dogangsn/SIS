@@ -1,6 +1,5 @@
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\bin\Debug\SIS.Client.CP.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\bin\Debug\SIS.Client.CP.pdb
-D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\obj\Debug\SIS.Client.CP.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\obj\Debug\SIS.Client.CP.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\obj\Debug\SIS.Client.CP.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.CP\obj\Debug\SIS.Client.CP.pdb

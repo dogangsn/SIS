@@ -96,3 +96,11 @@ D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\es\Dev
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\ru\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Logging.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.xml
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Logging.xml
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.xml

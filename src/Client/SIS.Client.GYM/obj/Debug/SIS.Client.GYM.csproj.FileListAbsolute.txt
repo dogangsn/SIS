@@ -1,6 +1,5 @@
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\bin\Debug\SIS.Client.GYM.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\bin\Debug\SIS.Client.GYM.pdb
-D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\obj\Debug\SIS.Client.GYM.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\obj\Debug\SIS.Client.GYM.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\obj\Debug\SIS.Client.GYM.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GYM\obj\Debug\SIS.Client.GYM.pdb
