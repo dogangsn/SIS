@@ -34,6 +34,7 @@
             this.lc_serverList = new DevExpress.XtraEditors.LookUpEdit();
             this.bs_ServerList = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Application = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.txt_userCode = new DevExpress.XtraEditors.TextEdit();
             this.txt_Password = new DevExpress.XtraEditors.TextEdit();
@@ -56,13 +57,15 @@
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
+            this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
+            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_ServerList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).BeginInit();
@@ -83,11 +86,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
+            this.layoutControl1.Controls.Add(this.lookUpEdit1);
             this.layoutControl1.Controls.Add(this.lc_Company);
             this.layoutControl1.Controls.Add(this.lc_serverList);
             this.layoutControl1.Controls.Add(this.lc_Application);
@@ -110,18 +115,18 @@
             // 
             // lc_Company
             // 
-            this.lc_Company.Location = new System.Drawing.Point(91, 187);
+            this.lc_Company.Location = new System.Drawing.Point(100, 187);
             this.lc_Company.Name = "lc_Company";
             this.lc_Company.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lc_Company.Properties.NullText = "";
-            this.lc_Company.Size = new System.Drawing.Size(180, 20);
+            this.lc_Company.Size = new System.Drawing.Size(171, 20);
             this.lc_Company.StyleController = this.layoutControl1;
             this.lc_Company.TabIndex = 12;
             // 
             // lc_serverList
             // 
-            this.lc_serverList.Location = new System.Drawing.Point(103, 342);
+            this.lc_serverList.Location = new System.Drawing.Point(112, 318);
             this.lc_serverList.Name = "lc_serverList";
             this.lc_serverList.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -132,7 +137,7 @@
             this.lc_serverList.Properties.DisplayMember = "ServerName";
             this.lc_serverList.Properties.NullText = "";
             this.lc_serverList.Properties.ValueMember = "Id";
-            this.lc_serverList.Size = new System.Drawing.Size(156, 20);
+            this.lc_serverList.Size = new System.Drawing.Size(147, 20);
             this.lc_serverList.StyleController = this.layoutControl1;
             this.lc_serverList.TabIndex = 10;
             // 
@@ -142,7 +147,7 @@
             // 
             // lc_Application
             // 
-            this.lc_Application.Location = new System.Drawing.Point(91, 115);
+            this.lc_Application.Location = new System.Drawing.Point(100, 115);
             this.lc_Application.Name = "lc_Application";
             this.lc_Application.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -152,9 +157,13 @@
             this.lc_Application.Properties.DisplayMember = "App";
             this.lc_Application.Properties.NullText = "";
             this.lc_Application.Properties.ValueMember = "Id";
-            this.lc_Application.Size = new System.Drawing.Size(180, 20);
+            this.lc_Application.Size = new System.Drawing.Size(171, 20);
             this.lc_Application.StyleController = this.layoutControl1;
             this.lc_Application.TabIndex = 9;
+            // 
+            // bs_AppIdView
+            // 
+            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
             // 
             // pictureEdit1
             // 
@@ -168,19 +177,19 @@
             // txt_userCode
             // 
             this.txt_userCode.EditValue = "";
-            this.txt_userCode.Location = new System.Drawing.Point(91, 139);
+            this.txt_userCode.Location = new System.Drawing.Point(100, 139);
             this.txt_userCode.Name = "txt_userCode";
-            this.txt_userCode.Size = new System.Drawing.Size(180, 20);
+            this.txt_userCode.Size = new System.Drawing.Size(171, 20);
             this.txt_userCode.StyleController = this.layoutControl1;
             this.txt_userCode.TabIndex = 4;
             // 
             // txt_Password
             // 
             this.txt_Password.EditValue = "";
-            this.txt_Password.Location = new System.Drawing.Point(91, 163);
+            this.txt_Password.Location = new System.Drawing.Point(100, 163);
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.Properties.PasswordChar = '*';
-            this.txt_Password.Size = new System.Drawing.Size(180, 20);
+            this.txt_Password.Size = new System.Drawing.Size(171, 20);
             this.txt_Password.StyleController = this.layoutControl1;
             this.txt_Password.TabIndex = 5;
             // 
@@ -218,6 +227,7 @@
             this.img_bar.Add("clearheaderandfooter", "image://svgimages/richedit/clearheaderandfooter.svg");
             this.img_bar.Add("bo_category", "image://svgimages/business objects/bo_category.svg");
             this.img_bar.Add("bo_country_v92", "image://svgimages/business objects/bo_country_v92.svg");
+            this.img_bar.Add("managedatasource", "image://svgimages/spreadsheet/managedatasource.svg");
             // 
             // btn_Close
             // 
@@ -339,7 +349,7 @@
             this.emptySpaceItem1.AllowHotTrack = false;
             this.emptySpaceItem1.Location = new System.Drawing.Point(0, 247);
             this.emptySpaceItem1.Name = "emptySpaceItem1";
-            this.emptySpaceItem1.Size = new System.Drawing.Size(263, 50);
+            this.emptySpaceItem1.Size = new System.Drawing.Size(263, 26);
             this.emptySpaceItem1.TextSize = new System.Drawing.Size(0, 0);
             // 
             // layoutControlItem5
@@ -362,10 +372,11 @@
             // 
             this.layoutControlGroup1.GroupStyle = DevExpress.Utils.GroupStyle.Light;
             this.layoutControlGroup1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutControlItem8});
-            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 297);
+            this.layoutControlItem8,
+            this.layoutControlItem11});
+            this.layoutControlGroup1.Location = new System.Drawing.Point(0, 273);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(263, 69);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(263, 93);
             this.layoutControlGroup1.Text = "Bağlantı Bilgileri";
             // 
             // layoutControlItem8
@@ -397,9 +408,26 @@
             this.layoutControlItem10.Text = "İşyeri";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(76, 16);
             // 
-            // bs_AppIdView
+            // lookUpEdit1
             // 
-            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
+            this.lookUpEdit1.Location = new System.Drawing.Point(112, 342);
+            this.lookUpEdit1.Name = "lookUpEdit1";
+            this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit1.Properties.NullText = "";
+            this.lookUpEdit1.Size = new System.Drawing.Size(147, 20);
+            this.lookUpEdit1.StyleController = this.layoutControl1;
+            this.lookUpEdit1.TabIndex = 13;
+            // 
+            // layoutControlItem11
+            // 
+            this.layoutControlItem11.Control = this.lookUpEdit1;
+            this.layoutControlItem11.ImageOptions.ImageIndex = 11;
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem11.Name = "layoutControlItem11";
+            this.layoutControlItem11.Size = new System.Drawing.Size(239, 24);
+            this.layoutControlItem11.Text = "Veri Tabanı";
+            this.layoutControlItem11.TextSize = new System.Drawing.Size(76, 16);
             // 
             // login
             // 
@@ -428,6 +456,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_ServerList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).EndInit();
@@ -448,7 +477,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -483,5 +513,7 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
         private System.Windows.Forms.BindingSource bs_ServerList;
         private System.Windows.Forms.BindingSource bs_Company;
+        private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
+        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
     }
 }
