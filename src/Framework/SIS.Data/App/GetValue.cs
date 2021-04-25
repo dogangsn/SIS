@@ -10,8 +10,12 @@ namespace SIS.Data.App
     {
         public int Id { get; set; }
         public int Str { get; set; }
+        public string IdStr { get; set; }
         public int CompanyId { get; set; }
         public string userCode { get; set; }
+
+        public string ConStr { get; set; }
+
 
     }
 }

@@ -12,6 +12,36 @@ namespace SIS.Data.App
 
     }
 
+
+    public class ConnectionDTO
+    {
+        public ConnectionDTO()
+        {
+            Server = "";
+            Database = "";
+            UserId = "";
+            Password = "";
+        }
+        public string Server { get; set; }
+        public string Database { get; set; }
+        public string UserId { get; set; }
+        public string Password { get; set; }
+
+        public string Connection(bool _Cloude)
+        {
+            string _return = $"data source= {Server};initial catalog={Database};persist security info=True;user id={UserId};password={Password};MultipleActiveResultSets=True;App=EntityFramework";
+            if (_Cloude)
+            {
+                _return = $"Server = tcp:{Server},1433; Initial Catalog = {Database}; Persist Security Info = False; User ID = {UserId}; Password = {Password}; MultipleActiveResultSets = True; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+
+            }
+
+            return _return;
+        }
+    }
+
+
+
     public class AppIdView
     {
         int id;

@@ -12,7 +12,7 @@ using SIS.Service.Extensions;
 using SIS.Data.App;
 using SIS.Service.RouteMap;
 
-namespace Syskod.Service.Admin
+namespace SIS.Service.Admin
 {
     public class Repository
     {

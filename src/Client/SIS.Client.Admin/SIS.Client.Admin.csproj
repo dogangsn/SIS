@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bl.cs" />
+    <Compile Include="blvalue.cs" />
     <Compile Include="FormTool.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -57,6 +59,7 @@
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Message.cs" />
+    <Compile Include="pl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -88,6 +91,14 @@
     <ProjectReference Include="..\..\Framework\SIS.Model\SIS.Model.csproj">
       <Project>{1e047919-92c4-4e58-949a-921a443fe7f5}</Project>
       <Name>SIS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\SIS.Serivce.Admin\SIS.Service.Admin.csproj">
+      <Project>{8b311d82-2c3a-4c4e-a922-2c63506613dc}</Project>
+      <Name>SIS.Service.Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIS.Client.blvalue\SIS.Client.blvalue.csproj">
+      <Project>{98c8b1a1-3827-4dc5-9c61-a7126f20efa7}</Project>
+      <Name>SIS.Client.blvalue</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

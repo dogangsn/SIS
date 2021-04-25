@@ -11,68 +11,45 @@ using DevExpress.XtraEditors;
 using System.IO;
 using SIS.Models.Models.App;
 
-using SIS.Data;
-using SIS.Data.DbConectionModel;
 using SIS.Model.Models.GMP.Settings;
 using SIS.Model.Models.GMP.Definitions;
-using SIS.Data.App;
-using SIS.Model.Models.Utilities;
 
+using SIS.Model.Models.Utilities;
+using SIS.Data.Managers;
+using SIS.Data.Model;
 
 namespace SIS.Client.Admin
 {
     public partial class login : DevExpress.XtraEditors.XtraForm
     {
-        //Repository _repository = new Repository();
         public login()
         {
             InitializeComponent();
          
             Set_Form();
         }
+
+
+        public int ApplicationId;
+        string __ConnectionString;
+        string __Sql_Server;
+        string __Sql_Database;
+        string __Sql_User;
+        string __Sql_Password;
+
         List<ApplicationServerDTO> applicationServers = new List<ApplicationServerDTO>();
         List<CompanyDTO> _company = new List<CompanyDTO>();
 
         #region Record
         private void Set_Form()
         {
+            SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
 
-            #region CreateFile
-            string root = @"C:\SIS";
-            if (!Directory.Exists(root))
+            if (!AppMain.AppValue.RunningLocalAdmin)
             {
-                Directory.CreateDirectory(root);
+                SIS.Data.AppConfigs _AppConfigs = bl.blcAdmin.Run<SIS.Service.Admin.AdminService, SIS.Data.AppConfigs>(r => r.get_AppConfigs());
             }
-            string path = @"C:\SIS\ConnectString.txt";
-            if (!File.Exists(path))
-            {
-                using (StreamWriter sw = File.CreateText(path))
-                {
-                    sw.WriteLine("data source=DG;initial catalog=SIS;user id=sa;password=123D654!;");
-                }
-            }
-            string[] conArry;
-            using (StreamReader sr = File.OpenText(path))
-            {
-                string str = sr.ReadLine();
-                conArry = str.Split(';');
-            }
-            List<string> conn = new List<string>();
-            foreach (var item in conArry)
-            {
-                int position = item.IndexOf("=");
-                if (position < 0)
-                    continue;
-                conn.Add(item.Substring(position + 1));
-            }
-            AppMain.SqlConnection = new ConnectionDTO
-            {
-                Database = conn[1], //Global.SqlConnection.Database,
-                Server = conn[0], //"R00T\\SQLEXPRESS", //Global.SqlConnection.Server,
-                Password = conn[3], //Global.SqlConnection.Password,
-                UserId = conn[2] //Global.SqlConnection.UserId
-            };
-            #endregion
+
 
             AppIdView _AppIdView = new AppIdView();
             if (AppMain.GMPActive)
@@ -94,27 +71,70 @@ namespace SIS.Client.Admin
             _List_ApplicationIds.Add(AppMain.AplicationId);
             bs_AppIdView.DataSource = AppMain.List_AppIdView;
 
-            if (App.Tool.AppTools.sqlKontrol(AppMain.SqlConnection.Server, AppMain.SqlConnection.Database, AppMain.SqlConnection.UserId, AppMain.SqlConnection.Password) == false)
-            {
-                XtraMessageBox.Show("Bağlantı hatası.Veritabanı ayarlarınızı kontrol ediniz...", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            LoadDatabase();
 
         }
 
-        public void LoadDatabase()
-        {
-            //applicationServers = _repository.Run<StartUp, List<ApplicationServerDTO>>(x => x.Get_List_ApplicationServer());
-            //bs_ServerList.DataSource = applicationServers;
 
-            if (applicationServers.Count > 0)
-                lc_serverList.EditValue = applicationServers.FirstOrDefault().Id;
-
-            //_company = _repository.Run<StartUp, List<CompanyDTO>>(x => x.GetList_Company());
-            //bs_company.DataSource = _company;
-        } 
         #endregion
+
+        private string get_DbKodAdmin_Database(string _CustomerGuidId)
+        {
+            SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
+            _GetValue.IdStr = _CustomerGuidId;
+            _GetValue.Id = blvalue.AplicationId;
+            _GetValue.ConStr = Client.blvalue.AppMain.AppValue.ConAdminFirst;
+            SIS.Data.ReturnProcess _ReturnProcess = bl.blcAdmin.Run<Service.Admin.Service.AdminService, SIS.Data.ReturnProcess>(r => r.get_DbKodAdmin_Database(_GetValue));
+            return _ReturnProcess.error;
+        }
+
+        private void set_DbAdmin_Database()
+        {
+
+            if (SIS.Client.blvalue.AppMain.AppValue.CloudLicense)
+            {
+                string _DbAdminDatabase = get_DbKodAdmin_Database(SIS.Client.blvalue.AppMain.AppValue.CustomerGuidId);
+                if (_DbAdminDatabase == null) _DbAdminDatabase = "";
+                if (_DbAdminDatabase != "")
+                {
+                    SIS.Client.blvalue.AppMain.AppValue.DbAdminConnectionDTO.Database = _DbAdminDatabase;
+                    string connection = SIS.Client.blvalue.AppMain.AppValue.DbAdminConnectionDTO.Connection(blvalue.Cloude);
+                    #region Token
+                    IAuthService authService = new JWTService();
+                    IAuthContainerModel model = GetJWTContainerModel("connection", connection);
+
+                    string token = authService.GenerateToken(model);
+                    if (!string.IsNullOrEmpty(token))
+                    {
+                        connection = token;
+                    }
+                    #endregion
+
+                    SIS.Client.blvalue.AppMain.AppValue.ConAdmin = connection;
+                    SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
+                    _GetValue.ConStr = SIS.Client.blvalue.AppMain.AppValue.ConAdmin;
+                    var result = bl.blcAdmin.Run<Service.Admin.Service.AdminService, SIS.Data.ReturnProcess>(r => r.UpdateSqlDatabase(_GetValue));
+
+                }
+                else
+                {
+                    string connection = SIS.Client.blvalue.AppMain.AppValue.AdminConnectionDTO.Connection(blvalue.Cloude);
+                    SIS.Client.blvalue.AppMain.AppValue.ConAdmin = SIS.Client.blvalue.AppMain.CreateJwtToken("connection", connection);                
+                }
+            }
+
+
+        }
+
+        private static JWTContainerModel GetJWTContainerModel(string name, string value)
+        {
+            return new JWTContainerModel
+            {
+                Claims = new List<ClaimDto>
+                {
+                    new ClaimDto( name,value)
+                }
+            };
+        }
 
         private void login_Load(object sender, EventArgs e)
         {
