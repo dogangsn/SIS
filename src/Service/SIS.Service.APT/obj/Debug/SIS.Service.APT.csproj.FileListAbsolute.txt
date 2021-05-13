@@ -1,0 +1,5 @@
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\bin\Debug\SIS.Service.APT.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\bin\Debug\SIS.Service.APT.pdb
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.csproj.CoreCompileInputs.cache
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.pdb
