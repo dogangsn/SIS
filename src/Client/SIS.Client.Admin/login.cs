@@ -447,5 +447,36 @@ namespace SIS.Client.Admin
                 _User_old = txt_userCode.Text.ToString();
             }
         }
+
+        private void lc_Application_EditValueChanged(object sender, EventArgs e)
+        {
+            blvalue.AplicationId = (int)lc_Application.EditValue;
+            _User_old = "";
+            _PasswordFocus = false;
+            if (!AppMain.AppValue.CloudLicense)
+            {
+                //do_Set_Registry_Read(blvalue.AplicationId);
+            }
+            else
+            {
+                //do_Set_Registry_License_Read(AppMain.AppValue.CustomerGuidId, blvalue.AplicationId);
+            }
+            if (txt_userCode.Text != "")
+            {
+                txt_userCode_Leave(null, null);
+            }
+        }
+
+        private void lc_database_EditValueChanged(object sender, EventArgs e)
+        {
+            bs_ApplicationDatabase.EndEdit();
+            if (lc_database.EditValue == null) return;
+            if (lc_serverList.Text == "") return;
+            if (__List_ApplicationServer.Count == 0) return;
+
+            _User_old = "";
+            int _DatabaseId = Convert.ToInt32(lc_database.EditValue);
+            set_DatabaseIdValue(_DatabaseId);
+        }
     }
 }

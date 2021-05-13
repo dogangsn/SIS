@@ -36,7 +36,6 @@
             this.lc_serverList = new DevExpress.XtraEditors.LookUpEdit();
             this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Application = new DevExpress.XtraEditors.LookUpEdit();
-            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.txt_userCode = new DevExpress.XtraEditors.TextEdit();
             this.txt_Password = new DevExpress.XtraEditors.TextEdit();
@@ -61,6 +60,7 @@
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
             this.bs_UserCompanyRight = new System.Windows.Forms.BindingSource(this.components);
+            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).BeginInit();
@@ -69,7 +69,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).BeginInit();
@@ -92,6 +91,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -132,6 +132,7 @@
             this.lc_database.Size = new System.Drawing.Size(147, 20);
             this.lc_database.StyleController = this.layoutControl1;
             this.lc_database.TabIndex = 13;
+            this.lc_database.EditValueChanged += new System.EventHandler(this.lc_database_EditValueChanged);
             // 
             // bs_ApplicationDatabase
             // 
@@ -185,10 +186,7 @@
             this.lc_Application.Size = new System.Drawing.Size(171, 20);
             this.lc_Application.StyleController = this.layoutControl1;
             this.lc_Application.TabIndex = 9;
-            // 
-            // bs_AppIdView
-            // 
-            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
+            this.lc_Application.EditValueChanged += new System.EventHandler(this.lc_Application_EditValueChanged);
             // 
             // pictureEdit1
             // 
@@ -444,24 +442,23 @@
             this.layoutControlItem10.Text = "İşyeri";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(76, 16);
             // 
+            // bs_AppIdView
+            // 
+            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
+            // 
             // login
             // 
             this.AcceptButton = this.btn_login;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoScroll = true;
             this.CancelButton = this.btn_Close;
             this.ClientSize = new System.Drawing.Size(283, 439);
-            this.ControlBox = false;
             this.Controls.Add(this.layoutControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.ImeMode = System.Windows.Forms.ImeMode.On;
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "login";
-            this.ShowInTaskbar = false;
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.login_Load);
@@ -473,7 +470,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).EndInit();
@@ -496,6 +492,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             this.ResumeLayout(false);
 
         }
