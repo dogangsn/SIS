@@ -31,8 +31,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +52,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseService.cs" />
+    <Compile Include="Http\HttpService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Service\Admin\AdminGmpService.cs" />
+    <Compile Include="Service\System\SystemService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\SIS.DataAccess.GMP\SIS.DataAccess.GMP.csproj">
+      <Project>{a113f293-6cbb-4127-9629-33b3601d5075}</Project>
+      <Name>SIS.DataAccess.GMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Data\SIS.Data.csproj">
+      <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
+      <Name>SIS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Entity\SIS.Entity.csproj">
+      <Project>{258d2b00-e8e1-41cc-bbee-be12b8d07d71}</Project>
+      <Name>SIS.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Model\SIS.Model.csproj">
+      <Project>{1e047919-92c4-4e58-949a-921a443fe7f5}</Project>
+      <Name>SIS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SIS.Service\SIS.Service.csproj">
+      <Project>{64c50c21-ca64-41e5-b1f2-0cfa7df52f57}</Project>
+      <Name>SIS.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

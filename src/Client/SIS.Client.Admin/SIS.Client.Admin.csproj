@@ -52,9 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppService.cs" />
+    <Compile Include="AppServiceFactory.cs" />
     <Compile Include="bl.cs" />
     <Compile Include="blvalue.cs" />
     <Compile Include="FormTool.cs" />
+    <Compile Include="Helper\GMPAppService.cs" />
     <Compile Include="layout.cs" />
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -70,6 +73,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Tool.cs" />
     <Compile Include="XtraForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,10 +108,18 @@
       <Project>{8b311d82-2c3a-4c4e-a922-2c63506613dc}</Project>
       <Name>SIS.Service.Admin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Service\SIS.Service.GMP\SIS.Service.GMP.csproj">
+      <Project>{1f47aece-080c-48c9-8ec6-be3a07d17ff6}</Project>
+      <Name>SIS.Service.GMP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SIS.Client.blvalue\SIS.Client.blvalue.csproj">
       <Project>{98c8b1a1-3827-4dc5-9c61-a7126f20efa7}</Project>
       <Name>SIS.Client.blvalue</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\SIS.Entity.Entities.Admin.ApplicationDatabase.datasource" />
+    <None Include="Properties\DataSources\SIS.Entity.Entities.Admin.ApplicationServer.datasource" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,8 +63,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\UserCompanyRight.cs" />
     <Compile Include="App\App.cs" />
     <Compile Include="App\GetValue.cs" />
+    <Compile Include="App\LoginUser.cs" />
     <Compile Include="App\SISAdmin.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Managers\IAuthService.cs" />

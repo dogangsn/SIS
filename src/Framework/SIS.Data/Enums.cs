@@ -12,8 +12,8 @@ namespace SIS.Data
 
     public enum AdminAppType : int
     {
-        HTP = 1,
-        GMP = 2,
+        GMP = 1,
+        HTP = 2,
         GYM = 3,
         RAC = 4,
 

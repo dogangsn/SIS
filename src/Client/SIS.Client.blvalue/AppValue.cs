@@ -19,6 +19,8 @@ namespace SIS.Client.blvalue
         public string ConAdminFirst { get; set; }
         public string UserCode { get; set; }
         public string ConApp { get; set; }
+        public bool RunningLocalApp { get; set; }
+        public string ApiUrlApp { get; set; }
 
         public string Language { get; set; } = "En";
 

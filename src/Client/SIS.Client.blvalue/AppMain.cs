@@ -15,6 +15,7 @@ namespace SIS.Client.blvalue
 
         public static List<SIS.Entity.Entities.Admin.FormLayouts> List_FormLayouts = new List<SIS.Entity.Entities.Admin.FormLayouts>();
 
+        public static List<SIS.Data.Admin.UserCompanyRight> List_UserCompanyRight = new List<SIS.Data.Admin.UserCompanyRight>();
 
         public static string CreateJwtToken(string name, string value)
         {

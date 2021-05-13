@@ -30,11 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.lc_database = new DevExpress.XtraEditors.LookUpEdit();
             this.lc_Company = new DevExpress.XtraEditors.LookUpEdit();
             this.lc_serverList = new DevExpress.XtraEditors.LookUpEdit();
-            this.bs_ServerList = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Application = new DevExpress.XtraEditors.LookUpEdit();
-            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.txt_userCode = new DevExpress.XtraEditors.TextEdit();
             this.txt_Password = new DevExpress.XtraEditors.TextEdit();
@@ -54,18 +53,20 @@
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlGroup1 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
-            this.lookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
-            this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
+            this.bs_ApplicationDatabase = new System.Windows.Forms.BindingSource(this.components);
+            this.bs_UserCompanyRight = new System.Windows.Forms.BindingSource(this.components);
+            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ServerList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).BeginInit();
@@ -83,16 +84,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
             // 
-            this.layoutControl1.Controls.Add(this.lookUpEdit1);
+            this.layoutControl1.Controls.Add(this.lc_database);
             this.layoutControl1.Controls.Add(this.lc_Company);
             this.layoutControl1.Controls.Add(this.lc_serverList);
             this.layoutControl1.Controls.Add(this.lc_Application);
@@ -112,6 +116,20 @@
             this.layoutControl1.Size = new System.Drawing.Size(283, 439);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // lc_database
+            // 
+            this.lc_database.Location = new System.Drawing.Point(112, 342);
+            this.lc_database.Name = "lc_database";
+            this.lc_database.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lc_database.Properties.DataSource = this.bs_ApplicationDatabase;
+            this.lc_database.Properties.DisplayMember = "DatabaseName";
+            this.lc_database.Properties.NullText = "";
+            this.lc_database.Properties.ValueMember = "Id";
+            this.lc_database.Size = new System.Drawing.Size(147, 20);
+            this.lc_database.StyleController = this.layoutControl1;
+            this.lc_database.TabIndex = 13;
             // 
             // lc_Company
             // 
@@ -133,17 +151,14 @@
             this.lc_serverList.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Server", "Server"),
             new DevExpress.XtraEditors.Controls.LookUpColumnInfo("ServerName", "Server Adı")});
-            this.lc_serverList.Properties.DataSource = this.bs_ServerList;
+            this.lc_serverList.Properties.DataSource = this.bs_ApplicationServer;
             this.lc_serverList.Properties.DisplayMember = "ServerName";
             this.lc_serverList.Properties.NullText = "";
             this.lc_serverList.Properties.ValueMember = "Id";
             this.lc_serverList.Size = new System.Drawing.Size(147, 20);
             this.lc_serverList.StyleController = this.layoutControl1;
             this.lc_serverList.TabIndex = 10;
-            // 
-            // bs_ServerList
-            // 
-            this.bs_ServerList.DataSource = typeof(SIS.Models.Models.App.ApplicationServerDTO);
+            this.lc_serverList.EditValueChanged += new System.EventHandler(this.lc_serverList_EditValueChanged);
             // 
             // lc_Application
             // 
@@ -160,10 +175,6 @@
             this.lc_Application.Size = new System.Drawing.Size(171, 20);
             this.lc_Application.StyleController = this.layoutControl1;
             this.lc_Application.TabIndex = 9;
-            // 
-            // bs_AppIdView
-            // 
-            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
             // 
             // pictureEdit1
             // 
@@ -182,6 +193,7 @@
             this.txt_userCode.Size = new System.Drawing.Size(171, 20);
             this.txt_userCode.StyleController = this.layoutControl1;
             this.txt_userCode.TabIndex = 4;
+            this.txt_userCode.Leave += new System.EventHandler(this.txt_userCode_Leave);
             // 
             // txt_Password
             // 
@@ -389,6 +401,16 @@
             this.layoutControlItem8.Text = "Server";
             this.layoutControlItem8.TextSize = new System.Drawing.Size(76, 16);
             // 
+            // layoutControlItem11
+            // 
+            this.layoutControlItem11.Control = this.lc_database;
+            this.layoutControlItem11.ImageOptions.ImageIndex = 11;
+            this.layoutControlItem11.Location = new System.Drawing.Point(0, 24);
+            this.layoutControlItem11.Name = "layoutControlItem11";
+            this.layoutControlItem11.Size = new System.Drawing.Size(239, 24);
+            this.layoutControlItem11.Text = "Veri Tabanı";
+            this.layoutControlItem11.TextSize = new System.Drawing.Size(76, 16);
+            // 
             // layoutControlItem9
             // 
             this.layoutControlItem9.Control = this.checkEdit1;
@@ -408,26 +430,17 @@
             this.layoutControlItem10.Text = "İşyeri";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(76, 16);
             // 
-            // lookUpEdit1
+            // bs_ApplicationServer
             // 
-            this.lookUpEdit1.Location = new System.Drawing.Point(112, 342);
-            this.lookUpEdit1.Name = "lookUpEdit1";
-            this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.lookUpEdit1.Properties.NullText = "";
-            this.lookUpEdit1.Size = new System.Drawing.Size(147, 20);
-            this.lookUpEdit1.StyleController = this.layoutControl1;
-            this.lookUpEdit1.TabIndex = 13;
+            this.bs_ApplicationServer.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationServer);
             // 
-            // layoutControlItem11
+            // bs_ApplicationDatabase
             // 
-            this.layoutControlItem11.Control = this.lookUpEdit1;
-            this.layoutControlItem11.ImageOptions.ImageIndex = 11;
-            this.layoutControlItem11.Location = new System.Drawing.Point(0, 24);
-            this.layoutControlItem11.Name = "layoutControlItem11";
-            this.layoutControlItem11.Size = new System.Drawing.Size(239, 24);
-            this.layoutControlItem11.Text = "Veri Tabanı";
-            this.layoutControlItem11.TextSize = new System.Drawing.Size(76, 16);
+            this.bs_ApplicationDatabase.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationDatabase);
+            // 
+            // bs_AppIdView
+            // 
+            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
             // 
             // login
             // 
@@ -452,11 +465,10 @@
             this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ServerList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).EndInit();
@@ -474,11 +486,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -511,9 +526,11 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
         private DevExpress.XtraEditors.LookUpEdit lc_Company;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
-        private System.Windows.Forms.BindingSource bs_ServerList;
         private System.Windows.Forms.BindingSource bs_Company;
-        private DevExpress.XtraEditors.LookUpEdit lookUpEdit1;
+        private DevExpress.XtraEditors.LookUpEdit lc_database;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
+        private System.Windows.Forms.BindingSource bs_ApplicationServer;
+        private System.Windows.Forms.BindingSource bs_ApplicationDatabase;
+        private System.Windows.Forms.BindingSource bs_UserCompanyRight;
     }
 }

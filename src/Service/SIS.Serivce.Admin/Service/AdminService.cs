@@ -1,5 +1,9 @@
 ﻿using SIS.Data;
 using SIS.Data.App;
+using SIS.Data.Managers;
+using SIS.Data.Model;
+using SIS.Entity.Entities.Admin;
+using SIS.Serivce.Admin;
 using SIS.Service.Admin;
 using System;
 using System.Collections.Generic;
@@ -71,6 +75,76 @@ namespace SIS.Service.Admin
 
         }
 
+        [HttpAction(HttpType.Post)]
+        public List<SIS.Entity.Entities.Admin.ApplicationServer> get_List_ApplicationServer_UserCode(GetValue _GetValue)
+        {
+            using (var _db = new SIS.DataAccess.Admin.AdminListContext(_GetValue.ConStr))
+            {
+                string _sql = Helper.get_sql_ApplicationServer(_GetValue.Id.Value, _GetValue.IdStr, _GetValue.IdStr2);
+                List<ApplicationServer> _return = _db.Database.SqlQuery<ApplicationServer>(_sql).ToList();
+
+
+                IAuthService authService = new JWTService();
+
+                foreach (ApplicationServer _ApplicationServer in _return)
+                {
+                    _ApplicationServer.Password = get_SqlPassword_Local(_ApplicationServer.Password);
+                    _sql = $"Select * from ApplicationDatabase with (nolock) Where ApplicationId = { _GetValue.Id} And ServerId = {_ApplicationServer.Id} ";
+                    _ApplicationServer.ApplicationDatabase = _db.Database.SqlQuery<ApplicationDatabase>(_sql).ToList();
+
+                    foreach (ApplicationDatabase _ApplicationDatabase in _ApplicationServer.ApplicationDatabase)
+                    {
+                        string connection = "";
+                        string invoiceConnection = "";
+
+                        if (_ApplicationServer.ServerCloude.Value)
+                        {
+
+                            connection = $"Server = tcp:{_ApplicationServer.Server},1433; Initial Catalog = {_ApplicationDatabase.DatabaseName}; Persist Security Info = False; User ID = {_ApplicationServer.Username}; Password = {_ApplicationServer.Password}; MultipleActiveResultSets = True; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+                            invoiceConnection = $"Server = tcp:{_ApplicationServer.Server},1433; Initial Catalog = SednaEInvoice; Persist Security Info = False; User ID = {_ApplicationServer.Username}; Password = {_ApplicationServer.Password}; MultipleActiveResultSets = True; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
+                        }
+                        else
+                        {
+                            connection = $"data source= {_ApplicationServer.Server};initial catalog={_ApplicationDatabase.DatabaseName};persist security info=True;user id={_ApplicationServer.Username};password={_ApplicationServer.Password};MultipleActiveResultSets=True;App=EntityFramework";
+                            invoiceConnection = $"data source= {_ApplicationServer.Server};initial catalog=SednaEInvoice;persist security info=True;user id={_ApplicationServer.Username};password={_ApplicationServer.Password};MultipleActiveResultSets=True;App=EntityFramework";
+
+                        }
+
+                        #region Token
+                        IAuthContainerModel model = GetJWTContainerModel("connection", connection);
+                        string token = authService.GenerateToken(model);
+                        string token2 = authService.GenerateToken(GetJWTContainerModel("connection", invoiceConnection));
+                        connection = token;
+                        invoiceConnection = token2;
+
+                        #endregion
+
+                        _ApplicationDatabase.ConnectionString = connection;
+                    }
+                }
+                return _return;
+
+            }
+        }
+
+        [HttpAction(HttpType.Get)]
+        public string get_SqlPassword_Local(string _Password)
+        {
+            Helper _Helper = new Helper();
+            _Helper.SetupDefination();
+            return _Helper.SifreCoz(_Password);
+
+        }
+        private static JWTContainerModel GetJWTContainerModel(string name, string value)
+        {
+            return new JWTContainerModel
+            {
+                Claims = new List<ClaimDto>
+                {
+                    new ClaimDto( name,value)
+                }
+            };
+        }
 
         #region Layout
         [HttpAction(HttpType.Get)]

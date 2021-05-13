@@ -51,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Admin\ApplicationDatabase.cs" />
+    <Compile Include="Entities\Admin\ApplicationServer.cs" />
+    <Compile Include="Entities\Admin\ApplicationUserDatabase.cs" />
     <Compile Include="Entities\Admin\FormLayouts.cs" />
     <Compile Include="Entities\GMP\Company.cs" />
     <Compile Include="Entities\GMP\Customers.cs" />

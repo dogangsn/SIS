@@ -8,7 +8,7 @@ namespace SIS.Data.App
 {
     public class GetValue
     {
-        public int Id { get; set; }
+        public int? Id { get; set; }
         public int Str { get; set; }
         public string IdStr { get; set; }
         public string IdStr2 { get; set; }

@@ -10,12 +10,11 @@ namespace SIS.Client.Admin
     {
         public static SIS.Client.Admin.pl pladmin = new pl();
         public static SIS.Service.Admin.Repository blcAdmin;
-
+        public static AppService AppService { get; set; }
         public static SIS.Service.Admin.Repository get_Repository_Admin()
         {
             return blcAdmin;
         }
-
 
         public static SIS.Data.App.GetValue get_GetValue()
         {
@@ -25,6 +24,14 @@ namespace SIS.Client.Admin
         }
 
         public static SIS.Client.Admin.Message message = new Message();
+
+        public static SIS.Service.GMP.Repository.Repository blcGmp { get; set; }
+        public static void set_Repository_Erp(SIS.Service.GMP.Repository.Repository _Repository)
+        {
+            blcGmp = _Repository;
+        }
+
+
 
     }
 }

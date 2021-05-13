@@ -212,3 +212,8 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\EntityFramework.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Serivce.Admin.dll.config
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.Admin.pdb
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\EntityFramework.xml
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.GMP.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.GMP.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.GMP.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.GMP.dll.config
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.GMP.pdb
