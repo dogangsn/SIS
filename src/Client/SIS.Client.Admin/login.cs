@@ -39,15 +39,12 @@ namespace SIS.Client.Admin
         LoginUser __dl_Users_Gmp;
         LoginUser __dl_Users_Htp;
         string _User_old = "";
-
         int __register_ServerId;
-
         string __ConnectionString;
         string __Sql_Server;
         string __Sql_Database;
         string __Sql_User;
         string __Sql_Password;
-
         int __register_DatabaseId;
         int __OldDatabaseId = 0;
 
@@ -83,13 +80,8 @@ namespace SIS.Client.Admin
             List<int> _List_ApplicationIds = new List<int>();
             _List_ApplicationIds.Add(blvalue.AplicationId);
             bs_AppIdView.DataSource = SIS.Client.Admin.blvalue.List_AppIdView;
-
-
         }
-
-
         #endregion
-
         private string get_DbKodAdmin_Database(string _CustomerGuidId)
         {
             SIS.Data.App.GetValue _GetValue = SIS.Client.Admin.bl.get_GetValue();
@@ -99,7 +91,6 @@ namespace SIS.Client.Admin
             SIS.Data.ReturnProcess _ReturnProcess = bl.blcAdmin.Run<Service.Admin.AdminService, SIS.Data.ReturnProcess>(r => r.get_DbKodAdmin_Database(_GetValue));
             return _ReturnProcess.error;
         }
-
         private void set_DbAdmin_Database()
         {
 
@@ -136,7 +127,6 @@ namespace SIS.Client.Admin
 
 
         }
-
         private static JWTContainerModel GetJWTContainerModel(string name, string value)
         {
             return new JWTContainerModel
@@ -147,17 +137,14 @@ namespace SIS.Client.Admin
                 }
             };
         }
-
         private void login_Load(object sender, EventArgs e)
         {
             set_DbAdmin_Database();
         }
-
         private void btn_login_Click(object sender, EventArgs e)
         {
             do_login();
         }
-
         private bool do_IsNotValid()
         {
             bool _return = false;
@@ -188,7 +175,6 @@ namespace SIS.Client.Admin
             //}
             return _return;
         }
-
         private void do_login()
         {
 
@@ -196,12 +182,10 @@ namespace SIS.Client.Admin
  
             this.Close();
         }
-
         private void btn_Close_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void lc_serverList_EditValueChanged(object sender, EventArgs e)
         {
             bs_ApplicationServer.EndEdit();
@@ -210,7 +194,6 @@ namespace SIS.Client.Admin
             int _ServerId = Convert.ToInt32(lc_serverList.EditValue);
             set_ServerIdValue(_ServerId);
         }
-
         private void set_ServerIdValue(int _ServerId)
         {
             if (__OldServerId != _ServerId)
@@ -237,7 +220,6 @@ namespace SIS.Client.Admin
             set_DatabaseIdValue(_DatabaseId);
 
         }
-
         private void UseLocal()
         {
             if (AppMain.AppValue.ForceUseLocal)
@@ -245,7 +227,6 @@ namespace SIS.Client.Admin
                 AppMain.AppValue.ApiUrlApp = "";
             }
         }
-
         private void set_blvalue_ApiUrl(int _ServerId)
         {
 
@@ -258,7 +239,6 @@ namespace SIS.Client.Admin
                 bl.AppService.CreateBlc();
             }
         }
-
         private void set_DatabaseIdValue(int _DataBaseId)
         {
             if (__OldDatabaseId != _DataBaseId)
@@ -317,7 +297,6 @@ namespace SIS.Client.Admin
             __dl_Users = _user;
             return _user;
         }
-
         public bool get_User_ServerDatabase(string _User, string _CustomerGuidId)
         {
             bool _return = false;
@@ -388,7 +367,6 @@ namespace SIS.Client.Admin
             return _return;
         }
         bool _PasswordFocus = false;
-
         private void txt_userCode_Leave(object sender, EventArgs e)
         {
             string _UserCode = txt_userCode.Text.ToString().Trim();

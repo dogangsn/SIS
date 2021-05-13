@@ -31,9 +31,12 @@
             this.components = new System.ComponentModel.Container();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.lc_database = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_ApplicationDatabase = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Company = new DevExpress.XtraEditors.LookUpEdit();
             this.lc_serverList = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Application = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.txt_userCode = new DevExpress.XtraEditors.TextEdit();
             this.txt_Password = new DevExpress.XtraEditors.TextEdit();
@@ -57,16 +60,16 @@
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_ApplicationDatabase = new System.Windows.Forms.BindingSource(this.components);
             this.bs_UserCompanyRight = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).BeginInit();
@@ -88,10 +91,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -123,6 +123,8 @@
             this.lc_database.Name = "lc_database";
             this.lc_database.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lc_database.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("DatabaseName", "Veri Tabanı")});
             this.lc_database.Properties.DataSource = this.bs_ApplicationDatabase;
             this.lc_database.Properties.DisplayMember = "DatabaseName";
             this.lc_database.Properties.NullText = "";
@@ -130,6 +132,10 @@
             this.lc_database.Size = new System.Drawing.Size(147, 20);
             this.lc_database.StyleController = this.layoutControl1;
             this.lc_database.TabIndex = 13;
+            // 
+            // bs_ApplicationDatabase
+            // 
+            this.bs_ApplicationDatabase.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationDatabase);
             // 
             // lc_Company
             // 
@@ -160,6 +166,10 @@
             this.lc_serverList.TabIndex = 10;
             this.lc_serverList.EditValueChanged += new System.EventHandler(this.lc_serverList_EditValueChanged);
             // 
+            // bs_ApplicationServer
+            // 
+            this.bs_ApplicationServer.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationServer);
+            // 
             // lc_Application
             // 
             this.lc_Application.Location = new System.Drawing.Point(100, 115);
@@ -175,6 +185,10 @@
             this.lc_Application.Size = new System.Drawing.Size(171, 20);
             this.lc_Application.StyleController = this.layoutControl1;
             this.lc_Application.TabIndex = 9;
+            // 
+            // bs_AppIdView
+            // 
+            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
             // 
             // pictureEdit1
             // 
@@ -430,18 +444,6 @@
             this.layoutControlItem10.Text = "İşyeri";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(76, 16);
             // 
-            // bs_ApplicationServer
-            // 
-            this.bs_ApplicationServer.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationServer);
-            // 
-            // bs_ApplicationDatabase
-            // 
-            this.bs_ApplicationDatabase.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationDatabase);
-            // 
-            // bs_AppIdView
-            // 
-            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
-            // 
             // login
             // 
             this.AcceptButton = this.btn_login;
@@ -466,9 +468,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).EndInit();
@@ -490,10 +495,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             this.ResumeLayout(false);
 
         }
