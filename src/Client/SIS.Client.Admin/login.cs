@@ -432,7 +432,7 @@ namespace SIS.Client.Admin
                     try
                     {
                         var users = GetUsers(_GetValue);
-                        txt_userCode.EditValue = users?.UserName;
+                        //txt_userCode.EditValue = users?.UserName;
                     }
                     catch (Exception _Exception)
                     {
