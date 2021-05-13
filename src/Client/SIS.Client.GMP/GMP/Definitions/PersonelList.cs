@@ -66,11 +66,11 @@ namespace SIS.App.Screens.GMP.Definitions
             PersonelsDTO oRow = (PersonelsDTO)gcv_PersonelList.GetFocusedRow();
             if (oRow != null)
             {
-                if (bl.message.get_Question("Kayıt Silinecektir. Onaylıyor musunuz?"))
-                {
-                    //var result = bl._repository.Run<DefinitionsService, ActionResponse<PersonelsDTO>>(x => x.DeletePersonel(oRow.RecId));
-                    //do_refresh();
-                }
+                //if (bl.message.get_Question("Kayıt Silinecektir. Onaylıyor musunuz?"))
+                //{
+                //    //var result = bl._repository.Run<DefinitionsService, ActionResponse<PersonelsDTO>>(x => x.DeletePersonel(oRow.RecId));
+                //    //do_refresh();
+                //}
             }
         }
 

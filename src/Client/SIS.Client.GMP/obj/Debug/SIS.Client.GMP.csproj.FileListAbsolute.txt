@@ -207,3 +207,8 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\Microsoft.IdentityM
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.pdb
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\Newtonsoft.Json.xml
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Entity.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.Admin.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\EntityFramework.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Serivce.Admin.dll.config
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.Admin.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\EntityFramework.xml

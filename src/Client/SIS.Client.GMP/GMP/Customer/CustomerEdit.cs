@@ -67,26 +67,26 @@ namespace SIS.App.Screens.GMP.Customer
         {
             if (do_Validation()) return;
 
-            if (bl.message.get_RecordSave())
-            {
-                try
-                {
-                    //var response = bl._repository.Run<CustomersService, ActionResponse<CustomersDTO>>(x => x.Save_Customers(__dl_Customers));
-                    //if (response.ResponseType != ResponseType.Ok)
-                    //{
-                    //    DevExpress.XtraEditors.XtraMessageBox.Show(response.Message, "HATA", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                    //}
-                    //else
-                    //{
-                    //    do_Refresh_List_Form();
-                    //    this.Close();
-                    //}
-                }
-                catch (Exception ex)
-                {
-                    bl.message.get_RecordSave_Error(ex.Message);
-                }
-            }
+            //if (bl.message.get_RecordSave())
+            //{
+            //    try
+            //    {
+            //        //var response = bl._repository.Run<CustomersService, ActionResponse<CustomersDTO>>(x => x.Save_Customers(__dl_Customers));
+            //        //if (response.ResponseType != ResponseType.Ok)
+            //        //{
+            //        //    DevExpress.XtraEditors.XtraMessageBox.Show(response.Message, "HATA", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            //        //}
+            //        //else
+            //        //{
+            //        //    do_Refresh_List_Form();
+            //        //    this.Close();
+            //        //}
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        bl.message.get_RecordSave_Error(ex.Message);
+            //    }
+            //}
         }
 
         private void do_Refresh_List_Form()

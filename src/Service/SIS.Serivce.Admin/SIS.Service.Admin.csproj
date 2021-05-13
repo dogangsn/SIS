@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -40,6 +46,7 @@
       <HintPath>..\..\..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
@@ -101,9 +108,17 @@
     <Compile Include="Service\AdminService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Framework\SIS.DataAccess.Admin\SIS.DataAccess.Admin.csproj">
+      <Project>{b7e9b9f9-a34e-4d29-bd86-b3defc61c9b6}</Project>
+      <Name>SIS.DataAccess.Admin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Framework\SIS.Data\SIS.Data.csproj">
       <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
       <Name>SIS.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Entity\SIS.Entity.csproj">
+      <Project>{258d2b00-e8e1-41cc-bbee-be12b8d07d71}</Project>
+      <Name>SIS.Entity</Name>
     </ProjectReference>
     <ProjectReference Include="..\SIS.Service\SIS.Service.csproj">
       <Project>{64c50c21-ca64-41e5-b1f2-0cfa7df52f57}</Project>
@@ -114,6 +129,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

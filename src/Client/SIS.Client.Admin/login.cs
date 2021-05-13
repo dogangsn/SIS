@@ -81,7 +81,7 @@ namespace SIS.Client.Admin
             _GetValue.IdStr = _CustomerGuidId;
             _GetValue.Id = blvalue.AplicationId;
             _GetValue.ConStr = Client.blvalue.AppMain.AppValue.ConAdminFirst;
-            SIS.Data.ReturnProcess _ReturnProcess = bl.blcAdmin.Run<Service.Admin.Service.AdminService, SIS.Data.ReturnProcess>(r => r.get_DbKodAdmin_Database(_GetValue));
+            SIS.Data.ReturnProcess _ReturnProcess = bl.blcAdmin.Run<Service.Admin.AdminService, SIS.Data.ReturnProcess>(r => r.get_DbKodAdmin_Database(_GetValue));
             return _ReturnProcess.error;
         }
 

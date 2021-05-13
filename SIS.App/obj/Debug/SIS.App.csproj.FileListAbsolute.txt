@@ -166,3 +166,6 @@ D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Service.pdb
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\Newtonsoft.Json.xml
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\Microsoft.IdentityModel.Logging.xml
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.DataAccess.Admin.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Serivce.Admin.dll.config
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.DataAccess.Admin.pdb

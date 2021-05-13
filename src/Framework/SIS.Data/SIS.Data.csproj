@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="App\App.cs" />
     <Compile Include="App\GetValue.cs" />
+    <Compile Include="App\SISAdmin.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Managers\IAuthService.cs" />
     <Compile Include="Managers\JWTService.cs" />

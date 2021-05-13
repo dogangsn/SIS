@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Admin\FormLayouts.cs" />
     <Compile Include="Entities\GMP\Company.cs" />
     <Compile Include="Entities\GMP\Customers.cs" />
     <Compile Include="Entities\GMP\FormLayouts.cs" />

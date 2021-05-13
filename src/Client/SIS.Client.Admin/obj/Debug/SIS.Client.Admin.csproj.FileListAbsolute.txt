@@ -113,3 +113,8 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\Microsoft.Identit
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.Properties.Resources.resources
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Entity.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Entity.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.DataAccess.Admin.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\EntityFramework.dll
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Serivce.Admin.dll.config
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.DataAccess.Admin.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\EntityFramework.xml

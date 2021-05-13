@@ -24,6 +24,7 @@ namespace SIS.Client.Admin
 
         }
 
+        public static SIS.Client.Admin.Message message = new Message();
 
     }
 }

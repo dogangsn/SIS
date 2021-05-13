@@ -13,8 +13,14 @@ namespace SIS.Client.blvalue
 
         public string ConAdmin { get; set; }
         public string CustomerGuidId { get; set; } = Guid.Empty.ToString();
-
+        public bool ForceUseLocal { get; set; } = false;
+        public bool RunningLocalAdmin { get; set; }
+        public string ApiUrlAdmin { get; set; }
         public string ConAdminFirst { get; set; }
+        public string UserCode { get; set; }
+        public string ConApp { get; set; }
+
+        public string Language { get; set; } = "En";
 
         public ConnectionDTO AdminConnectionDTO;
 

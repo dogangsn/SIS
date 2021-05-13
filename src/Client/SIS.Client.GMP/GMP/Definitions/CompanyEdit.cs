@@ -33,30 +33,30 @@ namespace SIS.App.Screens.GMP.Definitions
 
         private void do_save()
         {
-            if (bl.message.get_Question("Kaydedilecektir Onaylıyor Musunuz?"))
-            {
-                try
-                {
-                    bs_Company.EndEdit();
-                    if (imgbyte != null)
-                    {
-                        __company.Logo = imgbyte;
-                    }
-                    //var response = bl._repository.Run<DefinitionsService, ActionResponse<CompanyDTO>>(x => x.Save_Company(__company));
-                    //if (response.ResponseType != ResponseType.Ok)
-                    //{
-                    //    DevExpress.XtraEditors.XtraMessageBox.Show(response.Message, "HATA", MessageBoxButtons.OK, MessageBoxIcon.Stop);
-                    //}
-                    //else
-                    //{
-                    //    this.Close();
-                    //}
-                }
-                catch (Exception ex)
-                {
-                    XtraMessageBox.Show(ex.Message);
-                }
-            }
+            //if (bl.message.get_Question("Kaydedilecektir Onaylıyor Musunuz?"))
+            //{
+            //    try
+            //    {
+            //        bs_Company.EndEdit();
+            //        if (imgbyte != null)
+            //        {
+            //            __company.Logo = imgbyte;
+            //        }
+            //        //var response = bl._repository.Run<DefinitionsService, ActionResponse<CompanyDTO>>(x => x.Save_Company(__company));
+            //        //if (response.ResponseType != ResponseType.Ok)
+            //        //{
+            //        //    DevExpress.XtraEditors.XtraMessageBox.Show(response.Message, "HATA", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+            //        //}
+            //        //else
+            //        //{
+            //        //    this.Close();
+            //        //}
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        XtraMessageBox.Show(ex.Message);
+            //    }
+            //}
         }
         #endregion
 

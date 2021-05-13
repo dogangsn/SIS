@@ -19,5 +19,8 @@ namespace SIS.App
 
         //public static Message message = new Message();
 
+        public static SIS.Client.Admin.layout layout = new SIS.Client.Admin.layout();
+
+
     }
 }

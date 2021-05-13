@@ -107,11 +107,11 @@ namespace SIS.App.Screens.GMP.Customer
         {
             try
             {
-                if (bl.message.get_Question("Seçilen Kayıt Arşive Kaldırılcaktır. Onaylıyor musunuz?"))
-                {
+                //if (bl.message.get_Question("Seçilen Kayıt Arşive Kaldırılcaktır. Onaylıyor musunuz?"))
+                //{
 
 
-                }
+                //}
             }
             catch (Exception)
             {

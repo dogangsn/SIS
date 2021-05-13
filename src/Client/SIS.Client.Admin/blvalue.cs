@@ -27,10 +27,15 @@ namespace SIS.Client.Admin
         //public  int CompanyRecId;
         //public  string CompanyName;
         //public  string UserCode;
+        public static string Connection { get; set; } = "";
+
         public static bool Cloude = false;
         public static int AplicationId = 2;
 
         public static List<AppIdView> List_AppIdView = new List<AppIdView>();
+
+        public static bool UserLoginOk = false;
+
 
     }
 }

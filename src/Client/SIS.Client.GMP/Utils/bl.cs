@@ -10,7 +10,5 @@ namespace SIS.Client.GMP.Utils
     public static class bl
     {
 
-        //public static Repository _repository = new Repository();
-        public static Message message = new Message();
     }
 }

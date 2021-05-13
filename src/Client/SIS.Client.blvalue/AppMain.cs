@@ -13,6 +13,7 @@ namespace SIS.Client.blvalue
         public static AppValue AppValue { get; set; }
         public static int AppId { get; set; }
 
+        public static List<SIS.Entity.Entities.Admin.FormLayouts> List_FormLayouts = new List<SIS.Entity.Entities.Admin.FormLayouts>();
 
 
         public static string CreateJwtToken(string name, string value)

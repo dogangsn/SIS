@@ -13,6 +13,7 @@ using DevExpress.LookAndFeel;
 using System.Configuration;
 using SIS.Data;
 using SIS.Client.Admin;
+using SIS.Client.blvalue;
 
 namespace SIS.App
 {
@@ -24,47 +25,62 @@ namespace SIS.App
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
         }
 
+        public bool reloginAcik = false;
+        public bool relogin = false;
+
 
         private void do_login()
         {
-            set_AppSettings();
-
-            login loForm = new login();
-            loForm.TopMost = true;
-            loForm.ShowDialog();
-
-
-
-            bool _UserLoginOk;
-            if (true)
+            try
             {
 
-            }
-            else
-            {
-                //do_versionControl();
-                //do_barDoldur();
-                switch (Client.blvalue.AppMain.AppId)
+                AppMain.AppValue = new AppValue();
+
+
+                bool _UserLoginOk = pl.pladmin.login((int)SIS.Data.AdminAppType.GMP);
+                if (_UserLoginOk)
                 {
-                    case 1:
-                        set_Menu();
-                        break;
-                    case 2:
-                        UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
-                        set_Menu_GMP();
-                        break;
+                    blvalue.CloseApp = true;
+                    this.Close();
                 }
-                this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            }
-            //if (SIS.Client.blvalue.AppMain.User != null)
-            //{
-               
+                else
+                {
+                    this.documentManager1.BeginUpdate();
+                    this.dockManager1.BeginUpdate();
 
-            //}
-            //else
-            //{
-            //    Application.ExitThread();
-            //}
+                    bl.layout.get_Layout(this);
+                    bl.layout.get_Layout(this.Name, dockManager1);
+
+
+                    switch (Client.blvalue.AppMain.AppId)
+                    {
+                        case 1:
+                            set_Menu();
+                            break;
+                        case 2:
+                            UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
+                            set_Menu_GMP();
+                            break;
+                    }
+
+                    this.dockManager1.EndUpdate();
+                    this.documentManager1.EndUpdate();
+
+                    if (relogin == false)
+                    {
+                        this.Hide();
+                        this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+                    }
+                    this.Show();
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
 
         }
 
@@ -252,49 +268,7 @@ namespace SIS.App
             do_login();
         }
 
-        public static bool IsContainsValue(string find)
-        {
-            bool flag = false;
-            foreach (string key in ConfigurationManager.AppSettings.AllKeys)
-            {
-                // string _value = ConfigurationManager.AppSettings[key].ToString();
-                if (key == find)
 
-                { flag = true; break; }
-            }
-            return flag;
-
-        }
-
-        public static void set_AppSettings()
-        {
-            try
-            {
-                if (IsContainsValue("GMPActive"))
-                {
-                    Client.blvalue.AppMain.AppValue.GMPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["GMPActive"]);
-                }
-                else
-                {
-                    Client.blvalue.AppMain.AppValue.GMPActive = true;
-                }
-                if (IsContainsValue("HTPActive"))
-                {
-                    Client.blvalue.AppMain.AppValue.HTPActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["HTPActive"]);
-                }
-                else
-                {
-                    Client.blvalue.AppMain.AppValue.HTPActive = true;
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-        }
 
 
     }

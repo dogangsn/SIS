@@ -14,6 +14,10 @@ namespace SIS.Data
     {
         HTP = 1,
         GMP = 2,
+        GYM = 3,
+        RAC = 4,
+
+
     }
 
     public enum FormOpenType

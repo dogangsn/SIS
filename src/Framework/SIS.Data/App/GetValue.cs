@@ -11,6 +11,7 @@ namespace SIS.Data.App
         public int Id { get; set; }
         public int Str { get; set; }
         public string IdStr { get; set; }
+        public string IdStr2 { get; set; }
         public int CompanyId { get; set; }
         public string userCode { get; set; }
 
