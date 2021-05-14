@@ -38,7 +38,7 @@ namespace SIS.App
 
 
                 bool _UserLoginOk = pl.pladmin.login((int)SIS.Data.AdminAppType.GMP);
-                if (_UserLoginOk)
+                if (!_UserLoginOk)
                 {
                     blvalue.CloseApp = true;
                     this.Close();
@@ -55,9 +55,6 @@ namespace SIS.App
                     switch (Client.blvalue.AppMain.AppId)
                     {
                         case 1:
-                            set_Menu();
-                            break;
-                        case 2:
                             UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
                             set_Menu_GMP();
                             break;
@@ -96,7 +93,7 @@ namespace SIS.App
         private void set_Menu_GMP()
         {
             ac_Menu.Elements.Clear();
-            //set_AccordionControl_Menus(ac_Menu, bl.blmenu.get_List_Menus_GMP());
+            set_AccordionControl_Menus(ac_Menu, bl.menuGMP.get_List_Menus_GMP());
         }
 
         private AccordionControlElement get_add_AccordionControlElement(string _Text, bool _Group)

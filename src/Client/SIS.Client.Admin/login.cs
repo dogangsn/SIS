@@ -32,6 +32,8 @@ namespace SIS.Client.Admin
             Set_Form();
         }
 
+        int __LoginTryCount = 0;
+
         public int ApplicationId;
         List<SIS.Entity.Entities.Admin.ApplicationServer> __List_ApplicationServer;
         int __OldServerId = 0;
@@ -177,13 +179,45 @@ namespace SIS.Client.Admin
         }
         private void do_login()
         {
+            if (lc_Company.EditValue == null) return;
 
-            if (do_IsNotValid()) return;
- 
+            string _Password = txt_Password.Text.Trim();
+            int _CompanyId = (int)lc_Company.EditValue;
+            GetValue _GetValue = new GetValue();
+            _GetValue.ConStr = __ConnectionString;
+            _GetValue.CompanyId = _CompanyId;
+            bl.AppService = AppServiceFactory.CreateApp((AdminAppType)blvalue.AplicationId);
+            string _HashPassword = _user.HashPassword.Trim();
+
+            if (bl.AppService.GetHashPassword(_Password) != _HashPassword)
+            {
+                __LoginTryCount++;
+                if (__LoginTryCount == 3)
+                {
+                    bl.message.get_Warning("Three times a failed login attempt, the user has been made inactive, ask your system administrator.", AppMain.AppValue.Language);
+                    blvalue.UserLoginOk = false;
+
+                    this.Close();
+
+                    return;
+                }
+                bl.message.get_Warning("Wrong Password", AppMain.AppValue.Language);
+                txt_Password.Focus();
+                return;
+            }
+            blvalue.UserLoginOk = true;
+            AppMain.AppId = (int)lc_Application.GetColumnValue("Id");
+            AppMain.AppValue.UserCode = _user.UserCode;
+
+            _GetValue.ConStr = __ConnectionString;
+            _GetValue.IdStr = AppMain.AppValue.UserCode;
+            bl.AppService.Login(_GetValue);
+
             this.Close();
         }
         private void btn_Close_Click(object sender, EventArgs e)
         {
+            blvalue.UserLoginOk = false;
             this.Close();
         }
         private void lc_serverList_EditValueChanged(object sender, EventArgs e)
@@ -271,8 +305,8 @@ namespace SIS.Client.Admin
             bl.AppService = AppServiceFactory.CreateApp((AdminAppType)blvalue.AplicationId);
             try
             {
-                //AppMain.List_UserCompanyRight = bl.AppService.GetUserCompanyRights(_GetValue);
-                //bs_UserCompanyRight.DataSource = AppMain.List_UserCompanyRight;
+                AppMain.List_UserCompanyRight = bl.AppService.GetUserCompanyRights(_GetValue);
+                bs_UserCompanyRight.DataSource = AppMain.List_UserCompanyRight;
             }
             catch (Exception _Exception)
             {
@@ -447,7 +481,6 @@ namespace SIS.Client.Admin
                 _User_old = txt_userCode.Text.ToString();
             }
         }
-
         private void lc_Application_EditValueChanged(object sender, EventArgs e)
         {
             blvalue.AplicationId = (int)lc_Application.EditValue;
@@ -466,7 +499,6 @@ namespace SIS.Client.Admin
                 txt_userCode_Leave(null, null);
             }
         }
-
         private void lc_database_EditValueChanged(object sender, EventArgs e)
         {
             bs_ApplicationDatabase.EndEdit();

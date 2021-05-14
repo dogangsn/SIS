@@ -118,6 +118,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\DataSources\SIS.Data.Admin.UserCompanyRight.datasource" />
     <None Include="Properties\DataSources\SIS.Entity.Entities.Admin.ApplicationDatabase.datasource" />
     <None Include="Properties\DataSources\SIS.Entity.Entities.Admin.ApplicationServer.datasource" />
   </ItemGroup>

@@ -24,10 +24,15 @@ namespace SIS.Client.Admin.Helper
             return bl.blcGmp.Run<SIS.Service.GMP.Service.System.SystemService, SIS.Data.App.LoginUser>(r => r.Get_LoginUsersByCode(_GetValue));
         }
 
-        //public override List<UserCompanyRight> GetUserCompanyRights(GetValue _GetValue)
-        //{
-        //    return bl.blcGmp.Run<SIS.Service.GMP.Service.Admin.AdminGmpService, List<UserCompanyRight>>(r => r.get_List_UserCompanyRight(_GetValue));
-        //}
+        public override List<UserCompanyRight> GetUserCompanyRights(GetValue _GetValue)
+        {
+            return bl.blcGmp.Run<SIS.Service.GMP.Service.Admin.AdminGmpService, List<UserCompanyRight>>(r => r.get_List_UserCompanyRight(_GetValue));
+        }
+
+        public override void Login(GetValue _GetValue)
+        {
+            AppMain.AppValue.Users_GMP = bl.blcGmp.Run<SIS.Service.GMP.Service.System.SystemService, Entity.Entities.GMP.Users>(r => r.Get_UsersByCode(_GetValue));
+        }
 
     }
 }

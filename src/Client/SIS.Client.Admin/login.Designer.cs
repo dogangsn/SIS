@@ -36,10 +36,14 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.lc_language = new DevExpress.XtraEditors.LookUpEdit();
             this.lc_database = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_ApplicationDatabase = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Company = new DevExpress.XtraEditors.LookUpEdit();
             this.lc_serverList = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
             this.lc_Application = new DevExpress.XtraEditors.LookUpEdit();
+            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.txt_userCode = new DevExpress.XtraEditors.TextEdit();
             this.txt_Password = new DevExpress.XtraEditors.TextEdit();
@@ -48,6 +52,7 @@
             this.img_bar = new DevExpress.Utils.SvgImageCollection(this.components);
             this.btn_Close = new DevExpress.XtraEditors.SimpleButton();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
+            this.txt_AppVersion = new DevExpress.XtraEditors.TextEdit();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -62,27 +67,27 @@
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             this.bs_Company = new System.Windows.Forms.BindingSource(this.components);
             this.bs_UserCompanyRight = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_ApplicationDatabase = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_ApplicationServer = new System.Windows.Forms.BindingSource(this.components);
-            this.bs_AppIdView = new System.Windows.Forms.BindingSource(this.components);
-            this.txt_AppVersion = new DevExpress.XtraEditors.TextEdit();
-            this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.lc_language = new DevExpress.XtraEditors.LookUpEdit();
-            this.layoutControlItem13 = new DevExpress.XtraLayout.LayoutControlItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.lc_language.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_bar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_AppVersion.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).BeginInit();
@@ -97,15 +102,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_AppVersion.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lc_language.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).BeginInit();
             this.SuspendLayout();
             // 
             // layoutControl1
@@ -133,6 +133,21 @@
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
             // 
+            // lc_language
+            // 
+            this.lc_language.EditValue = "Tr";
+            this.lc_language.Location = new System.Drawing.Point(100, 374);
+            this.lc_language.Name = "lc_language";
+            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
+            editorButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 16);
+            this.lc_language.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo),
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, false, true, true, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.lc_language.Properties.NullText = "";
+            this.lc_language.Size = new System.Drawing.Size(173, 24);
+            this.lc_language.StyleController = this.layoutControl1;
+            this.lc_language.TabIndex = 15;
+            // 
             // lc_database
             // 
             this.lc_database.Location = new System.Drawing.Point(112, 338);
@@ -150,13 +165,20 @@
             this.lc_database.TabIndex = 13;
             this.lc_database.EditValueChanged += new System.EventHandler(this.lc_database_EditValueChanged);
             // 
+            // bs_ApplicationDatabase
+            // 
+            this.bs_ApplicationDatabase.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationDatabase);
+            // 
             // lc_Company
             // 
             this.lc_Company.Location = new System.Drawing.Point(100, 187);
             this.lc_Company.Name = "lc_Company";
             this.lc_Company.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lc_Company.Properties.DataSource = this.bs_UserCompanyRight;
+            this.lc_Company.Properties.DisplayMember = "CompanyCode";
             this.lc_Company.Properties.NullText = "";
+            this.lc_Company.Properties.ValueMember = "CompanyId";
             this.lc_Company.Size = new System.Drawing.Size(173, 20);
             this.lc_Company.StyleController = this.layoutControl1;
             this.lc_Company.TabIndex = 12;
@@ -179,6 +201,10 @@
             this.lc_serverList.TabIndex = 10;
             this.lc_serverList.EditValueChanged += new System.EventHandler(this.lc_serverList_EditValueChanged);
             // 
+            // bs_ApplicationServer
+            // 
+            this.bs_ApplicationServer.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationServer);
+            // 
             // lc_Application
             // 
             this.lc_Application.Location = new System.Drawing.Point(100, 115);
@@ -195,6 +221,10 @@
             this.lc_Application.StyleController = this.layoutControl1;
             this.lc_Application.TabIndex = 9;
             this.lc_Application.EditValueChanged += new System.EventHandler(this.lc_Application_EditValueChanged);
+            // 
+            // bs_AppIdView
+            // 
+            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
             // 
             // pictureEdit1
             // 
@@ -282,6 +312,16 @@
             this.checkEdit1.Size = new System.Drawing.Size(261, 20);
             this.checkEdit1.StyleController = this.layoutControl1;
             this.checkEdit1.TabIndex = 11;
+            // 
+            // txt_AppVersion
+            // 
+            this.txt_AppVersion.Enabled = false;
+            this.txt_AppVersion.Location = new System.Drawing.Point(67, 455);
+            this.txt_AppVersion.Name = "txt_AppVersion";
+            this.txt_AppVersion.Properties.ReadOnly = true;
+            this.txt_AppVersion.Size = new System.Drawing.Size(206, 20);
+            this.txt_AppVersion.StyleController = this.layoutControl1;
+            this.txt_AppVersion.TabIndex = 14;
             // 
             // Root
             // 
@@ -452,28 +492,6 @@
             this.layoutControlItem10.Text = "İşyeri";
             this.layoutControlItem10.TextSize = new System.Drawing.Size(76, 16);
             // 
-            // bs_ApplicationDatabase
-            // 
-            this.bs_ApplicationDatabase.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationDatabase);
-            // 
-            // bs_ApplicationServer
-            // 
-            this.bs_ApplicationServer.DataSource = typeof(SIS.Entity.Entities.Admin.ApplicationServer);
-            // 
-            // bs_AppIdView
-            // 
-            this.bs_AppIdView.DataSource = typeof(SIS.Data.App.AppIdView);
-            // 
-            // txt_AppVersion
-            // 
-            this.txt_AppVersion.Enabled = false;
-            this.txt_AppVersion.Location = new System.Drawing.Point(67, 455);
-            this.txt_AppVersion.Name = "txt_AppVersion";
-            this.txt_AppVersion.Properties.ReadOnly = true;
-            this.txt_AppVersion.Size = new System.Drawing.Size(206, 20);
-            this.txt_AppVersion.StyleController = this.layoutControl1;
-            this.txt_AppVersion.TabIndex = 14;
-            // 
             // layoutControlItem12
             // 
             this.layoutControlItem12.Control = this.txt_AppVersion;
@@ -485,21 +503,6 @@
             this.layoutControlItem12.TextSize = new System.Drawing.Size(50, 20);
             this.layoutControlItem12.TextToControlDistance = 5;
             // 
-            // lc_language
-            // 
-            this.lc_language.EditValue = "Tr";
-            this.lc_language.Location = new System.Drawing.Point(100, 374);
-            this.lc_language.Name = "lc_language";
-            editorButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("editorButtonImageOptions1.SvgImage")));
-            editorButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 16);
-            this.lc_language.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo),
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, false, true, true, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
-            this.lc_language.Properties.NullText = "";
-            this.lc_language.Size = new System.Drawing.Size(173, 24);
-            this.lc_language.StyleController = this.layoutControl1;
-            this.lc_language.TabIndex = 15;
-            // 
             // layoutControlItem13
             // 
             this.layoutControlItem13.Control = this.lc_language;
@@ -508,6 +511,14 @@
             this.layoutControlItem13.Size = new System.Drawing.Size(265, 28);
             this.layoutControlItem13.Text = "Language";
             this.layoutControlItem13.TextSize = new System.Drawing.Size(76, 13);
+            // 
+            // bs_Company
+            // 
+            this.bs_Company.DataSource = typeof(SIS.Data.Admin.UserCompanyRight);
+            // 
+            // bs_UserCompanyRight
+            // 
+            this.bs_UserCompanyRight.DataSource = typeof(SIS.Data.Admin.UserCompanyRight);
             // 
             // login
             // 
@@ -527,16 +538,21 @@
             this.Load += new System.EventHandler(this.login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.lc_language.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_database.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Company.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_serverList.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lc_Application.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_userCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txt_Password.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_bar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txt_AppVersion.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem3)).EndInit();
@@ -551,15 +567,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_Company)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bs_UserCompanyRight)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationDatabase)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_ApplicationServer)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bs_AppIdView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.txt_AppVersion.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lc_language.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem13)).EndInit();
             this.ResumeLayout(false);
 
         }

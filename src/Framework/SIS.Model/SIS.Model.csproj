@@ -53,6 +53,10 @@
     <Compile Include="Models\Utilities\SelectIdValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\APT\" />
+    <Folder Include="Models\GYM\" />
+    <Folder Include="Models\HTP\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

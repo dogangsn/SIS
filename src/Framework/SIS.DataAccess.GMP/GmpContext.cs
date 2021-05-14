@@ -1,5 +1,6 @@
 ﻿using SIS.Data.Managers;
 using SIS.Entity.Entities;
+using SIS.Entity.Entities.GMP;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -34,6 +35,7 @@ namespace SIS.DataAccess.GMP
         }
 
         public DbSet<Company> Company { get; set; }
+        public DbSet<Users> Users { get; set; }
 
     }
 }
