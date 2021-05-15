@@ -36,6 +36,7 @@ namespace SIS.DataAccess.GMP
 
         public DbSet<Company> Company { get; set; }
         public DbSet<Users> Users { get; set; }
+        public DbSet<Customers> Customers { get; set; }
 
     }
 }

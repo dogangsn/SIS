@@ -13,29 +13,37 @@ using DevExpress.XtraGrid.Views.Grid;
 using SIS.Data.App;
 using SIS.Data;
 using SIS.Client.GMP.Utils;
+using SIS.Service.GMP.Service.Customer;
+using SIS.Entity.Entities;
 
 namespace SIS.App.Screens.GMP.Customer
 {
     public partial class CustomerList : DevExpress.XtraEditors.XtraForm
     {
-        //Repository _repository;
         public CustomerList()
         {
             InitializeComponent();
-            //_repository = new Repository();
         }
 
         GetValue _GetValue = new GetValue();
-
-        List<CustomersDTO> _List_CustomerList = new List<CustomersDTO>();
+        List<Customers> _List_CustomerList = new List<Customers>();
 
         #region Record
 
         public void do_refresh()
         {
-            //_GetValue.CompanyId = AppMain.CompanyRecId;
-            //_List_CustomerList = _repository.Run<CustomersService, List<CustomersDTO>>(x => x.Get_List_Customers(_GetValue));
-            //bs_CustomerList.DataSource = _List_CustomerList;
+            try
+            {
+                GetValue _getValue = SIS.Client.Admin.bl.get_GetValue();
+                _List_CustomerList = SIS.Client.GMP.Utils.bl.blcgmp.Run<CustomerService, List<Customers>>(x => x.Get_List_Customers(_getValue));
+
+            }
+            catch (Exception exp)
+            {
+
+            }
+
+
         }
 
 
@@ -43,7 +51,7 @@ namespace SIS.App.Screens.GMP.Customer
         {
             var oRow = (CustomersDTO)gcv_CustomerList.GetFocusedRow();
             if (oRow == null) return;
-            //bl.GMP.CustomerEdit(Data.FormOpenType.Edit, oRow.RecId);
+            bl.GMP.CustomerEdit(Data.FormOpenType.Edit, oRow.RecId);
         }
 
 
@@ -64,7 +72,7 @@ namespace SIS.App.Screens.GMP.Customer
 
         private void bbi_NewCustomer_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            //bl.GMP.CustomerEdit(Data.FormOpenType.New, 0);
+            bl.GMP.CustomerEdit(Data.FormOpenType.New, 0);
         }
 
         private void bbi_EditCustomer_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -109,8 +117,6 @@ namespace SIS.App.Screens.GMP.Customer
             {
                 //if (bl.message.get_Question("Seçilen Kayıt Arşive Kaldırılcaktır. Onaylıyor musunuz?"))
                 //{
-
-
                 //}
             }
             catch (Exception)

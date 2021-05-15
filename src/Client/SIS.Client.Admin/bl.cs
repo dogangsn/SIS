@@ -26,11 +26,15 @@ namespace SIS.Client.Admin
         public static SIS.Client.Admin.Message message = new Message();
 
         public static SIS.Service.GMP.Repository.Repository blcGmp { get; set; }
-        public static void set_Repository_Erp(SIS.Service.GMP.Repository.Repository _Repository)
+        public static void set_Repository_Gmp(SIS.Service.GMP.Repository.Repository _Repository)
         {
             blcGmp = _Repository;
         }
 
+        public static SIS.Service.GMP.Repository.Repository get_Repository_Gmp()
+        {
+            return blcGmp;
+        }
 
 
     }

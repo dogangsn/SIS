@@ -279,9 +279,17 @@
       <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
       <Name>SIS.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\Framework\SIS.Entity\SIS.Entity.csproj">
+      <Project>{258d2b00-e8e1-41cc-bbee-be12b8d07d71}</Project>
+      <Name>SIS.Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Framework\SIS.Model\SIS.Model.csproj">
       <Project>{1e047919-92c4-4e58-949a-921a443fe7f5}</Project>
       <Name>SIS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\SIS.Service.GMP\SIS.Service.GMP.csproj">
+      <Project>{1f47aece-080c-48c9-8ec6-be3a07d17ff6}</Project>
+      <Name>SIS.Service.GMP</Name>
     </ProjectReference>
     <ProjectReference Include="..\SIS.Client.Admin\SIS.Client.Admin.csproj">
       <Project>{35c53a25-29ea-4dc2-a7c1-ee942390bfb1}</Project>
