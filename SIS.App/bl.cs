@@ -21,7 +21,9 @@ namespace SIS.App
         public static SIS.Client.Admin.layout layout = new SIS.Client.Admin.layout();
         public static SIS.Client.GMP.Utils.blMenu menuGMP = new Client.GMP.Utils.blMenu();
         public static SIS.Client.GMP.Screen GMP = new SIS.Client.GMP.Screen();
-        
+
+        public static SIS.Client.APT.Utils.blMenu menuAPT = new Client.APT.Utils.blMenu();
+        public static SIS.Client.APT.Utils.Screen APT = new Client.APT.Utils.Screen();
 
 
     }

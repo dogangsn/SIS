@@ -57,6 +57,14 @@ namespace SIS.Client.Admin
                     Client.blvalue.AppMain.AppValue.HTPActive = true;
                 }
 
+                if (IsContainsValue("APTActive"))
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["APTActive"]);
+                }
+                else
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = true;
+                }
 
                 bool _ConnectionApi = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["ConnectionApi"]);
 

@@ -73,9 +73,15 @@ namespace SIS.Client.Admin
             if (SIS.Client.blvalue.AppMain.AppValue.HTPActive)
             {
                 _AppIdView = new SIS.Data.App.AppIdView();
-
                 _AppIdView.Id = (int)Data.AdminAppType.HTP;
                 _AppIdView.App = Data.AdminAppType.HTP.ToString();
+                SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
+            }
+            if (AppMain.AppValue.APTActive)
+            {
+                _AppIdView = new SIS.Data.App.AppIdView();
+                _AppIdView.Id = (int)Data.AdminAppType.APT;
+                _AppIdView.App = Data.AdminAppType.APT.ToString();
                 SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
             }
 

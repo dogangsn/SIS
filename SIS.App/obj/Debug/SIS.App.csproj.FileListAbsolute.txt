@@ -174,3 +174,5 @@ D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.DataAccess.GMP.dll
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Service.GMP.pdb
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Service.GMP.dll.config
 D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.DataAccess.GMP.pdb
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Client.APT.dll
+D:\Dogan\Project\SIS\SIS\SIS.App\bin\Debug\SIS.Client.APT.pdb

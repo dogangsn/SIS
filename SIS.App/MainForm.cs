@@ -58,6 +58,10 @@ namespace SIS.App
                             UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
                             set_Menu_GMP();
                             break;
+                        case 5:
+                            //UserLookAndFeel.Default.SetSkinStyle(Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme, Client.blvalue.AppMain.AppValue.Users_GMP.DefaultTheme2);
+                            set_Menu_APT();
+                            break;
                     }
 
                     this.dockManager1.EndUpdate();
@@ -94,6 +98,11 @@ namespace SIS.App
         {
             ac_Menu.Elements.Clear();
             set_AccordionControl_Menus(ac_Menu, bl.menuGMP.get_List_Menus_GMP());
+        }
+        private void set_Menu_APT()
+        {
+            ac_Menu.Elements.Clear();
+            set_AccordionControl_Menus(ac_Menu, bl.menuAPT.get_List_Menus_APT());
         }
 
         private AccordionControlElement get_add_AccordionControlElement(string _Text, bool _Group)

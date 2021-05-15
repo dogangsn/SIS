@@ -30,6 +30,7 @@ namespace SIS.Client.blvalue
 
         public  bool GMPActive;
         public  bool HTPActive;
+        public  bool APTActive;
         public  int AppId;
         public  string AppName;
 
