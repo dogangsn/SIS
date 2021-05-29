@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using SIS.Client.GMP.Utils;
 
 namespace SIS.App.Screens.GMP.Operation
 {
@@ -17,5 +18,68 @@ namespace SIS.App.Screens.GMP.Operation
         {
             InitializeComponent();
         }
+
+
+
+
+        #region Record
+
+
+        public void do_refresh()
+        {
+
+        }
+
+        private void do_New()
+        {
+            bl.GMP.OperationAndProducEdit(Data.FormOpenType.New, 0);
+        }
+
+        private void do_Edit()
+        {
+
+        }
+
+        private void do_Delete()
+        {
+
+        }
+        private void do_Print()
+        {
+
+        }
+
+        #endregion
+
+
+        #region bbi_bar
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_New();
+        }
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_Edit();
+        }
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_Delete();
+        }
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_refresh();
+        }
+        private void bbi_Print_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_Print();
+        }
+        #endregion
+
+        private void OperationAndProducList_Load(object sender, EventArgs e)
+        {
+
+        }
+
+  
     }
 }

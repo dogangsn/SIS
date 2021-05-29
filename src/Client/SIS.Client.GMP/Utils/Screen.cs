@@ -233,6 +233,22 @@ namespace SIS.Client.GMP
             frm.Show();
         }
 
+        public void OperationAndProducEdit(SIS.Data.FormOpenType _FormOpenType, int _id)
+        {
+            OperationAndProducEdit _OperationAndProduc = new OperationAndProducEdit();
+            _OperationAndProduc._FormOpenType = _FormOpenType;
+            if (_FormOpenType == Data.FormOpenType.New)
+            {
+                //_CustomerEdit.__dl_Customers = new Model.Models.GMP.Customer.CustomersDTO();
+            }
+            else
+            {
+                _getValue.Id = _id;
+                //_CustomerEdit.__dl_Customers = bl._repository.Run<CustomersService, CustomersDTO>(x => x.Get_Customers(_getValue));
+
+            }
+            _OperationAndProduc.ShowDialog();
+        }
 
         #endregion
 

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using SIS.Data;
 
 namespace SIS.App.Screens.GMP.Operation
 {
@@ -17,5 +18,47 @@ namespace SIS.App.Screens.GMP.Operation
         {
             InitializeComponent();
         }
+
+
+
+        public FormOpenType _FormOpenType;
+        public OperationProductType _operationType;
+
+
+
+
+
+        #region Record
+
+        private void empty_control()
+        {
+
+        }
+
+        private void do_save()
+        {
+
+        }
+        private void do_Refresh_List_Form()
+        {
+            //Form _Form = FormTool.get_OpenForm("CustomerList");
+            //if (_Form != null)
+            //{
+            //    ((CustomerList)_Form).do_refresh();
+            //}
+            //_Form = null;
+
+        }
+
+        #endregion
+
+        private void OperationAndProducEdit_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
     }
 }

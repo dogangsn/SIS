@@ -29,5 +29,14 @@ namespace SIS.Data
     }
 
 
+    public enum OperationProductType
+    {
+        Product = 1,
+        Operation = 2,
+        SeansPacket = 3
+    }
+
+
+
 
 }

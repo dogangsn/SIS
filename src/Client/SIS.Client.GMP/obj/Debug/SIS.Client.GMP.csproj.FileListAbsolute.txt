@@ -217,3 +217,4 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.GMP.
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.GMP.pdb
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.Service.GMP.dll.config
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\bin\Debug\SIS.DataAccess.GMP.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.GMP\obj\Debug\SIS.Client.GMP.Properties.Resources.resources

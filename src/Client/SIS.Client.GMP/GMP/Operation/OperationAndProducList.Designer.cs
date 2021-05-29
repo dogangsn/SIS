@@ -36,7 +36,7 @@
             this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.bbi_Print = new DevExpress.XtraBars.BarButtonItem();
             this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
@@ -44,7 +44,7 @@
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.img_sic = new DevExpress.Utils.SvgImageCollection(this.components);
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
-            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraOperation = new DevExpress.XtraTab.XtraTabControl();
             this.sic_TabBar = new DevExpress.Utils.SvgImageCollection(this.components);
             this.xtpIslemListesi = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
@@ -55,10 +55,13 @@
             this.xtpSeansPaketler = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
-            this.xtraTabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraOperation)).BeginInit();
+            this.xtraOperation.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).BeginInit();
             this.xtpIslemListesi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -88,9 +91,12 @@
             this.barButtonItem4,
             this.barButtonItem5,
             this.barSubItem1,
+            this.bbi_Print,
+            this.barSubItem2,
             this.barButtonItem6,
-            this.barSubItem2});
-            this.barManager1.MaxItemId = 8;
+            this.barButtonItem7,
+            this.barButtonItem8});
+            this.barManager1.MaxItemId = 11;
             this.barManager1.StatusBar = this.bar3;
             // 
             // bar3
@@ -106,7 +112,7 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem3),
             new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem4),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6),
+            new DevExpress.XtraBars.LinkPersistInfo(this.bbi_Print),
             new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2, true)});
             this.bar3.OptionsBar.AllowQuickCustomization = false;
             this.bar3.OptionsBar.DrawDragBorder = false;
@@ -119,6 +125,7 @@
             this.barButtonItem1.Id = 0;
             this.barButtonItem1.ImageOptions.ImageIndex = 7;
             this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // barButtonItem2
             // 
@@ -126,6 +133,7 @@
             this.barButtonItem2.Id = 1;
             this.barButtonItem2.ImageOptions.ImageIndex = 5;
             this.barButtonItem2.Name = "barButtonItem2";
+            this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
             // barButtonItem3
             // 
@@ -133,6 +141,7 @@
             this.barButtonItem3.Id = 2;
             this.barButtonItem3.ImageOptions.ImageIndex = 6;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barButtonItem4
             // 
@@ -140,19 +149,27 @@
             this.barButtonItem4.Id = 3;
             this.barButtonItem4.ImageOptions.ImageIndex = 2;
             this.barButtonItem4.Name = "barButtonItem4";
+            this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
             // barSubItem1
             // 
             this.barSubItem1.Caption = "Export";
             this.barSubItem1.Id = 5;
+            this.barSubItem1.ImageOptions.ImageIndex = 8;
+            this.barSubItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem6),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem7),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem8)});
             this.barSubItem1.Name = "barSubItem1";
+            this.barSubItem1.PaintStyle = DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph;
             // 
-            // barButtonItem6
+            // bbi_Print
             // 
-            this.barButtonItem6.Caption = "Yazdır";
-            this.barButtonItem6.Id = 6;
-            this.barButtonItem6.ImageOptions.ImageIndex = 1;
-            this.barButtonItem6.Name = "barButtonItem6";
+            this.bbi_Print.Caption = "Yazdır";
+            this.bbi_Print.Id = 6;
+            this.bbi_Print.ImageOptions.ImageIndex = 1;
+            this.bbi_Print.Name = "bbi_Print";
+            this.bbi_Print.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbi_Print_ItemClick);
             // 
             // barSubItem2
             // 
@@ -203,6 +220,7 @@
             this.img_sic.Add("edit", "image://svgimages/dashboards/edit.svg");
             this.img_sic.Add("deletetablerows", "image://svgimages/richedit/deletetablerows.svg");
             this.img_sic.Add("new", "image://svgimages/actions/new.svg");
+            this.img_sic.Add("open2", "image://svgimages/actions/open2.svg");
             // 
             // barButtonItem5
             // 
@@ -210,17 +228,17 @@
             this.barButtonItem5.Id = 4;
             this.barButtonItem5.Name = "barButtonItem5";
             // 
-            // xtraTabControl1
+            // xtraOperation
             // 
-            this.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl1.Images = this.sic_TabBar;
-            this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.xtraTabControl1.MultiLine = DevExpress.Utils.DefaultBoolean.False;
-            this.xtraTabControl1.Name = "xtraTabControl1";
-            this.xtraTabControl1.SelectedTabPage = this.xtpIslemListesi;
-            this.xtraTabControl1.Size = new System.Drawing.Size(729, 492);
-            this.xtraTabControl1.TabIndex = 4;
-            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraOperation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraOperation.Images = this.sic_TabBar;
+            this.xtraOperation.Location = new System.Drawing.Point(0, 0);
+            this.xtraOperation.MultiLine = DevExpress.Utils.DefaultBoolean.False;
+            this.xtraOperation.Name = "xtraOperation";
+            this.xtraOperation.SelectedTabPage = this.xtpIslemListesi;
+            this.xtraOperation.Size = new System.Drawing.Size(729, 492);
+            this.xtraOperation.TabIndex = 4;
+            this.xtraOperation.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtpIslemListesi,
             this.xtpUrunListesi,
             this.xtpSeansPaketler});
@@ -307,12 +325,30 @@
             this.gridView3.GridControl = this.gridControl3;
             this.gridView3.Name = "gridView3";
             // 
+            // barButtonItem6
+            // 
+            this.barButtonItem6.Caption = "Excel";
+            this.barButtonItem6.Id = 8;
+            this.barButtonItem6.Name = "barButtonItem6";
+            // 
+            // barButtonItem7
+            // 
+            this.barButtonItem7.Caption = "PDF";
+            this.barButtonItem7.Id = 9;
+            this.barButtonItem7.Name = "barButtonItem7";
+            // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "Word";
+            this.barButtonItem8.Id = 10;
+            this.barButtonItem8.Name = "barButtonItem8";
+            // 
             // OperationAndProducList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 534);
-            this.Controls.Add(this.xtraTabControl1);
+            this.Controls.Add(this.xtraOperation);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
@@ -320,10 +356,11 @@
             this.Name = "OperationAndProducList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "İşlem ve Ürün Listesi";
+            this.Load += new System.EventHandler(this.OperationAndProducList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
-            this.xtraTabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.xtraOperation)).EndInit();
+            this.xtraOperation.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sic_TabBar)).EndInit();
             this.xtpIslemListesi.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -348,14 +385,14 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem4;
         private DevExpress.XtraBars.BarSubItem barSubItem1;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem bbi_Print;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
         private DevExpress.XtraBars.BarDockControl barDockControlRight;
         private DevExpress.Utils.SvgImageCollection img_sic;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
-        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabControl xtraOperation;
         private DevExpress.Utils.SvgImageCollection sic_TabBar;
         private DevExpress.XtraTab.XtraTabPage xtpIslemListesi;
         private DevExpress.XtraTab.XtraTabPage xtpUrunListesi;
@@ -367,5 +404,8 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.GridControl gridControl3;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem6;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem8;
     }
 }
