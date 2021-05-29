@@ -32,7 +32,15 @@ namespace SIS.App.Screens.GMP.Operation
 
         private void do_New()
         {
-            bl.GMP.OperationAndProducEdit(Data.FormOpenType.New, 0);
+
+            if (xtraOperation.SelectedTabPage == xtpUrunListesi || xtraOperation.SelectedTabPage == xtpIslemListesi)
+            {
+                bl.GMP.OperationAndProducEdit(Data.FormOpenType.New, 0, (xtraOperation.SelectedTabPage == xtpUrunListesi ? Data.OperationProductType.Product : Data.OperationProductType.Operation));
+            }
+            else
+            {
+                bl.GMP.SeansEdit(Data.FormOpenType.New, 0, Data.OperationProductType.SeansPacket);
+            }
         }
 
         private void do_Edit()
@@ -80,6 +88,6 @@ namespace SIS.App.Screens.GMP.Operation
 
         }
 
-  
+
     }
 }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SIS.Entity.Entities
+namespace SIS.Entity.Entities.GMP
 {
     [Table("Company")]
     public class Company 

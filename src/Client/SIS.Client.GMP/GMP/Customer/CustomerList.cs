@@ -15,6 +15,7 @@ using SIS.Data;
 using SIS.Client.GMP.Utils;
 using SIS.Service.GMP.Service.Customer;
 using SIS.Entity.Entities;
+using SIS.Entity.Entities.GMP;
 
 namespace SIS.App.Screens.GMP.Customer
 {

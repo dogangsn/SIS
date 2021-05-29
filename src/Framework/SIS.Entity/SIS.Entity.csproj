@@ -59,7 +59,9 @@
     <Compile Include="Entities\GMP\Customers.cs" />
     <Compile Include="Entities\GMP\FormLayouts.cs" />
     <Compile Include="Entities\GMP\Personels.cs" />
+    <Compile Include="Entities\GMP\ProductOperation.cs" />
     <Compile Include="Entities\GMP\ProgramsControl.cs" />
+    <Compile Include="Entities\GMP\SessionPackage.cs" />
     <Compile Include="Entities\GMP\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

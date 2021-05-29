@@ -1,6 +1,7 @@
 ﻿using SIS.Data.App;
 using SIS.DataAccess.GMP;
 using SIS.Entity.Entities;
+using SIS.Entity.Entities.GMP;
 using System;
 using System.Collections.Generic;
 using System.Linq;

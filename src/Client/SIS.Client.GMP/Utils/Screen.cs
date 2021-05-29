@@ -9,6 +9,7 @@ using SIS.App.Screens.GMP.SaleBuying;
 using SIS.App.Screens.GMP.Settings;
 using SIS.App.Screens.GMP.Tedarik;
 using SIS.Client.GMP.Utils;
+using SIS.Data;
 using SIS.Data.App;
 using SIS.Model.Models.GMP.Customer;
 using SIS.Model.Models.GMP.Definitions;
@@ -233,10 +234,13 @@ namespace SIS.Client.GMP
             frm.Show();
         }
 
-        public void OperationAndProducEdit(SIS.Data.FormOpenType _FormOpenType, int _id)
+        public void OperationAndProducEdit(SIS.Data.FormOpenType _FormOpenType, int _id, OperationProductType type)
         {
             OperationAndProducEdit _OperationAndProduc = new OperationAndProducEdit();
             _OperationAndProduc._FormOpenType = _FormOpenType;
+            _OperationAndProduc._operationType = type;
+
+
             if (_FormOpenType == Data.FormOpenType.New)
             {
                 //_CustomerEdit.__dl_Customers = new Model.Models.GMP.Customer.CustomersDTO();
@@ -249,6 +253,26 @@ namespace SIS.Client.GMP
             }
             _OperationAndProduc.ShowDialog();
         }
+        public void SeansEdit(SIS.Data.FormOpenType _FormOpenType, int _id, OperationProductType type)
+        {
+            SeansEdit _SeansEdit = new SeansEdit();
+            _SeansEdit._FormOpenType = _FormOpenType;
+            _SeansEdit._operationType = type;
+
+
+            if (_FormOpenType == Data.FormOpenType.New)
+            {
+                //_CustomerEdit.__dl_Customers = new Model.Models.GMP.Customer.CustomersDTO();
+            }
+            else
+            {
+                _getValue.Id = _id;
+                //_CustomerEdit.__dl_Customers = bl._repository.Run<CustomersService, CustomersDTO>(x => x.Get_Customers(_getValue));
+
+            }
+            _SeansEdit.ShowDialog();
+        }
+
 
         #endregion
 

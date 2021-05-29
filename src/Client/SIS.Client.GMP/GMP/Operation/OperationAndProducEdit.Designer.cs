@@ -58,7 +58,7 @@
             this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
             this.Root = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem8 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem9 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lckritikStok = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem10 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem11 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem12 = new DevExpress.XtraLayout.LayoutControlItem();
@@ -74,10 +74,11 @@
             this.layoutControlItem7 = new DevExpress.XtraLayout.LayoutControlItem();
             this.lcSatisFiyati = new DevExpress.XtraLayout.LayoutControlItem();
             this.lcAlisFiyati = new DevExpress.XtraLayout.LayoutControlItem();
-            this.layoutControlItem15 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.lcislemSuresi = new DevExpress.XtraLayout.LayoutControlItem();
             this.stepProgressBarItem1 = new DevExpress.XtraEditors.StepProgressBarItem();
             this.stepProgressBarItem2 = new DevExpress.XtraEditors.StepProgressBarItem();
             this.stepProgressBarItem3 = new DevExpress.XtraEditors.StepProgressBarItem();
+            this.bs_ProductOperatin = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_sic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
@@ -99,7 +100,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lckritikStok)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).BeginInit();
@@ -115,7 +116,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lcSatisFiyati)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lcAlisFiyati)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lcislemSuresi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ProductOperatin)).BeginInit();
             this.SuspendLayout();
             // 
             // barManager1
@@ -396,7 +398,7 @@
             this.Root.GroupBordersVisible = false;
             this.Root.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
             this.layoutControlItem8,
-            this.layoutControlItem9,
+            this.lckritikStok,
             this.layoutControlItem10,
             this.layoutControlItem11,
             this.layoutControlItem12,
@@ -405,7 +407,7 @@
             this.emptySpaceItem1,
             this.layoutControlGroup1,
             this.layoutControlGroup2,
-            this.layoutControlItem15});
+            this.lcislemSuresi});
             this.Root.Name = "Root";
             this.Root.Size = new System.Drawing.Size(606, 508);
             this.Root.TextVisible = false;
@@ -419,14 +421,14 @@
             this.layoutControlItem8.Text = "Kayıt Tarihi";
             this.layoutControlItem8.TextSize = new System.Drawing.Size(80, 13);
             // 
-            // layoutControlItem9
+            // lckritikStok
             // 
-            this.layoutControlItem9.Control = this.textEdit6;
-            this.layoutControlItem9.Location = new System.Drawing.Point(177, 282);
-            this.layoutControlItem9.Name = "layoutControlItem9";
-            this.layoutControlItem9.Size = new System.Drawing.Size(409, 24);
-            this.layoutControlItem9.Text = "Kritik Stok";
-            this.layoutControlItem9.TextSize = new System.Drawing.Size(80, 13);
+            this.lckritikStok.Control = this.textEdit6;
+            this.lckritikStok.Location = new System.Drawing.Point(177, 282);
+            this.lckritikStok.Name = "lckritikStok";
+            this.lckritikStok.Size = new System.Drawing.Size(409, 24);
+            this.lckritikStok.Text = "Kritik Stok";
+            this.lckritikStok.TextSize = new System.Drawing.Size(80, 13);
             // 
             // layoutControlItem10
             // 
@@ -569,14 +571,14 @@
             this.lcAlisFiyati.Text = "Alış Fiyatı";
             this.lcAlisFiyati.TextSize = new System.Drawing.Size(80, 13);
             // 
-            // layoutControlItem15
+            // lcislemSuresi
             // 
-            this.layoutControlItem15.Control = this.textEdit9;
-            this.layoutControlItem15.Location = new System.Drawing.Point(177, 354);
-            this.layoutControlItem15.Name = "layoutControlItem15";
-            this.layoutControlItem15.Size = new System.Drawing.Size(409, 24);
-            this.layoutControlItem15.Text = "İşlem Süresi (Dk)";
-            this.layoutControlItem15.TextSize = new System.Drawing.Size(80, 13);
+            this.lcislemSuresi.Control = this.textEdit9;
+            this.lcislemSuresi.Location = new System.Drawing.Point(177, 354);
+            this.lcislemSuresi.Name = "lcislemSuresi";
+            this.lcislemSuresi.Size = new System.Drawing.Size(409, 24);
+            this.lcislemSuresi.Text = "İşlem Süresi (Dk)";
+            this.lcislemSuresi.TextSize = new System.Drawing.Size(80, 13);
             // 
             // stepProgressBarItem1
             // 
@@ -592,6 +594,10 @@
             // 
             this.stepProgressBarItem3.ContentBlock2.Caption = "Ürün Fiyat";
             this.stepProgressBarItem3.Name = "stepProgressBarItem3";
+            // 
+            // bs_ProductOperatin
+            // 
+            this.bs_ProductOperatin.DataSource = typeof(SIS.Entity.Entities.GMP.ProductOperation);
             // 
             // OperationAndProducEdit
             // 
@@ -628,7 +634,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Root)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lckritikStok)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem12)).EndInit();
@@ -644,7 +650,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lcSatisFiyati)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lcAlisFiyati)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lcislemSuresi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bs_ProductOperatin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -686,7 +693,7 @@
         private DevExpress.XtraLayout.LayoutControlItem lcSatisFiyati;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem7;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem8;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem9;
+        private DevExpress.XtraLayout.LayoutControlItem lckritikStok;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem10;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem11;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem12;
@@ -700,6 +707,7 @@
         private DevExpress.XtraEditors.StepProgressBarItem stepProgressBarItem3;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup2;
         private DevExpress.XtraEditors.TextEdit textEdit9;
-        private DevExpress.XtraLayout.LayoutControlItem layoutControlItem15;
+        private DevExpress.XtraLayout.LayoutControlItem lcislemSuresi;
+        private System.Windows.Forms.BindingSource bs_ProductOperatin;
     }
 }
