@@ -11,6 +11,7 @@ using SIS.App.Screens.GMP.Tedarik;
 using SIS.Client.GMP.Utils;
 using SIS.Data;
 using SIS.Data.App;
+using SIS.Entity.Entities.GMP;
 using SIS.Model.Models.GMP.Customer;
 using SIS.Model.Models.GMP.Definitions;
 using System;
@@ -243,7 +244,9 @@ namespace SIS.Client.GMP
 
             if (_FormOpenType == Data.FormOpenType.New)
             {
-                //_CustomerEdit.__dl_Customers = new Model.Models.GMP.Customer.CustomersDTO();
+                _OperationAndProduc._dll_ProductOperation = new ProductOperation();
+                _OperationAndProduc._dll_ProductOperation.RecordDate = DateTime.Now.Date;
+                //_OperationAndProduc._dll_ProductOperation.RecordUser = AppMain.
             }
             else
             {
@@ -258,7 +261,6 @@ namespace SIS.Client.GMP
             SeansEdit _SeansEdit = new SeansEdit();
             _SeansEdit._FormOpenType = _FormOpenType;
             _SeansEdit._operationType = type;
-
 
             if (_FormOpenType == Data.FormOpenType.New)
             {

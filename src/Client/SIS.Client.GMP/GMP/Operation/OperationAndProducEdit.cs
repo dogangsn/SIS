@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using SIS.Data;
 using SIS.Entity.Entities.GMP;
+using SIS.Client.Admin;
 
 namespace SIS.App.Screens.GMP.Operation
 {
@@ -24,7 +25,6 @@ namespace SIS.App.Screens.GMP.Operation
 
         public ProductOperation _dll_ProductOperation;
 
-
         public FormOpenType _FormOpenType;
         public OperationProductType _operationType;
 
@@ -37,13 +37,34 @@ namespace SIS.App.Screens.GMP.Operation
 
         #region Record
 
-        private void empty_control()
+        private bool empty_control()
         {
+            bool _return = true;
+
+            return _return;
 
         }
 
         private void do_save()
         {
+            if (!empty_control()) return;
+
+            if (bl.message.get_Question("Kayıt edilcek onaylıyor musunuz?"))
+            {
+                try
+                {
+
+
+
+
+
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+
 
         }
         private void do_Refresh_List_Form()
@@ -55,6 +76,11 @@ namespace SIS.App.Screens.GMP.Operation
             //}
             //_Form = null;
 
+        }
+
+        private void do_close()
+        {
+            this.Close();
         }
 
         #endregion
@@ -86,11 +112,17 @@ namespace SIS.App.Screens.GMP.Operation
                     break;
             }
 
-
+            bs_ProductOperatin.DataSource = _dll_ProductOperation;
         }
 
+        private void bbi_Closed_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_close();
+        }
 
-
-
+        private void bbi_Save_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            do_save();
+        }
     }
 }
