@@ -48,6 +48,7 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.10.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -76,8 +77,10 @@
     <Compile Include="Model\DateTimeInfo.cs" />
     <Compile Include="Model\IAuthContainerModel.cs" />
     <Compile Include="Model\JWTContainerModel.cs" />
+    <Compile Include="PostValue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnProcess.cs" />
+    <Compile Include="StateObject.cs" />
     <Compile Include="Tool\AppTools.cs" />
     <Compile Include="Tool\GMPTools.cs" />
   </ItemGroup>

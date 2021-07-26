@@ -58,6 +58,7 @@
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Service\Admin\AdminGmpService.cs" />
     <Compile Include="Service\Customer\CustomerService.cs" />
+    <Compile Include="Service\Operation\OperationService.cs" />
     <Compile Include="Service\System\SystemService.cs" />
   </ItemGroup>
   <ItemGroup />

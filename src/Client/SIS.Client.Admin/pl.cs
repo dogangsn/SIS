@@ -66,6 +66,24 @@ namespace SIS.Client.Admin
                     Client.blvalue.AppMain.AppValue.APTActive = true;
                 }
 
+                if (IsContainsValue("GYMActive"))
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["GYMActive"]);
+                }
+                else
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = true;
+                }
+
+                if (IsContainsValue("RACActive"))
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["RACActive"]);
+                }
+                else
+                {
+                    Client.blvalue.AppMain.AppValue.APTActive = true;
+                }
+
                 bool _ConnectionApi = Convert.ToBoolean(System.Configuration.ConfigurationManager.AppSettings["ConnectionApi"]);
 
                 if (SIS.Client.blvalue.AppMain.AppValue.ForceUseLocal)

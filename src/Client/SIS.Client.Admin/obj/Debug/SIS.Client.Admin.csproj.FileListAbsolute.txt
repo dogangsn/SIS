@@ -86,7 +86,6 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\de\DevExpress.Off
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.login.resources
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.csproj.GenerateResource.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.dll.licenses
@@ -123,3 +122,4 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.DataAccess.GM
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Service.GMP.pdb
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.Service.GMP.dll.config
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\bin\Debug\SIS.DataAccess.GMP.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.Admin\obj\Debug\SIS.Client.Admin.csproj.AssemblyReference.cache

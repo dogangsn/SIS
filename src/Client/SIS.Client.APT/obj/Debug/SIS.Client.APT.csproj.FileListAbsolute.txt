@@ -1,6 +1,5 @@
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\bin\Debug\SIS.Client.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\bin\Debug\SIS.Client.APT.pdb
-D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.pdb
@@ -101,3 +100,4 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\bin\Debug\es\DevExpress.Offic
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.APT\obj\Debug\SIS.Client.APT.csproj.AssemblyReference.cache

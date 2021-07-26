@@ -100,5 +100,5 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\de\DevExpres
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.GMP\obj\Debug\SIS.DataAccess.GMP.csproj.AssemblyReference.cache

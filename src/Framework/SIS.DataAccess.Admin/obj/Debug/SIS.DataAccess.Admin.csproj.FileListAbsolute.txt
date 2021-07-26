@@ -98,5 +98,5 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\de\DevExpr
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.Admin\obj\Debug\SIS.DataAccess.Admin.csproj.AssemblyReference.cache

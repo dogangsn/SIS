@@ -179,7 +179,6 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\de\DevExpress.Office.v
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.dll
@@ -192,3 +191,4 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityMode
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Logging.xml
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\Microsoft.IdentityModel.Tokens.xml
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Data\obj\Debug\SIS.Data.csproj.AssemblyReference.cache

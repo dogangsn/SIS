@@ -84,6 +84,20 @@ namespace SIS.Client.Admin
                 _AppIdView.App = Data.AdminAppType.APT.ToString();
                 SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
             }
+            if (AppMain.AppValue.GYMActive)
+            {
+                _AppIdView = new SIS.Data.App.AppIdView();
+                _AppIdView.Id = (int)Data.AdminAppType.GYM;
+                _AppIdView.App = Data.AdminAppType.GYM.ToString();
+                SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
+            }
+            if (AppMain.AppValue.RACActive)
+            {
+                _AppIdView = new SIS.Data.App.AppIdView();
+                _AppIdView.Id = (int)Data.AdminAppType.RAC;
+                _AppIdView.App = Data.AdminAppType.RAC.ToString();
+                SIS.Client.Admin.blvalue.List_AppIdView.Add(_AppIdView);
+            }
 
             List<int> _List_ApplicationIds = new List<int>();
             _List_ApplicationIds.Add(blvalue.AplicationId);

@@ -110,5 +110,5 @@ D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\de\DevExpress.Off
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.CopyComplete
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.AssemblyReference.cache

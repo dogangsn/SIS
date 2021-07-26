@@ -94,10 +94,10 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\de\DevExpress.O
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\es\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
-D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.pdb
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\SIS.Entity.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\bin\Debug\SIS.Entity.pdb
+D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.blvalue\obj\Debug\SIS.Client.blvalue.csproj.AssemblyReference.cache

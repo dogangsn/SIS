@@ -28,11 +28,13 @@ namespace SIS.Client.blvalue
 
         public ConnectionDTO DbAdminConnectionDTO;
 
-        public  bool GMPActive;
-        public  bool HTPActive;
-        public  bool APTActive;
-        public  int AppId;
-        public  string AppName;
+        public bool GMPActive;
+        public bool HTPActive;
+        public bool APTActive;
+        public bool GYMActive;
+        public bool RACActive;
+        public int AppId;
+        public string AppName;
 
         public SIS.Entity.Entities.GMP.Users Users_GMP;
 

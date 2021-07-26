@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SIS.Entity.Entities.GMP
 {
-    public class ProductOperation
+    [Table("ProductOperation")]
+    public class ProductOperation 
     {
         [Key]
         public int RecId { get; set; }
@@ -29,5 +31,8 @@ namespace SIS.Entity.Entities.GMP
         public bool? Deleted { get; set; }
         public string DeletedUser { get; set; }
         public string RecordUser { get; set; }
+
+        //[NotMapped]
+        //public PostValue PostValue { get; set; }
     }
 }

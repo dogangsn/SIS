@@ -1,7 +1,6 @@
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\SIS.Service.deps.json
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\SIS.Service.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\SIS.Service.pdb
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.AssemblyInfoInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.AssemblyInfo.cs
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.csproj.CoreCompileInputs.cache
@@ -104,3 +103,4 @@ D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Micros
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Logging.xml
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service\obj\Debug\netstandard2.0\SIS.Service.csproj.AssemblyReference.cache
