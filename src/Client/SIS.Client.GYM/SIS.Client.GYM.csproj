@@ -42,9 +42,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\bl.cs" />
+    <Compile Include="Utils\blMenu.cs" />
+    <Compile Include="Utils\Screen.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="GYM\" />
+    <Folder Include="GYM\Contact\" />
+    <Folder Include="GYM\Employe\" />
+    <Folder Include="GYM\Member\" />
+    <Folder Include="GYM\Settings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\SIS.Data\SIS.Data.csproj">
+      <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
+      <Name>SIS.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
