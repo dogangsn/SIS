@@ -7,8 +7,8 @@ D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.
 D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\Dogan\Project\SIS\SIS\SIS.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csproj.AssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.dll
 D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.pdb
-D:\Dogan\Project\SIS\SIS\SIS.Test\obj\Debug\SIS.Test.csprojAssemblyReference.cache

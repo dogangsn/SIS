@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.SpellChecker.v20.2.Core</name>
   </assembly>
@@ -134,13 +134,13 @@
     </member>
     <member name="P:DevExpress.XtraSpellChecker.CheckSpellingResult.Index">
       <summary>
-        <para>Gets the checked word&#39;s index in text.</para>
+        <para>Gets the checked word’s index in text.</para>
       </summary>
       <value>The index of a word.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.CheckSpellingResult.Length">
       <summary>
-        <para>Returns the checked word&#39;s length.</para>
+        <para>Returns the checked word’s length.</para>
       </summary>
       <value>The number of positions occupied by the checker word.</value>
     </member>
@@ -511,7 +511,7 @@
     </member>
     <member name="M:DevExpress.XtraSpellChecker.IgnoreList.Contains(DevExpress.XtraSpellChecker.Parser.Position,DevExpress.XtraSpellChecker.Parser.Position,System.String)">
       <summary>
-        <para>Determines whether the ignored words&#39; list contains the specified word, and the word is ignored in the given location.</para>
+        <para>Determines whether the ignored words’ list contains the specified word, and the word is ignored in the given location.</para>
       </summary>
       <param name="start">A start position being checked.</param>
       <param name="end">An end position being checked.</param>
@@ -807,7 +807,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets the length of the repeated word.</para>
       </summary>
-      <value>An integer, specifying the word&#39;s length.</value>
+      <value>An integer, specifying the word’s length.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.RepeatedWordFoundEventArgs.Result">
       <summary>
@@ -852,7 +852,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
     </member>
     <member name="P:DevExpress.XtraSpellChecker.Rules.SpellCheckErrorBase.Culture">
       <summary>
-        <para>Returns the error&#39;s culture.</para>
+        <para>Returns the error’s culture.</para>
       </summary>
       <value>The <see cref="T:System.Globalization.CultureInfo"/> object providing the culture information.</value>
     </member>
@@ -867,7 +867,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets or sets the end position of the misspelled word.</para>
       </summary>
-      <value>The DevExpress.XtraSpellChecker.Parser.Position object indicating the word&#39;s end position.</value>
+      <value>The DevExpress.XtraSpellChecker.Parser.Position object indicating the word’s end position.</value>
     </member>
     <member name="M:DevExpress.XtraSpellChecker.Rules.SpellCheckErrorBase.GetHashCode">
       <summary>
@@ -897,7 +897,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets or sets the start position of the misspelled word.</para>
       </summary>
-      <value>The DevExpress.XtraSpellChecker.Parser.Position object indicating the word&#39; start position.</value>
+      <value>The DevExpress.XtraSpellChecker.Parser.Position object indicating the word’ start position.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.Rules.SpellCheckErrorBase.Suggestion">
       <summary>
@@ -1089,7 +1089,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
     </member>
     <member name="M:DevExpress.XtraSpellChecker.SpellCheckerBase.OnCustomDictionaryWordAdded(System.Object,DevExpress.XtraSpellChecker.WordAddedEventArgs)">
       <summary>
-        <para></para>
+        <para>For internal use.</para>
       </summary>
       <param name="sender"></param>
       <param name="e"></param>
@@ -1150,7 +1150,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets or sets the type of form that is shown when a possible misspelled word is found.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.XtraSpellChecker.SpellingFormType"/> enumeration specifying the form&#39;s layout.</value>
+      <value>A <see cref="T:DevExpress.XtraSpellChecker.SpellingFormType"/> enumeration specifying the form’s layout.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.SpellCheckerBase.SuggestionSearchTimeOut">
       <summary>
@@ -1206,7 +1206,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets or sets the position at which the text segment finishes.</para>
       </summary>
-      <value>A DevExpress.XtraSpellChecker.Parser.Position object, representing the location of the text segment&#39;s end.</value>
+      <value>A DevExpress.XtraSpellChecker.Parser.Position object, representing the location of the text segment’s end.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.SpellCheckerCommand.Operation">
       <summary>
@@ -1218,7 +1218,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       <summary>
         <para>Gets or sets the position at which the text segment starts.</para>
       </summary>
-      <value>A DevExpress.XtraSpellChecker.Parser.Position object, representing the location of the text segment&#39;s beginning.</value>
+      <value>A DevExpress.XtraSpellChecker.Parser.Position object, representing the location of the text segment’s beginning.</value>
     </member>
     <member name="P:DevExpress.XtraSpellChecker.SpellCheckerCommand.Suggestion">
       <summary>
@@ -1317,7 +1317,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
         <para>Loads the dictionary and the alphabet from specified streams into the current custom dictionary, and initializes it.</para>
       </summary>
       <param name="dictionaryStream">A <see cref="T:System.IO.Stream"/> object which stores the base word list</param>
-      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language&#39;s alphabet.</param>
+      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language’s alphabet.</param>
     </member>
     <member name="M:DevExpress.XtraSpellChecker.SpellCheckerDictionary.LoadAlphabetFromStream(System.IO.Stream)">
       <summary>
@@ -1442,7 +1442,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       </summary>
       <param name="dictionaryStream">A <see cref="T:System.IO.Stream"/> object which stores the base word list.</param>
       <param name="grammarStream">A <see cref="T:System.IO.Stream"/> object which stores the affix rules list.</param>
-      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language&#39;s alphabet.</param>
+      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language’s alphabet.</param>
     </member>
     <member name="T:DevExpress.XtraSpellChecker.SpellCheckerOpenOfficeDictionary">
       <summary>
@@ -1468,7 +1468,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
       </summary>
       <param name="dictionaryStream">A <see cref="T:System.IO.Stream"/> object which stores the base word list</param>
       <param name="grammarStream">A <see cref="T:System.IO.Stream"/> object which stores the affix rules list.</param>
-      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language&#39;s alphabet.</param>
+      <param name="alphabetStream">A <see cref="T:System.IO.Stream"/> object which stores the language’s alphabet.</param>
     </member>
     <member name="T:DevExpress.XtraSpellChecker.SpellCheckerUnhandledExceptionEventArgs">
       <summary>
@@ -1714,7 +1714,7 @@ When the IgnoreMarkupTags property is set to <see cref="F:DevExpress.Utils.Defau
         <para>Determines the index of a specific item in the <see cref="T:DevExpress.XtraSpellChecker.SuggestionCollection"/>.</para>
       </summary>
       <param name="suggestion">A <see cref="T:DevExpress.XtraSpellChecker.SuggestionBase"/> object to locate within the <see cref="T:DevExpress.XtraSpellChecker.SuggestionCollection"/>.</param>
-      <returns>The suggestion&#39;s index if found in the list; otherwise, -1.</returns>
+      <returns>The suggestion’s index if found in the list; otherwise, -1.</returns>
     </member>
     <member name="M:DevExpress.XtraSpellChecker.SuggestionCollection.Insert(System.Int32,DevExpress.XtraSpellChecker.SuggestionBase)">
       <summary>

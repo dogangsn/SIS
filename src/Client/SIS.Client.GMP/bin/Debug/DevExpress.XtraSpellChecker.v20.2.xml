@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.XtraSpellChecker.v20.2</name>
   </assembly>
@@ -77,15 +77,15 @@
     </member>
     <member name="M:DevExpress.XtraSpellChecker.Localization.SpellCheckerLocalizer.CreateDefaultLocalizer">
       <summary>
-        <para>Returns a localizer object, which provides resources based on the thread&#39;s language and regional settings (culture).</para>
+        <para>Returns a localizer object, which provides resources based on the thread’s language and regional settings (culture).</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object representing resources based on the thread&#39;s culture.</returns>
+      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object representing resources based on the thread’s culture.</returns>
     </member>
     <member name="M:DevExpress.XtraSpellChecker.Localization.SpellCheckerLocalizer.CreateResXLocalizer">
       <summary>
-        <para>Returns a localizer object, which provides resources based on the thread&#39;s language and regional settings (culture).</para>
+        <para>Returns a localizer object, which provides resources based on the thread’s language and regional settings (culture).</para>
       </summary>
-      <returns>A <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, which provides resources based on the thread&#39;s culture.</returns>
+      <returns>A <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, which provides resources based on the thread’s culture.</returns>
     </member>
     <member name="T:DevExpress.XtraSpellChecker.Localization.SpellCheckerResLocalizer">
       <summary>
@@ -140,7 +140,7 @@
     </member>
     <member name="P:DevExpress.XtraSpellChecker.PopupMenuShowingEventArgs.Menu">
       <summary>
-        <para>Gets the control&#39;s context menu.</para>
+        <para>Gets the control’s context menu.</para>
       </summary>
       <value>An object that represents the context menu.</value>
     </member>
@@ -271,7 +271,7 @@
     </member>
     <member name="M:DevExpress.XtraSpellChecker.SpellChecker.GetShowSpellCheckMenu(System.Windows.Forms.Control)">
       <summary>
-        <para>Returns a value that determines whether the command that invokes the spell checker should be added to the control&#39;s drop-down menu.</para>
+        <para>Returns a value that determines whether the command that invokes the spell checker should be added to the control’s drop-down menu.</para>
       </summary>
       <param name="control">A control which option is determined.</param>
       <returns>true if the spell checker item is present in a context menu; otherwise false.</returns>
@@ -287,7 +287,7 @@
       <summary>
         <para>Provides access to the settings which control the SpellChecker look and feel appearance.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.LookAndFeel.UserLookAndFeel"/> object whose properties specify the SpellChecker control&#39;s look and feel.</value>
+      <value>A <see cref="T:DevExpress.LookAndFeel.UserLookAndFeel"/> object whose properties specify the SpellChecker control’s look and feel.</value>
     </member>
     <member name="E:DevExpress.XtraSpellChecker.SpellChecker.OptionsFormShowing">
       <summary>
@@ -325,7 +325,7 @@
     </member>
     <member name="M:DevExpress.XtraSpellChecker.SpellChecker.SetShowSpellCheckMenu(System.Windows.Forms.Control,System.Boolean)">
       <summary>
-        <para>Specifies a value that determines whether the command that invokes the spell checker should be added to the control&#39;s drop-down menu.</para>
+        <para>Specifies a value that determines whether the command that invokes the spell checker should be added to the control’s drop-down menu.</para>
       </summary>
       <param name="control">A control for which the option is determined.</param>
       <param name="showSpellCheckMenu">true if the spell checker item is present in a context menu; otherwise false.</param>
@@ -339,7 +339,7 @@
     </member>
     <member name="P:DevExpress.XtraSpellChecker.SpellChecker.SpellCheckMode">
       <summary>
-        <para>Gets or sets the XtraSpellChecker&#39;s operation mode.</para>
+        <para>Gets or sets the XtraSpellChecker’s operation mode.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraSpellChecker.SpellCheckMode"/> enumeration member.</value>
     </member>

@@ -6,7 +6,7 @@ D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\bin\Debug\netcoreapp3.1\SIS.API.A
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\bin\Debug\netcoreapp3.1\SIS.API.Admin.runtimeconfig.dev.json
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\bin\Debug\netcoreapp3.1\SIS.API.Admin.dll
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\bin\Debug\netcoreapp3.1\SIS.API.Admin.pdb
-D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\obj\Debug\netcoreapp3.1\SIS.API.Admin.csprojAssemblyReference.cache
+D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\obj\Debug\netcoreapp3.1\SIS.API.Admin.csproj.AssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\obj\Debug\netcoreapp3.1\SIS.API.Admin.AssemblyInfoInputs.cache
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\obj\Debug\netcoreapp3.1\SIS.API.Admin.AssemblyInfo.cs
 D:\Dogan\Project\SIS\SIS\src\API\SIS.API.Admin\obj\Debug\netcoreapp3.1\SIS.API.Admin.csproj.CoreCompileInputs.cache

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.Office.v20.2.Core</name>
   </assembly>
@@ -152,7 +152,7 @@
     </member>
     <member name="M:DevExpress.Office.HyperlinkUriHelper.ConvertRelativePathToAbsolute(System.String,System.String)">
       <summary>
-        <para>Converts the hyperlink&#39;s relative path to absolute.</para>
+        <para>Converts the hyperlink’s relative path to absolute.</para>
       </summary>
       <param name="uri"></param>
       <param name="baseUri"></param>
@@ -181,23 +181,23 @@
     </member>
     <member name="M:DevExpress.Office.HyperlinkUriHelper.EscapeHyperlinkFieldParameterString(System.String)">
       <summary>
-        <para>Replaces the &quot;&quot; escape character to normal backslashes.</para>
+        <para>Replaces the ““ escape character to normal backslashes.</para>
       </summary>
       <param name="value">A string value that needs to be corrected.</param>
       <returns>The corrected string.</returns>
     </member>
     <member name="M:DevExpress.Office.HyperlinkUriHelper.IsLocalPath(System.String)">
       <summary>
-        <para>Check whether the hyperlink&#39;s path is local.</para>
+        <para>Check whether the hyperlink’s path is local.</para>
       </summary>
-      <param name="uri">A target hyperlink&#39;s URI.</param>
+      <param name="uri">A target hyperlink’s URI.</param>
       <returns>true, if the path is local; otherwise, false.</returns>
     </member>
     <member name="M:DevExpress.Office.HyperlinkUriHelper.IsRelativePath(System.String)">
       <summary>
-        <para>Checks whether the hyperlink&#39;s path is relative.</para>
+        <para>Checks whether the hyperlink’s path is relative.</para>
       </summary>
-      <param name="uri">A target hyperlink&#39;s URI.</param>
+      <param name="uri">A target hyperlink’s URI.</param>
       <returns>true, if the path is relative; otherwise, false.</returns>
     </member>
     <member name="M:DevExpress.Office.HyperlinkUriHelper.PrepareHyperlinkTooltipQuotes(System.String)">
@@ -240,15 +240,15 @@
     </member>
     <member name="M:DevExpress.Office.Localization.OfficeLocalizer.CreateDefaultLocalizer">
       <summary>
-        <para>Returns a localizer object, which provides resources based on the thread&#39;s language and regional settings (culture).</para>
+        <para>Returns a localizer object, which provides resources based on the thread’s language and regional settings (culture).</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object representing resources based on the thread&#39;s culture.</returns>
+      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object representing resources based on the thread’s culture.</returns>
     </member>
     <member name="M:DevExpress.Office.Localization.OfficeLocalizer.CreateResXLocalizer">
       <summary>
-        <para>Returns a localizer object, which provides resources based on the thread&#39;s language and regional settings (culture).</para>
+        <para>Returns a localizer object, which provides resources based on the thread’s language and regional settings (culture).</para>
       </summary>
-      <returns>A <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, which provides resources based on the thread&#39;s culture.</returns>
+      <returns>A <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, which provides resources based on the thread’s culture.</returns>
     </member>
     <member name="M:DevExpress.Office.Localization.OfficeLocalizer.GetString(DevExpress.Office.Localization.OfficeStringId)">
       <summary>
@@ -276,7 +276,7 @@
       <summary>
         <para>Gets the globally unique identifier (GUID) of the current custom XML part.</para>
       </summary>
-      <value>A custom XML part&#39;s GUID.</value>
+      <value>A custom XML part’s GUID.</value>
     </member>
     <member name="P:DevExpress.Office.OfficeCustomXmlPart.CustomXmlPartDocument">
       <summary>
@@ -288,7 +288,7 @@
       <summary>
         <para>A generic base interface for custom XML parts that allows you to compare two objects.</para>
       </summary>
-      <typeparam name="T">An object that exposes the ICustomXmlPart interface and represents a document&#39;s custom XML part.</typeparam>
+      <typeparam name="T">An object that exposes the ICustomXmlPart interface and represents a document’s custom XML part.</typeparam>
     </member>
     <member name="M:DevExpress.Office.OfficeCustomXmlPart`1.Equals(`0)">
       <summary>
@@ -299,9 +299,9 @@
     </member>
     <member name="T:DevExpress.Office.OfficeCustomXmlPartCollection`1">
       <summary>
-        <para>A base interface for a workbook&#39;s or text document&#39;s collection of custom XML parts.</para>
+        <para>A base interface for a workbook’s or text document’s collection of custom XML parts.</para>
       </summary>
-      <typeparam name="T">An object that exposes the ICustomXmlPart interface and specifies a document&#39;s custom XML part.</typeparam>
+      <typeparam name="T">An object that exposes the ICustomXmlPart interface and specifies a document’s custom XML part.</typeparam>
     </member>
     <member name="M:DevExpress.Office.OfficeCustomXmlPartCollection`1.Add">
       <summary>
@@ -347,14 +347,14 @@
         <para>Returns the index of the specified custom XML part in the collection.</para>
       </summary>
       <param name="customXmlPart">A custom XML part to locate in the collection.</param>
-      <returns>A zero-based integer that specifies the custom XML part&#39;s position within the collection. -1 if a custom XML part doesn&#39;t belong to the collection.</returns>
+      <returns>A zero-based integer that specifies the custom XML part’s position within the collection. -1 if a custom XML part doesn’t belong to the collection.</returns>
     </member>
     <member name="M:DevExpress.Office.OfficeCustomXmlPartCollection`1.IndexOf(System.String)">
       <summary>
         <para>Returns the index of a custom XML part with the specified XML content.</para>
       </summary>
       <param name="content">The content of the custom XML part to locate in the collection.</param>
-      <returns>A zero-based integer that specifies the custom XML part&#39;s position within the collection. -1 if a custom XML part with the given content doesn&#39;t belong to the collection.</returns>
+      <returns>A zero-based integer that specifies the custom XML part’s position within the collection. -1 if a custom XML part with the given content doesn’t belong to the collection.</returns>
     </member>
     <member name="M:DevExpress.Office.OfficeCustomXmlPartCollection`1.Insert(System.Int32)">
       <summary>
@@ -368,7 +368,7 @@
         <para>Inserts a new custom XML part with the given content at the specified position in the collection.</para>
       </summary>
       <param name="index">A zero-based index that specifies the position where to insert a custom XML part.</param>
-      <param name="content">An XML string that specifies the custom XML part&#39;s content.</param>
+      <param name="content">An XML string that specifies the custom XML part’s content.</param>
       <returns>An object that exposes the ICustomXmlPart interface and specifies a newly created custom XML part.</returns>
     </member>
     <member name="M:DevExpress.Office.OfficeCustomXmlPartCollection`1.Insert(System.Int32,System.Xml.XmlDocument)">

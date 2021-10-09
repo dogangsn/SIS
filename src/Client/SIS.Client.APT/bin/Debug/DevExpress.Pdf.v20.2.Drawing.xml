@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.Pdf.v20.2.Drawing</name>
   </assembly>
@@ -16,7 +16,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotation.Bounds">
       <summary>
-        <para>Gets the annotation&#39;s bounds on the page.</para>
+        <para>Gets the annotation’s bounds on the page.</para>
       </summary>
       <value>Annotation bounds in the page coordinate system.</value>
     </member>
@@ -26,21 +26,9 @@
       </summary>
       <value>The annotation color.</value>
     </member>
-    <member name="P:DevExpress.Pdf.IPdfViewerAnnotation.Contents">
-      <summary>
-        <para>Gets the annotation contents.</para>
-      </summary>
-      <value>The annotation contents.</value>
-    </member>
-    <member name="P:DevExpress.Pdf.IPdfViewerAnnotation.ModificationDate">
-      <summary>
-        <para>Gets the date and time of the annotation&#39;s last modification.</para>
-      </summary>
-      <value>The date and time of the annotation&#39;s last modification.</value>
-    </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotation.Name">
       <summary>
-        <para>Gets the annotation&#39;s name.</para>
+        <para>Gets the annotation’s name.</para>
       </summary>
       <value>The annotation name.</value>
     </member>
@@ -52,7 +40,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotation.Type">
       <summary>
-        <para>Gets the annotation&#39;s type.</para>
+        <para>Gets the annotation’s type.</para>
       </summary>
       <value>One of enumeration values that indicates the annotation type.</value>
     </member>
@@ -63,19 +51,19 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotationBuilder.AnnotationType">
       <summary>
-        <para>Gets the annotation&#39;s type.</para>
+        <para>Gets the annotation’s type.</para>
       </summary>
       <value>An enumeration value that indicates the annotation type.</value>
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotationBuilder.Bounds">
       <summary>
-        <para>Gets the annotation&#39;s bounds on a page.</para>
+        <para>Gets the annotation’s bounds on a page.</para>
       </summary>
       <value>Annotation bounds in the page coordinate system.</value>
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotationBuilder.Color">
       <summary>
-        <para>Specifies the annotation&#39;s color.</para>
+        <para>Specifies the annotation’s color.</para>
       </summary>
       <value>The markup annotation color.</value>
     </member>
@@ -93,7 +81,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerAnnotationBuilder.ModificationDate">
       <summary>
-        <para>Specifies the date and time of the annotation&#39;s last modification.</para>
+        <para>Specifies the date and time of the annotation’s last modification.</para>
       </summary>
       <value>The date and time when the annotation was last modified.</value>
     </member>
@@ -114,17 +102,11 @@
         <para>Implements properties used to return information about markup annotations.</para>
       </summary>
     </member>
-    <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotation.Author">
-      <summary>
-        <para>Gets the markup annotation&#39;s author.</para>
-      </summary>
-      <value>The annotation author.</value>
-    </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotation.CreationDate">
       <summary>
         <para>Gets the date and time when the markup annotation was created.</para>
       </summary>
-      <value>The date and time of the markup annotation&#39;s creation.</value>
+      <value>The date and time of the markup annotation’s creation.</value>
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotation.Opacity">
       <summary>
@@ -134,7 +116,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotation.Subject">
       <summary>
-        <para>Gets the markup annotation&#39;s subject.</para>
+        <para>Gets the markup annotation’s subject.</para>
       </summary>
       <value>A short description of the subject.</value>
     </member>
@@ -145,15 +127,15 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotationBuilder.Author">
       <summary>
-        <para>Gets or sets the author of a markup annotation&#39;s author.</para>
+        <para>Gets or sets the author of a markup annotation’s author.</para>
       </summary>
-      <value>The author&#39;s name.</value>
+      <value>The author’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotationBuilder.CreationDate">
       <summary>
         <para>Specifies the date and time when the markup annotation was created.</para>
       </summary>
-      <value>The annotation&#39;s creation date.</value>
+      <value>The annotation’s creation date.</value>
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotationBuilder.Opacity">
       <summary>
@@ -163,7 +145,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerMarkupAnnotationBuilder.Subject">
       <summary>
-        <para>Gets or sets a subject the markup annotation addresses.&#39;</para>
+        <para>Gets or sets a subject the markup annotation addresses.’</para>
       </summary>
       <value>A short description of the subject.</value>
     </member>
@@ -174,9 +156,9 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerTextAnnotation.IconName">
       <summary>
-        <para>Gets the name of the annotation&#39;s icon.</para>
+        <para>Gets the name of the annotation’s icon.</para>
       </summary>
-      <value>The annotation icon&#39;s name.</value>
+      <value>The annotation icon’s name.</value>
     </member>
     <member name="T:DevExpress.Pdf.IPdfViewerTextAnnotationBuilder">
       <summary>
@@ -185,7 +167,7 @@
     </member>
     <member name="P:DevExpress.Pdf.IPdfViewerTextAnnotationBuilder.IconName">
       <summary>
-        <para>Gets the name of the annotation&#39;s icon.</para>
+        <para>Gets the name of the annotation’s icon.</para>
       </summary>
       <value>The icon name.</value>
     </member>
@@ -298,7 +280,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfCommentSortMode">
       <summary>
-        <para>Lists values used to specify the annotation&#39;s sort mode in the Comments pane.</para>
+        <para>Lists values used to specify the annotation’s sort mode in the Comments pane.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfCommentSortMode.Author">
@@ -517,7 +499,7 @@
     </member>
     <member name="M:DevExpress.Pdf.PdfGraphics.DrawPageContent(DevExpress.Pdf.PdfPage)">
       <summary>
-        <para>Draws the specified page&#39;s content.</para>
+        <para>Draws the specified page’s content.</para>
       </summary>
       <param name="source">The source page from which content is drawn.</param>
     </member>
@@ -705,14 +687,14 @@
         <para>Measures the string when it is drawn with the specific font and formatted with the given string format.</para>
       </summary>
       <param name="text">A string to measure.</param>
-      <param name="font">The font that defines the string&#39;s text format.</param>
+      <param name="font">The font that defines the string’s text format.</param>
       <param name="layoutSize">Specifies the maximum layout area for the text.</param>
       <param name="format">Provides formatting information (for example, alignment).</param>
       <param name="dpiX">The horizontal resolution (in dots per inch).</param>
       <param name="dpiY">The vertical resolution (in dots per inch).</param>
       <param name="charactersFitted">The number of characters in the string.</param>
       <param name="linesFilled">The number of lines in the string.</param>
-      <returns>The string&#39;s measured size.</returns>
+      <returns>The string’s measured size.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfGraphics.RestoreGraphicsState">
       <summary>
@@ -852,12 +834,12 @@
       <summary>
         <para>Selects an item of a combo box and list box by their export value.</para>
       </summary>
-      <param name="exportValue">A <see cref="T:System.String"/> value that represents the item&#39;s export value.</param>
+      <param name="exportValue">A <see cref="T:System.String"/> value that represents the item’s export value.</param>
       <returns>true, if the combo box or list box item was successfully selected; otherwise, false.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfGraphicsAcroFormChoiceField.SetSelected(System.Int32,System.Boolean)">
       <summary>
-        <para>Sets the specified item&#39;s selection state in combo box and list box fields.</para>
+        <para>Sets the specified item’s selection state in combo box and list box fields.</para>
       </summary>
       <param name="index">The zero-based index of the item whose selection state will be changed.</param>
       <param name="value">true, to select the item; false to unselect the item.</param>
@@ -899,7 +881,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormCommonField.TextAlignment">
       <summary>
-        <para>Specifies the horizontal alignment of the interactive form field&#39;s text.</para>
+        <para>Specifies the horizontal alignment of the interactive form field’s text.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAcroFormStringAlignment"/> enumeration value that specifies how the text is horizontally aligned within the interactive form field.</value>
     </member>
@@ -969,7 +951,7 @@
       <summary>
         <para>Gets or sets whether the interactive form  field allows editing.</para>
       </summary>
-      <value>true, if end-users cannot modify the form field&#39;s value; otherwise, false.</value>
+      <value>true, if end-users cannot modify the form field’s value; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormField.Required">
       <summary>
@@ -985,9 +967,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormField.ToolTip">
       <summary>
-        <para>Specifies the form field&#39;s tooltip text.</para>
+        <para>Specifies the form field’s tooltip text.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the text displayed within the form field&#39;s tooltip.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the text displayed within the form field’s tooltip.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormField.Visible">
       <summary>
@@ -1007,9 +989,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormFieldAppearance.BackgroundColor">
       <summary>
-        <para>Specifies the form field&#39;s background color.</para>
+        <para>Specifies the form field’s background color.</para>
       </summary>
-      <value>A <see cref="T:System.Drawing.Color"/> value that specifies the interactive form field&#39;s background color.</value>
+      <value>A <see cref="T:System.Drawing.Color"/> value that specifies the interactive form field’s background color.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormFieldAppearance.BorderAppearance">
       <summary>
@@ -1025,7 +1007,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormFieldAppearance.FontSize">
       <summary>
-        <para>Specifies the size of the interactive form field&#39;s font.</para>
+        <para>Specifies the size of the interactive form field’s font.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value representing the font size for the interactive form field. The default value: 12.</value>
     </member>
@@ -1104,7 +1086,7 @@
       <summary>
         <para>Specifies index of the selected item in radio group field.</para>
       </summary>
-      <value>An integer value, representing the zero-based index of the radio group&#39;s selected item.</value>
+      <value>An integer value, representing the zero-based index of the radio group’s selected item.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfGraphicsAcroFormRadioGroupField.ShouldGeneratePressedAppearance">
       <summary>
@@ -1277,6 +1259,12 @@
         <para>Gets or sets a value which indicates whether to print the document content in grayscale.</para>
       </summary>
       <value>true to print a document content in grayscale; false the current printer settings are used.</value>
+    </member>
+    <member name="P:DevExpress.Pdf.PdfPrinterSettings.PrintStickyNotes">
+      <summary>
+        <para>Gets or sets whether to print text markup annotations (sticky notes).</para>
+      </summary>
+      <value>true to print sticky notes; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfPrinterSettings.Scale">
       <summary>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.Data.Desktop.v20.2</name>
   </assembly>
@@ -163,9 +163,7 @@
       <value>An <see cref="T:System.Int32"/> value that specifies the default value of the video property.</value>
     </member>
     <member name="P:DevExpress.Data.Camera.DeviceVideoProperty.IsActive">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Data.Camera.DeviceVideoProperty.Max">
@@ -290,14 +288,10 @@
       <value>A <see cref="T:DevExpress.Data.Camera.DeviceVideoProperty"/> object that is the video property specifying the white balance, as a color temperature in degrees Kelvin.</value>
     </member>
     <member name="N:DevExpress.Data.Controls">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="T:DevExpress.Data.Controls.ControlRows">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.Data.Controls.ControlRows.Selected">
       <summary>
@@ -306,7 +300,7 @@
     </member>
     <member name="F:DevExpress.Data.Controls.ControlRows.Source">
       <summary>
-        <para>The Chart Control visualizes a source control&#39;s all data rows.</para>
+        <para>The Chart Control visualizes a source control’s all data rows.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Data.Controls.ControlRows.Visible">
@@ -315,9 +309,7 @@
       </summary>
     </member>
     <member name="T:DevExpress.Data.Controls.ControlRowSource">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="M:DevExpress.Data.Controls.ControlRowSource.#ctor">
       <summary>
@@ -338,7 +330,7 @@
     </member>
     <member name="E:DevExpress.Data.Controls.ControlRowSource.PropertyChanged">
       <summary>
-        <para>Occurs every time any of the class&#39; properties has changed its value.</para>
+        <para>Occurs every time any of the class’ properties has changed its value.</para>
       </summary>
     </member>
     <member name="M:DevExpress.Data.Controls.ControlRowSource.ReloadRows(System.Boolean)">
@@ -348,9 +340,7 @@
       <param name="raiseList">The value indicating whether the PropertyChanged event should be raised.</param>
     </member>
     <member name="T:DevExpress.Data.Controls.ControlRowSourceChangedEventArgs">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="M:DevExpress.Data.Controls.ControlRowSourceChangedEventArgs.#ctor(DevExpress.Data.Controls.ControlRows)">
       <summary>
@@ -372,9 +362,7 @@
       <param name="e">Event arguments that provide data for the <see cref="E:DevExpress.XtraPrinting.PrintingSystemBase.PrintProgress"/> event.</param>
     </member>
     <member name="T:DevExpress.Data.Controls.IControlRowSource">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="E:DevExpress.Data.Controls.IControlRowSource.Changed">
       <summary>
@@ -413,7 +401,7 @@
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.Data.TreeList.TreeListNodeBase"/> class with the specified content.</para>
       </summary>
-      <param name="content">An object that specifies the node&#39;s content. This value is assigned to the <see cref="P:DevExpress.Data.TreeList.TreeListNodeBase.Content"/> property.</param>
+      <param name="content">An object that specifies the node’s content. This value is assigned to the <see cref="P:DevExpress.Data.TreeList.TreeListNodeBase.Content"/> property.</param>
     </member>
     <member name="M:DevExpress.Data.TreeList.TreeListNodeBase.CollapseAll">
       <summary>
@@ -422,9 +410,9 @@
     </member>
     <member name="P:DevExpress.Data.TreeList.TreeListNodeBase.Content">
       <summary>
-        <para>Gets or sets the node&#39;s content.</para>
+        <para>Gets or sets the node’s content.</para>
       </summary>
-      <value>An object that specifies the node&#39;s content.</value>
+      <value>An object that specifies the node’s content.</value>
     </member>
     <member name="M:DevExpress.Data.TreeList.TreeListNodeBase.ExpandAll">
       <summary>
@@ -441,7 +429,7 @@
       <summary>
         <para>Uniquely identifies the current tree node.</para>
       </summary>
-      <value>The current node&#39;s unique identifier.</value>
+      <value>The current node’s unique identifier.</value>
     </member>
     <member name="M:DevExpress.Data.TreeList.TreeListNodeBase.IsDescendantOf(DevExpress.Data.TreeList.TreeListNodeBase)">
       <summary>
@@ -487,9 +475,9 @@
     </member>
     <member name="P:DevExpress.Data.TreeList.TreeListNodeBase.VisibleIndex">
       <summary>
-        <para>Gets the node&#39;s position within a View among visible nodes.</para>
+        <para>Gets the node’s position within a View among visible nodes.</para>
       </summary>
-      <value>An integer value that specifies the node&#39;s position among visible nodes. -1 if the node is hidden.</value>
+      <value>An integer value that specifies the node’s position among visible nodes. -1 if the node is hidden.</value>
     </member>
     <member name="N:DevExpress.Printing">
       <summary>
@@ -571,7 +559,7 @@
     </member>
     <member name="T:DevExpress.Xpf.Core.ApplicationThemeHelper">
       <summary>
-        <para>An abstract class that provides access to an application&#39;s theme settings.</para>
+        <para>An abstract class that provides access to an application’s theme settings.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName">
@@ -581,9 +569,7 @@
       <value>A <see cref="T:System.String"/> value that specifies the theme name.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.ApplicationThemeHelper.ConfigurationUserLevel">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="M:DevExpress.Xpf.Core.ApplicationThemeHelper.SaveApplicationThemeName">
@@ -597,14 +583,12 @@
       </summary>
     </member>
     <member name="P:DevExpress.Xpf.Core.ApplicationThemeHelper.UseDefaultSvgImages">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.ApplicationThemeHelper.UseLegacyDefaultTheme">
       <summary>
-        <para>Specifies whether the application should use the legacy default theme (&quot;DeepBlue&quot;).</para>
+        <para>Specifies whether the application should use the legacy default theme (“DeepBlue”).</para>
       </summary>
       <value></value>
     </member>
@@ -654,32 +638,26 @@
       </summary>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.AllowEditTextExpressionInFormatRule">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.AllowEditValueBindingInInplaceEditors">
       <summary>
-        <para>Gets or sets whether the GridControl&#39;s logic of getting/setting the editor&#39;s value is enabled.</para>
+        <para>Gets or sets whether the GridControl’s logic of getting/setting the editor’s value is enabled.</para>
       </summary>
-      <value>true, if the GridControl&#39;s logic of getting/setting the editor&#39;s value is enabled; otherwise, false.The default value is true.</value>
+      <value>true, if the GridControl’s logic of getting/setting the editor’s value is enabled; otherwise, false.The default value is true.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.AllowGlyphRunRenderingInInplaceEditors">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.AllowRecyclingRibbonItems">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.CompatibilityMode">
       <summary>
-        <para>Gets or sets the controls&#39; compatibility mode.</para>
+        <para>Gets or sets the controls’ compatibility mode.</para>
       </summary>
       <value>A compatibility mode.</value>
     </member>
@@ -696,15 +674,11 @@
       <value>Any of the <see cref="T:DevExpress.Xpf.Core.DXBindingResolvingMode"/> enumeration values.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.EnableDPICorrection">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.HideInsignificantPartsOnlyInTimeSpanMask">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.LegacyDefaultTheme">
@@ -714,21 +688,15 @@
       <value>A legacy default theme.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.MakeGetWindowReturnActualFloatPanelWindow">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.MaskUpdateSelectionOnMouseUp">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.PrioritizeIListSourceInDiagramDataBinding">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.RenderPDFPageContentWithDirectX">
@@ -744,22 +712,18 @@
       <value>By default, Outlook2019.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.ShowSchedulerDateNavigationPanel">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.TrackBarEditIsMoveToPointEnabled">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseDateNavigatorInDateEdit">
       <summary>
-        <para>Specifies whether to use the <see cref="T:DevExpress.Xpf.Editors.DateNavigator.DateNavigator"/> control to render the <see cref="T:DevExpress.Xpf.Editors.DateEdit"/>&#39;s dropdown window.</para>
+        <para>Specifies whether to use the <see cref="T:DevExpress.Xpf.Editors.DateNavigator.DateNavigator"/> control to render the <see cref="T:DevExpress.Xpf.Editors.DateEdit"/>‘s dropdown window.</para>
       </summary>
-      <value>true to use the DateNavigator in the DateEdit&#39;s dropdown; otherwise, false.</value>
+      <value>true to use the DateNavigator in the DateEdit‘s dropdown; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseFriendlyDateRangePresentation">
       <summary>
@@ -798,33 +762,23 @@
       <value>true, to use the legacy filter panel; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseLegacyQueryIntervalCalculation">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseLegacySchedulerCellDecoration">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseLegacySchedulerTimelineViewMode">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseLightweightBarItems">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseLightweightTemplatesInStandardButtons">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseThemedMessageBoxInServices">
@@ -834,9 +788,7 @@
       <value>true, to use the ThemedMessageBox; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseThemedWaitIndicatorInSplashScreen">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.Xpf.Core.CompatibilitySettings.UseThemedWindowInServices">

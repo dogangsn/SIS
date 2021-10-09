@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.XtraScheduler.v20.2.Core.Desktop</name>
   </assembly>
@@ -20,9 +20,7 @@
       </summary>
     </member>
     <member name="P:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions.AllowHtmlText">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions.AllowMultiLineSubject">
@@ -44,9 +42,7 @@
       <param name="options">An <see cref="T:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions"/> object (which is the <see cref="T:DevExpress.Utils.Controls.BaseOptions"/> descendant) whose settings are assigned to the current object. If null (Nothing in Visual Basic), then a <see cref="T:System.ArgumentNullException"/> will be thrown.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions.ResourceAreaWidth">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions.ShowLabel">
@@ -57,7 +53,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.AgendaViewAppointmentDisplayOptions.ShowResource">
       <summary>
-        <para>Gets or sets whether to display appointment&#39;s resource captions in the Agenda view.</para>
+        <para>Gets or sets whether to display appointment’s resource captions in the Agenda view.</para>
       </summary>
       <value>True to show captions of resources associated with the appointment; otherwise, false.</value>
     </member>
@@ -135,7 +131,7 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.XtraScheduler.AppointmentConflictEventArgs"/> class with the specified settings.</para>
       </summary>
       <param name="apt">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object which is the appointment for which an event is raised. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentEventArgs.Appointment"/> property.</param>
-      <param name="clone">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object which is the appointment&#39;s clone for a new <see cref="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.Interval"/>. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.AppointmentClone"/> property.</param>
+      <param name="clone">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object which is the appointment’s clone for a new <see cref="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.Interval"/>. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.AppointmentClone"/> property.</param>
       <param name="conflicts">An <see cref="T:DevExpress.XtraScheduler.AppointmentBaseCollection"/> object which is a collection of appointments conflicting with the current <see cref="P:DevExpress.XtraScheduler.AppointmentEventArgs.Appointment"/>. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.Conflicts"/> property.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentConflictEventArgs.AppointmentClone">
@@ -158,7 +154,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.AppointmentConflictEventArgs.RemoveConflictsWithDifferentResource(DevExpress.XtraScheduler.AppointmentBaseCollection,System.Object)">
       <summary>
-        <para>Removes all the conflicting appointments from the specified collection whose <see cref="P:DevExpress.XtraScheduler.Appointment.ResourceId"/> doesn&#39;t match the specified Id.</para>
+        <para>Removes all the conflicting appointments from the specified collection whose <see cref="P:DevExpress.XtraScheduler.Appointment.ResourceId"/> doesn’t match the specified Id.</para>
       </summary>
       <param name="conflicts">An <see cref="T:DevExpress.XtraScheduler.AppointmentBaseCollection"/> object that contains all conflicting appointments.</param>
       <param name="resourceId">A <see cref="T:System.Object"/> that specifies the resource Id which appointments should be left in the collection.</param>
@@ -187,7 +183,7 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentConflictsMode.Forbidden">
       <summary>
-        <para>Appointments conflicts are forbidden. This means that appointment intervals can&#39;t intersect each other for the same resource (or for at least for one of the resources to which they belong, if resources are shared).</para>
+        <para>Appointments conflicts are forbidden. This means that appointment intervals can’t intersect each other for the same resource (or for at least for one of the resources to which they belong, if resources are shared).</para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.AppointmentContinueArrowDisplayType">
@@ -264,7 +260,7 @@
       <summary>
         <para>Gets or sets whether an appointment should change its height to fit the text to display.</para>
       </summary>
-      <value>true if an appointment&#39;s height is changed automatically to fit the text; otherwise, false.</value>
+      <value>true if an appointment’s height is changed automatically to fit the text; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentDisplayOptions.AppointmentHeight">
       <summary>
@@ -365,13 +361,13 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentDisplayTextEventArgs.Description">
       <summary>
-        <para>Gets or sets the text that will be displayed as an appointment&#39;s description.</para>
+        <para>Gets or sets the text that will be displayed as an appointment’s description.</para>
       </summary>
       <value>A <see cref="T:System.String"/> value which represents the description displayed for the appointment.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentDisplayTextEventArgs.Text">
       <summary>
-        <para>Gets or sets the text that will be displayed as the appointment&#39;s text (subject and location together).</para>
+        <para>Gets or sets the text that will be displayed as the appointment’s text (subject and location together).</para>
       </summary>
       <value>A <see cref="T:System.String"/> value which represents the displayed text of the appointment.</value>
     </member>
@@ -545,7 +541,7 @@
       <param name="sourceAppointment">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object that is the source appointment. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.SourceAppointment"/> property.</param>
       <param name="editedAppointment">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object that is the appointment being modified within the event handler. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.EditedAppointment"/> property.</param>
       <param name="hitInterval">A <see cref="T:DevExpress.XtraScheduler.TimeInterval"/> value that is a time interval of the time cell being hit when resizing. This value is assigned to the <see cref="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.HitInterval"/> property.</param>
-      <param name="hitResource">A <see cref="T:DevExpress.XtraScheduler.Resource"/> object that is the resource assigned to cells to which an appointment&#39;s side is moved.</param>
+      <param name="hitResource">A <see cref="T:DevExpress.XtraScheduler.Resource"/> object that is the resource assigned to cells to which an appointment’s side is moved.</param>
       <param name="resizedSide">A <see cref="T:DevExpress.XtraScheduler.ResizedSide"/> enumeration value, specifying the side being moved when the appointment is resized.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.Allow">
@@ -568,13 +564,13 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.HitInterval">
       <summary>
-        <para>Gets the time interval represented by the time cell to which the appointment&#39;s side is moved.</para>
+        <para>Gets the time interval represented by the time cell to which the appointment’s side is moved.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraScheduler.TimeInterval"/> object.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.HitResource">
       <summary>
-        <para>Gets the resource assigned to cells to which an appointment&#39;s side is moved.</para>
+        <para>Gets the resource assigned to cells to which an appointment’s side is moved.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraScheduler.Resource"/> object.</value>
     </member>
@@ -582,7 +578,7 @@
       <summary>
         <para>Indicates which appointment side is being moved when the appointment is resized.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.XtraScheduler.ResizedSide"/> enumeration value, specifying the appointment&#39;s side.</value>
+      <value>A <see cref="T:DevExpress.XtraScheduler.ResizedSide"/> enumeration value, specifying the appointment’s side.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentResizeEventArgs.SourceAppointment">
       <summary>
@@ -634,27 +630,31 @@
     </member>
     <member name="T:DevExpress.XtraScheduler.AppointmentSnapToCellsMode">
       <summary>
-        <para>Lists the modes of appointment fit in the time cell(s) by stretching it to the cell&#39;s limits.</para>
+        <para>Lists the modes of appointment fit in the time cell(s) by stretching it to the cell’s limits.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentSnapToCellsMode.Always">
       <summary>
         <para>An appointment is always stretched to cell borders so that it occupies the entire cell or several cells.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentSnapToCellsMode.Auto">
       <summary>
         <para>Appointment is stretched to cell border only if the distance from the cell border to the edge of an appointment is less than half of the cell width.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentSnapToCellsMode.Disabled">
       <summary>
         <para>The appointment visible width is proportional to its duration. The minimal value of a dimension that represents the appointment duration is one pixel. The following picture illustrates the difference between the Disabled and Never modes for an appointment with a very small duration.  The Disabled mode displays appointment as a line with a height of one pixel; however in Never mode, it looks like a small appointment with a height of several pixels, rather than a line.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentSnapToCellsMode.Never">
       <summary>
-        <para>The appointment visible width is proportional to its duration. There is a minimal visible width (about 5 pixels). If an appointment&#39;s duration is quite small, it will never be narrower than the minimal width.</para>
+        <para>The appointment visible width is proportional to its duration. There is a minimal visible width (about 5 pixels). If an appointment’s duration is quite small, it will never be narrower than the minimal width.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.AppointmentStatusDisplayType">
@@ -665,16 +665,19 @@
     <member name="F:DevExpress.XtraScheduler.AppointmentStatusDisplayType.Bounds">
       <summary>
         <para>The appointment status line has the same height (if shown vertically) or width (if shown horizontally) as the appointment bounds.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentStatusDisplayType.Never">
       <summary>
         <para>The appointment status line is invisible.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentStatusDisplayType.Time">
       <summary>
         <para>The appointment status line has the same height (if shown vertically) or width (if shown horizontally) as the time of its appointment.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.AppointmentStorageBase">
@@ -684,14 +687,14 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.AppointmentStorageBase.Add(DevExpress.XtraScheduler.Appointment)">
       <summary>
-        <para>Appends the specified <see cref="T:DevExpress.XtraScheduler.Appointment"/> object to the collection which can be accessed via the storage&#39;s <see cref="P:DevExpress.XtraScheduler.AppointmentStorageBase.Items"/> property.</para>
+        <para>Appends the specified <see cref="T:DevExpress.XtraScheduler.Appointment"/> object to the collection which can be accessed via the storage’s <see cref="P:DevExpress.XtraScheduler.AppointmentStorageBase.Items"/> property.</para>
       </summary>
       <param name="apt">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object to append to the collection.</param>
       <returns>An integer value indicating the position at which the new element was inserted.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.AppointmentStorageBase.AddRange(DevExpress.XtraScheduler.Appointment[])">
       <summary>
-        <para>Appends an array of appointments to the storage&#39;s collection.</para>
+        <para>Appends an array of appointments to the storage’s collection.</para>
       </summary>
       <param name="items">An array of <see cref="T:DevExpress.XtraScheduler.Appointment"/> objects to append to the collection.</param>
     </member>
@@ -742,7 +745,7 @@
       <param name="type">An <see cref="T:DevExpress.XtraScheduler.AppointmentType"/> enumeration value specifying the type of the created appointment.</param>
       <param name="start">A <see cref="T:System.DateTime"/> object specifying the appointment start - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Start"/> property.</param>
       <param name="end">A <see cref="T:System.DateTime"/> object specifying the appointment end - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.End"/> property.</param>
-      <param name="subject">A string that is the appointment&#39;s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
+      <param name="subject">A string that is the appointment’s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
       <returns>A newly created <see cref="T:DevExpress.XtraScheduler.Appointment"/> object.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.AppointmentStorageBase.CreateAppointment(DevExpress.XtraScheduler.AppointmentType,System.DateTime,System.TimeSpan)">
@@ -761,7 +764,7 @@
       <param name="type">An <see cref="T:DevExpress.XtraScheduler.AppointmentType"/> enumeration value specifying the type of the created appointment.</param>
       <param name="start">A <see cref="T:System.DateTime"/> object specifying the appointment start - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Start"/> property.</param>
       <param name="duration">A <see cref="T:System.TimeSpan"/> object specifying the appointment duration - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Duration"/> property.</param>
-      <param name="subject">A string that is the appointment&#39;s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
+      <param name="subject">A string that is the appointment’s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
       <returns>A newly created <see cref="T:DevExpress.XtraScheduler.Appointment"/> object.</returns>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentStorageBase.CustomFieldMappings">
@@ -820,13 +823,13 @@
         <para>Determines whether the appointment is new, so that it is not an occurrence, and the current <see cref="T:DevExpress.XtraScheduler.AppointmentStorageBase"/> does not contain it.</para>
       </summary>
       <param name="apt">An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object that is the appointment in question.</param>
-      <returns>true, if the appointment isn&#39;t contained in this storage and in recurrent series of appointments in the storage; otherwise, false.</returns>
+      <returns>true, if the appointment isn’t contained in this storage and in recurrent series of appointments in the storage; otherwise, false.</returns>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentStorageBase.Item(System.Int32)">
       <summary>
         <para>Provides indexed access to individual items in the appointment collection which can be accessed using the <see cref="P:DevExpress.XtraScheduler.AppointmentStorageBase.Items"/> property.</para>
       </summary>
-      <param name="index">A zero-based integer specifying the desired item&#39;s position within the collection. If it&#39;s negative or exceeds the last available index, an exception is raised.</param>
+      <param name="index">A zero-based integer specifying the desired item’s position within the collection. If it’s negative or exceeds the last available index, an exception is raised.</param>
       <value>An <see cref="T:DevExpress.XtraScheduler.Appointment"/> object which is the appointment at the specified position.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.AppointmentStorageBase.Items">
@@ -925,11 +928,13 @@
     <member name="F:DevExpress.XtraScheduler.AppointmentTimeDisplayType.Clock">
       <summary>
         <para>The start and end time is always shown as clock.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentTimeDisplayType.Text">
       <summary>
         <para>The start and end time is always shown as text.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.AppointmentTimeVisibility">
@@ -944,7 +949,7 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentTimeVisibility.Auto">
       <summary>
-        <para>Whether the appointment time is shown or not is determined automatically according to the current scheduler view&#39;s settings.</para>
+        <para>Whether the appointment time is shown or not is determined automatically according to the current scheduler view’s settings.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.AppointmentTimeVisibility.Never">
@@ -972,17 +977,17 @@
       <summary>
         <para>Gets or sets the mode used to calculate time cell heights in the Scheduler control.</para>
       </summary>
-      <value>The selected mode: &quot;None&quot;, &quot;Limited&quot; or &quot;Full&quot;</value>
+      <value>The selected mode: “None”, “Limited” or “Full”</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.MaxHeight">
       <summary>
-        <para>Gets or sets the maximum time cell height. This property is in effect only when the <see cref="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.AutoHeightMode"/> property equals &quot;Full&quot;.</para>
+        <para>Gets or sets the maximum time cell height. This property is in effect only when the <see cref="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.AutoHeightMode"/> property equals “Full”.</para>
       </summary>
       <value>The maximum time cell height.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.MinHeight">
       <summary>
-        <para>Gets or sets the minimum time cell height. This property is not in effect when the <see cref="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.AutoHeightMode"/> property equals &quot;None&quot;. In this case, all time cells have the same height specified by the <see cref="P:DevExpress.XtraScheduler.TimelineView.ResourceHeight"/> property.</para>
+        <para>Gets or sets the minimum time cell height. This property is not in effect when the <see cref="P:DevExpress.XtraScheduler.CellsAutoHeightOptions.AutoHeightMode"/> property equals “None”. In this case, all time cells have the same height specified by the <see cref="P:DevExpress.XtraScheduler.TimelineView.ResourceHeight"/> property.</para>
       </summary>
       <value>An integer value specifying the cell height in pixels.</value>
     </member>
@@ -1100,9 +1105,7 @@
       <value>A <see cref="T:DevExpress.XtraScheduler.SchedulerColumnPadding"/> instance specifying column paddings.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.DayViewAppointmentDisplayOptions.EndTimeVisibility">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.XtraScheduler.DayViewAppointmentDisplayOptions.ShowShadows">
@@ -1112,9 +1115,7 @@
       <value>true to show shadows for appointments; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.DayViewAppointmentDisplayOptions.StartTimeVisibility">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="N:DevExpress.XtraScheduler.Drawing">
@@ -1137,7 +1138,7 @@
       <summary>
         <para>Gets the type of an image, associated with the appointment.</para>
       </summary>
-      <value>An <see cref="T:DevExpress.XtraScheduler.Drawing.AppointmentImageType"/> enumeration value, specifying the appointment image&#39;s type.</value>
+      <value>An <see cref="T:DevExpress.XtraScheduler.Drawing.AppointmentImageType"/> enumeration value, specifying the appointment image’s type.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Drawing.AppointmentImageInfoCore.Visible">
       <summary>
@@ -1315,7 +1316,7 @@
     </member>
     <member name="T:DevExpress.XtraScheduler.Drawing.SchedulerHitTest">
       <summary>
-        <para>Lists the values that identify a scheduler&#39;s elements.</para>
+        <para>Lists the values that identify a scheduler’s elements.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.AllDayArea">
@@ -1394,24 +1395,16 @@
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.HeaderButton">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.HeaderTab">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.Hyperlink">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.MonthHeader">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.MoreButton">
       <summary>
@@ -1459,9 +1452,7 @@
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.TabArea">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="F:DevExpress.XtraScheduler.Drawing.SchedulerHitTest.TimeIndicator">
       <summary>
@@ -1518,21 +1509,25 @@
     <member name="F:DevExpress.XtraScheduler.HeaderImageAlign.Bottom">
       <summary>
         <para>A resource image is aligned to the bottom of the text.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.HeaderImageAlign.Left">
       <summary>
         <para>A resource image is aligned to the left of the text.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.HeaderImageAlign.Right">
       <summary>
         <para>A resource image is aligned to the right of the text.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.HeaderImageAlign.Top">
       <summary>
         <para>A resource image is aligned to the top of the text.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.HeaderImageSizeMode">
@@ -1552,12 +1547,14 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.HeaderImageSizeMode.StretchImage">
       <summary>
-        <para>The image within the resource header is stretched or shrunk to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptions.ImageSize"/> value.If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &gt; 0, the image&#39;s height or width (depending on the current view &#0045; Day View or Timeline View) is set to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> value. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &lt; = 0, the image&#39;s height or width (depending on the current view &#0045; Day View or Timeline View) is calculated as 1/6 of the view&#39;s height (or width).</para>
+        <para>The image within the resource header is stretched or shrunk to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptions.ImageSize"/> value.</para>
+        <para>If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &gt; 0, the image’s height or width (depending on the current view &#0045; Day View or Timeline View) is set to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> value. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &lt; = 0, the image’s height or width (depending on the current view &#0045; Day View or Timeline View) is calculated as 1/6 of the view’s height (or width).</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.HeaderImageSizeMode.ZoomImage">
       <summary>
-        <para>The image within the resource header is resized, maintaining the size ratio.It is resized to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptions.ImageSize"/> value if it is greater than zero. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &gt; 0, the image&#39;s height or width (depending on the current view &#0045; Day View or Timeline View) is set to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> value. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &lt; = 0, the image&#39;s height or width (depending on the current view &#0045; Day View or Timeline View) is calculated as 1/6 of the view&#39;s height (or width).</para>
+        <para>The image within the resource header is resized, maintaining the size ratio.</para>
+        <para>It is resized to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptions.ImageSize"/> value if it is greater than zero. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &gt; 0, the image’s height or width (depending on the current view &#0045; Day View or Timeline View) is set to the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> value. If the ImageSize equals 0 and the <see cref="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.Height"/> &lt; = 0, the image’s height or width (depending on the current view &#0045; Day View or Timeline View) is calculated as 1/6 of the view’s height (or width).</para>
       </summary>
     </member>
     <member name="N:DevExpress.XtraScheduler.iCalendar">
@@ -1619,7 +1616,7 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.XtraScheduler.iCalendar.Components.TextProperty"/> class with the specified settings.</para>
       </summary>
       <param name="name">A string specifying the name of the property.</param>
-      <param name="value">A string specifying the property&#39;s value.</param>
+      <param name="value">A string specifying the property’s value.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.iCalendar.Components.TextProperty.AddParameter(System.String,System.Collections.Generic.List{System.String})">
       <summary>
@@ -1632,8 +1629,8 @@
       <summary>
         <para>Adds a property parameter to an iCalendar component property.</para>
       </summary>
-      <param name="name">A string containing the parameter&#39;s name.</param>
-      <param name="value">A string containing the parameter&#39;s value.</param>
+      <param name="name">A string containing the parameter’s name.</param>
+      <param name="value">A string containing the parameter’s value.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.TextProperty.CustomParameters">
       <summary>
@@ -1645,7 +1642,7 @@
       <summary>
         <para>Gets the name of a property represented by this <see cref="T:DevExpress.XtraScheduler.iCalendar.Components.TextProperty"/> class instance.</para>
       </summary>
-      <value>A string representing the property&#39;s name.</value>
+      <value>A string representing the property’s name.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.iCalendar.Components.VEvent">
       <summary>
@@ -1701,19 +1698,19 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.VEvent.IsAllDay">
       <summary>
-        <para>Gets whether the event is an &#39;all-day&#39; event.</para>
+        <para>Gets whether the event is an ‘all-day’ event.</para>
       </summary>
       <value>true if the current event is an all-day event; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.VEvent.IsChangedOccurrence">
       <summary>
-        <para>Gets whether the event conforms to the &#39;changed occurrence&#39; type.</para>
+        <para>Gets whether the event conforms to the ‘changed occurrence’ type.</para>
       </summary>
       <value>true if a current event is a changed occurrence; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.VEvent.IsPattern">
       <summary>
-        <para>Gets whether the event conforms to the &#39;pattern&#39; type.</para>
+        <para>Gets whether the event conforms to the ‘pattern’ type.</para>
       </summary>
       <value>true if a current event is a recurrence pattern; otherwise, false.</value>
     </member>
@@ -1731,9 +1728,9 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.VEvent.Name">
       <summary>
-        <para>Gets the name of the calendar component (&quot;VEVENT&quot;).</para>
+        <para>Gets the name of the calendar component (“VEVENT”).</para>
       </summary>
-      <value>The string &#39;VEVENT&#39;.</value>
+      <value>The string ‘VEVENT’.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.iCalendar.Components.VEvent.RecurrenceId">
       <summary>
@@ -1954,9 +1951,7 @@
       <param name="recurrenceInfo">An object that expose the <see cref="T:DevExpress.XtraScheduler.IRecurrenceInfo"/> interface - the <see cref="T:DevExpress.XtraScheduler.RecurrenceInfo"/> object that contains appointment recurring information.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.iCalendar.iCalendarHelper.ApplyRecurrenceRule(System.String,System.String,DevExpress.XtraScheduler.IRecurrenceInfo)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="recurrenceRule"></param>
       <param name="timeZoneId"></param>
       <param name="recurrenceInfo"></param>
@@ -1969,9 +1964,7 @@
       <returns>A string that is the recurrence rule.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.iCalendar.iCalendarHelper.ExtractRecurrenceRule(DevExpress.XtraScheduler.IRecurrenceInfo,System.Boolean)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="recurrenceInfo"></param>
       <param name="writeDefaultWeekStart"></param>
       <returns></returns>
@@ -2134,7 +2127,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.ISchedulerInplaceEditorEx.ApplyChanges">
       <summary>
-        <para>Passes the value, obtained form the editor, to the appointment and performs an assignment to the appointment&#39;s property.</para>
+        <para>Passes the value, obtained form the editor, to the appointment and performs an assignment to the appointment’s property.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraScheduler.ISchedulerInplaceEditorEx.CommitChanges">
@@ -2172,8 +2165,8 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.XtraScheduler.MoreButtonClickedEventArgs"/> class with the specified parameters.</para>
       </summary>
       <param name="targetViewStart">A <see cref="T:System.DateTime"/> value which is the top visible time of the target view.</param>
-      <param name="interval">A <see cref="T:DevExpress.XtraScheduler.TimeInterval"/> object representing a time cell where the &quot;More&quot; button is located.</param>
-      <param name="resource">A <see cref="T:DevExpress.XtraScheduler.Resource"/> associated with the time cell where the &quot;More&quot; button is located.</param>
+      <param name="interval">A <see cref="T:DevExpress.XtraScheduler.TimeInterval"/> object representing a time cell where the “More” button is located.</param>
+      <param name="resource">A <see cref="T:DevExpress.XtraScheduler.Resource"/> associated with the time cell where the “More” button is located.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.MoreButtonClickedEventArgs.Handled">
       <summary>
@@ -2228,7 +2221,7 @@
     </member>
     <member name="T:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase">
       <summary>
-        <para>Serves as a base class to provide the basic functionality for managing the appointment at the appointment&#39;s editing form.</para>
+        <para>Serves as a base class to provide the basic functionality for managing the appointment at the appointment’s editing form.</para>
       </summary>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.AllDay">
@@ -2239,7 +2232,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ApplyChanges">
       <summary>
-        <para>Copies the values of all the appointment copy&#39;s properties that are currently being edited in the form to the corresponding properties of the source appointment.</para>
+        <para>Copies the values of all the appointment copy’s properties that are currently being edited in the form to the corresponding properties of the source appointment.</para>
       </summary>
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ApplyRecurrence(DevExpress.XtraScheduler.Appointment)">
@@ -2256,7 +2249,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.AreExceptionsPresent">
       <summary>
-        <para>Returns a value that indicates if the appointment currently being edited in the form is an exception, or  it&#39;s a recurrence pattern with exceptions.</para>
+        <para>Returns a value that indicates if the appointment currently being edited in the form is an exception, or  it’s a recurrence pattern with exceptions.</para>
       </summary>
       <returns>true if exceptions are present; otherwise, false.</returns>
     </member>
@@ -2281,7 +2274,7 @@
       <summary>
         <para>Gets a value that indicates whether the resource can be changed for the appointment which is currently being edited in the form.</para>
       </summary>
-      <value>true if the appointment&#39;s resource can be changed; otherwise, false.</value>
+      <value>true if the appointment’s resource can be changed; otherwise, false.</value>
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.DeleteAppointment">
       <summary>
@@ -2292,7 +2285,7 @@
       <summary>
         <para>Gets or sets the text that will be displayed as the description of the appointment currently being edited in the form.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s description.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s description.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.EditedAppointmentCopy">
       <summary>
@@ -2308,7 +2301,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.End">
       <summary>
-        <para>Gets or sets the value representing the appointment&#39;s end time within the editing form.</para>
+        <para>Gets or sets the value representing the appointment’s end time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the end of the scheduled interval.</value>
     </member>
@@ -2335,6 +2328,11 @@
         <para>Checks whether the currently edited appointment is a new and individual object.</para>
       </summary>
       <value>true if the current appointment is new; otherwise, false.</value>
+    </member>
+    <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.IsRecurrenceChanged(DevExpress.XtraScheduler.IRecurrenceInfo)">
+      <summary />
+      <param name="editedRecurrenceInfo"></param>
+      <returns></returns>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.IsRecurrentAppointment">
       <summary>
@@ -2364,7 +2362,7 @@
       <summary>
         <para>Gets or sets the text, describing the site where the scheduled event happens.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s location.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s location.</value>
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.PrepareToRecurrenceEdit">
       <summary>
@@ -2385,7 +2383,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ReminderTimeBeforeStart">
       <summary>
-        <para>Gets or sets the time interval ahead of the appointment&#39;s start time to activate the reminder.</para>
+        <para>Gets or sets the time interval ahead of the appointment’s start time to activate the reminder.</para>
       </summary>
       <value>A <see cref="T:System.TimeSpan"/> structure,  representing the time interval.</value>
     </member>
@@ -2398,13 +2396,13 @@
       <summary>
         <para>Gets or sets the unique identifier of the resource associated with the current appointment, or the ID of the first resource if resource sharing is enabled.</para>
       </summary>
-      <value>A <see cref="T:System.Object"/> value that specifies the resource&#39;s unique identifier.</value>
+      <value>A <see cref="T:System.Object"/> value that specifies the resource’s unique identifier.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ResourceIds">
       <summary>
         <para>Gets the identifiers of all the resources which are associated with the current appointment.</para>
       </summary>
-      <value>An <see cref="T:DevExpress.XtraScheduler.AppointmentResourceIdCollection"/> object which contains all the resources&#39; identifiers.</value>
+      <value>An <see cref="T:DevExpress.XtraScheduler.AppointmentResourceIdCollection"/> object which contains all the resources’ identifiers.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ResourceSharing">
       <summary>
@@ -2426,7 +2424,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.Start">
       <summary>
-        <para>Gets or sets the value, representing the appointment&#39;s start time within the editing form.</para>
+        <para>Gets or sets the value, representing the appointment’s start time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the beginning of the scheduled interval.</value>
     </member>
@@ -2444,9 +2442,9 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.Subject">
       <summary>
-        <para>Gets or sets the text of the appointment&#39;s subject.</para>
+        <para>Gets or sets the text of the appointment’s subject.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s subject text.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s subject text.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.TimeZoneEnabled">
       <summary>
@@ -2462,7 +2460,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.TimeZonesEnabled">
       <summary>
-        <para>Gets whether the appointment&#39;s  time zone information can be edited in the form.</para>
+        <para>Gets whether the appointment’s  time zone information can be edited in the form.</para>
       </summary>
       <value>True to edit time zone information; otherwise, false.</value>
     </member>
@@ -2476,18 +2474,18 @@
       <summary>
         <para>Checks whether the specified date and time values produce the valid time interval.</para>
       </summary>
-      <param name="start">A <see cref="T:System.DateTime"/> value, representing the interval&#39;s start.</param>
-      <param name="end">A <see cref="T:System.DateTime"/> value, representing the interval&#39;s end.</param>
+      <param name="start">A <see cref="T:System.DateTime"/> value, representing the interval’s start.</param>
+      <param name="end">A <see cref="T:System.DateTime"/> value, representing the interval’s end.</param>
       <returns>True if the time interval is valid; otherwise, false.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.Native.AppointmentModificationControllerBase.ValidateInterval(System.DateTime,System.TimeSpan,System.DateTime,System.TimeSpan)">
       <summary>
         <para>Checks whether the specified date and time values produce the valid time interval.</para>
       </summary>
-      <param name="startDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval&#39;s start.</param>
-      <param name="startTime">A <see cref="T:System.TimeSpan"/> value, representing the time component of the interval&#39;s start.</param>
-      <param name="endDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval&#39;s end.</param>
-      <param name="endTime">A <see cref="T:System.DateTime"/> value, representing the time component of the interval&#39;s end.</param>
+      <param name="startDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval’s start.</param>
+      <param name="startTime">A <see cref="T:System.TimeSpan"/> value, representing the time component of the interval’s start.</param>
+      <param name="endDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval’s end.</param>
+      <param name="endTime">A <see cref="T:System.DateTime"/> value, representing the time component of the interval’s end.</param>
       <returns>True if the time interval is valid; otherwise, false.</returns>
     </member>
     <member name="T:DevExpress.XtraScheduler.Native.HolidaysHelper">
@@ -2559,7 +2557,7 @@
       <summary>
         <para>Gets or sets whether an event was handled, if it was handled the default actions are not required.</para>
       </summary>
-      <value>true if default conversion isn&#39;t required; otherwise, false.</value>
+      <value>true if default conversion isn’t required; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Native.TimeSpanStringConvertEventArgs.StringValue">
       <summary>
@@ -2633,9 +2631,7 @@
       <param name="storage">An <see cref="T:DevExpress.XtraScheduler.AppointmentStorageBase"/> object that is the storage containing appointments.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.OriginalOccurrenceDateHelper.Update(DevExpress.XtraScheduler.AppointmentStorageBase,DevExpress.XtraScheduler.Appointment)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="storage"></param>
       <param name="appointment"></param>
     </member>
@@ -2662,7 +2658,7 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.Outlook.Interop._AppointmentItem.Body">
       <summary>
-        <para>Gets or sets the text displayed in the appointment&#39;s body.</para>
+        <para>Gets or sets the text displayed in the appointment’s body.</para>
       </summary>
       <value>A string containing the body text.</value>
     </member>
@@ -2692,7 +2688,7 @@
       <summary>
         <para>Gets or sets the ending date/time of this appointment.</para>
       </summary>
-      <value>A <see cref="T:System.DateTime"/> value representing the appointment&#39;s ending time.</value>
+      <value>A <see cref="T:System.DateTime"/> value representing the appointment’s ending time.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Outlook.Interop._AppointmentItem.EndTimeZone">
       <summary>
@@ -2722,7 +2718,7 @@
       <summary>
         <para>Gets the date and time that the Outlook item was last modified.</para>
       </summary>
-      <value>A <see cref="T:System.DateTime"/> value representing the appointment&#39;s last modification time.</value>
+      <value>A <see cref="T:System.DateTime"/> value representing the appointment’s last modification time.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Outlook.Interop._AppointmentItem.Location">
       <summary>
@@ -2751,7 +2747,7 @@
       <summary>
         <para>Gets or sets the starting time for an appointment.</para>
       </summary>
-      <value>A <see cref="T:System.DateTime"/> value representing the appointment&#39;s starting time.</value>
+      <value>A <see cref="T:System.DateTime"/> value representing the appointment’s starting time.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.Outlook.Interop._AppointmentItem.StartTimeZone">
       <summary>
@@ -3097,21 +3093,25 @@
     <member name="F:DevExpress.XtraScheduler.PercentCompleteDisplayType.BarProgress">
       <summary>
         <para>Displays bar shading.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.PercentCompleteDisplayType.Both">
       <summary>
         <para>Displays percentage of completion as bar shading and a percent number.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.PercentCompleteDisplayType.None">
       <summary>
         <para>Does not display percentage of completion.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.PercentCompleteDisplayType.Number">
       <summary>
         <para>Displays bar shading and a percent number.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.PersistentObjectStorage`1">
@@ -3194,7 +3194,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.PersistentObjectStorage`1.CreateCustomFields(`0)">
       <summary>
-        <para>Creates the custom fields specific to this persistent object and adds them to the object&#39;s custom fields collection.</para>
+        <para>Creates the custom fields specific to this persistent object and adds them to the object’s custom fields collection.</para>
       </summary>
       <param name="obj">A <see cref="T:DevExpress.XtraScheduler.PersistentObject"/> for which to create custom fields.</param>
     </member>
@@ -3220,7 +3220,7 @@
       <summary>
         <para>Gets or sets the object used as the data source to store persistent objects (appointments, resources or appointment dependencies).</para>
       </summary>
-      <value>An <see cref="T:System.Object"/> that represents the storage&#39;s data source.</value>
+      <value>An <see cref="T:System.Object"/> that represents the storage’s data source.</value>
     </member>
     <member name="M:DevExpress.XtraScheduler.PersistentObjectStorage`1.Dispose">
       <summary>
@@ -3271,7 +3271,7 @@
       <summary>
         <para>Returns the value of the specified field in the data row that contains information about the specified persistent object.</para>
       </summary>
-      <param name="obj">A <see cref="T:DevExpress.XtraScheduler.PersistentObject"/> descendant for which the content of the source object&#39;s data field is obtained.</param>
+      <param name="obj">A <see cref="T:DevExpress.XtraScheduler.PersistentObject"/> descendant for which the content of the source object’s data field is obtained.</param>
       <param name="columnName">A <see cref="T:System.String"/> value which specifies the name of the data field in the source object.</param>
       <returns>A <see cref="T:System.Object"/> which is the data field value.</returns>
     </member>
@@ -3297,7 +3297,7 @@
       <summary>
         <para>Provides indexed access to individual items contained within the storage.</para>
       </summary>
-      <param name="index">A zero-based integer specifying the desired item&#39;s position within the collection. If it&#39;s negative or exceeds the last available index, an exception is raised.</param>
+      <param name="index">A zero-based integer specifying the desired item’s position within the collection. If it’s negative or exceeds the last available index, an exception is raised.</param>
       <value>A <see cref="T:DevExpress.XtraScheduler.PersistentObjectStorage`1"/> instance, which represents the persistent object at the specified position.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.PersistentObjectStorage`1.Items">
@@ -3381,7 +3381,7 @@
       </summary>
       <param name="obj">A <see cref="T:DevExpress.XtraScheduler.PersistentObject"/> descendant which is the persistent object (appointment, resource or <see cref="T:DevExpress.XtraScheduler.AppointmentDependency"/> object).</param>
       <param name="columnName">A <see cref="T:System.String"/> value which specifies the name of the data field.</param>
-      <param name="val">A <see cref="T:System.Object"/> which specifies the data field&#39;s value.</param>
+      <param name="val">A <see cref="T:System.Object"/> which specifies the data field’s value.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.PersistentObjectStorage`1.ShouldUpdateAfterInsert">
       <summary>
@@ -3405,7 +3405,7 @@
       <summary>
         <para>Gets a value indicating if the storage is bound to data.</para>
       </summary>
-      <value>true if the storage isn&#39;t bound to data; otherwise, false.</value>
+      <value>true if the storage isn’t bound to data; otherwise, false.</value>
     </member>
     <member name="M:DevExpress.XtraScheduler.PersistentObjectStorage`1.ValidateDataSource">
       <summary>
@@ -3452,9 +3452,9 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.QueryResourceColorSchemaEventArgs.ResourceColorIndex">
       <summary>
-        <para>Gets the index of the processed resource&#39;s color schema in a <see cref="T:DevExpress.XtraScheduler.SchedulerColorSchemaCollection"/> collection.</para>
+        <para>Gets the index of the processed resource’s color schema in a <see cref="T:DevExpress.XtraScheduler.SchedulerColorSchemaCollection"/> collection.</para>
       </summary>
-      <value>An integer which specifies the resource&#39;s color schema index.</value>
+      <value>An integer which specifies the resource’s color schema index.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.QueryResourceColorSchemaEventArgs.ResourceColorSchema">
       <summary>
@@ -3526,13 +3526,13 @@
       <summary>
         <para>Gets or sets the end bound of the range that will be available in the RangeControl after it is automatically adjusted.</para>
       </summary>
-      <value>A <see cref="T:System.DateTime"/> object that is the end bound of the RangeControl&#39;s total range.</value>
+      <value>A <see cref="T:System.DateTime"/> object that is the end bound of the RangeControl’s total range.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.RangeControlAdjustEventArgs.RangeMinimum">
       <summary>
         <para>Gets or sets the start bound of the range that will be available in the RangeControl after it is automatically adjusted.</para>
       </summary>
-      <value>A <see cref="T:System.DateTime"/> object that is start bound of the RangeControl&#39;s total range.</value>
+      <value>A <see cref="T:System.DateTime"/> object that is start bound of the RangeControl’s total range.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.RangeControlAdjustEventArgs.Scales">
       <summary>
@@ -3596,7 +3596,7 @@
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.XtraScheduler.RemindersFormDefaultActionEventArgs"/> class with the specified settings.</para>
       </summary>
-      <param name="alertNotifications">A <see cref="T:DevExpress.XtraScheduler.ReminderAlertNotificationCollection"/> value which represents the event&#39;s collection of reminder alerts. This value is assigned to the  <see cref="P:DevExpress.XtraScheduler.ReminderEventArgs.AlertNotifications"/> property.</param>
+      <param name="alertNotifications">A <see cref="T:DevExpress.XtraScheduler.ReminderAlertNotificationCollection"/> value which represents the event’s collection of reminder alerts. This value is assigned to the  <see cref="P:DevExpress.XtraScheduler.ReminderEventArgs.AlertNotifications"/> property.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.RemindersFormDefaultActionEventArgs.Cancel">
       <summary>
@@ -3608,7 +3608,7 @@
       <summary>
         <para>Gets or sets whether an event was handled, if it was handled the default actions are not required.</para>
       </summary>
-      <value>true if no default processing of the form&#39;s reminders is required; otherwise, false.</value>
+      <value>true if no default processing of the form’s reminders is required; otherwise, false.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.RemindersFormDefaultActionEventHandler">
       <summary>
@@ -3715,13 +3715,13 @@
         <para>Returns the color of the specified appointment label.</para>
       </summary>
       <param name="labelId">An object that is the label identifier (the Id property value of the <see cref="T:DevExpress.XtraScheduler.IAppointmentLabel"/> object).</param>
-      <returns>A <see cref="T:System.Drawing.Color"/> structure which is the label&#39;s color. A Color.White value if the label cannot be found.</returns>
+      <returns>A <see cref="T:System.Drawing.Color"/> structure which is the label’s color. A Color.White value if the label cannot be found.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.Reporting.SchedulerPrintAdapter.GetResourceColorSchemas">
       <summary>
         <para>Returns a collection of color schemes used for visual representation of Resources in the Scheduler.</para>
       </summary>
-      <returns>A <see cref="T:DevExpress.XtraScheduler.SchedulerColorSchemaCollection"/> which contains color schemes for the scheduler&#39;s resources.</returns>
+      <returns>A <see cref="T:DevExpress.XtraScheduler.SchedulerColorSchemaCollection"/> which contains color schemes for the scheduler’s resources.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.Reporting.SchedulerPrintAdapter.GetResources">
       <summary>
@@ -3738,7 +3738,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.Reporting.SchedulerPrintAdapter.GetStatus(System.Object)">
       <summary>
-        <para>Returns the Appointment&#39;s Status by its ID.</para>
+        <para>Returns the Appointment’s Status by its ID.</para>
       </summary>
       <param name="statusId">An object that is the appointment status identifier (the Id property value of the <see cref="T:DevExpress.XtraScheduler.IAppointmentStatus"/> object).</param>
       <returns>An <see cref="T:DevExpress.XtraScheduler.IAppointmentStatus"/> object which is the status of the appointment.</returns>
@@ -3757,7 +3757,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.Reporting.SchedulerPrintAdapter.GetWorkTime(DevExpress.XtraScheduler.TimeInterval,DevExpress.XtraScheduler.Resource)">
       <summary>
-        <para>Gets a report&#39;s work times for a specified time interval and resource.</para>
+        <para>Gets a report’s work times for a specified time interval and resource.</para>
       </summary>
       <param name="interval">A <see cref="T:DevExpress.XtraScheduler.TimeInterval"/> object specifying the queried time interval.</param>
       <param name="resource">A <see cref="T:DevExpress.XtraScheduler.Resource"/> specifying the resource for which the work times are queried.</param>
@@ -3876,7 +3876,7 @@
       <summary>
         <para>Gets the time intervals for which the report is being built.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.XtraScheduler.TimeIntervalCollection"/> containing the report&#39;s time intervals.</value>
+      <value>A <see cref="T:DevExpress.XtraScheduler.TimeIntervalCollection"/> containing the report’s time intervals.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.Reporting.TimeIntervalsValidationEventHandler">
       <summary>
@@ -3936,12 +3936,12 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.ResizedSide.AtEndTime">
       <summary>
-        <para>The appointment&#39;s end time boundary is moved.</para>
+        <para>The appointment’s end time boundary is moved.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.ResizedSide.AtStartTime">
       <summary>
-        <para>The appointment&#39;s start time boundary is moved.</para>
+        <para>The appointment’s start time boundary is moved.</para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.ResourceCustomFieldMapping">
@@ -3987,23 +3987,19 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.ResourceCustomFieldMappingCollection.Add(DevExpress.XtraScheduler.ResourceCustomFieldMapping)">
       <summary>
-        <para>Appends the specified <see cref="T:DevExpress.XtraScheduler.ResourceCustomFieldMapping"/> object to the storage&#39;s collection of custom fields mappings.</para>
+        <para>Appends the specified <see cref="T:DevExpress.XtraScheduler.ResourceCustomFieldMapping"/> object to the storage’s collection of custom fields mappings.</para>
       </summary>
       <param name="mapping">An <see cref="T:DevExpress.XtraScheduler.ResourceCustomFieldMapping"/> object to append to the collection.</param>
       <returns>An integer value indicating the position at which the new element was inserted.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.ResourceCustomFieldMappingCollection.Add(System.String,System.String)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="name"></param>
       <param name="member"></param>
       <returns></returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.ResourceCustomFieldMappingCollection.Add(System.String,System.String,DevExpress.XtraScheduler.FieldValueType)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="name"></param>
       <param name="member"></param>
       <param name="valueType"></param>
@@ -4013,7 +4009,7 @@
       <summary>
         <para>Provides indexed access to individual items in the collection.</para>
       </summary>
-      <param name="index">A zero-based integer specifying the desired item&#39;s position within the collection. If it&#39;s negative or exceeds the last available index, an exception is raised.</param>
+      <param name="index">A zero-based integer specifying the desired item’s position within the collection. If it’s negative or exceeds the last available index, an exception is raised.</param>
       <value>A <see cref="T:DevExpress.XtraScheduler.ResourceCustomFieldMapping"/> object which represents the custom field mapping at the specified position.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.ResourceCustomFieldMappingCollection.Item(System.String)">
@@ -4068,7 +4064,7 @@
     </member>
     <member name="M:DevExpress.XtraScheduler.ResourceStorageBase.AddRange(DevExpress.XtraScheduler.Resource[])">
       <summary>
-        <para>Appends an array of resources to the storage&#39;s collection.</para>
+        <para>Appends an array of resources to the storage’s collection.</para>
       </summary>
       <param name="resources">An array of <see cref="T:DevExpress.XtraScheduler.Resource"/> objects to append to the collection.</param>
     </member>
@@ -4103,7 +4099,7 @@
         <para>Creates a new resource with the specified ID and caption.</para>
       </summary>
       <param name="id">An object, that is a unique resource identifier.</param>
-      <param name="caption">A string that is displayed as resource&#39;s caption (<see cref="P:DevExpress.XtraScheduler.Resource.Caption"/>).</param>
+      <param name="caption">A string that is displayed as resource’s caption (<see cref="P:DevExpress.XtraScheduler.Resource.Caption"/>).</param>
       <returns>A <see cref="T:DevExpress.XtraScheduler.Resource"/> object.</returns>
     </member>
     <member name="P:DevExpress.XtraScheduler.ResourceStorageBase.DataManager">
@@ -4133,9 +4129,9 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.ResourceStorageBase.Item(System.Int32)">
       <summary>
-        <para>Provides indexed access to the individual items in the collection which can be accessed via the storage&#39;s <see cref="P:DevExpress.XtraScheduler.ResourceStorageBase.Items"/> property.</para>
+        <para>Provides indexed access to the individual items in the collection which can be accessed via the storage’s <see cref="P:DevExpress.XtraScheduler.ResourceStorageBase.Items"/> property.</para>
       </summary>
-      <param name="index">A zero-based integer specifying the item&#39;s position within the resource collection. If it&#39;s negative or exceeds the last available index, an exception is raised.</param>
+      <param name="index">A zero-based integer specifying the item’s position within the resource collection. If it’s negative or exceeds the last available index, an exception is raised.</param>
       <value>A <see cref="T:DevExpress.XtraScheduler.Resource"/> object which is the resource at the specified position.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.ResourceStorageBase.Items">
@@ -4209,7 +4205,7 @@
     </member>
     <member name="T:DevExpress.XtraScheduler.SchedulerColumnPadding">
       <summary>
-        <para>Represents a storage for the parameters used to specify the distance from the appointmernt&#39;s  boundary to the column&#39;s inner border in the Day View</para>
+        <para>Represents a storage for the parameters used to specify the distance from the appointmernt’s  boundary to the column’s inner border in the Day View</para>
       </summary>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerColumnPadding.#ctor">
@@ -4225,13 +4221,13 @@
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerColumnPadding.Left">
       <summary>
-        <para>Gets or sets the distance of the appointment&#39;s left edge from the column&#39;s inner left border in the Day view.</para>
+        <para>Gets or sets the distance of the appointment’s left edge from the column’s inner left border in the Day view.</para>
       </summary>
       <value>An integer, specifying the distance in pixels.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerColumnPadding.Right">
       <summary>
-        <para>Gets or sets the distance of the appointment&#39;s right edge from the column&#39;s inner right border in the Day view.</para>
+        <para>Gets or sets the distance of the appointment’s right edge from the column’s inner right border in the Day view.</para>
       </summary>
       <value>An integer, specifying the distance in pixels.</value>
     </member>
@@ -4319,36 +4315,43 @@
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDependencyCreation">
       <summary>
         <para>The Create Dependency item of the context menu which is invoked when an appointment is clicked with the right mouse button. Selecting this item enables the user to drag a line from the current (the Parent) appointment to another (Dependent) appointment to establish a dependency. By default, the type of dependency is <see cref="F:DevExpress.XtraScheduler.AppointmentDependencyType.FinishToStart"/>.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDependencyMenu">
       <summary>
         <para>The entire context menu which is invoked after a dependency line has been clicked with the right mouse button.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDragCancel">
       <summary>
         <para>The Cancel item of a context menu which is invoked after an appointment has been clicked and dragged with the right mouse button. Selecting this item cancels the dragging of the appointment.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDragCopy">
       <summary>
         <para>The Copy item of the context menu which is invoked after an appointment has been clicked and dragged with the right mouse button. Selecting this item copies the dragged appointment and inserts a copy at the time period which the appointment being copied was dragged to.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDragMenu">
       <summary>
         <para>The entire context menu which is invoked after an appointment has been clicked and dragged with the right mouse button.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentDragMove">
       <summary>
         <para>The Move item of the context menu which is invoked after an appointment has been clicked and dragged with the right mouse button. Selecting this item moves the appointment to the time period which it was dragged to.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.AppointmentMenu">
       <summary>
         <para>The entire context menu which is invoked after an appointment has been clicked with the right mouse button.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.ChangeAppointmentLabelUI">
@@ -4394,21 +4397,25 @@
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.CustomizeTimeRuler">
       <summary>
         <para>The Customize Time Ruler item of the context menu which is invoked when the time ruler is clicked with the right mouse button. Selecting this item invokes the Time Ruler dialog which allows the properties of the current time ruler to be edited.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.DefaultMenu">
       <summary>
-        <para>The entire context menu which is invoked when the view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button.</para>
+        <para>The entire context menu which is invoked when the view’s time cells that don’t contain any appointments are clicked with the right mouse button.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.DeleteAppointment">
       <summary>
         <para>The Delete item of the context menu which is invoked when an appointment is clicked with the right mouse button. Selecting this item removes the current appointment. If the current appointment is recurring, then the Delete Series dialog will be invoked.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.DeleteAppointmentDependency">
       <summary>
         <para>The Delete item of the context menu which is invoked when a dependency line is clicked with the right mouse button. Selecting this item deletes the selected dependency.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.DeleteOccurrenceUI">
@@ -4429,6 +4436,7 @@
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.EditSeries">
       <summary>
         <para>The Edit Series item of the context menu which is invoked when a recurring appointment is clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog which allows the entire series of recurring appointments to be edited.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.EditSeriesUI">
@@ -4443,52 +4451,62 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.GotoDate">
       <summary>
-        <para>The Go to Date item of the context menu which is invoked when the view&#39;s time cells which don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Go To Date dialog which allows the date displayed in the current view to be changed.</para>
+        <para>The Go to Date item of the context menu which is invoked when the view’s time cells which don’t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Go To Date dialog which allows the date displayed in the current view to be changed.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.GotoThisDay">
       <summary>
-        <para>The Go to This Day item of the context menu which is invoked when any of the view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button (only in a Week or Month view). Selecting this item changes the current view to the Day and sets the date displayed in this view to the selected date.</para>
+        <para>The Go to This Day item of the context menu which is invoked when any of the view’s time cells that don’t contain any appointments are clicked with the right mouse button (only in a Week or Month view). Selecting this item changes the current view to the Day and sets the date displayed in this view to the selected date.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.GotoToday">
       <summary>
-        <para>The Go to Today item of the context menu which is invoked when any of the view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the date displayed in the current view to the current date on the local machine.</para>
+        <para>The Go to Today item of the context menu which is invoked when any of the view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the date displayed in the current view to the current date on the local machine.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.LabelSubMenu">
       <summary>
         <para>The Label As item of the context menu which is invoked after an appointment has been clicked with the right mouse button, and also the entire submenu which is opened with this menu item.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.NewAllDayEvent">
       <summary>
-        <para>The New All-Day Event item of the context menu which is invoked when the view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new all&#0045;day appointment (in this case the <see cref="P:DevExpress.XtraScheduler.Appointment.AllDay"/> option in the dialog is checked).</para>
+        <para>The New All-Day Event item of the context menu which is invoked when the view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new all&#0045;day appointment (in this case the <see cref="P:DevExpress.XtraScheduler.Appointment.AllDay"/> option in the dialog is checked).</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.NewAppointment">
       <summary>
-        <para>The New Appointment item of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new appointment.</para>
+        <para>The New Appointment item of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new appointment.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.NewRecurringAppointment">
       <summary>
-        <para>The New Recurring Appointment item of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new appointment, and also invokes the Recurrence dialog which allows the recurrence pattern to be specified for the new appointment.</para>
+        <para>The New Recurring Appointment item of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new appointment, and also invokes the Recurrence dialog which allows the recurrence pattern to be specified for the new appointment.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.NewRecurringEvent">
       <summary>
-        <para>The New Recurring Event item of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new all&#0045;day appointment (in this case the <see cref="P:DevExpress.XtraScheduler.Appointment.AllDay"/> option in the dialog is checked), and also invokes the Recurrence dialog which allows the recurrence pattern to be specified for the new appointment.</para>
+        <para>The New Recurring Event item of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog used to create a new all&#0045;day appointment (in this case the <see cref="P:DevExpress.XtraScheduler.Appointment.AllDay"/> option in the dialog is checked), and also invokes the Recurrence dialog which allows the recurrence pattern to be specified for the new appointment.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.OpenAppointment">
       <summary>
         <para>The Open item of the context menu which is invoked when an appointment is clicked with the right mouse button. Selecting this item invokes the Edit Appointment dialog which allows the properties of the current appointment to be edited. Note that if the appointment is recurring, then this item only allows the current appointment to be edited, not its entire series.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.OpenAppointmentDependency">
       <summary>
         <para>The Edit item of the context menu which is invoked when a dependency line is clicked with the right mouse button. Selecting this item invokes the <see cref="T:DevExpress.XtraScheduler.UI.AppointmentDependencyForm"/> dialog which enables the user to change the dependency type.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.OpenSchedule">
@@ -4524,11 +4542,13 @@
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.RestoreOccurrence">
       <summary>
         <para>The Restore Default State item of the context menu which is invoked when a changed recurring appointment (which <see cref="P:DevExpress.XtraScheduler.Appointment.Type"/> property is equal to ChangedOccurrence) is clicked with the right mouse button. This item is accessible for recurring appointments only. Selecting this item restores the default state of the appointment as it was generated by the recurrence pattern.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.RulerMenu">
       <summary>
         <para>The entire context menu which is invoked when the time ruler is clicked with the right mouse button. Note that the corresponding items for this context menu are specified by the <see cref="P:DevExpress.XtraScheduler.UserInterfaceObject.MenuCaption"/> property of each time slot.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SaveSchedule">
@@ -4543,13 +4563,14 @@
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SplitAppointment">
       <summary>
-        <para>This menu item is associated with a command to switch the Scheduler into a Split mode.
-See the How to: Split Appointments and Series article for more information.</para>
+        <para>This menu item is associated with a command to switch the Scheduler into a Split mode.</para>
+        <para>See the How to: Split Appointments and Series article for more information.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.StatusSubMenu">
       <summary>
         <para>The Show Time As item of the context menu which is invoked after an appointment has been clicked with the right mouse button, and also the entire submenu which is opened with this menu item.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchCellsAutoHeight">
@@ -4609,77 +4630,98 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToAgendaView">
       <summary>
-        <para>The Agenda View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Agenda View.</para>
+        <para>The Agenda View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Agenda View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToDayView">
       <summary>
-        <para>The Day View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Day View.</para>
+        <para>The Day View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Day View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToFullWeekView">
       <summary>
-        <para>The Full Week View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Full Week View.</para>
+        <para>The Full Week View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Full Week View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToGanttView">
       <summary>
-        <para>The Gantt View check item of the Change View To submenu of the context menu which is invoked when time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Gantt View.</para>
+        <para>The Gantt View check item of the Change View To submenu of the context menu which is invoked when time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Gantt View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToGroupByDate">
       <summary>
-        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.Date"/>.The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByDate item.</para>
+        <para></para>
+        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.Date"/>.</para>
+        <para>The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByDate item.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToGroupByNone">
       <summary>
-        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.None"/>.The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByNone item.</para>
+        <para></para>
+        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.None"/>.</para>
+        <para>The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByNone item.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToGroupByResource">
       <summary>
-        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.Resource"/>.The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByResource item.</para>
+        <para></para>
+        <para>A command to set the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.GroupType"/> to the <see cref="F:DevExpress.XtraScheduler.SchedulerGroupType.Resource"/>.</para>
+        <para>The default menu does not contain this item. Use the <see cref="E:DevExpress.XtraScheduler.SchedulerControl.PreparePopupMenu"/> event, to insert the SwitchToGroupByResource item.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToMonthView">
       <summary>
-        <para>The Month View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Month View.</para>
+        <para>The Month View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Month View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToTimelineView">
       <summary>
         <para>The Timeline View check item of the Change View To submenu of the context menu, invoked on a right click within the scheduler display area not occupied by appointments. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Timeline View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToWeekView">
       <summary>
-        <para>The Week View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Week View.</para>
+        <para>The Week View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Week View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToWorkWeekView">
       <summary>
-        <para>The Work Week View check item of the Change View To submenu of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Work Week View.</para>
+        <para>The Work Week View check item of the Change View To submenu of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button. Selecting this item changes the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> to the Work Week View.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchToYearView">
       <summary>
-        <para>The Year View command in the Change View To sub-menu. This command sets the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> property to <see cref="F:DevExpress.XtraScheduler.SchedulerViewType.Year"/>.To invoke the context menu, a user can right-click a time cell that does not contain any appointments.</para>
+        <para>The Year View command in the Change View To sub-menu. This command sets the <see cref="P:DevExpress.XtraScheduler.SchedulerControl.ActiveView"/> property to <see cref="F:DevExpress.XtraScheduler.SchedulerViewType.Year"/>.</para>
+        <para></para>
+        <para>To invoke the context menu, a user can right-click a time cell that does not contain any appointments.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.SwitchViewMenu">
       <summary>
-        <para>The Change View To item of the context menu which is invoked when a view&#39;s time cells that don&#39;t contain any appointments are clicked with the right mouse button, and also the entire submenu which is opened with this menu item.</para>
+        <para>The Change View To item of the context menu which is invoked when a view’s time cells that don’t contain any appointments are clicked with the right mouse button, and also the entire submenu which is opened with this menu item.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.TimeScaleEnable">
       <summary>
-        <para>Any of the Time Scales menu item of the popup menu invoked on a right click within the scheduler display area not occupied by appointments, when the scheduler&#39;s view is the Timeline View. Checking these items enables the corresponding Timeline scales.The entire submenu opened by this menu item has the same Id.</para>
+        <para>Any of the Time Scales menu item of the popup menu invoked on a right click within the scheduler display area not occupied by appointments, when the scheduler’s view is the Timeline View. Checking these items enables the corresponding Timeline scales.</para>
+        <para>The entire submenu opened by this menu item has the same Id.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.TimeScaleVisible">
       <summary>
-        <para>Check items of the Time Scale Captions submenu in the context menu invoked on a right click within the scheduler display area not occupied by appointments. Checking these items makes the corresponding Timeline scales visible.The entire submenu opened by this menu item has the same Id.</para>
+        <para>Check items of the Time Scale Captions submenu in the context menu invoked on a right click within the scheduler display area not occupied by appointments. Checking these items makes the corresponding Timeline scales visible.</para>
+        <para>The entire submenu opened by this menu item has the same Id.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerMenuItemId.ToggleRecurrence">
@@ -4852,7 +4894,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets or sets whether a user is allowed to change the time boundaries of appointments.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.XtraScheduler.UsedAppointmentType"/> enumeration value that specifies to which appointment&#39;s type the action can be applied.</value>
+      <value>A <see cref="T:DevExpress.XtraScheduler.UsedAppointmentType"/> enumeration value that specifies to which appointment’s type the action can be applied.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerOptionsCustomization.AllowDisplayAppointmentDependencyForm">
       <summary>
@@ -4909,13 +4951,13 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerOptionsViewBase.FirstDayOfWeek">
       <summary>
-        <para>Gets or sets the day which the scheduler&#39;s view week starts from.</para>
+        <para>Gets or sets the day which the scheduler’s view week starts from.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraScheduler.FirstDayOfWeek"/> enumeration value specifying the start day of the week for the View.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerOptionsViewBase.NavigationButtons">
       <summary>
-        <para>Provides access to the navigation button&#39;s options.</para>
+        <para>Provides access to the navigation button’s options.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraScheduler.SchedulerNavigationButtonOptions"/> class, containing options for displaying Navigation Buttons.</value>
     </member>
@@ -4950,9 +4992,9 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerResourceHeaderOptionsBase.RotateCaption">
       <summary>
-        <para>Gets or sets the value indicating whether to rotate the caption&#39;s text.</para>
+        <para>Gets or sets the value indicating whether to rotate the caption’s text.</para>
       </summary>
-      <value>true to rotate the caption&#39;s text; otherwise, false.</value>
+      <value>true to rotate the caption’s text; otherwise, false.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.SchedulerScrollBarVisibility">
       <summary>
@@ -4962,16 +5004,19 @@ See the How to: Split Appointments and Series article for more information.</par
     <member name="F:DevExpress.XtraScheduler.SchedulerScrollBarVisibility.Always">
       <summary>
         <para>A vertical scrollbar is always visible.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerScrollBarVisibility.Auto">
       <summary>
         <para>A vertical scrollbar is visible if a column contains more appointments than it can fit.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.SchedulerScrollBarVisibility.Never">
       <summary>
         <para>A vertical scrollbar is hidden.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.SchedulerStorageBase">
@@ -4987,7 +5032,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.AppointmentChanging">
       <summary>
-        <para>Fires when an appointment&#39;s property is about to change.</para>
+        <para>Fires when an appointment’s property is about to change.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.AppointmentCollectionAutoReloading">
@@ -5062,7 +5107,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.AppointmentsChanged">
       <summary>
-        <para>Fires when the appointments&#39; properties have been changed.</para>
+        <para>Fires when the appointments’ properties have been changed.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.AppointmentsDeleted">
@@ -5119,7 +5164,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <param name="type">An <see cref="T:DevExpress.XtraScheduler.AppointmentType"/> enumeration value specifying the type of the created appointment.</param>
       <param name="start">A <see cref="T:System.DateTime"/> object specifying the appointment start - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Start"/> property.</param>
       <param name="end">A <see cref="T:System.DateTime"/> object specifying the appointment end - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.End"/> property.</param>
-      <param name="subject">A string that is the appointment&#39;s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
+      <param name="subject">A string that is the appointment’s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
       <returns>Creates an appointment of the specified type with the specified start time and duration.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateAppointment(DevExpress.XtraScheduler.AppointmentType,System.DateTime,System.TimeSpan)">
@@ -5138,7 +5183,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <param name="type">An <see cref="T:DevExpress.XtraScheduler.AppointmentType"/> enumeration value specifying the type of the created appointment.</param>
       <param name="start">A <see cref="T:System.DateTime"/> object specifying the appointment start - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Start"/> property.</param>
       <param name="duration">A <see cref="T:System.TimeSpan"/> object specifying the appointment duration - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Duration"/> property.</param>
-      <param name="subject">A string that is the appointment&#39;s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
+      <param name="subject">A string that is the appointment’s subject - the value of the <see cref="P:DevExpress.XtraScheduler.Appointment.Subject"/> property.</param>
       <returns>A newly created <see cref="T:DevExpress.XtraScheduler.Appointment"/> object.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateAppointmentDependency(System.Object,System.Object)">
@@ -5160,27 +5205,27 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateOutlookExporter">
       <summary>
-        <para>Creates an object which provides the capability to control how data is exported to MS Outlook&#39;s Calendar.</para>
+        <para>Creates an object which provides the capability to control how data is exported to MS Outlook’s Calendar.</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentExporter"/> object which can export data to MS Outlook&#39;s Calendar.</returns>
+      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentExporter"/> object which can export data to MS Outlook’s Calendar.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateOutlookExportSynchronizer">
       <summary>
-        <para>Creates an object which allows you to control how  MS Outlook&#39;s Calendar is synchronized with data in the storage.</para>
+        <para>Creates an object which allows you to control how  MS Outlook’s Calendar is synchronized with data in the storage.</para>
       </summary>
-      <returns>A DevExpress.XtraScheduler.Exchange.AppointmentExportSynchronizer object which allows MS Outlook&#39;s Calendar to be synchronized with the data in storage.</returns>
+      <returns>A DevExpress.XtraScheduler.Exchange.AppointmentExportSynchronizer object which allows MS Outlook’s Calendar to be synchronized with the data in storage.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateOutlookImporter">
       <summary>
-        <para>Creates an object which allows you to control how data is imported from MS Outlook&#39;s Calendar.</para>
+        <para>Creates an object which allows you to control how data is imported from MS Outlook’s Calendar.</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentImporter"/> object which can import data from MS Outlook&#39;s Calendar.</returns>
+      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentImporter"/> object which can import data from MS Outlook’s Calendar.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateOutlookImportSynchronizer">
       <summary>
-        <para>Creates an object which allows you to control how data in the storage is synchronized with data in MS Outlook&#39;s Calendar.</para>
+        <para>Creates an object which allows you to control how data in the storage is synchronized with data in MS Outlook’s Calendar.</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentImportSynchronizer"/> object which can synchronize data in the storage with data in MS Outlook&#39;s Calendar.</returns>
+      <returns>An <see cref="T:DevExpress.XtraScheduler.Exchange.AppointmentImportSynchronizer"/> object which can synchronize data in the storage with data in MS Outlook’s Calendar.</returns>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.CreateReminder(DevExpress.XtraScheduler.Appointment)">
       <summary>
@@ -5242,7 +5287,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Exports appointments in the scheduler to a stream in the iCalendar format.</para>
       </summary>
-      <param name="stream">A <see cref="T:System.IO.Stream"/>  object which specifies the stream into which the scheduler&#39;s data will be exported.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream"/>  object which specifies the stream into which the scheduler’s data will be exported.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.ExportToICalendar(System.String)">
       <summary>
@@ -5259,13 +5304,13 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Exports the data in the scheduler to a stream in the vCalendar format.</para>
       </summary>
-      <param name="stream">A <see cref="T:System.IO.Stream"/>  object which specifies the stream into which the scheduler&#39;s data will be exported.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream"/>  object which specifies the stream into which the scheduler’s data will be exported.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.ExportToVCalendar(System.String)">
       <summary>
         <para>Exports the data in the scheduler to a file in the vCalendar format.</para>
       </summary>
-      <param name="path">A <see cref="T:System.String"/>, containing the full path (including the file name and extension) of the file to which the scheduler&#39;s data will be exported.</param>
+      <param name="path">A <see cref="T:System.String"/>, containing the full path (including the file name and extension) of the file to which the scheduler’s data will be exported.</param>
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.FetchAppointments">
       <summary>
@@ -5360,12 +5405,12 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.ImportFromOutlook">
       <summary>
-        <para>Imports data from MS Outlook&#39;s Calendar to the scheduler&#39;s storage.</para>
+        <para>Imports data from MS Outlook’s Calendar to the scheduler’s storage.</para>
       </summary>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.ImportFromVCalendar(System.IO.Stream)">
       <summary>
-        <para>Imports the scheduler&#39;s data from a stream whose data is in the vCalendar format.</para>
+        <para>Imports the scheduler’s data from a stream whose data is in the vCalendar format.</para>
       </summary>
       <param name="stream">A <see cref="T:System.IO.Stream"/> object which specifies the stream that contains the data to import to the scheduler.</param>
     </member>
@@ -5373,7 +5418,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Imports data into the scheduler from a file in the vCalendar format.</para>
       </summary>
-      <param name="path">A <see cref="T:System.String"/>, containing the full path (including the file name and extension) of the file from which the scheduler&#39;s data will be loaded.</param>
+      <param name="path">A <see cref="T:System.String"/>, containing the full path (including the file name and extension) of the file from which the scheduler’s data will be loaded.</param>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerStorageBase.IsUpdateLocked">
       <summary>
@@ -5407,15 +5452,15 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerStorageBase.ReminderDstBehaviorType">
       <summary>
-        <para>Gets or sets the reminder&#39;s behavior if the reminder alert falls within the interval that actually doesn&#39;t exist because of the Daylight Saving Time shift.</para>
+        <para>Gets or sets the reminder’s behavior if the reminder alert falls within the interval that actually doesn’t exist because of the Daylight Saving Time shift.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraScheduler.DstBehaviorType"/> enumeration value that specifies at what time the alert is triggered.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerStorageBase.RemindersCheckInterval">
       <summary>
-        <para>Gets or sets the time interval a reminder&#39;s alert time should be checked (in milliseconds).</para>
+        <para>Gets or sets the time interval a reminder’s alert time should be checked (in milliseconds).</para>
       </summary>
-      <value>An integer value which represents the time interval between checks of the reminder&#39;s alert.</value>
+      <value>An integer value which represents the time interval between checks of the reminder’s alert.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerStorageBase.RemindersEnabled">
       <summary>
@@ -5425,7 +5470,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.ResourceChanging">
       <summary>
-        <para>Fires when a resource&#39;s property is about to be changed.</para>
+        <para>Fires when a resource’s property is about to be changed.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.ResourceCollectionAutoReloading">
@@ -5455,12 +5500,12 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.ResourcesChanged">
       <summary>
-        <para>Occurs when a scheduler&#39;s resource in a collection is changed.</para>
+        <para>Occurs when a scheduler’s resource in a collection is changed.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraScheduler.SchedulerStorageBase.ResourcesDeleted">
       <summary>
-        <para>Occurs after a scheduler&#39;s resource(s) is deleted.</para>
+        <para>Occurs after a scheduler’s resource(s) is deleted.</para>
       </summary>
     </member>
     <member name="P:DevExpress.XtraScheduler.SchedulerStorageBase.ResourceSharing">
@@ -5492,7 +5537,7 @@ See the How to: Split Appointments and Series article for more information.</par
       </summary>
       <param name="obj">An object implementing the <see cref="T:DevExpress.XtraScheduler.IPersistentObject"/> interface (appointment, resource or appointment dependency).</param>
       <param name="columnName">A <see cref="T:System.String"/> value which specifies the name of the required data field.</param>
-      <param name="val">A <see cref="T:System.Object"/> which specifies the required data field&#39;s value.</param>
+      <param name="val">A <see cref="T:System.Object"/> which specifies the required data field’s value.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.SetResourceFactory(DevExpress.XtraScheduler.IResourceFactory)">
       <summary>
@@ -5514,13 +5559,13 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.SynchronizeOutlookWithStorage(System.String)">
       <summary>
-        <para>Updates MS Outlook&#39;s Calendar entries with appointments from the Scheduler storage.</para>
+        <para>Updates MS Outlook’s Calendar entries with appointments from the Scheduler storage.</para>
       </summary>
       <param name="outlookEntryIdFieldName">A  <see cref="T:System.String"/> that is the name of the data field which contains the Outlook Entry ID value.</param>
     </member>
     <member name="M:DevExpress.XtraScheduler.SchedulerStorageBase.SynchronizeStorageWithOutlook(System.String)">
       <summary>
-        <para>Updates Scheduler appointments with MS Outlook&#39;s Calendar entries.</para>
+        <para>Updates Scheduler appointments with MS Outlook’s Calendar entries.</para>
       </summary>
       <param name="outlookEntryIdFieldName">A  <see cref="T:System.String"/> that is the name of the data field which contains the Outlook Entry ID value.</param>
     </member>
@@ -5539,7 +5584,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets a value indicating if the scheduler storage is bound to data.</para>
       </summary>
-      <value>true if the storage isn&#39;t bound to data; otherwise, false.</value>
+      <value>true if the storage isn’t bound to data; otherwise, false.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.SchedulerViewType">
       <summary>
@@ -5884,9 +5929,7 @@ See the How to: Split Appointments and Series article for more information.</par
       </summary>
     </member>
     <member name="M:DevExpress.XtraScheduler.Services.ISchedulerCommandFactoryService.CreateCommand(DevExpress.XtraScheduler.Commands.SchedulerCommandId)">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <param name="id"></param>
       <returns></returns>
     </member>
@@ -5979,21 +6022,25 @@ See the How to: Split Appointments and Series article for more information.</par
     <member name="F:DevExpress.XtraScheduler.TimeIndicatorVisibility.Always">
       <summary>
         <para>Time indicator is always displayed across the entire view.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.TimeIndicatorVisibility.CurrentDate">
       <summary>
-        <para>Time indicator is displayed only in the today date&#39;s column.</para>
+        <para>Time indicator is displayed only in the today date’s column.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.TimeIndicatorVisibility.Never">
       <summary>
         <para>Time indicator is hidden.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.TimeIndicatorVisibility.TodayView">
       <summary>
         <para>Time indicator is displayed across the view if the view includes a current date.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.TimelineViewAppointmentDisplayOptions">
@@ -6062,9 +6109,9 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.TimeRuler.Caption">
       <summary>
-        <para>Gets or sets the time ruler&#39;s caption.</para>
+        <para>Gets or sets the time ruler’s caption.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value which specifies the time ruler&#39;s caption.</value>
+      <value>A <see cref="T:System.String"/> value which specifies the time ruler’s caption.</value>
     </member>
     <member name="E:DevExpress.XtraScheduler.TimeRuler.Changed">
       <summary>
@@ -6184,9 +6231,9 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.TimeSlot.Value">
       <summary>
-        <para>Gets or sets the time interval which specifies the current time slot&#39;s value.</para>
+        <para>Gets or sets the time interval which specifies the current time slot’s value.</para>
       </summary>
-      <value>A <see cref="T:System.TimeSpan"/> object specifying the time slot&#39;s value.</value>
+      <value>A <see cref="T:System.TimeSpan"/> object specifying the time slot’s value.</value>
     </member>
     <member name="T:DevExpress.XtraScheduler.TimeSlotCollection">
       <summary>
@@ -6360,7 +6407,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="T:DevExpress.XtraScheduler.ToolTipVisibility">
       <summary>
-        <para>Lists the visibility mode of the scheduler&#39;s tooltips.</para>
+        <para>Lists the visibility mode of the scheduler’s tooltips.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.ToolTipVisibility.Always">
@@ -6385,7 +6432,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="T:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase">
       <summary>
-        <para>Serves as a base class to provide the basic functionality for managing the appointment at the appointment&#39;s editing form.</para>
+        <para>Serves as a base class to provide the basic functionality for managing the appointment at the appointment’s editing form.</para>
       </summary>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.AllDay">
@@ -6410,7 +6457,7 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets a value that indicates whether the resource can be changed for the appointment which is currently being edited in the form.</para>
       </summary>
-      <value>true if the appointment&#39;s resource can be changed; otherwise, false.</value>
+      <value>true if the appointment’s resource can be changed; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.Caption">
       <summary>
@@ -6427,17 +6474,17 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets or sets the text that will be displayed as the description of the appointment currently being edited in the form.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s description.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s description.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.DisplayEnd">
       <summary>
-        <para>Gets or sets the value to display as the appointment&#39;s end time within the editing form.</para>
+        <para>Gets or sets the value to display as the appointment’s end time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the end of the scheduled interval.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.DisplayStart">
       <summary>
-        <para>Gets or sets the value to display as the appointment&#39;s start time within the editing form.</para>
+        <para>Gets or sets the value to display as the appointment’s start time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the beginning of the scheduled interval.</value>
     </member>
@@ -6455,7 +6502,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.End">
       <summary>
-        <para>Gets or sets the value representing the appointment&#39;s end time within the editing form.</para>
+        <para>Gets or sets the value representing the appointment’s end time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the end of the scheduled interval.</value>
     </member>
@@ -6487,11 +6534,11 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets or sets the text, describing the site where the scheduled event happens.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s location.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s location.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.ReminderTimeBeforeStart">
       <summary>
-        <para>Gets or sets the time interval ahead of the appointment&#39;s start time to activate the reminder.</para>
+        <para>Gets or sets the time interval ahead of the appointment’s start time to activate the reminder.</para>
       </summary>
       <value>A <see cref="T:System.TimeSpan"/> structure,  representing the time interval.</value>
     </member>
@@ -6499,13 +6546,13 @@ See the How to: Split Appointments and Series article for more information.</par
       <summary>
         <para>Gets or sets the unique identifier of the resource associated with the current appointment, or the ID of the first resource if resource sharing is enabled.</para>
       </summary>
-      <value>A <see cref="T:System.Object"/> value that specifies the resource&#39;s unique identifier.</value>
+      <value>A <see cref="T:System.Object"/> value that specifies the resource’s unique identifier.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.ResourceIds">
       <summary>
         <para>Gets the identifiers of all the resources which are associated with the current appointment.</para>
       </summary>
-      <value>An <see cref="T:DevExpress.XtraScheduler.AppointmentResourceIdCollection"/> object which contains all the resources&#39; identifiers.</value>
+      <value>An <see cref="T:DevExpress.XtraScheduler.AppointmentResourceIdCollection"/> object which contains all the resources’ identifiers.</value>
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.ResourceSharing">
       <summary>
@@ -6521,7 +6568,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.Start">
       <summary>
-        <para>Gets or sets the value, representing the appointment&#39;s start time within the editing form.</para>
+        <para>Gets or sets the value, representing the appointment’s start time within the editing form.</para>
       </summary>
       <value>A <see cref="T:System.DateTime"/>  value, representing the beginning of the scheduled interval.</value>
     </member>
@@ -6533,23 +6580,23 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="P:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.Subject">
       <summary>
-        <para>Gets or sets the text of the appointment&#39;s subject.</para>
+        <para>Gets or sets the text of the appointment’s subject.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the appointment&#39;s subject text.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the appointment’s subject text.</value>
     </member>
     <member name="M:DevExpress.XtraScheduler.UI.AppointmentFormControllerBase.ValidateLimitInterval(System.DateTime,System.TimeSpan,System.DateTime,System.TimeSpan)">
       <summary>
         <para>Checks whether the specified date and time values produce the time interval which falls within the interval specified by the LimitInterval property of the SchedulerControl.</para>
       </summary>
-      <param name="startDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval&#39;s start.</param>
-      <param name="startTime">A <see cref="T:System.TimeSpan"/> value, representing the time component of the interval&#39;s start.</param>
-      <param name="endDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval&#39;s end.</param>
-      <param name="endTime">A <see cref="T:System.DateTime"/> value, representing the time component of the interval&#39;s end.</param>
+      <param name="startDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval’s start.</param>
+      <param name="startTime">A <see cref="T:System.TimeSpan"/> value, representing the time component of the interval’s start.</param>
+      <param name="endDate">A <see cref="T:System.DateTime"/> value, representing the date component of the interval’s end.</param>
+      <param name="endTime">A <see cref="T:System.DateTime"/> value, representing the time component of the interval’s end.</param>
       <returns>True, if the time interval is within limits; otherwise, false.</returns>
     </member>
     <member name="T:DevExpress.XtraScheduler.UI.ValidationArgs">
       <summary>
-        <para>This class is used for a control setting&#39;s validation, and holds a control, validation result, and an error message, if any.</para>
+        <para>This class is used for a control setting’s validation, and holds a control, validation result, and an error message, if any.</para>
       </summary>
     </member>
     <member name="M:DevExpress.XtraScheduler.UI.ValidationArgs.#ctor">
@@ -6583,11 +6630,13 @@ See the How to: Split Appointments and Series article for more information.</par
     <member name="F:DevExpress.XtraScheduler.UpdateSelectionDurationAction.Adjust">
       <summary>
         <para>The selection is adjusted to represent the originally selected interval, so the selection may span acreoos several cells.</para>
+        <para></para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.UpdateSelectionDurationAction.Reset">
       <summary>
         <para>The selection is reset, so it occupies only the beginning of the previously selected interval.</para>
+        <para></para>
       </summary>
     </member>
     <member name="T:DevExpress.XtraScheduler.UsedAppointmentType">
@@ -6607,7 +6656,7 @@ See the How to: Split Appointments and Series article for more information.</par
     </member>
     <member name="F:DevExpress.XtraScheduler.UsedAppointmentType.None">
       <summary>
-        <para>The action can&#39;t be applied to any appointments.</para>
+        <para>The action can’t be applied to any appointments.</para>
       </summary>
     </member>
     <member name="F:DevExpress.XtraScheduler.UsedAppointmentType.NonRecurring">

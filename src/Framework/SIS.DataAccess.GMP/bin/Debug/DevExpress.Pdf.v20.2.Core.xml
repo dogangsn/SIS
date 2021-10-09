@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.Pdf.v20.2.Core</name>
   </assembly>
@@ -34,9 +34,9 @@
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.CertificateStoreProvider.GetCertificate(System.Byte[])">
       <summary>
-        <para>Gets the certificate by its subject&#39;s distinguished name.</para>
+        <para>Gets the certificate by its subject’s distinguished name.</para>
       </summary>
-      <param name="subjectDN">The BER-encoded DistinguishedName ASN.1 object (rfc5280) that represents the subject&#39;s distinguished name.</param>
+      <param name="subjectDN">The BER-encoded DistinguishedName ASN.1 object (rfc5280) that represents the subject’s distinguished name.</param>
       <returns>The DER- or BER-encoded Certificate ASN.1 object (rfc5280)</returns>
     </member>
     <member name="T:DevExpress.Office.DigitalSignatures.CrlClient">
@@ -53,13 +53,13 @@
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.Office.DigitalSignatures.CrlClient"/> class with specified settings.</para>
       </summary>
-      <param name="uriList">A list of OCSP server Uri&#39;s.</param>
+      <param name="uriList">A list of OCSP server Uri’s.</param>
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.CrlClient.#ctor(System.Collections.Generic.IList{System.Uri},System.Boolean)">
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.Office.DigitalSignatures.CrlClient"/> class with specified settings.</para>
       </summary>
-      <param name="uriList">A list of OCSP server Uri&#39;s.</param>
+      <param name="uriList">A list of OCSP server Uri’s.</param>
       <param name="throwOnFail">true to throw a WebException when the response failed; otherwise, false.</param>
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.CrlClient.GetEncoded(System.Collections.Generic.IList{System.Byte[]})">
@@ -82,7 +82,7 @@
     </member>
     <member name="P:DevExpress.Office.DigitalSignatures.DigestCalculator.AlgorithmOid">
       <summary>
-        <para>Retrieves the hash algorithm&#39;s object identifier.</para>
+        <para>Retrieves the hash algorithm’s object identifier.</para>
       </summary>
       <value>An algorithm OID.</value>
     </member>
@@ -95,18 +95,18 @@
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.DigestCalculator.GetDigestSize">
       <summary>
-        <para>Returns the digest value&#39;s size.</para>
+        <para>Returns the digest value’s size.</para>
       </summary>
-      <returns>The digest value&#39;s size (in bytes).</returns>
+      <returns>The digest value’s size (in bytes).</returns>
     </member>
     <member name="T:DevExpress.Office.DigitalSignatures.HashAlgorithmType">
       <summary>
-        <para>Lists values used to specify the PKCS#7 signature&#39;s secure hash algorithm (SHA) type.</para>
+        <para>Lists values used to specify the signature’s secure hash algorithm (SHA) type.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Office.DigitalSignatures.HashAlgorithmType.SHA1">
       <summary>
-        <para>SHA1 hashing algorithm. This type can affect the signature&#39;s integrity, authenticity, and legal validity.</para>
+        <para>SHA1 hashing algorithm. This type can affect the signature’s integrity, authenticity, and legal validity.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Office.DigitalSignatures.HashAlgorithmType.SHA256">
@@ -131,9 +131,9 @@
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.ICertificateStoreProvider.GetCertificate(System.Byte[])">
       <summary>
-        <para>Gets the certificate by its subject&#39;s distinguished name.</para>
+        <para>Gets the certificate by its subject’s distinguished name.</para>
       </summary>
-      <param name="subjectDN">The BER-encoded DistinguishedName ASN.1 object (rfc5280) that represents the subject&#39;s distinguished name.</param>
+      <param name="subjectDN">The BER-encoded DistinguishedName ASN.1 object (rfc5280) that represents the subject’s distinguished name.</param>
       <returns>The DER- or BER-encoded Certificate ASN.1 object (rfc5280).</returns>
     </member>
     <member name="T:DevExpress.Office.DigitalSignatures.ICrlClient">
@@ -155,7 +155,7 @@
     </member>
     <member name="P:DevExpress.Office.DigitalSignatures.IDigestCalculator.AlgorithmOid">
       <summary>
-        <para>Retrieves the hash algorithm&#39;s object identifier.</para>
+        <para>Retrieves the hash algorithm’s object identifier.</para>
       </summary>
       <value>An algorithm OID.</value>
     </member>
@@ -168,9 +168,9 @@
     </member>
     <member name="M:DevExpress.Office.DigitalSignatures.IDigestCalculator.GetDigestSize">
       <summary>
-        <para>Returns the digest value&#39;s size.</para>
+        <para>Returns the digest value’s size.</para>
       </summary>
-      <returns>The digest value&#39;s size (in bytes).</returns>
+      <returns>The digest value’s size (in bytes).</returns>
     </member>
     <member name="T:DevExpress.Office.DigitalSignatures.IOcspClient">
       <summary>
@@ -241,8 +241,8 @@
       <summary>
         <para>Generates a timestamp and returns its contents.</para>
       </summary>
-      <param name="digest">The document&#39;s hash value.</param>
-      <param name="digestAlgorithmOID">The hash algorithm&#39;s object identifier.</param>
+      <param name="digest">The document’s hash value.</param>
+      <param name="digestAlgorithmOID">The hash algorithm’s object identifier.</param>
       <returns>The timestamp contents.</returns>
     </member>
     <member name="M:DevExpress.Office.Tsp.ITsaClient.GenerateTimeStamp(System.IO.Stream)">
@@ -262,14 +262,14 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.Office.Tsp.TsaClient"/> class with specified settings.</para>
       </summary>
       <param name="tsaServerURI">A URI of a timestamp server.</param>
-      <param name="algorithm">A timestamp&#39;s hashing algorithm.</param>
+      <param name="algorithm">A timestamp’s hashing algorithm.</param>
     </member>
     <member name="M:DevExpress.Office.Tsp.TsaClient.#ctor(System.Uri,DevExpress.Office.DigitalSignatures.HashAlgorithmType,System.String,System.String)">
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.Office.Tsp.TsaClient"/> class with specified settings.</para>
       </summary>
       <param name="tsaServerURI">A URI of a timestamp server.</param>
-      <param name="algorithm">A timestamp&#39;s hashing algorithm.</param>
+      <param name="algorithm">A timestamp’s hashing algorithm.</param>
       <param name="userName">A username to log into the server.</param>
       <param name="password">A password to log into the server.</param>
     </member>
@@ -293,8 +293,8 @@
       <summary>
         <para>Generates a timestamp and returns its contents.</para>
       </summary>
-      <param name="digest">The document&#39;s hash value.</param>
-      <param name="digestAlgorithmOID">The hash algorithm&#39;s object identifier.</param>
+      <param name="digest">The document’s hash value.</param>
+      <param name="digestAlgorithmOID">The hash algorithm’s object identifier.</param>
       <returns>The timestamp contents.</returns>
     </member>
     <member name="M:DevExpress.Office.Tsp.TsaClient.GenerateTimeStamp(System.IO.Stream)">
@@ -331,7 +331,7 @@
       </summary>
       <param name="type">The signature type.</param>
       <param name="signatureSize">The signature size (in bytes).</param>
-      <param name="hashAlgorithm">The signature&#39;s hashing algorithm.</param>
+      <param name="hashAlgorithm">The signature’s hashing algorithm.</param>
     </member>
     <member name="M:DevExpress.Pdf.ExternalSignerInfo.#ctor(DevExpress.Pdf.PdfSignatureType,System.Int32,DevExpress.Office.DigitalSignatures.IDigestCalculator)">
       <summary>
@@ -339,7 +339,7 @@
       </summary>
       <param name="type">The signature type.</param>
       <param name="signatureSize">The signature size (in bytes).</param>
-      <param name="digestCalculator">The signature&#39;s digest calculator.</param>
+      <param name="digestCalculator">The signature’s digest calculator.</param>
     </member>
     <member name="M:DevExpress.Pdf.ExternalSignerInfo.#ctor(System.String,System.String,System.String,System.Int32,DevExpress.Office.DigitalSignatures.HashAlgorithmType)">
       <summary>
@@ -347,9 +347,9 @@
       </summary>
       <param name="type">The signature type.</param>
       <param name="filter">The name of the preferred signature handler.</param>
-      <param name="subFilter">The signature&#39;s encoding and key information.</param>
+      <param name="subFilter">The signature’s encoding and key information.</param>
       <param name="signatureSize">The signature size (in bytes).</param>
-      <param name="hashAlgorithm">The signature&#39;s hashing algorithm.</param>
+      <param name="hashAlgorithm">The signature’s hashing algorithm.</param>
     </member>
     <member name="M:DevExpress.Pdf.ExternalSignerInfo.#ctor(System.String,System.String,System.String,System.Int32,DevExpress.Office.DigitalSignatures.IDigestCalculator)">
       <summary>
@@ -357,13 +357,13 @@
       </summary>
       <param name="type">The signature type.</param>
       <param name="filter">The name of the preferred signature handler.</param>
-      <param name="subFilter">The signature&#39;s encoding and key information.</param>
+      <param name="subFilter">The signature’s encoding and key information.</param>
       <param name="signatureSize">The signature size.</param>
-      <param name="digestCalculator">The signature&#39;s digest calculator.</param>
+      <param name="digestCalculator">The signature’s digest calculator.</param>
     </member>
     <member name="P:DevExpress.Pdf.ExternalSignerInfo.DigestCalculator">
       <summary>
-        <para>Returns the signature&#39;s digest calculator.</para>
+        <para>Returns the signature’s digest calculator.</para>
       </summary>
       <value>An object used to calculate the digest value.</value>
     </member>
@@ -371,7 +371,7 @@
       <summary>
         <para>Retrieves the name of the preferred signature handler.</para>
       </summary>
-      <value>Preferred signature handler&#39;s name.</value>
+      <value>Preferred signature handler’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.ExternalSignerInfo.SignatureSize">
       <summary>
@@ -381,9 +381,9 @@
     </member>
     <member name="P:DevExpress.Pdf.ExternalSignerInfo.SubFilter">
       <summary>
-        <para>Returns information about the signature&#39;s format.</para>
+        <para>Returns information about the signature’s format.</para>
       </summary>
-      <value>The signature&#39;s encoding and key information.</value>
+      <value>The signature’s encoding and key information.</value>
     </member>
     <member name="P:DevExpress.Pdf.ExternalSignerInfo.Type">
       <summary>
@@ -400,8 +400,8 @@
       <summary>
         <para>Builds the signature and returns its contents.</para>
       </summary>
-      <param name="digest">The document&#39;s hash value.</param>
-      <param name="digestAlgorithmOID">The hash algorithm&#39;s object identifier.</param>
+      <param name="digest">The document’s hash value.</param>
+      <param name="digestAlgorithmOID">The hash algorithm’s object identifier.</param>
       <returns>The signature contents.</returns>
     </member>
     <member name="M:DevExpress.Pdf.IExternalSigner.BuildSignature(System.IO.Stream)">
@@ -415,19 +415,19 @@
       <summary>
         <para>Retrieves the name of the preferred signature handler.</para>
       </summary>
-      <value>Preferred signature handler&#39;s name.</value>
+      <value>Preferred signature handler’s name.</value>
     </member>
     <member name="M:DevExpress.Pdf.IExternalSigner.GetSignatureSize">
       <summary>
         <para>Returns the signature size (in bytes).</para>
       </summary>
-      <returns>A signature&#39;s size (in bytes).</returns>
+      <returns>A signature’s size (in bytes).</returns>
     </member>
     <member name="P:DevExpress.Pdf.IExternalSigner.SubFilter">
       <summary>
-        <para>Returns information about the signature&#39;s format.</para>
+        <para>Returns information about the signature’s format.</para>
       </summary>
-      <value>The signature&#39;s encoding and key information.</value>
+      <value>The signature’s encoding and key information.</value>
     </member>
     <member name="P:DevExpress.Pdf.IExternalSigner.Type">
       <summary>
@@ -463,15 +463,15 @@
     </member>
     <member name="P:DevExpress.Pdf.Localization.PdfCoreLocalizer.Active">
       <summary>
-        <para>Specifies a localizer object providing localization of a PDF Viewer&#39;s dialog messages at runtime.</para>
+        <para>Specifies a localizer object providing localization of a PDF Viewer‘s dialog messages at runtime.</para>
       </summary>
       <value>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> descendant, used to localize the dialog messages at runtime.</value>
     </member>
     <member name="M:DevExpress.Pdf.Localization.PdfCoreLocalizer.CreateResXLocalizer">
       <summary>
-        <para>For internal use. Returns a Localizer object storing resources based on the thread&#39;s language and regional settings (culture).</para>
+        <para>For internal use. Returns a Localizer object storing resources based on the thread’s language and regional settings (culture).</para>
       </summary>
-      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, storing resources based on the thread&#39;s language and regional settings (culture).</returns>
+      <returns>An <see cref="T:DevExpress.Utils.Localization.XtraLocalizer`1"/> object, storing resources based on the thread’s language and regional settings (culture).</returns>
     </member>
     <member name="M:DevExpress.Pdf.Localization.PdfCoreLocalizer.GetString(DevExpress.Pdf.Localization.PdfCoreStringId)">
       <summary>
@@ -488,7 +488,7 @@
     </member>
     <member name="T:DevExpress.Pdf.Localization.PdfCoreResLocalizer">
       <summary>
-        <para>A default localizer to translate the PDF Viewer&#39;s resources.</para>
+        <para>A default localizer to translate the PDF Viewer’s resources.</para>
       </summary>
     </member>
     <member name="M:DevExpress.Pdf.Localization.PdfCoreResLocalizer.#ctor">
@@ -510,142 +510,142 @@
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeCaret">
       <summary>
-        <para>&quot;Insert Text&quot;</para>
+        <para>“Insert Text”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeCircle">
       <summary>
-        <para>&quot;Oval&quot;</para>
+        <para>“Oval”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeCustom">
       <summary>
-        <para>&quot;Custom&quot;</para>
+        <para>“Custom”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeFileAttachment">
       <summary>
-        <para>&quot;File Attachment&quot;</para>
+        <para>“File Attachment”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeFreeText">
       <summary>
-        <para>&quot;Text Box&quot;</para>
+        <para>“Text Box”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeHighlight">
       <summary>
-        <para>&quot;Highlight&quot;</para>
+        <para>“Highlight”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeInk">
       <summary>
-        <para>&quot;Pencil&quot;</para>
+        <para>“Pencil”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeLine">
       <summary>
-        <para>&quot;Line&quot;</para>
+        <para>“Line”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypePolygon">
       <summary>
-        <para>&quot;Polygon&quot;</para>
+        <para>“Polygon”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypePolyLine">
       <summary>
-        <para>&quot;Polygonal Line&quot;</para>
+        <para>“Polygonal Line”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeRedaction">
       <summary>
-        <para>&quot;Redact&quot;</para>
+        <para>“Redact”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeRubberStamp">
       <summary>
-        <para>&quot;Stamp&quot;</para>
+        <para>“Stamp”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeSound">
       <summary>
-        <para>&quot;Sound Attachment&quot;</para>
+        <para>“Sound Attachment”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeSquare">
       <summary>
-        <para>&quot;Rectangle&quot;</para>
+        <para>“Rectangle”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeSquiggly">
       <summary>
-        <para>&quot;Squiggly Underline&quot;</para>
+        <para>“Squiggly Underline”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeStrikethrough">
       <summary>
-        <para>&quot;Strikethrough&quot;</para>
+        <para>“Strikethrough”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeText">
       <summary>
-        <para>&quot;Sticky Note&quot;</para>
+        <para>“Sticky Note”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.AnnotationFilterTypeUnderline">
       <summary>
-        <para>&quot;Underline&quot;</para>
+        <para>“Underline”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.DefaultDocumentName">
       <summary>
-        <para>&quot;Document&quot;</para>
+        <para>“Document“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.FileSize">
       <summary>
-        <para>&quot;{0:0.00} {1} ({2} Bytes)&quot;</para>
+        <para>“{0:0.00} {1} ({2} Bytes)“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.FileSizeInBytes">
       <summary>
-        <para>&quot;{0} Bytes&quot;</para>
+        <para>“{0} Bytes“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAcroFormFieldNameCantBeEmpty">
       <summary>
-        <para>&quot;The form field name cannot be null or an empty string.&quot;</para>
+        <para>“The form field name cannot be null or an empty string.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAcroFormFieldNameDuplication">
       <summary>
-        <para>&quot;The siblings can&#39;t have the same names in the form field hierarchy.&quot;</para>
+        <para>“The siblings can’t have the same names in the form field hierarchy.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAttachmentHintDescription">
       <summary>
-        <para>&quot;\r\nDescription: {0}&quot;</para>
+        <para>“\r\nDescription: {0}”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAttachmentHintFileName">
       <summary>
-        <para>&quot;Name: {0}&quot;</para>
+        <para>“Name: {0}”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAttachmentHintModificationDate">
       <summary>
-        <para>&quot;\r\nModification Date: {0}&quot;</para>
+        <para>“\r\nModification Date: {0}”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgAttachmentHintSize">
       <summary>
-        <para>&quot;\r\nSize: {0}&quot;</para>
+        <para>“\r\nSize: {0}”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgCantSetSelectedIndexWithoutValues">
       <summary>
-        <para>&quot;The selected index cannot be set because there are no possible values.&quot;</para>
+        <para>“The selected index cannot be set because there are no possible values.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgEmptyCustomPropertyName">
@@ -655,372 +655,372 @@
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgEntryPointNotFound">
       <summary>
-        <para>&quot;Unable to find an entry point named &quot;{0}&quot; in shared library &quot;{1}&quot;&quot;</para>
+        <para>“Unable to find an entry point named &quot;{0}&quot; in shared library &quot;{1}&quot;“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgFormDataNotFound">
       <summary>
-        <para>&quot;The document structure does not contain a field with the specified name: {0}.&quot;</para>
+        <para>“The document structure does not contain a field with the specified name: {0}.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgICULibraryNotFound">
       <summary>
-        <para>&quot;Unable to load ICU library.&quot;</para>
+        <para>“Unable to load ICU library.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncompatibleOperationWithCurrentDocumentFormat">
       <summary>
-        <para>&quot;The operation is not supported in {0} compatability mode. Please create document in PdfCompatibility.Pdf compatibility mode.&quot;</para>
+        <para>“The operation is not supported in {0} compatability mode. Please create document in PdfCompatibility.Pdf compatibility mode.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectAcroFormExportValue">
       <summary>
-        <para>&quot;The export value cannot be null or an empty string.&quot;</para>
+        <para>“The export value cannot be null or an empty string.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectAcroFormFieldNameContainsPeriod">
       <summary>
-        <para>&quot;The form field name cannot contain a period character.&quot;</para>
+        <para>“The form field name cannot contain a period character.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectAction">
       <summary>
-        <para>&quot;The specified action does not belong to the current document.&quot;</para>
+        <para>“The specified action does not belong to the current document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectBookmarkListValue">
       <summary>
-        <para>&quot;Bookmark list can&#39;t be null.&quot;</para>
+        <para>“Bookmark list can’t be null.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectButtonFormFieldValue">
       <summary>
-        <para>&quot;The argument should be the name of a button appearance or a value from the options array.&quot;</para>
+        <para>“The argument should be the name of a button appearance or a value from the options array.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectChoiceFormFieldValue">
       <summary>
-        <para>&quot;The argument should be a string value or a list of string values from the options array.&quot;</para>
+        <para>“The argument should be a string value or a list of string values from the options array.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectColorComponentValue">
       <summary>
-        <para>&quot;The color component value should be greater than or equal to 0 and less than or equal to 1.&quot;</para>
+        <para>“The color component value should be greater than or equal to 0 and less than or equal to 1.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDashLength">
       <summary>
-        <para>&quot;The dash length should be greater than or equal to 0.&quot;</para>
+        <para>“The dash length should be greater than or equal to 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDashPattern">
       <summary>
-        <para>&quot;The sum of dash and gap lengths should be greater than 0.&quot;</para>
+        <para>“The sum of dash and gap lengths should be greater than 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDashPatternArraySize">
       <summary>
-        <para>&quot;The dash pattern array must not be empty.&quot;</para>
+        <para>“The dash pattern array must not be empty.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDestination">
       <summary>
-        <para>&quot;The specified destination does not belong to the current document.&quot;</para>
+        <para>“The specified destination does not belong to the current document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDestinationPage">
       <summary>
-        <para>&quot;The destination of a bookmark can&#39;t be linked to a page which belongs to another document.&quot;</para>
+        <para>“The destination of a bookmark can’t be linked to a page which belongs to another document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectDpi">
       <summary>
-        <para>&quot;Resolution (in dots per inch) should be greater than 0.&quot;</para>
+        <para>“Resolution (in dots per inch) should be greater than 0.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectFlatnessTolerance">
       <summary>
-        <para>&quot;The flatness tolerance should be greater than or equal to 0 and less than or equal to 100.&quot;</para>
+        <para>“The flatness tolerance should be greater than or equal to 0 and less than or equal to 100.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectFormDataFile">
       <summary>
-        <para>&quot;Error while reading the PDF Form from the specified file.&quot;</para>
+        <para>“Error while reading the PDF Form from the specified file.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectGapLength">
       <summary>
-        <para>&quot;The gap length should be greater than or equal to 0.&quot;</para>
+        <para>“The gap length should be greater than or equal to 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectGlyphPosition">
       <summary>
-        <para>&quot;The glyph position should be less or equal than text length.&quot;</para>
+        <para>“The glyph position should be less or equal than text length.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectInsertingPageNumber">
       <summary>
-        <para>&quot;The page number should be greater than 0, and less than or equal to the next available page number (next to the document page count)&quot;.</para>
+        <para>“The page number should be greater than 0, and less than or equal to the next available page number (next to the document page count)”.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectLargestEdgeLength">
       <summary>
-        <para>&quot;The largest edge length should be greater than 0.&quot;</para>
+        <para>“The largest edge length should be greater than 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectLineWidth">
       <summary>
-        <para>&quot;The line width should be greater than or equal to 0.&quot;</para>
+        <para>“The line width should be greater than or equal to 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectListSize">
       <summary>
-        <para>&quot;The list should contain at least one value.&quot;</para>
+        <para>“The list should contain at least one value.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectMarkedContentTag">
       <summary>
-        <para>&quot;The marked content tag can&#39;t be empty.&quot;</para>
+        <para>“The marked content tag can’t be empty.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectMarkupAnnotation">
       <summary>
-        <para>&quot;The specified annotation does not belong to the current document.&quot;</para>
+        <para>“The specified annotation does not belong to the current document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectMiterLimit">
       <summary>
-        <para>&quot;The miter limit should be greater than 0.&quot;</para>
+        <para>“The miter limit should be greater than 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectOpacity">
       <summary>
-        <para>&quot;The opacity value should be greater than or equal to 0 and less than or equal to 1.&quot;</para>
+        <para>“The opacity value should be greater than or equal to 0 and less than or equal to 1.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageArtBox">
       <summary>
-        <para>&quot;The page art box should be less than or equal to the media box.&quot;</para>
+        <para>“The page art box should be less than or equal to the media box.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageBleedBox">
       <summary>
-        <para>&quot;The page bleeding box should be less than or equal to the media box.&quot;</para>
+        <para>“The page bleeding box should be less than or equal to the media box.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageCropBox">
       <summary>
-        <para>&quot;The page croppoing box should be less than or equal to the media box.&quot;</para>
+        <para>“The page croppoing box should be less than or equal to the media box.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageNumber">
       <summary>
-        <para>&quot;The page number should be greater than 0.&quot;</para>
+        <para>“The page number should be greater than 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageRotate">
       <summary>
-        <para>&quot;The page rotation angle can have one of the following values: 0, 90, 180 or 270 degrees.&quot;</para>
+        <para>“The page rotation angle can have one of the following values: 0, 90, 180 or 270 degrees.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPageTrimBox">
       <summary>
-        <para>&quot;The page trimming box should be less than or equal to the media box.&quot;</para>
+        <para>“The page trimming box should be less than or equal to the media box.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPdfData">
       <summary>
-        <para>&quot;Input data are not recognized as valid pdf.&quot;</para>
+        <para>“Input data are not recognized as valid pdf.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPdfPassword">
       <summary>
-        <para>&quot;The Document Open password is empty or incorrect.&quot;</para>
+        <para>“The Document Open password is empty or incorrect.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectPrintableFilePath">
       <summary>
-        <para>&quot;Unable to create a print document with the specified name: {0}.&quot;</para>
+        <para>“Unable to create a print document with the specified name: {0}.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectRectangleHeight">
       <summary>
-        <para>&quot;The top coordinate of the rectangle should be greater than the bottom.&quot;</para>
+        <para>“The top coordinate of the rectangle should be greater than the bottom.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectRectangleWidth">
       <summary>
-        <para>&quot;The right coordinate of the rectangle should be greater than the left one.&quot;</para>
+        <para>“The right coordinate of the rectangle should be greater than the left one.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectSelectedIndexValue">
       <summary>
-        <para>&quot;The index should be in the range from 0 to {0}.&quot;</para>
+        <para>“The index should be in the range from 0 to {0}.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectText">
       <summary>
-        <para>&quot;The text value can&#39;t be null.&quot;</para>
+        <para>“The text value can’t be null.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectTextFormFieldValue">
       <summary>
-        <para>&quot;The argument should be a string value.&quot;</para>
+        <para>“The argument should be a string value.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectTextHorizontalScaling">
       <summary>
-        <para>&quot;The text horizontal scaling value should be greater than 0.&quot;</para>
+        <para>“The text horizontal scaling value should be greater than 0.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgIncorrectZoom">
       <summary>
-        <para>&quot;The zoom value should be greater than or equal to 0&quot;.</para>
+        <para>“The zoom value should be greater than or equal to 0“.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgMissingPageNumbers">
       <summary>
-        <para>&quot;At least one page number should be specified.&quot;</para>
+        <para>“At least one page number should be specified.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgPageNumberShouldBePositive">
       <summary>
-        <para>&quot;The page number should be greater than or equal to 1.&quot;</para>
+        <para>“The page number should be greater than or equal to 1.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgPartialTrustEnvironmentLimitation">
       <summary>
-        <para>&quot;This operation cannot be performed in the Partial Trust environment.&quot;</para>
+        <para>“This operation cannot be performed in the Partial Trust environment.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgSharedLibraryNotFound">
       <summary>
-        <para>&quot;Unable to load shared library &quot;{0}&quot; or one of its dependencies: &quot;{1}&quot;&quot;</para>
+        <para>“Unable to load shared library &quot;{0}&quot; or one of its dependencies: &quot;{1}&quot;“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgShouldEmbedFonts">
       <summary>
-        <para>&quot;All fonts should be embedded to a PDF/A document.&quot;</para>
+        <para>“All fonts should be embedded to a PDF/A document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgStreamIsInUse">
       <summary>
-        <para>&quot;The stream is already used for a document. Please use another stream.&quot;</para>
+        <para>“The stream is already used for a document. Please use another stream.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnavailableOperation">
       <summary>
-        <para>&quot;This operation is not available while no document is being loaded.&quot;</para>
+        <para>“This operation is not available while no document is being loaded.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedAnnotationType">
       <summary>
-        <para>&quot;The text highlight annotation is not supported in a PDF/A-1 document.&quot;</para>
+        <para>“The text highlight annotation is not supported in a PDF/A-1 document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedBrushType">
       <summary>
-        <para>&quot;Custom brushes are not supported.&quot;</para>
+        <para>“Custom brushes are not supported.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedEncryption">
       <summary>
-        <para>&quot;Encryption is not supported in a PDF/A document.&quot;</para>
+        <para>“Encryption is not supported in a PDF/A document.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedFileAttachments">
       <summary>
-        <para>&quot;The file attachments are not supported in a PDF/A&#0045;2b document.&quot;</para>
+        <para>“The file attachments are not supported in a PDF/A&#0045;2b document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedGraphicsOperation">
       <summary>
-        <para>&quot;This operation is not supported because the PdfGraphics object does not belong to the current document.&quot;</para>
+        <para>“This operation is not supported because the PdfGraphics object does not belong to the current document.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedGraphicsUnit">
       <summary>
-        <para>&quot;The Display and World units are not supported for the source image coordinate system.&quot;</para>
+        <para>“The Display and World units are not supported for the source image coordinate system.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedStream">
       <summary>
-        <para>&quot;Stream should support the read, write, and seek operations.&quot;</para>
+        <para>“Stream should support the read, write, and seek operations.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedStreamForLoadOperation">
       <summary>
-        <para>&quot;Stream should support the read and seek operations for loading.&quot;</para>
+        <para>“Stream should support the read and seek operations for loading.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgUnsupportedStreamForSaveOperation">
       <summary>
-        <para>&quot;Stream should support the write and seek operations for saving.&quot;</para>
+        <para>“Stream should support the write and seek operations for saving.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgWinOnlyLimitation">
       <summary>
-        <para>&quot;This action can be performed only on Windows operating system.&quot;</para>
+        <para>“This action can be performed only on Windows operating system.”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.MsgZeroColorComponentsCount">
       <summary>
-        <para>&quot;The color should have at least one component.&quot;</para>
+        <para>“The color should have at least one component.“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.StickyNoteDefaultSubject">
       <summary>
-        <para>&quot;Note&quot;</para>
+        <para>“Note”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.TextHighlightDefaultSubject">
       <summary>
-        <para>&quot;Highlight&quot;</para>
+        <para>“Highlight”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.TextStrikethroughDefaultSubject">
       <summary>
-        <para>&quot;Strikethrough&quot;</para>
+        <para>“Strikethrough”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.TextUnderlineDefaultSubject">
       <summary>
-        <para>&quot;Underline&quot;</para>
+        <para>“Underline”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitExaBytes">
       <summary>
-        <para>&quot;EB&quot;</para>
+        <para>“EB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitGigaBytes">
       <summary>
-        <para>&quot;GB&quot;</para>
+        <para>“GB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitKiloBytes">
       <summary>
-        <para>&quot;KB&quot;</para>
+        <para>“KB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitMegaBytes">
       <summary>
-        <para>&quot;MB&quot;</para>
+        <para>“MB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitPetaBytes">
       <summary>
-        <para>&quot;PB&quot;</para>
+        <para>“PB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitTeraBytes">
       <summary>
-        <para>&quot;TB&quot;</para>
+        <para>“TB“</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.Localization.PdfCoreStringId.UnitZettaBytes">
       <summary>
-        <para>&quot;ZB&quot;</para>
+        <para>“ZB“</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfAcroFormBorderAppearance">
@@ -1078,7 +1078,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfAcroFormButtonStyle">
       <summary>
-        <para>Lists values specifying the appearance of the form field&#39;s  button.</para>
+        <para>Lists values specifying the appearance of the form field’s  button.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAcroFormButtonStyle.Check">
@@ -1180,12 +1180,12 @@
       <summary>
         <para>Selects an item of a combo box and list box by their export value.</para>
       </summary>
-      <param name="exportValue">A <see cref="T:System.String"/> value that represents the item&#39;s export value.</param>
+      <param name="exportValue">A <see cref="T:System.String"/> value that represents the item’s export value.</param>
       <returns>true, if the combo box or list box item was successfully selected; otherwise, false.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfAcroFormChoiceField.SetSelected(System.Int32,System.Boolean)">
       <summary>
-        <para>Sets the specified item&#39;s selection state in combo box and list box fields.</para>
+        <para>Sets the specified item’s selection state in combo box and list box fields.</para>
       </summary>
       <param name="index">The zero-based index of the item whose selection state will be changed.</param>
       <param name="value">true, to select the item; false, to unselect the item.</param>
@@ -1228,7 +1228,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormCommonVisualField.TextAlignment">
       <summary>
-        <para>Specifies the horizontal alignment of the interactive form field&#39;s text.</para>
+        <para>Specifies the horizontal alignment of the interactive form field’s text.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAcroFormStringAlignment"/> enumeration value that specifies how the text is horizontally aligned within the interactive form field.</value>
     </member>
@@ -1335,9 +1335,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormField.ToolTip">
       <summary>
-        <para>Specifies the form field&#39;s tooltip text.</para>
+        <para>Specifies the form field’s tooltip text.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that specifies the text displayed within the form field&#39;s tooltip.</value>
+      <value>A <see cref="T:System.String"/> value that specifies the text displayed within the form field’s tooltip.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAcroFormFieldAppearance">
       <summary>
@@ -1351,9 +1351,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormFieldAppearance.BackgroundColor">
       <summary>
-        <para>Specifies the form field&#39;s background color.</para>
+        <para>Specifies the form field’s background color.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that represents the form field&#39;s background. The default value is null that corresponds to a transparent background color.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that represents the form field’s background. The default value is null that corresponds to a transparent background color.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormFieldAppearance.BorderAppearance">
       <summary>
@@ -1369,7 +1369,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormFieldAppearance.FontSize">
       <summary>
-        <para>Specifies the size of the interactive form field&#39;s font.</para>
+        <para>Specifies the size of the interactive form field’s font.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value representing the font size for the interactive form field. The default value: 12.</value>
     </member>
@@ -1383,7 +1383,7 @@
       <summary>
         <para>Specifies the foreground color of an interactive form field.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that specifies the interactive form field&#39;s foreground color.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that specifies the interactive form field’s foreground color.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAcroFormFieldNameCollision">
       <summary>
@@ -1559,7 +1559,7 @@
       <summary>
         <para>Specifies index of the selected item in a radio group field.</para>
       </summary>
-      <value>An integer value, representing the zero-based index of the radio group&#39;s selected item.</value>
+      <value>An integer value, representing the zero-based index of the radio group’s selected item.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormRadioGroupField.ShouldGeneratePressedAppearance">
       <summary>
@@ -1828,7 +1828,7 @@
       <summary>
         <para>Gets or sets whether the interactive form field allows editing.</para>
       </summary>
-      <value>true, if end-users cannot modify the form field&#39;s value; otherwise, false.</value>
+      <value>true, if end-users cannot modify the form field’s value; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAcroFormVisualField.Required">
       <summary>
@@ -1866,9 +1866,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotation.Appearance">
       <summary>
-        <para>Gets the annotation&#39;s appearance state on the PDF form.</para>
+        <para>Gets the annotation’s appearance state on the PDF form.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationAppearances"/> object that represents the current annotation&#39;s appearance state on the PDF form.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationAppearances"/> object that represents the current annotation’s appearance state on the PDF form.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotation.AppearanceName">
       <summary>
@@ -1878,9 +1878,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotation.Border">
       <summary>
-        <para>Gets the annotation&#39;s border, which will be drawn as a rounded rectangle.</para>
+        <para>Gets the annotation’s border, which will be drawn as a rounded rectangle.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationBorder"/> object that represents the annotation&#39;s border.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationBorder"/> object that represents the annotation’s border.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotation.Color">
       <summary>
@@ -1932,9 +1932,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotation.StructParent">
       <summary>
-        <para>Gets the integer key of the annotation&#39;s entry in the structural parent tree.</para>
+        <para>Gets the integer key of the annotation’s entry in the structural parent tree.</para>
       </summary>
-      <value>A nullable integer value specifying the key of the annotation&#39;s entry.</value>
+      <value>A nullable integer value specifying the key of the annotation’s entry.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAnnotationActions">
       <summary>
@@ -1943,13 +1943,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationActions.CursorEntered">
       <summary>
-        <para>Gets an action that is performed when the cursor enters the annotation&#39;s active area.</para>
+        <para>Gets an action that is performed when the cursor enters the annotation’s active area.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAction"/> object that represents the action.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationActions.CursorExited">
       <summary>
-        <para>Gets an action that is performed when the cursor exits the annotation&#39;s active area.</para>
+        <para>Gets an action that is performed when the cursor exits the annotation’s active area.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAction"/> object that represents the action.</value>
     </member>
@@ -1967,19 +1967,19 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationActions.MouseButtonPressed">
       <summary>
-        <para>Gets an action that is performed when the mouse button is pressed inside the annotation&#39;s active area.</para>
+        <para>Gets an action that is performed when the mouse button is pressed inside the annotation’s active area.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAction"/> object that represents the action.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationActions.MouseButtonReleased">
       <summary>
-        <para>Gets an action that is performed when the mouse button is released inside the annotation&#39;s active area.</para>
+        <para>Gets an action that is performed when the mouse button is released inside the annotation’s active area.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAction"/> object that represents the action.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationActions.PageBecameInvisible">
       <summary>
-        <para>Gets an action that is performed when the page containing the annotation is no longer visible in the reader&#39;s user interface.</para>
+        <para>Gets an action that is performed when the page containing the annotation is no longer visible in the reader’s user interface.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAction"/> object that represents the action.</value>
     </member>
@@ -2025,7 +2025,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationAppearances.Down">
       <summary>
-        <para>Gets the annotation&#39;s down appearance.</para>
+        <para>Gets the annotation’s down appearance.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationAppearance"/> object that is the down appearance.</value>
     </member>
@@ -2037,19 +2037,19 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationAppearances.Normal">
       <summary>
-        <para>Gets the annotation&#39;s normal appearance.</para>
+        <para>Gets the annotation’s normal appearance.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationAppearance"/> object that is the normal appearance.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationAppearances.Rollover">
       <summary>
-        <para>Gets the annotation&#39;s rollover appearance.</para>
+        <para>Gets the annotation’s rollover appearance.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationAppearance"/> object that is the rollover appearance.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAnnotationBorder">
       <summary>
-        <para>Represents the annotation&#39;s border settings.</para>
+        <para>Represents the annotation’s border settings.</para>
       </summary>
     </member>
     <member name="M:DevExpress.Pdf.PdfAnnotationBorder.#ctor">
@@ -2059,9 +2059,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorder.HorizontalCornerRadius">
       <summary>
-        <para>Gets the horizontal corner radius of the annotation&#39;s border, which will be drawn as a rounded rectangle.</para>
+        <para>Gets the horizontal corner radius of the annotation’s border, which will be drawn as a rounded rectangle.</para>
       </summary>
-      <value>A double value that is the horizontal corner radius of the annotation&#39;s border.</value>
+      <value>A double value that is the horizontal corner radius of the annotation’s border.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorder.IsDefault">
       <summary>
@@ -2077,38 +2077,38 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorder.LineWidth">
       <summary>
-        <para>Gets the thickness of the line to be used in drawing the annotation&#39;s border.</para>
+        <para>Gets the thickness of the line to be used in drawing the annotation’s border.</para>
       </summary>
-      <value>A double value that is the line width of the annotation&#39;s border.</value>
+      <value>A double value that is the line width of the annotation’s border.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorder.VerticalCornerRadius">
       <summary>
-        <para>Gets the vertical corner radius of the annotation&#39;s border, which will be drawn as a rounded rectangle.</para>
+        <para>Gets the vertical corner radius of the annotation’s border, which will be drawn as a rounded rectangle.</para>
       </summary>
-      <value>A double value that is the vertical corner radius of the annotation&#39;s border.</value>
+      <value>A double value that is the vertical corner radius of the annotation’s border.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAnnotationBorderStyle">
       <summary>
-        <para>Contains style settings of the annotation&#39;s border.</para>
+        <para>Contains style settings of the annotation’s border.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorderStyle.LineStyle">
       <summary>
-        <para>Gets the line style settings of the annotation&#39;s border.</para>
+        <para>Gets the line style settings of the annotation’s border.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfLineStyle"/> object that represents the line style settings of the annotation&#39;s border.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfLineStyle"/> object that represents the line style settings of the annotation’s border.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorderStyle.StyleName">
       <summary>
-        <para>Gets the name of the style to be applied to the annotation&#39;s border.</para>
+        <para>Gets the name of the style to be applied to the annotation’s border.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> that is the name of the annotation&#39;s border style.</value>
+      <value>A <see cref="T:System.String"/> that is the name of the annotation’s border style.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationBorderStyle.Width">
       <summary>
-        <para>Gets the annotation&#39;s border width in points.</para>
+        <para>Gets the annotation’s border width in points.</para>
       </summary>
-      <value>A double value that is the width of the annotation&#39;s border. Default value: 1.</value>
+      <value>A double value that is the width of the annotation’s border. Default value: 1.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfAnnotationData">
       <summary>
@@ -2123,9 +2123,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationData.Bounds">
       <summary>
-        <para>Gets the annotation&#39;s bounds on the page.</para>
+        <para>Gets the annotation’s bounds on the page.</para>
       </summary>
-      <value>The annotation&#39;s bounds.</value>
+      <value>The annotation’s bounds.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationData.Color">
       <summary>
@@ -2143,11 +2143,11 @@
       <summary>
         <para>Specifies the date and time when the annotation was last modified.</para>
       </summary>
-      <value>The annotation&#39;s modification date.</value>
+      <value>The annotation’s modification date.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfAnnotationData.Name">
       <summary>
-        <para>Specifies the annotation&#39;s name.</para>
+        <para>Specifies the annotation’s name.</para>
       </summary>
       <value>The annotation name.</value>
     </member>
@@ -2183,7 +2183,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationFlags.NoRotate">
       <summary>
-        <para>Do not rotate the annotation&#39;s appearance to match the rotation of the page.</para>
+        <para>Do not rotate the annotation’s appearance to match the rotation of the page.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationFlags.NoView">
@@ -2193,7 +2193,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationFlags.NoZoom">
       <summary>
-        <para>Do not scale the annotation&#39;s appearance to match the magnification of the page.</para>
+        <para>Do not scale the annotation’s appearance to match the magnification of the page.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationFlags.Print">
@@ -2228,7 +2228,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationHighlightingMode.Outline">
       <summary>
-        <para>Invert the annotation&#39;s border.</para>
+        <para>Invert the annotation’s border.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationHighlightingMode.Push">
@@ -2238,12 +2238,12 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationHighlightingMode.Toggle">
       <summary>
-        <para>Display the annotation&#39;s down appearance.</para>
+        <para>Display the annotation’s down appearance.</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfAnnotationReviewStatus">
       <summary>
-        <para>Lists values used to specify the annotation&#39;s review status.</para>
+        <para>Lists values used to specify the annotation’s review status.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationReviewStatus.Accepted">
@@ -2308,7 +2308,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationType.Ink">
       <summary>
-        <para>Ink annotation (a freehand &quot;scribble&quot; composed of one or more disjoint paths).</para>
+        <para>Ink annotation (a freehand “scribble” composed of one or more disjoint paths).</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationType.Line">
@@ -2343,7 +2343,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationType.PrinterMark">
       <summary>
-        <para>Printer&#39;s mark annotation (a symbol added to a page to maintain consistent output during production).</para>
+        <para>Printer’s mark annotation (a symbol added to a page to maintain consistent output during production).</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfAnnotationType.Redaction">
@@ -2484,13 +2484,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfBookmark.TextColor">
       <summary>
-        <para>Gets or sets the color for a bookmark&#39;s text in the navigation pane.</para>
+        <para>Gets or sets the color for a bookmark’s text in the navigation pane.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that is a single color in the RGB (red, green, blue) color scheme for a bookmark&#39;s text.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfRGBColor"/> object that is a single color in the RGB (red, green, blue) color scheme for a bookmark’s text.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfBookmark.Title">
       <summary>
-        <para>Gets or sets the bookmark&#39;s text on the navigation pane.</para>
+        <para>Gets or sets the bookmark’s text on the navigation pane.</para>
       </summary>
       <value>A <see cref="T:System.String"/> that is the text for a bookmark on the navigation pane.</value>
     </member>
@@ -2558,13 +2558,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfCharacter.Font">
       <summary>
-        <para>Returns the character&#39;s font settings.</para>
+        <para>Returns the character’s font settings.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfFont"/> value.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfCharacter.FontSize">
       <summary>
-        <para>Returns the character&#39;s font size (in points).</para>
+        <para>Returns the character’s font size (in points).</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value, specifying the font size, in points.</value>
     </member>
@@ -2578,7 +2578,7 @@
       <summary>
         <para>Returns a Unicode representation of the character.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value, specifying a character&#39;s Unicode representation.</value>
+      <value>A <see cref="T:System.String"/> value, specifying a character’s Unicode representation.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfCharacterMapping">
       <summary>
@@ -2856,7 +2856,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.AcroForm">
       <summary>
-        <para>Provides access to the document&#39;s interactive form (AcroForm) properties.</para>
+        <para>Provides access to the document’s interactive form (AcroForm) properties.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfInteractiveForm"/> object.</value>
     </member>
@@ -2940,7 +2940,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.CustomProperties">
       <summary>
-        <para>Provides access to the document&#39;s custom properties.</para>
+        <para>Provides access to the document’s custom properties.</para>
       </summary>
       <value>A dictionary object containing custom properties.</value>
     </member>
@@ -2970,13 +2970,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.LogicalStructure">
       <summary>
-        <para>Provides access to the document&#39;s structure tree root dictionary.</para>
+        <para>Provides access to the document’s structure tree root dictionary.</para>
       </summary>
       <value>A DevExpress.Pdf.PdfLogicalStructure object.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.MarkInfo">
       <summary>
-        <para>Provides access to the mark information dictionary that contains information about the document&#39;s usage of Tagged PDF conventions.</para>
+        <para>Provides access to the mark information dictionary that contains information about the document’s usage of Tagged PDF conventions.</para>
       </summary>
       <value>A DevExpress.Pdf.PdfMarkInfo object.</value>
     </member>
@@ -2990,11 +2990,11 @@
       <summary>
         <para>Gets the date and time the document was modified.</para>
       </summary>
-      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the file&#39;s modification.</value>
+      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the file’s modification.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.Names">
       <summary>
-        <para>Provides access to the document&#39;s name dictionary.</para>
+        <para>Provides access to the document’s name dictionary.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfNames"/> object.</value>
     </member>
@@ -3018,13 +3018,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.OptionalContentProperties">
       <summary>
-        <para>Provides access to the document&#39;s optional content properties.</para>
+        <para>Provides access to the document’s optional content properties.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfOptionalContentProperties"/> object that represents the document&#39;s optional content properties.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfOptionalContentProperties"/> object that represents the document’s optional content properties.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.Outlines">
       <summary>
-        <para>Provides access to the outline dictionary that shall be the root of the document&#39;s outline hierarchy.</para>
+        <para>Provides access to the outline dictionary that shall be the root of the document’s outline hierarchy.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfOutlines"/> object.</value>
     </member>
@@ -3048,7 +3048,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.PageMode">
       <summary>
-        <para>Gets or sets the document&#39;s page mode that specifies how to display the opened document (for example, whether to show page thumbnails or outlines automatically for a document).</para>
+        <para>Gets or sets the document’s page mode that specifies how to display the opened document (for example, whether to show page thumbnails or outlines automatically for a document).</para>
       </summary>
       <value>A  <see cref="T:DevExpress.Pdf.PdfPageMode"/> enumeration value. The default value is UseNone.</value>
     </member>
@@ -3078,13 +3078,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.Threads">
       <summary>
-        <para>Provides access to the array of thread dictionaries that contains the document&#39;s article threads.</para>
+        <para>Provides access to the array of thread dictionaries that contains the document’s article threads.</para>
       </summary>
       <value>A collection of DevExpress.Pdf.PdfArticleThread objects.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.Title">
       <summary>
-        <para>Gets or sets the document&#39;s title.</para>
+        <para>Gets or sets the document’s title.</para>
       </summary>
       <value>A <see cref="T:System.String"/> value.</value>
     </member>
@@ -3096,7 +3096,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfDocument.Version">
       <summary>
-        <para>Indicates the version of the PDF specification to which the document conforms if later than the version specified in the file&#39;s header.</para>
+        <para>Indicates the version of the PDF specification to which the document conforms if later than the version specified in the file’s header.</para>
       </summary>
       <value>A DevExpress.Pdf.PdfFileVersion object.</value>
     </member>
@@ -3242,7 +3242,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfDocumentDataExtractionPermissions.Accessibility">
       <summary>
-        <para>Allow PDF Viewers to access document contents by using the Viewer&#39;s accessibility features.</para>
+        <para>Allow PDF Viewers to access document contents by using the Viewer’s accessibility features.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfDocumentDataExtractionPermissions.Allowed">
@@ -3470,9 +3470,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfFileAttachment.ModificationDate">
       <summary>
-        <para>Gets or sets the date and time of the attachment file&#39;s last modification.</para>
+        <para>Gets or sets the date and time of the attachment file’s last modification.</para>
       </summary>
-      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the attachment file&#39;s last modification.</value>
+      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the attachment file’s last modification.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfFileAttachment.Relationship">
       <summary>
@@ -3535,9 +3535,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfFileSpecification.ModificationDate">
       <summary>
-        <para>Gets the date and time of the file&#39;s last modification.</para>
+        <para>Gets the date and time of the file’s last modification.</para>
       </summary>
-      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the file&#39;s last modification.</value>
+      <value>A nullable <see cref="T:System.DateTimeOffset"/> value that is the date and time of the file’s last modification.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfFileSpecification.Relationship">
       <summary>
@@ -3593,7 +3593,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfFilterAnnotationType.Ink">
       <summary>
-        <para>Ink annotation (a freehand &quot;scribble&quot; composed of one or more disjoint paths).</para>
+        <para>Ink annotation (a freehand “scribble” composed of one or more disjoint paths).</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFilterAnnotationType.Line">
@@ -3895,7 +3895,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfFontDescriptor.MissingWidth">
       <summary>
-        <para>The width to use for character codes whose widths are not specified in a font dictionary&#39;s Widths array.</para>
+        <para>The width to use for character codes whose widths are not specified in a font dictionary’s Widths array.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value.</value>
     </member>
@@ -3913,7 +3913,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfFontDescriptor.XHeight">
       <summary>
-        <para>Indicates the font&#39;s X-height: the vertical coordinate of the top of flat nonascending lowercase letters (like the letter x), measured from the baseline, in fonts that have Latin characters.</para>
+        <para>Indicates the font’s X-height: the vertical coordinate of the top of flat nonascending lowercase letters (like the letter x), measured from the baseline, in fonts that have Latin characters.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value.</value>
     </member>
@@ -3924,52 +3924,52 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.AllCap">
       <summary>
-        <para>&quot;0x10000&quot;</para>
+        <para>“0x10000”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.FixedPitch">
       <summary>
-        <para>&quot;0x00001&quot;</para>
+        <para>“0x00001”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.ForceBold">
       <summary>
-        <para>&quot;0x40000&quot;</para>
+        <para>“0x40000”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.Italic">
       <summary>
-        <para>&quot;0x00040&quot;</para>
+        <para>“0x00040”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.None">
       <summary>
-        <para>&quot;0x00000&quot;</para>
+        <para>“0x00000”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.Nonsymbolic">
       <summary>
-        <para>&quot;0x00020&quot;</para>
+        <para>“0x00020”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.Script">
       <summary>
-        <para>&quot;0x00008&quot;</para>
+        <para>“0x00008”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.Serif">
       <summary>
-        <para>&quot;0x00002&quot;</para>
+        <para>“0x00002”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.SmallCap">
       <summary>
-        <para>&quot;0x20000&quot;</para>
+        <para>“0x20000”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontFlags.Symbolic">
       <summary>
-        <para>&quot;0x00004&quot;</para>
+        <para>“0x00004”</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfFontStretch">
@@ -3979,52 +3979,52 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.Condensed">
       <summary>
-        <para>&quot;Condensed&quot;</para>
+        <para>“Condensed”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.Expanded">
       <summary>
-        <para>&quot;Expanded&quot;</para>
+        <para>“Expanded”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.ExtraCondensed">
       <summary>
-        <para>&quot;ExtraCondensed&quot;</para>
+        <para>“ExtraCondensed”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.ExtraExpanded">
       <summary>
-        <para>&quot;ExtraExpanded&quot;</para>
+        <para>“ExtraExpanded”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.Normal">
       <summary>
-        <para>&quot;Normal&quot;</para>
+        <para>“Normal”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.SemiCondensed">
       <summary>
-        <para>&quot;SemiCondensed&quot;</para>
+        <para>“SemiCondensed”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.SemiExpanded">
       <summary>
-        <para>&quot;SemiExpanded&quot;</para>
+        <para>“SemiExpanded”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.UltraCondensed">
       <summary>
-        <para>&quot;UltraCondensed&quot;</para>
+        <para>“UltraCondensed”</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStretch.UltraExpanded">
       <summary>
-        <para>&quot;UltraExpanded&quot;</para>
+        <para>“UltraExpanded”</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfFontStyle">
       <summary>
-        <para>Lists the form field&#39;s font styles.</para>
+        <para>Lists the form field’s font styles.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfFontStyle.Bold">
@@ -4059,7 +4059,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfForm.BBox">
       <summary>
-        <para>Gets a document rectangle in the form coordinate system of the form&#39;s bounding box.</para>
+        <para>Gets a document rectangle in the form coordinate system of the form’s bounding box.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfRectangle"/> object that is the document rectangle.</value>
     </member>
@@ -4237,7 +4237,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfIconFit">
       <summary>
-        <para>Contains properties that define how to display the button&#39;s icon within the annotation rectangle of its widget annotation.</para>
+        <para>Contains properties that define how to display the button’s icon within the annotation rectangle of its widget annotation.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfIconFit.FitToAnnotationBounds">
@@ -4307,7 +4307,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfIconScalingType.Proportional">
       <summary>
-        <para>Scale the icon to fit the width or height of the annotation rectangle while maintaining the icon&#39;s original aspect ratio.</para>
+        <para>Scale the icon to fit the width or height of the annotation rectangle while maintaining the icon’s original aspect ratio.</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfImage">
@@ -4341,7 +4341,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfImage.Decode">
       <summary>
-        <para>Gets a collection of numbers describing how to map image samples into the range of values appropriate for the image&#39;s color space.</para>
+        <para>Gets a collection of numbers describing how to map image samples into the range of values appropriate for the image’s color space.</para>
       </summary>
       <value>A collection of <see cref="T:DevExpress.Pdf.PdfRange"/> objects.</value>
     </member>
@@ -4412,15 +4412,15 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveForm.DefaultTextJustification">
       <summary>
-        <para>Gets the default justification that is used in displaying the annotation&#39;s text.</para>
+        <para>Gets the default justification that is used in displaying the annotation’s text.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfTextJustification"/> enumeration value that represents the default text justification.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveForm.Fields">
       <summary>
-        <para>Gets the document&#39;s root fields.</para>
+        <para>Gets the document’s root fields.</para>
       </summary>
-      <value>A collection of <see cref="T:DevExpress.Pdf.PdfInteractiveFormField"/> objects that contain the document&#39;s root fields.</value>
+      <value>A collection of <see cref="T:DevExpress.Pdf.PdfInteractiveFormField"/> objects that contain the document’s root fields.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveForm.NeedAppearances">
       <summary>
@@ -4447,7 +4447,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveFormField.Actions">
       <summary>
-        <para>Provides access to actions that define the field&#39;s behavior in response to various trigger events.</para>
+        <para>Provides access to actions that define the field’s behavior in response to various trigger events.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfInteractiveFormFieldActions"/> object that contains interactive form fields actions.</value>
     </member>
@@ -4477,9 +4477,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveFormField.Form">
       <summary>
-        <para>Provides access to the contents and properties of a document&#39;s interactive form.</para>
+        <para>Provides access to the contents and properties of a document’s interactive form.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfInteractiveForm"/> object that represents the document&#39;s interactive form.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfInteractiveForm"/> object that represents the document’s interactive form.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveFormField.Kids">
       <summary>
@@ -4548,9 +4548,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfInteractiveFormFieldActions.FiledValueChanged">
       <summary>
-        <para>Gets a JavaScript action that is performed when the field&#39;s value is changed.</para>
+        <para>Gets a JavaScript action that is performed when the field’s value is changed.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfJavaScriptAction"/> object that represents the JavaScript action performed when the field&#39;s value is changed.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfJavaScriptAction"/> object that represents the JavaScript action performed when the field’s value is changed.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfInteractiveFormFieldFlags">
       <summary>
@@ -4594,12 +4594,12 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfInteractiveFormFieldFlags.Multiline">
       <summary>
-        <para>If this flag is set, the field may contain multiple lines of text. Otherwise, the field&#39;s text shall be restricted to a single line.</para>
+        <para>If this flag is set, the field may contain multiple lines of text. Otherwise, the field’s text shall be restricted to a single line.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfInteractiveFormFieldFlags.MultiSelect">
       <summary>
-        <para>If this flag is set, more than one of the field&#39;s option items may be selected simultaneously. Otherwise, only one item shall be selected.</para>
+        <para>If this flag is set, more than one of the field’s option items may be selected simultaneously. Otherwise, only one item shall be selected.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfInteractiveFormFieldFlags.NoExport">
@@ -4654,7 +4654,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfInteractiveFormFieldFlags.Sort">
       <summary>
-        <para>If the flag is set, the field&#39;s option items shall be sorted alphabetically.</para>
+        <para>If the flag is set, the field’s option items shall be sorted alphabetically.</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfJavaScriptAction">
@@ -4745,7 +4745,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfLinkAnnotation.BorderStyle">
       <summary>
-        <para>Gets the annotation border style specifying the line width and dash pattern to be used in drawing the annotation&#39;s border.</para>
+        <para>Gets the annotation border style specifying the line width and dash pattern to be used in drawing the annotation’s border.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationBorderStyle"/> object that contains properties to specify the annotation border style.</value>
     </member>
@@ -4757,7 +4757,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfLinkAnnotation.HighlightingMode">
       <summary>
-        <para>Gets the link annotation&#39;s highlighting mode.</para>
+        <para>Gets the link annotation’s highlighting mode.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationHighlightingMode"/> enumeration value that represents the visual effect that will be used when the mouse button is pressed or held down inside its active area.</value>
     </member>
@@ -4834,7 +4834,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfMarkupAnnotation.Title">
       <summary>
-        <para>Gets the text displayed in the title bar of the annotation&#39;s pop-up window when the annotation is open and active.</para>
+        <para>Gets the text displayed in the title bar of the annotation’s pop-up window when the annotation is open and active.</para>
       </summary>
       <value>A string value that is the annotation title.</value>
     </member>
@@ -4847,29 +4847,29 @@
       <summary>
         <para>Creates a nested comment.</para>
       </summary>
-      <param name="author">The comment&#39;s author.</param>
-      <param name="contents">The comment&#39;s text.</param>
+      <param name="author">The comment’s author.</param>
+      <param name="contents">The comment’s text.</param>
       <returns>The nested comment.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationComment.AddReview(System.String,DevExpress.Pdf.PdfAnnotationReviewStatus)">
       <summary>
         <para>Adds a review to the comment.</para>
       </summary>
-      <param name="author">The review&#39;s author.</param>
+      <param name="author">The review’s author.</param>
       <param name="status">Review status.</param>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationComment.AddReview(System.String,System.String)">
       <summary>
         <para>Adds a review to the comment.</para>
       </summary>
-      <param name="author">The review&#39;s author.</param>
+      <param name="author">The review’s author.</param>
       <param name="status">The review status.</param>
     </member>
     <member name="P:DevExpress.Pdf.PdfMarkupAnnotationComment.Author">
       <summary>
-        <para>Specifies the comment&#39;s author.</para>
+        <para>Specifies the comment’s author.</para>
       </summary>
-      <value>The comment&#39;s author.</value>
+      <value>The comment’s author.</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationComment.ClearReviews">
       <summary>
@@ -4899,7 +4899,7 @@
       <summary>
         <para>Gets or sets the date and time when the comment wae last modified.</para>
       </summary>
-      <value>The comment&#39;s modification date.</value>
+      <value>The comment’s modification date.</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationComment.RemoveReply(DevExpress.Pdf.PdfMarkupAnnotationComment)">
       <summary>
@@ -4924,7 +4924,7 @@
       <summary>
         <para>Gets or sets the subject of the comment.</para>
       </summary>
-      <value>The comment&#39;s subject.</value>
+      <value>The comment’s subject.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfMarkupAnnotationData">
       <summary>
@@ -4935,8 +4935,8 @@
       <summary>
         <para>Adds a comment to the document annotation.</para>
       </summary>
-      <param name="author">The comment&#39;s author.</param>
-      <param name="contents">The comment&#39;s text.</param>
+      <param name="author">The comment’s author.</param>
+      <param name="contents">The comment’s text.</param>
       <returns>The annotation comment.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationData.AddReview(System.String,DevExpress.Pdf.PdfAnnotationReviewStatus)">
@@ -4957,7 +4957,7 @@
       <summary>
         <para>Specifies the annotation author.</para>
       </summary>
-      <value>The annotation&#39;s author.</value>
+      <value>The annotation’s author.</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationData.ClearReviews">
       <summary>
@@ -4972,7 +4972,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfMarkupAnnotationData.Opacity">
       <summary>
-        <para>Specifies the annotation&#39;s opacity.</para>
+        <para>Specifies the annotation’s opacity.</para>
       </summary>
       <value>A double value that is the annotation opacity (from 0 to 1).</value>
     </member>
@@ -5022,7 +5022,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfMarkupAnnotationReplyType">
       <summary>
-        <para>List values that specify the relationship (the &quot;reply type&quot;) between one annotation and another.</para>
+        <para>List values that specify the relationship (the “reply type”) between one annotation and another.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfMarkupAnnotationReplyType.Group">
@@ -5042,9 +5042,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfMarkupAnnotationReview.Author">
       <summary>
-        <para>Retrieves the annotation&#39;s author.</para>
+        <para>Retrieves the annotation’s author.</para>
       </summary>
-      <value>The annotation&#39;s author.</value>
+      <value>The annotation’s author.</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfMarkupAnnotationReview.Equals(System.Object)">
       <summary>
@@ -5067,7 +5067,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfMetadata">
       <summary>
-        <para>Represents global information about the document such as the document&#39;s title, author, and creation and modification dates.</para>
+        <para>Represents global information about the document such as the document’s title, author, and creation and modification dates.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfMetadata.Data">
@@ -5141,7 +5141,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfOptionalContentConfiguration">
       <summary>
-        <para>Represents different presentations of a document&#39;s optional content groups.</para>
+        <para>Represents different presentations of a document’s optional content groups.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfOptionalContentConfiguration.BaseState">
@@ -5158,7 +5158,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOptionalContentConfiguration.Intent">
       <summary>
-        <para>Gets intent names that are used to determine which optional content groups&#39; states to consider and which to ignore in calculating the visibility of content.</para>
+        <para>Gets intent names that are used to determine which optional content groups’ states to consider and which to ignore in calculating the visibility of content.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfOptionalContentIntent"/> enumeration values that list intent names.</value>
     </member>
@@ -5340,7 +5340,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfOptionalContentUsage">
       <summary>
-        <para>Represents an optional content group&#39;s usage that contains information describing the nature of the content controlled by the group.</para>
+        <para>Represents an optional content group’s usage that contains information describing the nature of the content controlled by the group.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfOptionalContentUsage.CreatorInfo">
@@ -5433,9 +5433,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOptionsFormFieldOption.ExportText">
       <summary>
-        <para>Gets a text that represents the option&#39;s export value.</para>
+        <para>Gets a text that represents the option’s export value.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> object that represents the option&#39;s export value.</value>
+      <value>A <see cref="T:System.String"/> object that represents the option’s export value.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfOptionsFormFieldOption.Text">
       <summary>
@@ -5473,7 +5473,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOrientedRectangle.BoundingRectangle">
       <summary>
-        <para>Provides access to the PdfOrientedRectangle object&#39; s minimum bounding rectangle.</para>
+        <para>Provides access to the PdfOrientedRectangle object’ s minimum bounding rectangle.</para>
       </summary>
       <value>An PdfRectangle object that is the minimum bounding rectangle.</value>
     </member>
@@ -5511,7 +5511,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOrientedRectangle.Vertices">
       <summary>
-        <para>Provides access to the PdfOrientedRectangle object&#39;s vertices.</para>
+        <para>Provides access to the PdfOrientedRectangle object’s vertices.</para>
       </summary>
       <value>A list of vertices (starting from top left).</value>
     </member>
@@ -5534,9 +5534,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOutline.Color">
       <summary>
-        <para>Gets the color of the outline entry&#39;s text in the navigation pane.</para>
+        <para>Gets the color of the outline entry’s text in the navigation pane.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that represents the color for an outline entry&#39;s  text.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that represents the color for an outline entry’s  text.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfOutline.Destination">
       <summary>
@@ -5546,15 +5546,15 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfOutline.IsBold">
       <summary>
-        <para>Gets a value indicating whether the outline&#39;s text is formatted as bold.</para>
+        <para>Gets a value indicating whether the outline’s text is formatted as bold.</para>
       </summary>
-      <value>true, if the outline&#39;s text is bold; otherwise, false.</value>
+      <value>true, if the outline’s text is bold; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfOutline.IsItalic">
       <summary>
-        <para>Gets the value indicating whether the outline&#39;s text is formatted as italic.</para>
+        <para>Gets the value indicating whether the outline’s text is formatted as italic.</para>
       </summary>
-      <value>true, if the outline&#39;s text is italic; otherwise, false.</value>
+      <value>true, if the outline’s text is italic; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfOutline.Next">
       <summary>
@@ -5611,7 +5611,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfOutlines">
       <summary>
-        <para>Represents the root of a document&#39;s outline hierarchy.</para>
+        <para>Represents the root of a document’s outline hierarchy.</para>
       </summary>
     </member>
     <member name="T:DevExpress.Pdf.PdfPage">
@@ -5639,7 +5639,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.ArtBox">
       <summary>
-        <para>Specifies the art box defining the boundaries of the meaningful content (including potential white space) on a page as intended by the page&#39;s creator.</para>
+        <para>Specifies the art box defining the boundaries of the meaningful content (including potential white space) on a page as intended by the page’s creator.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfRectangle"/> object, specifying the art box.</value>
     </member>
@@ -5675,13 +5675,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.ID">
       <summary>
-        <para>Indicates the digital identifier of the page&#39;s parent Web Capture content set.</para>
+        <para>Indicates the digital identifier of the page’s parent Web Capture content set.</para>
       </summary>
       <value>A <see cref="T:System.Byte"/> array.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.LastModified">
       <summary>
-        <para>Specifies the date and time when the page&#39;s contents were most recently modified.</para>
+        <para>Specifies the date and time when the page’s contents were most recently modified.</para>
       </summary>
       <value>A nullable <see cref="T:System.DateTimeOffset"/> value.</value>
     </member>
@@ -5706,7 +5706,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.PreferredZoomFactor">
       <summary>
-        <para>Specifies the page&#39;s preferred zoom factor, i.e. the factor by which it shall be scaled to achieve the natural display magnification.</para>
+        <para>Specifies the page’s preferred zoom factor, i.e. the factor by which it shall be scaled to achieve the natural display magnification.</para>
       </summary>
       <value>A nullable <see cref="T:System.Double"/> value.</value>
     </member>
@@ -5715,15 +5715,15 @@
         <para>Resizes the page content.</para>
       </summary>
       <param name="mediaBox">New page size.</param>
-      <param name="horizontalAlignment">The content&#39;s horizontal alignment.</param>
-      <param name="verticalAlignment">The content&#39;s vertical alignment.</param>
+      <param name="horizontalAlignment">The content’s horizontal alignment.</param>
+      <param name="verticalAlignment">The content’s vertical alignment.</param>
     </member>
     <member name="M:DevExpress.Pdf.PdfPage.RotateContent(System.Double,System.Double,System.Double)">
       <summary>
         <para>Rotates the page content relative to the specified point. Document annotations are not rotated.</para>
       </summary>
-      <param name="x">The point&#39;s X coordinate in the page coordinate system.</param>
-      <param name="y">The point&#39;s Y coordinate in the page coordinate system..</param>
+      <param name="x">The point’s X coordinate in the page coordinate system.</param>
+      <param name="y">The point’s Y coordinate in the page coordinate system..</param>
       <param name="degree">The degree of rotation (from 0 to 360).</param>
     </member>
     <member name="M:DevExpress.Pdf.PdfPage.ScaleContent(System.Double,System.Double)">
@@ -5735,13 +5735,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.StructParents">
       <summary>
-        <para>Indicates the key of the page&#39;s entry in the structural parent tree.</para>
+        <para>Indicates the key of the page’s entry in the structural parent tree.</para>
       </summary>
       <value>A nullable integer value.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.ThumbnailImage">
       <summary>
-        <para>Provides access to a stream object that defines the page&#39;s thumbnail image.</para>
+        <para>Provides access to a stream object that defines the page’s thumbnail image.</para>
       </summary>
       <value>A DevExpress.Pdf.PdfImage object.</value>
     </member>
@@ -5753,7 +5753,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfPage.TransparencyGroup">
       <summary>
-        <para>Specifies the group attributes dictionary that specifies the attributes of the page&#39;s page group for use in the transparent imaging model.</para>
+        <para>Specifies the group attributes dictionary that specifies the attributes of the page’s page group for use in the transparent imaging model.</para>
       </summary>
       <value>A DevExpress.Pdf.PdfTransparencyGroup object.</value>
     </member>
@@ -6277,157 +6277,157 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc16K">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 16K paper type is 146 x 215 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 16K paper type is 146 x 215 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc16KRotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 16K rotated paper type is 146 x 215 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 16K rotated paper type is 146 x 215 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc32K">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 32K paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 32K paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc32KBig">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 32K big paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 32K big paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc32KBigRotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 32K big rotated paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 32K big rotated paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.Prc32KRotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China 32K rotated paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China 32K rotated paper type is 97 x 151 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber1">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 1 envelope paper type is 102 x 165 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 1 envelope paper type is 102 x 165 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber10">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 10 envelope paper type is 324 x 458 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 10 envelope paper type is 324 x 458 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber10Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 10 rotated envelope paper type is 458 x 324 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 10 rotated envelope paper type is 458 x 324 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber1Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 1 rotated envelope paper type is 165 x 102 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 1 rotated envelope paper type is 165 x 102 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber2">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 2 envelope paper type is 102 x 176 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 2 envelope paper type is 102 x 176 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber2Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 2 rotated envelope paper type is 176 x 102 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 2 rotated envelope paper type is 176 x 102 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber3">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 3 envelope paper type is 125 x 176 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 3 envelope paper type is 125 x 176 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber3Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 3 rotated envelope paper type is 176 x 125 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 3 rotated envelope paper type is 176 x 125 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber4">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 4 envelope paper type is 110 x 208 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 4 envelope paper type is 110 x 208 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber4Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 4 rotated envelope paper type is 208 x 110 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 4 rotated envelope paper type is 208 x 110 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber5">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 5 envelope paper type is 110 x 220 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 5 envelope paper type is 110 x 220 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber5Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China Envelope number 5 rotated envelope paper type is 220 x 110 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China Envelope number 5 rotated envelope paper type is 220 x 110 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber6">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 6 envelope paper type is 120 x 230 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 6 envelope paper type is 120 x 230 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber6Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 6 rotated envelope paper type is 230 x 120 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 6 rotated envelope paper type is 230 x 120 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber7">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 7 envelope paper type is 160 x 230 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 7 envelope paper type is 160 x 230 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber7Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 7 rotated envelope paper type is 230 x 160 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 7 rotated envelope paper type is 230 x 160 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber8">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 8 envelope paper type is 120 x 309 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 8 envelope paper type is 120 x 309 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber8Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 8 rotated envelope paper type is 309 x 120 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 8 rotated envelope paper type is 309 x 120 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber9">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 9 envelope paper type is 229 x 324 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 9 envelope paper type is 229 x 324 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
     <member name="F:DevExpress.Pdf.PdfPaperSize.PrcEnvelopeNumber9Rotated">
       <summary>
-        <para>The PDF paper size for the People&#39;s Republic of China number 9 rotated envelope paper type is 324 x 229 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
+        <para>The PDF paper size for the People’s Republic of China number 9 rotated envelope paper type is 324 x 229 (millimeters). Requires Windows 98, Windows NT 4.0, or later.</para>
       </summary>
       <value>A page rectangle.</value>
     </member>
@@ -6524,7 +6524,7 @@
       <summary>
         <para>Specifies the security password to open a PDF file.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value.</value>
+      <value>The security password.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfPasswordRequestedEventHandler">
       <summary>
@@ -6659,13 +6659,13 @@
       <summary>
         <para>Gets the X coordinate of the <see cref="T:DevExpress.Pdf.PdfPoint"/>.</para>
       </summary>
-      <value>A <see cref="T:System.Double"/> value that is the PDF point&#39;s X coordinate.</value>
+      <value>A <see cref="T:System.Double"/> value that is the PDF point’s X coordinate.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfPoint.Y">
       <summary>
         <para>Gets the Y coordinate of the <see cref="T:DevExpress.Pdf.PdfPoint"/>.</para>
       </summary>
-      <value>A <see cref="T:System.Double"/> value that is the PDF point&#39;s Y coordinate.</value>
+      <value>A <see cref="T:System.Double"/> value that is the PDF point’s Y coordinate.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfPopupAnnotation">
       <summary>
@@ -6762,19 +6762,19 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Bottom">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s bottom coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s bottom coordinate.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value, representing the bottom coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.BottomLeft">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s bottom left coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s bottom left coordinate.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfPoint"/> structure, representing the bottom left coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.BottomRight">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s bottom right coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s bottom right coordinate.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfPoint"/> structure, representing the bottom right coordinate of the PDF rectangle.</value>
     </member>
@@ -6800,43 +6800,43 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Height">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s height.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s height.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value that is the height of the PDF rectangle, in points (1/72 of an inch).</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Left">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s left coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s left coordinate.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value, representing the left coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Right">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s right coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s right coordinate.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value, representing the right coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Top">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s top coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s top coordinate.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value, representing the top coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.TopLeft">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s top left coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s top left coordinate.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfPoint"/> structure, representing the top left coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.TopRight">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s top right coordinate.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s top right coordinate.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfPoint"/> structure, representing the top right coordinate of the PDF rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfRectangle.Width">
       <summary>
-        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>&#39;s width.</para>
+        <para>Gets the <see cref="T:DevExpress.Pdf.PdfRectangle"/>‘s width.</para>
       </summary>
       <value>A <see cref="T:System.Double"/> value that is the width of the PDF rectangle, in points (1/72 of an inch).</value>
     </member>
@@ -6864,7 +6864,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfRenderingIntent.AbsoluteColorimetric">
       <summary>
-        <para>Colors shall be represented solely with respect to the light source; no correction shall be made for the output medium&#39;s white point (such as the color of unprinted paper).</para>
+        <para>Colors shall be represented solely with respect to the light source; no correction shall be made for the output medium’s white point (such as the color of unprinted paper).</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfRenderingIntent.Perceptual">
@@ -6874,7 +6874,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfRenderingIntent.RelativeColorimetric">
       <summary>
-        <para>Colors shall be represented with respect to the combination of the light source and the output medium&#39;s white point (such as the color of unprinted paper).</para>
+        <para>Colors shall be represented with respect to the combination of the light source and the output medium’s white point (such as the color of unprinted paper).</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfRenderingIntent.Saturation">
@@ -6889,7 +6889,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfRenderingSettings.ExternalDctDecoderModulePath">
       <summary>
-        <para></para>
+        <para>For internal use.</para>
       </summary>
       <value></value>
     </member>
@@ -6908,7 +6908,7 @@
       <summary>
         <para>Gets a value that indicates whether to exclude fields obtained in the <see cref="P:DevExpress.Pdf.PdfResetFormAction.Fields"/> property from resetting.</para>
       </summary>
-      <value>if true all fields in the document&#39;s interactive form will be reset except those listed in the <see cref="P:DevExpress.Pdf.PdfResetFormAction.Fields"/> property; otherwise false.</value>
+      <value>if true all fields in the document’s interactive form will be reset except those listed in the <see cref="P:DevExpress.Pdf.PdfResetFormAction.Fields"/> property; otherwise false.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfResetFormAction.Fields">
       <summary>
@@ -7065,7 +7065,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfSignature.AnnotationFlags">
       <summary>
-        <para>Gets or sets the signature&#39;s characteristics.</para>
+        <para>Gets or sets the signature’s characteristics.</para>
       </summary>
       <value>A set of annotation flags.</value>
     </member>
@@ -7138,7 +7138,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureBuilder.ContactInfo">
       <summary>
-        <para>Gets or sets the signer&#39;s contact information.</para>
+        <para>Gets or sets the signer’s contact information.</para>
       </summary>
       <value>A contact information.</value>
     </member>
@@ -7146,35 +7146,35 @@
       <summary>
         <para>Gets or sets the signing location.</para>
       </summary>
-      <value>The location associated with the signer&#39;s identity.</value>
+      <value>The location associated with the signer’s identity.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureBuilder.Name">
       <summary>
-        <para>Gets or sets a signer&#39;s name.</para>
+        <para>Gets or sets a signer’s name.</para>
       </summary>
-      <value>A signer&#39;s name.</value>
+      <value>A signer’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureBuilder.Reason">
       <summary>
         <para>Gets or sets the reason to apply a signature.</para>
       </summary>
-      <value>A reason for a signature (for example, &quot;I Agree&quot;).</value>
+      <value>A reason for a signature (for example, “I Agree”).</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfSignatureBuilder.SetImageData(System.Byte[])">
       <summary>
-        <para>Sets the signature&#39;s image data.</para>
+        <para>Sets the signature’s image data.</para>
       </summary>
       <param name="imageData">A byte array that represents image data.</param>
     </member>
     <member name="M:DevExpress.Pdf.PdfSignatureBuilder.SetImageData(System.IO.Stream)">
       <summary>
-        <para>Sets the signature&#39;s image data.</para>
+        <para>Sets the signature’s image data.</para>
       </summary>
       <param name="imageData">A stream used to load image data.</param>
     </member>
     <member name="M:DevExpress.Pdf.PdfSignatureBuilder.SetImageData(System.String)">
       <summary>
-        <para>Sets the signature&#39;s image data.</para>
+        <para>Sets the signature’s image data.</para>
       </summary>
       <param name="fileName">A path to the image file.</param>
     </member>
@@ -7203,27 +7203,27 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureFieldInfo.Flags">
       <summary>
-        <para>Gets or sets the signature field&#39;s annotation flags.</para>
+        <para>Gets or sets the signature field’s annotation flags.</para>
       </summary>
-      <value>One of the enumeration values indicating signature field&#39;s parameters</value>
+      <value>One of the enumeration values indicating signature field’s parameters</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureFieldInfo.Name">
       <summary>
-        <para>Gets or sets the signature field&#39;s name.</para>
+        <para>Gets or sets the signature field’s name.</para>
       </summary>
       <value>A field name.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureFieldInfo.RotationAngle">
       <summary>
-        <para>Gets or sets the signature field&#39;s rotation angle.</para>
+        <para>Gets or sets the signature field’s rotation angle.</para>
       </summary>
       <value>The degree of rotation (from 0 to 360).</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureFieldInfo.SignatureBounds">
       <summary>
-        <para>Gets or sets the signature field&#39;s bounds on the page (measured in the page coordinate system).</para>
+        <para>Gets or sets the signature field’s bounds on the page (measured in the page coordinate system).</para>
       </summary>
-      <value>A rectangle that defines the signature&#39;s location.</value>
+      <value>A rectangle that defines the signature’s location.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfSignatureFlags">
       <summary>
@@ -7252,13 +7252,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.CertificationLevel">
       <summary>
-        <para>Gets the signature&#39;s certification level.</para>
+        <para>Gets the signature’s certification level.</para>
       </summary>
       <value>An enumeration value that indicates the certification level.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.ContactInfo">
       <summary>
-        <para>Gets the signer&#39;s contact information.</para>
+        <para>Gets the signer’s contact information.</para>
       </summary>
       <value>A contact information.</value>
     </member>
@@ -7266,31 +7266,31 @@
       <summary>
         <para>Gets the name of a signature form field.</para>
       </summary>
-      <value>The form field&#39;s name.</value>
+      <value>The form field’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.Filter">
       <summary>
         <para>Retrieves the name of the preferred signature handler.</para>
       </summary>
-      <value>Preferred signature handler&#39;s name.</value>
+      <value>Preferred signature handler’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.Location">
       <summary>
         <para>Gets the place where the signature was applied (for example, the company address).</para>
       </summary>
-      <value>The location associated with the signer&#39;s identity.</value>
+      <value>The location associated with the signer’s identity.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.Reason">
       <summary>
         <para>Gets the reason to apply a signature.</para>
       </summary>
-      <value>A reason for a signature (for example, &quot;I Agree&quot;).</value>
+      <value>A reason for a signature (for example, “I Agree”).</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.SignerName">
       <summary>
-        <para>Gets a signer&#39;s name.</para>
+        <para>Gets a signer’s name.</para>
       </summary>
-      <value>A signer&#39;s name.</value>
+      <value>A signer’s name.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.SigningTime">
       <summary>
@@ -7300,9 +7300,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfSignatureInfo.SubFilter">
       <summary>
-        <para>Gets information about the signature&#39;s format.</para>
+        <para>Gets information about the signature’s format.</para>
       </summary>
-      <value>The signature&#39;s encoding and key information.</value>
+      <value>The signature’s encoding and key information.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfSignatureProfile">
       <summary>
@@ -7498,7 +7498,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfTextAnnotation">
       <summary>
-        <para>Represents a text annotation (a &quot;sticky note&quot; attached to a point in a document).</para>
+        <para>Represents a text annotation (a “sticky note” attached to a point in a document).</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfTextAnnotation.FilterType">
@@ -7561,7 +7561,7 @@
     </member>
     <member name="F:DevExpress.Pdf.PdfTextAnnotationIconName.Comment">
       <summary>
-        <para>&quot;Comment&quot; icon name.</para>
+        <para>“Comment” icon name.</para>
       </summary>
       <value>The icon name.</value>
     </member>
@@ -7668,19 +7668,19 @@
       <summary>
         <para>Gets the default text of the text form field.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> object that represents the field&#39;s default text.</value>
+      <value>A <see cref="T:System.String"/> object that represents the field’s default text.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfTextFormField.MaxLen">
       <summary>
-        <para>Gets the maximum length of the field&#39;s text, in characters.</para>
+        <para>Gets the maximum length of the field’s text, in characters.</para>
       </summary>
-      <value>A nullable integer value specifying the maximum length of the field&#39;s text.</value>
+      <value>A nullable integer value specifying the maximum length of the field’s text.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfTextFormField.Text">
       <summary>
-        <para>Gets the text form field&#39;s text.</para>
+        <para>Gets the text form field’s text.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> object that represents the field&#39;s text.</value>
+      <value>A <see cref="T:System.String"/> object that represents the field’s text.</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfTextJustification">
       <summary>
@@ -7738,7 +7738,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfTextMarkupAnnotationData.Quads">
       <summary>
-        <para>Gets a collection of quadrilaterals that encompass the text markup annotation&#39;s drawing area.</para>
+        <para>Gets a collection of quadrilaterals that encompass the text markup annotation’s drawing area.</para>
       </summary>
       <value>An array of <see cref="T:DevExpress.Pdf.PdfQuadrilateral"/> objects that represent the quadrilaterals points.</value>
     </member>
@@ -7886,8 +7886,8 @@
       <summary>
         <para>Builds the signature and returns its contents.</para>
       </summary>
-      <param name="digest">The document&#39;s hash value.</param>
-      <param name="digestAlgorithmOID">The hash algorithm&#39;s object identifier.</param>
+      <param name="digest">The document’s hash value.</param>
+      <param name="digestAlgorithmOID">The hash algorithm’s object identifier.</param>
       <returns>The signature contents.</returns>
     </member>
     <member name="M:DevExpress.Pdf.PdfTimeStamp.BuildSignature(System.IO.Stream)">
@@ -7901,19 +7901,19 @@
       <summary>
         <para>Retrieves the name of the preferred signature handler.</para>
       </summary>
-      <value>Preferred signature handler&#39;s name.</value>
+      <value>Preferred signature handler’s name.</value>
     </member>
     <member name="M:DevExpress.Pdf.PdfTimeStamp.GetSignatureSize">
       <summary>
         <para>Returns the signature size (in bytes).</para>
       </summary>
-      <returns>A signature&#39;s size (in bytes).</returns>
+      <returns>A signature’s size (in bytes).</returns>
     </member>
     <member name="P:DevExpress.Pdf.PdfTimeStamp.SubFilter">
       <summary>
-        <para>Returns information about a timestamp signature&#39;s format.</para>
+        <para>Returns information about a timestamp signature’s format.</para>
       </summary>
-      <value>The signature&#39;s encoding and key information.</value>
+      <value>The signature’s encoding and key information.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfTimeStamp.Type">
       <summary>
@@ -7957,21 +7957,21 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAnnotation.AppearanceCharacteristics">
       <summary>
-        <para>Gets the appearance characteristics specifying the widget annotation&#39;s visual presentation on the page.</para>
+        <para>Gets the appearance characteristics specifying the widget annotation’s visual presentation on the page.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics"/> object that represents the appearance characteristics of the widget annotation.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAnnotation.BorderStyle">
       <summary>
-        <para>Gets a value specifying the width and line style that shall be used in drawing the widget annotation&#39;s border.</para>
+        <para>Gets a value specifying the width and line style that shall be used in drawing the widget annotation’s border.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationBorderStyle"/> object that represents the widget annotation border style.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAnnotation.HighlightingMode">
       <summary>
-        <para>Gets the widget annotation&#39;s highlighting mode - the visual effect that shall be used when the mouse button is pressed or held down inside its active area.</para>
+        <para>Gets the widget annotation’s highlighting mode - the visual effect that shall be used when the mouse button is pressed or held down inside its active area.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationHighlightingMode"/> enumeration value that represents the widget annotation&#39;s highlighting mode.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfAnnotationHighlightingMode"/> enumeration value that represents the widget annotation’s highlighting mode.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAnnotation.InteractiveFormField">
       <summary>
@@ -7981,7 +7981,7 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfWidgetAnnotationTextPosition">
       <summary>
-        <para>Lists values that specify the text position of the widget annotation&#39;s caption relative to its icon.</para>
+        <para>Lists values that specify the text position of the widget annotation’s caption relative to its icon.</para>
       </summary>
     </member>
     <member name="F:DevExpress.Pdf.PdfWidgetAnnotationTextPosition.CaptionAboveTheIcon">
@@ -8021,62 +8021,62 @@
     </member>
     <member name="T:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics">
       <summary>
-        <para>Contains appearance characteristics for constructing the annotation&#39;s appearance.</para>
+        <para>Contains appearance characteristics for constructing the annotation’s appearance.</para>
       </summary>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.AlternateCaption">
       <summary>
-        <para>Gets the widget annotation&#39;s alternate (down) caption, which shall be displayed when the mouse button is pressed within its active area.</para>
+        <para>Gets the widget annotation’s alternate (down) caption, which shall be displayed when the mouse button is pressed within its active area.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that is the widget annotation&#39;s alternate (down) caption.</value>
+      <value>A <see cref="T:System.String"/> value that is the widget annotation’s alternate (down) caption.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.AlternateIcon">
       <summary>
-        <para>Gets the widget annotation&#39;s alternate (down) icon, which will be displayed when the mouse button is pressed within its active area.</para>
+        <para>Gets the widget annotation’s alternate (down) icon, which will be displayed when the mouse button is pressed within its active area.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is a form XObject defining the widget annotation&#39;s alternate (down) icon.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is a form XObject defining the widget annotation’s alternate (down) icon.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.BackgroundColor">
       <summary>
-        <para>Gets a value specifying the color of the widget annotation&#39;s background.</para>
+        <para>Gets a value specifying the color of the widget annotation’s background.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that is the color of the widget annotation&#39;s background.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that is the color of the widget annotation’s background.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.BorderColor">
       <summary>
-        <para>Gets the value specifying the color of the widget annotation&#39;s border.</para>
+        <para>Gets the value specifying the color of the widget annotation’s border.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that is the color of the widget annotation&#39;s border.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfColor"/> object that is the color of the widget annotation’s border.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.Caption">
       <summary>
-        <para>Gets the widget annotation&#39;s normal caption, which will be displayed when it is not interacting with the user.</para>
+        <para>Gets the widget annotation’s normal caption, which will be displayed when it is not interacting with the user.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> value that is the  widget annotation&#39;s normal caption.</value>
+      <value>A <see cref="T:System.String"/> value that is the  widget annotation’s normal caption.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.IconFit">
       <summary>
-        <para>Gets the value specifying how the widget annotation&#39;s icon will be displayed within its annotation rectangle.</para>
+        <para>Gets the value specifying how the widget annotation’s icon will be displayed within its annotation rectangle.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfIconFit"/> enumeration value that specifies how the widget annotation&#39;s icon will be displayed within its annotation rectangle.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfIconFit"/> enumeration value that specifies how the widget annotation’s icon will be displayed within its annotation rectangle.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.NormalIcon">
       <summary>
-        <para>Gets the widget annotation&#39;s normal icon, which will be displayed when it is not interacting with the user.</para>
+        <para>Gets the widget annotation’s normal icon, which will be displayed when it is not interacting with the user.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is the widget annotation&#39;s normal icon.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is the widget annotation’s normal icon.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.RolloverCaption">
       <summary>
-        <para>Gets the widget annotation&#39;s rollover caption, which will be displayed when the user rolls the cursor into its active area without pressing the mouse button.</para>
+        <para>Gets the widget annotation’s rollover caption, which will be displayed when the user rolls the cursor into its active area without pressing the mouse button.</para>
       </summary>
-      <value>A <see cref="T:System.String"/> object that is the widget annotation&#39;s rollover caption.</value>
+      <value>A <see cref="T:System.String"/> object that is the widget annotation’s rollover caption.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.RolloverIcon">
       <summary>
-        <para>Gets the widget annotation&#39;s rollover icon, which will be displayed when the user rolls the cursor into its active area without pressing the mouse button.</para>
+        <para>Gets the widget annotation’s rollover icon, which will be displayed when the user rolls the cursor into its active area without pressing the mouse button.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is the form XObject defining the widget annotation&#39;s rollover icon.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfXObject"/> object that is the form XObject defining the widget annotation’s rollover icon.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.RotationAngle">
       <summary>
@@ -8086,7 +8086,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfWidgetAppearanceCharacteristics.TextPosition">
       <summary>
-        <para>Gets the text position of the widget annotation&#39;s caption relative to its icon.</para>
+        <para>Gets the text position of the widget annotation’s caption relative to its icon.</para>
       </summary>
       <value>A <see cref="T:DevExpress.Pdf.PdfWidgetAnnotationTextPosition"/> enumeration value that is the text position of the widget annotation.</value>
     </member>
@@ -8097,7 +8097,7 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfWord.Characters">
       <summary>
-        <para>Returns a list of the word&#39;s characters.</para>
+        <para>Returns a list of the word’s characters.</para>
       </summary>
       <value>A collection of <see cref="T:DevExpress.Pdf.PdfCharacter"/> values.</value>
     </member>
@@ -8109,13 +8109,13 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfWord.Segments">
       <summary>
-        <para>Returns a list of the word&#39;s segments.</para>
+        <para>Returns a list of the word’s segments.</para>
       </summary>
-      <value>A collection of <see cref="T:DevExpress.Pdf.PdfWordSegment"/> values that represent the word&#39;s segments.</value>
+      <value>A collection of <see cref="T:DevExpress.Pdf.PdfWordSegment"/> values that represent the word’s segments.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWord.Text">
       <summary>
-        <para>Returns a Unicode representation of the word&#39;s characters.</para>
+        <para>Returns a Unicode representation of the word’s characters.</para>
       </summary>
       <value>A <see cref="T:System.String"/> value.</value>
     </member>
@@ -8126,19 +8126,19 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfWordSegment.Characters">
       <summary>
-        <para>Returns a list of the word segment&#39;s characters.</para>
+        <para>Returns a list of the word segment’s characters.</para>
       </summary>
       <value>A collection of <see cref="T:DevExpress.Pdf.PdfCharacter"/> values.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWordSegment.Rectangle">
       <summary>
-        <para>Returns a rectangle surrounding the word&#39;s segment.</para>
+        <para>Returns a rectangle surrounding the word’s segment.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.Pdf.PdfOrientedRectangle"/> object that is the rectangle surrounding the word&#39;s segment.</value>
+      <value>A <see cref="T:DevExpress.Pdf.PdfOrientedRectangle"/> object that is the rectangle surrounding the word’s segment.</value>
     </member>
     <member name="P:DevExpress.Pdf.PdfWordSegment.Text">
       <summary>
-        <para>Returns a Unicode representation of the word&#39;s segments.</para>
+        <para>Returns a Unicode representation of the word’s segments.</para>
       </summary>
       <value>A System.String value.</value>
     </member>
@@ -8178,9 +8178,9 @@
     </member>
     <member name="P:DevExpress.Pdf.PdfXObject.StructParent">
       <summary>
-        <para>Gets the integer key of the form XObject&#39;s entry in the structural parent tree.</para>
+        <para>Gets the integer key of the form XObject’s entry in the structural parent tree.</para>
       </summary>
-      <value>A nullable integer value specifying the key of the form XObject&#39;s entry</value>
+      <value>A nullable integer value specifying the key of the form XObject’s entry</value>
     </member>
     <member name="T:DevExpress.Pdf.PdfXYZDestination">
       <summary>
@@ -8232,7 +8232,7 @@
       </summary>
       <param name="stream">A stream that contains signature certificate (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.IO.Stream,System.String,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient)">
       <summary>
@@ -8240,7 +8240,7 @@
       </summary>
       <param name="stream">A stream that contains signature certificate (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.IO.Stream,System.String,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
@@ -8249,11 +8249,24 @@
       </summary>
       <param name="stream">A stream that contains signature certificate (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
       <param name="ocspClient">An object that performs Online Certificate Status Protocol (OCSP) request for a certificate.</param>
       <param name="crlClient">An object that performs a Certificate Revocation List (CRL) request for a certificate.</param>
-      <param name="profile">An enumeration value type that specifies the signature&#39;s baseline profile type.</param>
+      <param name="profile">An enumeration value type that specifies the signature’s baseline profile type.</param>
+    </member>
+    <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.IO.Stream,System.String,DevExpress.Office.DigitalSignatures.ICertificateStoreProvider,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
+      <summary>
+        <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
+      </summary>
+      <param name="stream"></param>
+      <param name="password"></param>
+      <param name="provider"></param>
+      <param name="hashAlgorithm"></param>
+      <param name="tsaClient"></param>
+      <param name="ocspClient"></param>
+      <param name="crlClient"></param>
+      <param name="profile"></param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2)">
       <summary>
@@ -8266,14 +8279,14 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
       </summary>
       <param name="certificate">An X.509 signature certificate.</param>
-      <param name="hashAlgorithm">A signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">A signature’s hash algorithm.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient)">
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
       </summary>
       <param name="certificate">An X.509 signature certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
@@ -8281,11 +8294,23 @@
         <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
       </summary>
       <param name="certificate">An X.509 signature certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
       <param name="ocspClient">An object that performs Online Certificate Status Protocol (OCSP) request for a certificate.</param>
       <param name="crlClient">An object that performs a Certificate Revocation List (CRL) request for a certificate.</param>
-      <param name="profile">An enumeration value type that specifies the signature&#39;s baseline profile type.</param>
+      <param name="profile">An enumeration value type that specifies the signature’s baseline profile type.</param>
+    </member>
+    <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate2,DevExpress.Office.DigitalSignatures.ICertificateStoreProvider,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
+      <summary>
+        <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
+      </summary>
+      <param name="certificate"></param>
+      <param name="provider"></param>
+      <param name="hashAlgorithm"></param>
+      <param name="tsaClient"></param>
+      <param name="ocspClient"></param>
+      <param name="crlClient"></param>
+      <param name="profile"></param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.String,System.String)">
       <summary>
@@ -8300,7 +8325,7 @@
       </summary>
       <param name="fileName">A path to a signature certificate file (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">A signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">A signature’s hash algorithm.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.String,System.String,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient)">
       <summary>
@@ -8308,7 +8333,7 @@
       </summary>
       <param name="fileName">A path to a signature certificate file (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.String,System.String,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
@@ -8317,11 +8342,24 @@
       </summary>
       <param name="fileName">A path to a signature certificate file (.pfx file format).</param>
       <param name="password">A password for a certificate.</param>
-      <param name="hashAlgorithm">Signature&#39;s hash algorithm.</param>
+      <param name="hashAlgorithm">Signature’s hash algorithm.</param>
       <param name="tsaClient">An object that provides a timestamp.</param>
       <param name="ocspClient">An object that performs Online Certificate Status Protocol (OCSP) request for a certificate.</param>
       <param name="crlClient">An object that performs a Certificate Revocation List (CRL) request for a certificate.</param>
-      <param name="profile">An enumeration value type that specifies the signature&#39;s baseline profile type.</param>
+      <param name="profile">An enumeration value type that specifies the signature’s baseline profile type.</param>
+    </member>
+    <member name="M:DevExpress.Pdf.Pkcs7Signer.#ctor(System.String,System.String,DevExpress.Office.DigitalSignatures.ICertificateStoreProvider,DevExpress.Office.DigitalSignatures.HashAlgorithmType,DevExpress.Office.Tsp.ITsaClient,DevExpress.Office.DigitalSignatures.IOcspClient,DevExpress.Office.DigitalSignatures.ICrlClient,DevExpress.Pdf.PdfSignatureProfile)">
+      <summary>
+        <para>Initializes a new instance of the <see cref="T:DevExpress.Pdf.Pkcs7Signer"/> class with specified settings.</para>
+      </summary>
+      <param name="fileName"></param>
+      <param name="password"></param>
+      <param name="provider"></param>
+      <param name="hashAlgorithm"></param>
+      <param name="tsaClient"></param>
+      <param name="ocspClient"></param>
+      <param name="crlClient"></param>
+      <param name="profile"></param>
     </member>
     <member name="T:DevExpress.Pdf.Pkcs7SignerBase">
       <summary>
@@ -8332,8 +8370,8 @@
       <summary>
         <para>Builds the signature and returns its contents.</para>
       </summary>
-      <param name="digest">The document&#39;s hash value.</param>
-      <param name="digestAlgorithmOID">The hash algorithm&#39;s object identifier.</param>
+      <param name="digest">The document’s hash value.</param>
+      <param name="digestAlgorithmOID">The hash algorithm’s object identifier.</param>
       <returns>The signature contents.</returns>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7SignerBase.BuildSignature(System.IO.Stream)">
@@ -8347,19 +8385,19 @@
       <summary>
         <para>Retrieves the name of the preferred signature handler.</para>
       </summary>
-      <value>Preferred signature handler&#39;s name.</value>
+      <value>Preferred signature handler’s name.</value>
     </member>
     <member name="M:DevExpress.Pdf.Pkcs7SignerBase.GetSignatureSize">
       <summary>
         <para>Returns the signature size (in bytes).</para>
       </summary>
-      <returns>A signature&#39;s size (in bytes).</returns>
+      <returns>A signature’s size (in bytes).</returns>
     </member>
     <member name="P:DevExpress.Pdf.Pkcs7SignerBase.SubFilter">
       <summary>
-        <para>Returns information about a signature&#39;s format.</para>
+        <para>Returns information about a signature’s format.</para>
       </summary>
-      <value>The signature&#39;s encoding and key information.</value>
+      <value>The signature’s encoding and key information.</value>
     </member>
     <member name="P:DevExpress.Pdf.Pkcs7SignerBase.Type">
       <summary>

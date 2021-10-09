@@ -8,4 +8,3 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Model\bin\Debug\SIS.Model.pdb
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Model\obj\Debug\SIS.Model.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Model\obj\Debug\SIS.Model.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Model\obj\Debug\SIS.Model.pdb
-D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Model\obj\Debug\SIS.Model.csprojAssemblyReference.cache

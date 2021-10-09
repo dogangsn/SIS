@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SIS.App</RootNamespace>
     <AssemblyName>SIS.App</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -29,6 +29,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -54,24 +55,25 @@
     <Reference Include="AutoMapper, Version=7.0.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
       <HintPath>..\packages\AutoMapper.7.0.1\lib\net45\AutoMapper.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.BonusSkins.v20.1" />
-    <Reference Include="DevExpress.Data.Desktop.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
-    <Reference Include="DevExpress.Data.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v20.1.Core" />
-    <Reference Include="DevExpress.XtraEditors.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGauges.v20.1.Win, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v20.1.Extensions, Version=20.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.BonusSkins.v20.2" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v20.2.Core" />
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.2.Core" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v20.2.Win, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Core.Desktop, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v20.2.Extensions, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -107,238 +109,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="bl.cs" />
-    <Compile Include="blMenu.cs" />
-    <Compile Include="FormBase.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="login.Designer.cs">
-      <DependentUpon>login.cs</DependentUpon>
-    </Compile>
+    <Compile Include="blvalue.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Message.cs" />
+    <Compile Include="pl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Screens\GMP\Calendar\CalendarForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Calendar\CalendarForm.Designer.cs">
-      <DependentUpon>CalendarForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Contact\Help.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Contact\Help.Designer.cs">
-      <DependentUpon>Help.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerAccountEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerAccountEdit.Designer.cs">
-      <DependentUpon>CustomerAccountEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerAccountList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerAccountList.Designer.cs">
-      <DependentUpon>CustomerAccountList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerEdit.Designer.cs">
-      <DependentUpon>CustomerEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\CustomerList.Designer.cs">
-      <DependentUpon>CustomerList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\ReservationEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\ReservationEdit.Designer.cs">
-      <DependentUpon>ReservationEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\ReservationList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\ReservationList.Designer.cs">
-      <DependentUpon>ReservationList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\TaksitlerList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Customer\TaksitlerList.Designer.cs">
-      <DependentUpon>TaksitlerList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\BirimTanimlari.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\BirimTanimlari.Designer.cs">
-      <DependentUpon>BirimTanimlari.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\CompanyEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\CompanyEdit.Designer.cs">
-      <DependentUpon>CompanyEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\CompanyList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\CompanyList.Designer.cs">
-      <DependentUpon>CompanyList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\GelirTanimlari.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\GelirTanimlari.Designer.cs">
-      <DependentUpon>GelirTanimlari.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\GiderTanimlari.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\GiderTanimlari.Designer.cs">
-      <DependentUpon>GiderTanimlari.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.Designer.cs">
-      <DependentUpon>KasaHesabiTanimEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\KDVTanimlari.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\KDVTanimlari.Designer.cs">
-      <DependentUpon>KDVTanimlari.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelEdit.Designer.cs">
-      <DependentUpon>PersonelEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelList.Designer.cs">
-      <DependentUpon>PersonelList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelTaskDefinEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\PersonelTaskDefinEdit.Designer.cs">
-      <DependentUpon>PersonelTaskDefinEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\SalonTanimEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Definitions\SalonTanimEdit.Designer.cs">
-      <DependentUpon>SalonTanimEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\KasaPOS\KasaPOSEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\KasaPOS\KasaPOSEdit.Designer.cs">
-      <DependentUpon>KasaPOSEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\KasaPOS\KasaPOSList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\KasaPOS\KasaPOSList.Designer.cs">
-      <DependentUpon>KasaPOSList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\OperationAndProducEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\OperationAndProducEdit.Designer.cs">
-      <DependentUpon>OperationAndProducEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\OperationAndProducList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\OperationAndProducList.Designer.cs">
-      <DependentUpon>OperationAndProducList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\SeansEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Operation\SeansEdit.Designer.cs">
-      <DependentUpon>SeansEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingEdit.Designer.cs">
-      <DependentUpon>SaleBuyingEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\SaleBuying\SaleBuyingList.Designer.cs">
-      <DependentUpon>SaleBuyingList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\KullanıcıSifreDegistir.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\KullanıcıSifreDegistir.Designer.cs">
-      <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\Parametreler.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\Parametreler.Designer.cs">
-      <DependentUpon>Parametreler.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\UsersEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\UsersEdit.Designer.cs">
-      <DependentUpon>UsersEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\UsersList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Settings\UsersList.Designer.cs">
-      <DependentUpon>UsersList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Tedarik\TedarikEdit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Tedarik\TedarikEdit.Designer.cs">
-      <DependentUpon>TedarikEdit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\GMP\Tedarik\TedarikList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\GMP\Tedarik\TedarikList.Designer.cs">
-      <DependentUpon>TedarikList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screens\Helps.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Screens\Helps.Designer.cs">
-      <DependentUpon>Helps.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Screns.cs" />
-    <Compile Include="Tools\AppTools.cs" />
-    <Compile Include="Tools\FormTool.cs" />
-    <EmbeddedResource Include="FormBase.resx">
-      <DependentUpon>FormBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
-      <DependentUpon>login.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -351,103 +131,8 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Screens\GMP\Calendar\CalendarForm.resx">
-      <DependentUpon>CalendarForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Contact\Help.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\CustomerAccountEdit.resx">
-      <DependentUpon>CustomerAccountEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\CustomerAccountList.resx">
-      <DependentUpon>CustomerAccountList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\CustomerEdit.resx">
-      <DependentUpon>CustomerEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\CustomerList.resx">
-      <DependentUpon>CustomerList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\ReservationEdit.resx">
-      <DependentUpon>ReservationEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\ReservationList.resx">
-      <DependentUpon>ReservationList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Customer\TaksitlerList.resx">
-      <DependentUpon>TaksitlerList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\BirimTanimlari.resx">
-      <DependentUpon>BirimTanimlari.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\CompanyEdit.resx">
-      <DependentUpon>CompanyEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\CompanyList.resx">
-      <DependentUpon>CompanyList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\KasaHesabiTanimEdit.resx">
-      <DependentUpon>KasaHesabiTanimEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\KDVTanimlari.resx">
-      <DependentUpon>KDVTanimlari.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\PersonelEdit.resx">
-      <DependentUpon>PersonelEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\PersonelList.resx">
-      <DependentUpon>PersonelList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\PersonelTaskDefinEdit.resx">
-      <DependentUpon>PersonelTaskDefinEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Definitions\SalonTanimEdit.resx">
-      <DependentUpon>SalonTanimEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\KasaPOS\KasaPOSEdit.resx">
-      <DependentUpon>KasaPOSEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\KasaPOS\KasaPOSList.resx">
-      <DependentUpon>KasaPOSList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducEdit.resx">
-      <DependentUpon>OperationAndProducEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Operation\OperationAndProducList.resx">
-      <DependentUpon>OperationAndProducList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Operation\SeansEdit.resx">
-      <DependentUpon>SeansEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingEdit.resx">
-      <DependentUpon>SaleBuyingEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\SaleBuying\SaleBuyingList.resx">
-      <DependentUpon>SaleBuyingList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Settings\KullanıcıSifreDegistir.resx">
-      <DependentUpon>KullanıcıSifreDegistir.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Settings\Parametreler.resx">
-      <DependentUpon>Parametreler.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Settings\UsersEdit.resx">
-      <DependentUpon>UsersEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Settings\UsersList.resx">
-      <DependentUpon>UsersList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Tedarik\TedarikEdit.resx">
-      <DependentUpon>TedarikEdit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\GMP\Tedarik\TedarikList.resx">
-      <DependentUpon>TedarikList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Screens\Helps.resx">
-      <DependentUpon>Helps.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="AppSettings.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -467,27 +152,35 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Screens\GYM\" />
-    <Folder Include="Screens\HTP\Calendar\" />
-    <Folder Include="Screens\HTP\Contact\" />
-    <Folder Include="Screens\HTP\Definitions\" />
-    <Folder Include="Screens\HTP\Hasta\" />
-    <Folder Include="Screens\HTP\Muhasebe\" />
-    <Folder Include="Screens\HTP\Settings\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SIS.Data\SIS.Data.csproj">
+    <ProjectReference Include="..\src\Client\SIS.Client.Admin\SIS.Client.Admin.csproj">
+      <Project>{35c53a25-29ea-4dc2-a7c1-ee942390bfb1}</Project>
+      <Name>SIS.Client.Admin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\Client\SIS.Client.APT\SIS.Client.APT.csproj">
+      <Project>{b72e5bff-577a-43cb-9253-d20fc12be3a5}</Project>
+      <Name>SIS.Client.APT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\Client\SIS.Client.blvalue\SIS.Client.blvalue.csproj">
+      <Project>{98c8b1a1-3827-4dc5-9c61-a7126f20efa7}</Project>
+      <Name>SIS.Client.blvalue</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\Client\SIS.Client.GMP\SIS.Client.GMP.csproj">
+      <Project>{2bc1bf84-3663-408c-b83b-b68258a02835}</Project>
+      <Name>SIS.Client.GMP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\Framework\SIS.Data\SIS.Data.csproj">
       <Project>{7a677978-ee9b-4a8a-acec-3ec054b6a6e6}</Project>
       <Name>SIS.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SIS.Model\SIS.Model.csproj">
+    <ProjectReference Include="..\src\Framework\SIS.Entity\SIS.Entity.csproj">
+      <Project>{258d2b00-e8e1-41cc-bbee-be12b8d07d71}</Project>
+      <Name>SIS.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\src\Framework\SIS.Model\SIS.Model.csproj">
       <Project>{1E047919-92C4-4E58-949A-921A443FE7F5}</Project>
       <Name>SIS.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SIS.Service\SIS.Service.csproj">
-      <Project>{273FAC58-5CD7-473F-B117-EEA3D46BE8A1}</Project>
-      <Name>SIS.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

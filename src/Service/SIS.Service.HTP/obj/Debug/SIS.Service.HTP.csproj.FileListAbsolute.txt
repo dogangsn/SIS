@@ -1,5 +1,6 @@
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\bin\Debug\SIS.Service.HTP.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\bin\Debug\SIS.Service.HTP.pdb
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\obj\Debug\SIS.Service.HTP.csproj.AssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\obj\Debug\SIS.Service.HTP.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\obj\Debug\SIS.Service.HTP.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.HTP\obj\Debug\SIS.Service.HTP.pdb

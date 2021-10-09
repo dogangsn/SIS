@@ -1,9 +1,8 @@
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.AssemblyReference.cache
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.CoreCompileInputs.cache
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.dll.config
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.pdb
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.CoreCompileInputs.cache
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.dll
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.pdb
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\SIS.Service.GMP.dll.config
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\EntityFramework.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\EntityFramework.SqlServer.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\Newtonsoft.Json.dll
@@ -111,4 +110,5 @@ D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\es\DevExpress.Off
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\ja\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\bin\Debug\ru\DevExpress.Office.v20.2.Core.resources.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.CopyComplete
-D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.csproj.AssemblyReference.cache
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.dll
+D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.GMP\obj\Debug\SIS.Service.GMP.pdb

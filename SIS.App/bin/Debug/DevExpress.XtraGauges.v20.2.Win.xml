@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<doc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<doc xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <assembly>
     <name>DevExpress.XtraGauges.v20.2.Win</name>
   </assembly>
@@ -56,13 +56,13 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.BaseGaugeWin.Name">
       <summary>
-        <para>Gets or sets the gauge&#39;s name.</para>
+        <para>Gets or sets the gauge’s name.</para>
       </summary>
-      <value>A string that specifies the gauge&#39;s name.</value>
+      <value>A string that specifies the gauge’s name.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.BaseGaugeWin.OptionsToolTip">
       <summary>
-        <para>Provides options that control the tooltip display for the gauge&#39;s elements.</para>
+        <para>Provides options that control the tooltip display for the gauge’s elements.</para>
       </summary>
       <value>A <see cref="T:DevExpress.XtraGauges.Win.Base.OptionsToolTip"/> object that contains corresponding options.</value>
     </member>
@@ -95,9 +95,9 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent.Color">
       <summary>
-        <para>Gets or sets the control&#39;s color.</para>
+        <para>Gets or sets the control’s color.</para>
       </summary>
-      <value>The control&#39;s color.</value>
+      <value>The control’s color.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent.DataBindings">
       <summary>
@@ -111,9 +111,7 @@
       </summary>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.ImageIndicatorComponent.Image">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="T:DevExpress.XtraGauges.Win.Base.LabelComponent">
@@ -130,7 +128,7 @@
       <summary>
         <para>Initializes a new instance of the <see cref="T:DevExpress.XtraGauges.Win.Base.LabelComponent"/> class with the specified name.</para>
       </summary>
-      <param name="name">A string that specifies the component&#39;s name. This value is assigned to the Name property.</param>
+      <param name="name">A string that specifies the component’s name. This value is assigned to the Name property.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.Base.LabelComponent.BeginInit">
       <summary>
@@ -158,7 +156,7 @@
       <summary>
         <para>Gets or sets whether the Color Scheme should be applied to this <see cref="T:DevExpress.XtraGauges.Win.Base.LabelComponent"/>.</para>
       </summary>
-      <value>true, if the Color Scheme should be applied to this <see cref="T:DevExpress.XtraGauges.Win.Base.LabelComponent"/>; otherwise, false.</value>
+      <value>true if the Color Scheme should be applied to this <see cref="T:DevExpress.XtraGauges.Win.Base.LabelComponent"/>; otherwise, false.</value>
     </member>
     <member name="T:DevExpress.XtraGauges.Win.Base.OptionsToolTip">
       <summary>
@@ -184,9 +182,9 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipFormat">
       <summary>
-        <para>Gets or sets the format used to generate a tooltip&#39;s text. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.Tooltip"/> property is set to an empty string.</para>
+        <para>Gets or sets the format used to generate a tooltip’s text. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.Tooltip"/> property is set to an empty string.</para>
       </summary>
-      <value>A string that specifies the format to generate a tooltip&#39;s text.</value>
+      <value>A string that specifies the format to generate a tooltip’s text.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipIconType">
       <summary>
@@ -196,15 +194,15 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipTitle">
       <summary>
-        <para>Gets or sets a tooltip&#39;s title for the current gauge.</para>
+        <para>Gets or sets a tooltip’s title for the current gauge.</para>
       </summary>
-      <value>A string that specifies a tooltip&#39;s title for the current gauge.</value>
+      <value>A string that specifies a tooltip’s title for the current gauge.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipTitleFormat">
       <summary>
-        <para>Gets or sets the format used to generate a tooltip&#39;s title. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipTitle"/> property is set to an empty string.</para>
+        <para>Gets or sets the format used to generate a tooltip’s title. This property is in effect if the <see cref="P:DevExpress.XtraGauges.Win.Base.OptionsToolTip.TooltipTitle"/> property is set to an empty string.</para>
       </summary>
-      <value>A string that specifies the format to generate a tooltip&#39;s title.</value>
+      <value>A string that specifies the format to generate a tooltip’s title.</value>
     </member>
     <member name="T:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent">
       <summary>
@@ -235,9 +233,9 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.Color">
       <summary>
-        <para>Gets or sets the control&#39;s color.</para>
+        <para>Gets or sets the control’s color.</para>
       </summary>
-      <value>The control&#39;s color.</value>
+      <value>The control’s color.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.DataBindings">
       <summary>
@@ -251,9 +249,7 @@
       </summary>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.Image">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.ImageStateCollection">
@@ -270,7 +266,7 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.StateImages">
       <summary>
-        <para>Gets or sets the source of the images that indicate a state image indicator&#39;s state.</para>
+        <para>Gets or sets the source of the images that indicate a state image indicator’s state.</para>
       </summary>
       <value>An object which is the source of state images.</value>
     </member>
@@ -278,7 +274,7 @@
       <summary>
         <para>Gets or sets the index of a state image that is currently displayed within the <see cref="T:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent"/>.</para>
       </summary>
-      <value>An Int32  value that is the currently displayed image&#39;s index.</value>
+      <value>An Int32  value that is the currently displayed image’s index.</value>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.Base.StateImageIndicatorComponent.XtraCreateImageStateCollectionItem(DevExpress.Utils.Serializing.XtraItemEventArgs)">
       <summary>
@@ -299,7 +295,7 @@
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.About">
       <summary>
-        <para>Activates the GaugeControl&#39;s About dialog.</para>
+        <para>Activates the GaugeControl’s About dialog.</para>
       </summary>
     </member>
     <member name="E:DevExpress.XtraGauges.Win.GaugeControl.EditValueChanged">
@@ -308,9 +304,7 @@
       </summary>
     </member>
     <member name="E:DevExpress.XtraGauges.Win.GaugeControl.EditValueChanging">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToHtml(System.IO.Stream)">
       <summary>
@@ -323,7 +317,7 @@
         <para>Exports the control to the specified stream in HTML format.</para>
       </summary>
       <param name="stream">A <see cref="T:System.IO.Stream"/> object, which the created document is exported to.</param>
-      <param name="options">A <see cref="T:DevExpress.XtraPrinting.HtmlExportOptions"/> object which specifies the export options to be applied when the control&#39;s data is exported.</param>
+      <param name="options">A <see cref="T:DevExpress.XtraPrinting.HtmlExportOptions"/> object which specifies the export options to be applied when the control’s data is exported.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToHtml(System.String)">
       <summary>
@@ -336,7 +330,7 @@
         <para>Exports the control to the specified file in HTML format.</para>
       </summary>
       <param name="filePath">A string that specifies the full path to the file which the control will be exported to.</param>
-      <param name="options">A <see cref="T:DevExpress.XtraPrinting.HtmlExportOptions"/> object which specifies the export options to be applied when the control&#39;s data is exported.</param>
+      <param name="options">A <see cref="T:DevExpress.XtraPrinting.HtmlExportOptions"/> object which specifies the export options to be applied when the control’s data is exported.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToImage(System.IO.Stream,System.Drawing.Imaging.ImageFormat)">
       <summary>
@@ -363,7 +357,7 @@
         <para>Exports the control to the specified stream in MHT format.</para>
       </summary>
       <param name="stream">A <see cref="T:System.IO.Stream"/> object, which the created document is exported to.</param>
-      <param name="options">A <see cref="T:DevExpress.XtraPrinting.MhtExportOptions"/> object which specifies the export options to be applied when the control&#39;s data is exported.</param>
+      <param name="options">A <see cref="T:DevExpress.XtraPrinting.MhtExportOptions"/> object which specifies the export options to be applied when the control’s data is exported.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToMht(System.String)">
       <summary>
@@ -376,7 +370,7 @@
         <para>Exports the control to the specified file in MHT format.</para>
       </summary>
       <param name="filePath">A string that specifies the full path to the file which the control will be exported to.</param>
-      <param name="options">A <see cref="T:DevExpress.XtraPrinting.MhtExportOptions"/> object which specifies the export options to be applied when the control&#39;s data is exported.</param>
+      <param name="options">A <see cref="T:DevExpress.XtraPrinting.MhtExportOptions"/> object which specifies the export options to be applied when the control’s data is exported.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToPdf(System.IO.Stream)">
       <summary>
@@ -389,7 +383,7 @@
         <para>Exports the control to the specified stream in PDF format.</para>
       </summary>
       <param name="stream">A <see cref="T:System.IO.Stream"/> object, which the created document is exported to.</param>
-      <param name="options">A <see cref="T:DevExpress.XtraPrinting.PdfExportOptions"/> object which specifies the export options to be applied when the control&#39;s data is exported.</param>
+      <param name="options">A <see cref="T:DevExpress.XtraPrinting.PdfExportOptions"/> object which specifies the export options to be applied when the control’s data is exported.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ExportToPdf(System.String)">
       <summary>
@@ -423,9 +417,7 @@
       <value>true if the control can be printed and exported; otherwise, false.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControl.OptionsPrint">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.Print">
@@ -440,14 +432,10 @@
       <param name="sizeMode">A PrintSizeMode value that specifies whether the gauge control must be stretched, zoomed in the printout or printed as is.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ResetOptionsPrint">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ShouldSerializeOptionsPrint">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <returns></returns>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControl.ShowPrintPreview(DevExpress.XtraGauges.Core.Printing.PrintSizeMode)">
@@ -523,15 +511,15 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.BackColor">
       <summary>
-        <para>Gets or sets the control&#39;s background color.</para>
+        <para>Gets or sets the control’s background color.</para>
       </summary>
-      <value>The control&#39;s background color.</value>
+      <value>The control’s background color.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.BorderStyle">
       <summary>
-        <para>Gets or sets the control&#39;s border style.</para>
+        <para>Gets or sets the control’s border style.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.XtraEditors.Controls.BorderStyles"/> enumeration value specifying the control&#39;s border style.</value>
+      <value>A <see cref="T:DevExpress.XtraEditors.Controls.BorderStyles"/> enumeration value specifying the control’s border style.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.ColorScheme">
       <summary>
@@ -541,9 +529,9 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.Cursor">
       <summary>
-        <para>Gets or sets the control&#39;s cursor.</para>
+        <para>Gets or sets the control’s cursor.</para>
       </summary>
-      <value>The control&#39;s cursor.</value>
+      <value>The control’s cursor.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.Font">
       <summary>
@@ -577,7 +565,7 @@
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.InvalidateRect(System.Drawing.RectangleF)">
       <summary>
-        <para>Invalidates the specified region of the control (adds it to the control&#39;s update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control.</para>
+        <para>Invalidates the specified region of the control (adds it to the control’s update region, which is the area that will be repainted at the next paint operation), and causes a paint message to be sent to the control.</para>
       </summary>
       <param name="bounds">A Rectangle that represents the region to invalidate.</param>
     </member>
@@ -603,7 +591,7 @@
       <summary>
         <para>Provides access to the settings that specify the look and feel of the Gauge control.</para>
       </summary>
-      <value>A <see cref="T:DevExpress.LookAndFeel.UserLookAndFeel"/> object whose properties specify the Gauge control&#39;s look and feel.</value>
+      <value>A <see cref="T:DevExpress.LookAndFeel.UserLookAndFeel"/> object whose properties specify the Gauge control’s look and feel.</value>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.ResetBackColor">
       <summary>
@@ -624,7 +612,7 @@
       <summary>
         <para>Restores the layout of gauges and their elements stored at the specified system registry path.</para>
       </summary>
-      <param name="path">A string value specifying the system registry path. If the specified path doesn&#39;t exist, calling this method has no effect.</param>
+      <param name="path">A string value specifying the system registry path. If the specified path doesn’t exist, calling this method has no effect.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.RestoreLayoutFromStream(System.IO.Stream)">
       <summary>
@@ -636,19 +624,19 @@
       <summary>
         <para>Restores the layout of gauges and their elements from a specific XML file</para>
       </summary>
-      <param name="xmlFile">A string value specifying the path to the XML file that stores the layout. If the specified file doesn&#39;t exist, a <see cref="T:System.IO.FileNotFoundException"/> type exception is raised.</param>
+      <param name="xmlFile">A string value specifying the path to the XML file that stores the layout. If the specified file doesn’t exist, a <see cref="T:System.IO.FileNotFoundException"/> type exception is raised.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.RestoreStyleFromStream(System.IO.Stream)">
       <summary>
         <para>Restores a style of gauges and their elements from the specified stream.</para>
       </summary>
-      <param name="stream">A <see cref="T:System.IO.Stream"/> object that stores the Gauge control&#39;s style.</param>
+      <param name="stream">A <see cref="T:System.IO.Stream"/> object that stores the Gauge control’s style.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.RestoreStyleFromXml(System.String)">
       <summary>
         <para>Restores the style from the specified XML file.</para>
       </summary>
-      <param name="path">A <see cref="T:System.String"/> value which specifies the path to the XML file that contains the style to be loaded. If the specified file doesn&#39;t exist, an exception is raised.</param>
+      <param name="path">A <see cref="T:System.String"/> value which specifies the path to the XML file that contains the style to be loaded. If the specified file doesn’t exist, an exception is raised.</param>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.GaugeControlBase.RightToLeft">
       <summary>
@@ -676,13 +664,13 @@
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.SaveStyleToStream(System.IO.Stream)">
       <summary>
-        <para>Saves the Gauge control&#39;s current style to the specified stream.</para>
+        <para>Saves the Gauge control’s current style to the specified stream.</para>
       </summary>
       <param name="stream">A <see cref="T:System.IO.Stream"/> descendant to which the style is written.</param>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.GaugeControlBase.SaveStyleToXml(System.String)">
       <summary>
-        <para>Saves the Gauge control&#39;s current style to a file in XML format.</para>
+        <para>Saves the Gauge control’s current style to a file in XML format.</para>
       </summary>
       <param name="path">A <see cref="T:System.String"/> value that specifies the path to the file where the style should be stored. If an empty string is specified, an exception is raised.</param>
     </member>
@@ -785,13 +773,13 @@
       <summary>
         <para>Provides access to appearance options of major tick marks.</para>
       </summary>
-      <value>A BaseShapeAppearance object providing access to major tick marks&#39; appearance options.</value>
+      <value>A BaseShapeAppearance object providing access to major tick marks’ appearance options.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent.AppearanceMinorTickmark">
       <summary>
         <para>Provides access to appearance options of minor tick marks.</para>
       </summary>
-      <value>A BaseShapeAppearance object providing access to minor tick marks&#39; appearance options.</value>
+      <value>A BaseShapeAppearance object providing access to minor tick marks’ appearance options.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent.AppearanceScale">
       <summary>
@@ -1420,7 +1408,7 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Digital.DigitalGauge.Padding">
       <summary>
-        <para>Gets or sets the amount of space between a gauge&#39;s borders and the digits it displays.</para>
+        <para>Gets or sets the amount of space between a gauge’s borders and the digits it displays.</para>
       </summary>
       <value>A DevExpress.XtraGauges.Core.Base.TextSpacing object containing padding settings.</value>
     </member>
@@ -1530,9 +1518,9 @@
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Linear.LinearGauge.Orientation">
       <summary>
-        <para>Gets or sets the gauge&#39;s orientation.</para>
+        <para>Gets or sets the gauge’s orientation.</para>
       </summary>
-      <value>A ScaleOrientation value that specifies the gauge&#39;s orientation.</value>
+      <value>A ScaleOrientation value that specifies the gauge’s orientation.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Linear.LinearGauge.RangeBars">
       <summary>
@@ -1604,13 +1592,13 @@
       <summary>
         <para>Provides access to appearance options of major tick marks.</para>
       </summary>
-      <value>A BaseShapeAppearance object providing access to major tick marks&#39; appearance options.</value>
+      <value>A BaseShapeAppearance object providing access to major tick marks’ appearance options.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Linear.LinearScaleComponent.AppearanceMinorTickmark">
       <summary>
         <para>Provides access to appearance options of minor tick marks.</para>
       </summary>
-      <value>A BaseShapeAppearance object providing access to minor tick marks&#39; appearance options.</value>
+      <value>A BaseShapeAppearance object providing access to minor tick marks’ appearance options.</value>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Linear.LinearScaleComponent.AppearanceScale">
       <summary>
@@ -1819,9 +1807,7 @@
       <param name="name">A <see cref="T:System.String"/> value that specifies the name of the component.</param>
     </member>
     <member name="P:DevExpress.XtraGauges.Win.Gauges.Linear.LinearScaleRangeBarComponent.AppearanceRangeBar">
-      <summary>
-        <para></para>
-      </summary>
+      <summary />
       <value></value>
     </member>
     <member name="M:DevExpress.XtraGauges.Win.Gauges.Linear.LinearScaleRangeBarComponent.BeginInit">

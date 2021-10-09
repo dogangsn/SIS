@@ -1,6 +1,5 @@
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\bin\Debug\SIS.DataAccess.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\bin\Debug\SIS.DataAccess.APT.pdb
-D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.csprojAssemblyReference.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.pdb
