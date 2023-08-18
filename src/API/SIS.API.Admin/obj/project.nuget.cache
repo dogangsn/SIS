@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QOn4b56Abd3UHAyBgmsPXMXK80BztjO2VPk2FpttOgqs0wz1yv6fs7ErGTcnJ8gaD0TcfC7Ig3BddSZGamFukA==",
+  "dgSpecHash": "XklfUL5IUvU45lLqbeibA3yD8hZMLnBjhWvfqnCxNR5N/Jk2BVlLN3MXFvUO1iXb4f99suWO+tLHPAOjNHZCKw==",
   "success": true,
-  "projectFilePath": "D:\\Dogan\\Project\\SIS\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
+  "projectFilePath": "D:\\Private\\Project\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

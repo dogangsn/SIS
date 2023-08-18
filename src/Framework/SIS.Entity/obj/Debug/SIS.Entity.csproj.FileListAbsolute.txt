@@ -15,3 +15,10 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.csproj.Co
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.csproj.CopyComplete
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.pdb
+D:\Private\Project\SIS\src\Framework\SIS.Entity\bin\Debug\SIS.Entity.dll
+D:\Private\Project\SIS\src\Framework\SIS.Entity\bin\Debug\SIS.Entity.pdb
+D:\Private\Project\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.csproj.CoreCompileInputs.cache
+D:\Private\Project\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.csproj.CopyComplete
+D:\Private\Project\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.dll
+D:\Private\Project\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.pdb
+D:\Private\Project\SIS\src\Framework\SIS.Entity\obj\Debug\SIS.Entity.csproj.AssemblyReference.cache

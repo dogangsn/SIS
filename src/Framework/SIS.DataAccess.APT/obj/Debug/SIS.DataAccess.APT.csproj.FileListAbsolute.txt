@@ -3,3 +3,8 @@ D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\bin\Debug\SIS.DataAcce
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.pdb
+D:\Private\Project\SIS\src\Framework\SIS.DataAccess.APT\bin\Debug\SIS.DataAccess.APT.dll
+D:\Private\Project\SIS\src\Framework\SIS.DataAccess.APT\bin\Debug\SIS.DataAccess.APT.pdb
+D:\Private\Project\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.csproj.CoreCompileInputs.cache
+D:\Private\Project\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.dll
+D:\Private\Project\SIS\src\Framework\SIS.DataAccess.APT\obj\Debug\SIS.DataAccess.APT.pdb

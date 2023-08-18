@@ -1,0 +1,15 @@
+
+src/Client/SIS.Client.blvalue/bin/Debug/SIS.Data.dll
+src/Client/SIS.Client.Admin/bin/Debug/SIS.Client.Admin.dll
+.vs/SIS/v16/.suo
+SIS.App/AppSettings.config
+*.cache
+.vs/SIS/v16/.suo
+.vs/SIS/v16/.suo
+.vs/SIS/v16/.suo
+SIS.App/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*.pdb
+src/Service/SIS.Serivce.Admin/bin/Debug/SIS.Entity.pdb
+src/Service/SIS.Serivce.Admin/bin/Debug/DevExpress.XtraLayout.v20.2.xml
+SIS.App/bin/Debug/AppSettings.config
+SIS.App/bin/Debug/DevExpress.Printing.v20.2.Core.xml

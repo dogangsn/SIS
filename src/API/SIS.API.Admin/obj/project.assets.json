@@ -8,27 +8,30 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\DG\\.nuget\\packages\\": {},
+    "C:\\Users\\dogan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dogan\\Project\\SIS\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
+      "projectUniqueName": "D:\\Private\\Project\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
       "projectName": "SIS.API.Admin",
-      "projectPath": "D:\\Dogan\\Project\\SIS\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
-      "packagesPath": "C:\\Users\\DG\\.nuget\\packages\\",
-      "outputPath": "D:\\Dogan\\Project\\SIS\\SIS\\src\\API\\SIS.API.Admin\\obj\\",
+      "projectPath": "D:\\Private\\Project\\SIS\\src\\API\\SIS.API.Admin\\SIS.API.Admin.csproj",
+      "packagesPath": "C:\\Users\\dogan\\.nuget\\packages\\",
+      "outputPath": "D:\\Private\\Project\\SIS\\src\\API\\SIS.API.Admin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dogan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -39,6 +42,8 @@
         "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -74,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

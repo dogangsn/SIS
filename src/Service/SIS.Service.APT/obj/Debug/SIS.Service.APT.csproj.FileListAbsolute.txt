@@ -3,3 +3,9 @@ D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\bin\Debug\SIS.Service.APT.p
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.dll
 D:\Dogan\Project\SIS\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.pdb
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\bin\Debug\SIS.Service.APT.dll
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\bin\Debug\SIS.Service.APT.pdb
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.csproj.AssemblyReference.cache
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.csproj.CoreCompileInputs.cache
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.dll
+D:\Private\Project\SIS\src\Service\SIS.Service.APT\obj\Debug\SIS.Service.APT.pdb

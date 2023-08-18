@@ -158,6 +158,10 @@
       <Project>{35c53a25-29ea-4dc2-a7c1-ee942390bfb1}</Project>
       <Name>SIS.Client.Admin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\src\Client\SIS.Client.APT\SIS.Client.APT.csproj">
+      <Project>{b72e5bff-577a-43cb-9253-d20fc12be3a5}</Project>
+      <Name>SIS.Client.APT</Name>
+    </ProjectReference>
     <ProjectReference Include="..\src\Client\SIS.Client.blvalue\SIS.Client.blvalue.csproj">
       <Project>{98c8b1a1-3827-4dc5-9c61-a7126f20efa7}</Project>
       <Name>SIS.Client.blvalue</Name>

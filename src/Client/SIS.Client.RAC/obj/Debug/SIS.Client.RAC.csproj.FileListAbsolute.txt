@@ -4,3 +4,9 @@ D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.cspr
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.csproj.CoreCompileInputs.cache
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.dll
 D:\Dogan\Project\SIS\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.pdb
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\bin\Debug\SIS.Client.RAC.dll
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\bin\Debug\SIS.Client.RAC.pdb
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.csproj.AssemblyReference.cache
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.csproj.CoreCompileInputs.cache
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.dll
+D:\Private\Project\SIS\src\Client\SIS.Client.RAC\obj\Debug\SIS.Client.RAC.pdb
